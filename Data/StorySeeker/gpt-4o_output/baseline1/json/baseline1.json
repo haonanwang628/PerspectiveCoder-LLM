@@ -1,0 +1,152 @@
+{
+    "Role": "Role1",
+    "Codebook": [
+        {
+            "code": "Storytelling in Education",
+            "definition": "Refers to the use of narrative to convey experiences or information in educational settings.",
+            "inclusion_criteria": [
+                "Mention of storytelling or narrative used in a classroom or educational context."
+            ],
+            "exclusion_criteria": [
+                "Stories that do not relate to educational settings."
+            ],
+            "typical_examples": [
+                "talk about an event that scared them during science class"
+            ],
+            "atypical_examples": [
+                "describes a scene from a movie"
+            ],
+            "participants": [
+                "652d5fbe9b9bfde1040a8c4d"
+            ],
+            "relevance_to_RQ": "Helps understand how storytelling is perceived by crowd workers in educational contexts.",
+            "notes": "Includes experiences in various educational settings like science classes."
+        },
+        {
+            "code": "Storytelling for Entertainment",
+            "definition": "Narratives shared for the purpose of amusement or entertainment.",
+            "inclusion_criteria": [
+                "Anecdotes and humorous stories shared to entertain."
+            ],
+            "exclusion_criteria": [
+                "Serious or educational narratives."
+            ],
+            "typical_examples": [
+                "tell a funny story about a teacher in high school."
+            ],
+            "atypical_examples": [
+                "Explain what happened in His AP Chem class"
+            ],
+            "participants": [
+                "6276d97e209059496d37bf74"
+            ],
+            "relevance_to_RQ": "Explores the perception of storytelling in entertaining contexts.",
+            "notes": "Focus on humor and amusement as a key storytelling element."
+        },
+        {
+            "code": "Explaining Concepts",
+            "definition": "Text focused on providing explanations or clarifying concepts.",
+            "inclusion_criteria": [
+                "Providing detailed explanations or descriptions of a concept or event."
+            ],
+            "exclusion_criteria": [
+                "Narrations or stories without explanatory intent."
+            ],
+            "typical_examples": [
+                "explain what the force is in Star Wars"
+            ],
+            "atypical_examples": [
+                "describe why Islam is a true religion"
+            ],
+            "participants": [
+                "60f4a2d142c69dc1121b6dbf"
+            ],
+            "relevance_to_RQ": "Shows how explanations are perceived in narrative structures.",
+            "notes": "Highlights the role of explanation in storytelling."
+        },
+        {
+            "code": "Personal Opinions",
+            "definition": "Expressing personal beliefs or viewpoints.",
+            "inclusion_criteria": [
+                "Sharing individual beliefs or opinions on a topic."
+            ],
+            "exclusion_criteria": [
+                "Providing factual information without personal perspective."
+            ],
+            "typical_examples": [
+                "share their opinion"
+            ],
+            "atypical_examples": [
+                "discussion of opinions on Reddit comment"
+            ],
+            "participants": [
+                "640156149b4e8ddb033f9b3b"
+            ],
+            "relevance_to_RQ": "Helps understand how opinions shape narrative perceptions.",
+            "notes": "Emphasizes the subjective nature of storytelling."
+        },
+        {
+            "code": "Argumentation and Persuasion",
+            "definition": "Using storytelling to convince or argue a point.",
+            "inclusion_criteria": [
+                "Stories or narratives constructed to support an argument or persuade."
+            ],
+            "exclusion_criteria": [
+                "Explanations or narrations with no intention to persuade."
+            ],
+            "typical_examples": [
+                "convince the reader that their perspective is correct."
+            ],
+            "atypical_examples": [
+                "argue about a political policy"
+            ],
+            "participants": [
+                "6266a87a7adacd7a91cabc93"
+            ],
+            "relevance_to_RQ": "Examines the role of narrative in persuasion and argumentation.",
+            "notes": "Includes argumentative storytelling across various contexts."
+        },
+        {
+            "code": "Narrative in Technology Discussion",
+            "definition": "Storytelling related to technology or technical concepts.",
+            "inclusion_criteria": [
+                "Descriptions or stories about technology or technical issues."
+            ],
+            "exclusion_criteria": [
+                "Storytelling unrelated to technology."
+            ],
+            "typical_examples": [
+                "a story about a hack for apple devices"
+            ],
+            "atypical_examples": [
+                "explain a list of reasons why cell phones are important"
+            ],
+            "participants": [
+                "632f16551c905f94e05945bd"
+            ],
+            "relevance_to_RQ": "Investigates how technology is perceived through narrative.",
+            "notes": "Focuses on the intersection of narrative and technical content."
+        },
+        {
+            "code": "Sharing Experiences",
+            "definition": "Personal narratives shared to convey experiences.",
+            "inclusion_criteria": [
+                "Describing personal life events or experiences."
+            ],
+            "exclusion_criteria": [
+                "Opinions or explanations without personal anecdotes."
+            ],
+            "typical_examples": [
+                "sharing personal experience"
+            ],
+            "atypical_examples": [
+                "show how companies can be successful by selling lower quality products"
+            ],
+            "participants": [
+                "654455ad0b76675379c66db4"
+            ],
+            "relevance_to_RQ": "Reflects on how personal experiences influence storytelling perceptions.",
+            "notes": "Offers insight into real-life events shared through narrative."
+        }
+    ]
+}

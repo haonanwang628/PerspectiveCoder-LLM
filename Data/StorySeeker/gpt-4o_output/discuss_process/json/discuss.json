@@ -1,0 +1,637 @@
+{
+    "Role_Team": [
+        {
+            "Gender": "Woman (including Trans Female/Trans Woman)",
+            "Education": "Doctorate degree (PhD/other)",
+            "Race_Ethnicity": "African",
+            "Age": "34-44",
+            "Degree_Subject": "Engineering, Manufacturing and Construction",
+            "Reddit_Use": "Regular use(<once per month)",
+            "positionality": "As a 34-44-year-old African woman with a Doctorate in Engineering, my positionality deeply influences my research on storytelling perceptions in social media. My educational background emphasizes analytical thinking, but it may also cause me to overlook nuanced social dynamics tied to narrative perceptions. Regular Reddit use exposes me to diverse storytelling styles, helping to mitigate this potential bias. However, my engineering perspective might predispose me to view social interactions mechanistically. My focus on crowd workers' descriptive perceptions is shaped by an inclination towards understanding system dynamics and disparity reflections in narratives. Recognizing my biases allows me to approach my research questions with greater empathy and rigor.",
+            "init_codebook": [
+                {
+                    "code": "Storytelling_Personal_Experience",
+                    "definition": "Participants narrate personal experiences or stories, often to convey a message or share an insight.",
+                    "inclusion_criteria": [
+                        "Text explicitly narrating a personal experience or event."
+                    ],
+                    "exclusion_criteria": [
+                        "Text expressing opinions or arguments without personal narration."
+                    ],
+                    "typical_examples": [
+                        "Tell a story about a health scare."
+                    ],
+                    "atypical_examples": [
+                        "Talk about politics",
+                        "Determine which kind of computer processor will be best for gaming"
+                    ],
+                    "participants": [
+                        "652d5fbe9b9bfde1040a8c4d",
+                        "5dcea7314d51e4107516c80d"
+                    ],
+                    "relevance_to_RQ": "Addresses RQ1 by showcasing how personal stories are perceived and narrated by crowd workers.",
+                    "notes": "Focus on capturing the narrative aspect and personal engagement in storytelling."
+                },
+                {
+                    "code": "Opinion_Sharing",
+                    "definition": "Participants express their thoughts or beliefs on various topics, often in response to others.",
+                    "inclusion_criteria": [
+                        "Text explicitly sharing an opinion or thought."
+                    ],
+                    "exclusion_criteria": [
+                        "Text that narrates personal stories without explicit opinion."
+                    ],
+                    "typical_examples": [
+                        "Discuss feelings about the newest episode of a TV show."
+                    ],
+                    "atypical_examples": [
+                        "Tell a story about a traumatic experience",
+                        "Explain why they believe in gnostic atheism"
+                    ],
+                    "participants": [
+                        "60b9689dc626572895cb801b",
+                        "56efdf27bb24eb000b8244da"
+                    ],
+                    "relevance_to_RQ": "Contributes to RQ2 by illustrating the varied opinions crowd workers hold on different issues.",
+                    "notes": "Engage critically with the viewpoints and analyze how they inform storytelling perceptions."
+                },
+                {
+                    "code": "Advice_Seeking",
+                    "definition": "Participants request or offer advice, often related to personal decisions or technical help.",
+                    "inclusion_criteria": [
+                        "Text explicitly requesting or giving advice."
+                    ],
+                    "exclusion_criteria": [
+                        "Text sharing stories or opinions without advice-seeking."
+                    ],
+                    "typical_examples": [
+                        "Get advice on his plans for higher education."
+                    ],
+                    "atypical_examples": [
+                        "Express frustration",
+                        "Describe events in an old Liverpool match"
+                    ],
+                    "participants": [
+                        "60fd694d2bf4aaa5745a6053",
+                        "6276d97e209059496d37bf74"
+                    ],
+                    "relevance_to_RQ": "Links to RQ3 by showing intersections between advice, opinions, and narrative perceptions.",
+                    "notes": "Identify the types of advice sought and its relevance to the narrative content."
+                },
+                {
+                    "code": "Humor_and_Entertainment",
+                    "definition": "Participants use humor or descriptive content to entertain or amuse.",
+                    "inclusion_criteria": [
+                        "Text aimed at entertaining or conveying humor."
+                    ],
+                    "exclusion_criteria": [
+                        "Serious narrative without elements of humor."
+                    ],
+                    "typical_examples": [
+                        "Make people laugh"
+                    ],
+                    "atypical_examples": [
+                        "Tell a sad story",
+                        "Discuss a serious health issue"
+                    ],
+                    "participants": [
+                        "5a4444fc56ec1100014a29e1",
+                        "5b9b422307c6960001614c35"
+                    ],
+                    "relevance_to_RQ": "Engages with RQ1 by highlighting how humor shapes storytelling and audience perception.",
+                    "notes": "Consider the cultural significance and narrative techniques used in humorous storytelling."
+                }
+            ]
+        },
+        {
+            "Gender": "Non-binary (would like to give more detail)",
+            "Education": "Doctorate degree (PhD/other)",
+            "Race_Ethnicity": "Black/African American",
+            "Age": "18-24",
+            "Degree_Subject": "Social Sciences",
+            "Reddit_Use": "Regular use(<once per month)",
+            "positionality": "As a young, Black, non-binary researcher with a Doctorate in Social Sciences, my identity strongly influences my work. My background brings a vital perspective to understanding storytelling in social media, as I may view narratives through a lens of diversity and inclusion. My use of Reddit is limited, yet this distance might afford me an objective stance on narrative perceptions. My Social Sciences training prompts a focus on cultural and social context, shaping my exploration of crowd workers' interpretations. These elements collectively guide my understanding of differing narrative perceptions across varied labels and inform the way I interpret data and outcomes within this research framework.",
+            "init_codebook": [
+                {
+                    "code": "Describe_Experience",
+                    "definition": "Captures instances where participants are recounting a personal experience or event.",
+                    "inclusion_criteria": [
+                        "The text describes a specific personal experience or occurrence with detailed narrative."
+                    ],
+                    "exclusion_criteria": [
+                        "General opinions or arguments not tied to a specific experience or event."
+                    ],
+                    "typical_examples": [
+                        "'talk about an event that scared them during science class.'"
+                    ],
+                    "atypical_examples": [
+                        "'Explain what happened in His AP Chem class.'"
+                    ],
+                    "participants": [
+                        "652d5fbe9b9bfde1040a8c4d",
+                        "63c3343c5a670ddd37e82f2b",
+                        "6276d97e209059496d37bf74"
+                    ],
+                    "relevance_to_RQ": "Helps understand how individual narratives are constructed and perceived by crowd workers.",
+                    "notes": "This captures a majority of storytelling elements where participants recall events."
+                },
+                {
+                    "code": "Express_Opinion",
+                    "definition": "Captures participants expressing their personal beliefs or stances on a topic.",
+                    "inclusion_criteria": [
+                        "The text involves explicit statement of belief or opinion on any subject matter."
+                    ],
+                    "exclusion_criteria": [
+                        "Neutral narratives or descriptions without subjective input."
+                    ],
+                    "typical_examples": [
+                        "'describe why Islam is a true religion.'"
+                    ],
+                    "atypical_examples": [
+                        "'Speak their perspective.'"
+                    ],
+                    "participants": [
+                        "60b9689dc626572895cb801b",
+                        "60b7a867e27703d1e26b503c"
+                    ],
+                    "relevance_to_RQ": "Shows how personal beliefs influence narrative annotation.",
+                    "notes": "Often intertwined with arguments or justifications."
+                },
+                {
+                    "code": "Provide_Advice",
+                    "definition": "Instances where participants offer suggestions or guidance.",
+                    "inclusion_criteria": [
+                        "The text includes suggestions or guidance aimed at others."
+                    ],
+                    "exclusion_criteria": [
+                        "Advice embedded in unrelated narrative without clear intention."
+                    ],
+                    "typical_examples": [
+                        "'give advice on how to study philosophy while ensuring financial stability.'"
+                    ],
+                    "atypical_examples": [
+                        "'give recommendations based on personal experience.'"
+                    ],
+                    "participants": [
+                        "5d17ad8f9bd0710001aaa93a",
+                        "63fb4b7f05faed13656528f0"
+                    ],
+                    "relevance_to_RQ": "Highlights differences between prescriptive labels and descriptive annotations.",
+                    "notes": "Advice can be direct or indirect, intended for specific or general audiences."
+                },
+                {
+                    "code": "Make_Argument",
+                    "definition": "Indicates the construction of a logical reasoning or persuasion attempt.",
+                    "inclusion_criteria": [
+                        "The text involves reasoning to support a claim or counter a point."
+                    ],
+                    "exclusion_criteria": [
+                        "Simple opinion statements without supportive reasoning."
+                    ],
+                    "typical_examples": [
+                        "'Express his skepticism and provide a counter narrative'."
+                    ],
+                    "atypical_examples": [
+                        "'argue against the necessity of adding gear'."
+                    ],
+                    "participants": [
+                        "60955a048531613c66404fb2",
+                        "657246b2c978dbcde1a7f74a"
+                    ],
+                    "relevance_to_RQ": "Displays the interplay between narrative construction and argumentative discourse.",
+                    "notes": "Distinguishes argumentative dialogue from mere opinion expression."
+                },
+                {
+                    "code": "Share_Story",
+                    "definition": "The participant shares a narrative or anecdote typically with a start, middle, and end.",
+                    "inclusion_criteria": [
+                        "Text has a clear narrative structure, often with a lesson or moral."
+                    ],
+                    "exclusion_criteria": [
+                        "Fragmented narratives or generic examples lacking narrative arc."
+                    ],
+                    "typical_examples": [
+                        "'tell a story about a time he thought he had testicular cancer.'"
+                    ],
+                    "atypical_examples": [
+                        "'tell a parable to teach a moral lesson.'"
+                    ],
+                    "participants": [
+                        "5d23460ad4c57900192b129c",
+                        "653ee1d628ced1573a58023d"
+                    ],
+                    "relevance_to_RQ": "Provides insight into how crowd workers perceive the structure of narratives.",
+                    "notes": "Narratives often reflect personal or observed experiences."
+                },
+                {
+                    "code": "Request_Assistance",
+                    "definition": "Instances where participants seek help, advice, or information.",
+                    "inclusion_criteria": [
+                        "The text includes direct or indirect requests for help or information."
+                    ],
+                    "exclusion_criteria": [
+                        "Statements without clear solicitation or indication of assistance need."
+                    ],
+                    "typical_examples": [
+                        "'get advice on building a gaming rig.'"
+                    ],
+                    "atypical_examples": [
+                        "'get recommendations for a GBB handgun.'"
+                    ],
+                    "participants": [
+                        "601c73af332e2d7ce9b9fe77",
+                        "6595784e1782997a5c7d6a1b"
+                    ],
+                    "relevance_to_RQ": "Highlights the differences in crowd worker and researcher annotations regarding solicitation in narratives.",
+                    "notes": "Requests can range from technical advice to personal guidance."
+                }
+            ]
+        },
+        {
+            "Gender": "Man (including Trans Male/Trans Man)",
+            "Education": "Doctorate degree (PhD/other)",
+            "Race_Ethnicity": "Latino/Hispanic",
+            "Age": "34-44",
+            "Degree_Subject": "Agriculture, Forestry, Fisheries and Veterinary",
+            "Reddit_Use": "Regular use(<once per month)",
+            "positionality": "As a Latino man in my 30s with a PhD in Agriculture and a regular, though infrequent, Reddit user, my academic background and cultural identity influence my research lens. My understanding, shaped by my age and educational focus on structured, tangible domains like agriculture, affects how I perceive the storytelling elements and descriptive perceptions in social media texts. I may lean towards valuing empirical evidence and methodical interpretation. My professional training may lead to biases, favoring structured narratives over subjective interpretations. This positionality guides my methodological choices, ensuring I balance descriptive annotations with analytical perceptions, ultimately striving for a nuanced understanding of varied narrative perceptions across crowd workers and the intersection with prescriptive and predictive labels. ",
+            "init_codebook": [
+                {
+                    "code": "Expressing Experiences",
+                    "definition": "Participants share personal narratives or episodes from their past.",
+                    "inclusion_criteria": [
+                        "Personal stories or anecdotes",
+                        "Narrative of past events"
+                    ],
+                    "exclusion_criteria": [
+                        "Opinions without narrative context",
+                        "Technical explanations"
+                    ],
+                    "typical_examples": [
+                        "talk about an event that scared them during science class"
+                    ],
+                    "atypical_examples": [
+                        "tell about his experience with sales representatives."
+                    ],
+                    "participants": [
+                        "652d5fbe9b9bfde1040a8c4d",
+                        "5c388683fb3f0f0001fdf65a"
+                    ],
+                    "relevance_to_RQ": "Answers RQ1 by providing insights into personal storytelling experiences.",
+                    "notes": "Storytelling is a key part of understanding crowd workers' descriptive perceptions."
+                },
+                {
+                    "code": "Providing Explanations",
+                    "definition": "Participants explain concepts, phenomena, or provide justifications for ideas.",
+                    "inclusion_criteria": [
+                        "Detailed explanations or breakdowns",
+                        "Justifications of beliefs or actions"
+                    ],
+                    "exclusion_criteria": [
+                        "Simple opinions or statements without elaboration",
+                        "Narratives without clear explanation"
+                    ],
+                    "typical_examples": [
+                        "Explain what happened in His AP Chem class"
+                    ],
+                    "atypical_examples": [
+                        "explain what the force is in Star Wars"
+                    ],
+                    "participants": [
+                        "63c3343c5a670ddd37e82f2b",
+                        "60f4a2d142c69dc1121b6dbf"
+                    ],
+                    "relevance_to_RQ": "Enriches RQ1 by detailing how explanations are conveyed in storytelling.",
+                    "notes": "Explaining adds depth and context to narratives, aiding in text analysis."
+                },
+                {
+                    "code": "Sharing Opinions",
+                    "definition": "Participants offer personal views, opinions, or judgments.",
+                    "inclusion_criteria": [
+                        "Statements of belief or personal judgment",
+                        "Opinions on events or concepts"
+                    ],
+                    "exclusion_criteria": [
+                        "Narrative stories without opinion",
+                        "Explanations without a personal angle"
+                    ],
+                    "typical_examples": [
+                        "Express their belief in the superiority of Islam over Christianity"
+                    ],
+                    "atypical_examples": [
+                        "give advice on how to study philosophy"
+                    ],
+                    "participants": [
+                        "5faefcc22be93b11829e84df",
+                        "5b9489e56138fe0001f4104d"
+                    ],
+                    "relevance_to_RQ": "Addresses RQ2 by contrasting different narrative opinions among crowd workers.",
+                    "notes": "Opinion sharing is crucial for understanding subjective perceptions in narratives."
+                },
+                {
+                    "code": "Giving Advice",
+                    "definition": "Participants offer guidance, advice, or suggestions to others.",
+                    "inclusion_criteria": [
+                        "Suggestions or guidance provided",
+                        "Offering solutions to problems"
+                    ],
+                    "exclusion_criteria": [
+                        "Opinions without advice",
+                        "Narratives without instructional intent"
+                    ],
+                    "typical_examples": [
+                        "convince the reader that their perspective is correct."
+                    ],
+                    "atypical_examples": [
+                        "give advice on fixing something that has a tank."
+                    ],
+                    "participants": [
+                        "6266a87a7adacd7a91cabc93",
+                        "634e1076f43266192b130e13"
+                    ],
+                    "relevance_to_RQ": "Informs RQ1 and RQ2 by showing the advisory role in narratives, highlighting perception differences.",
+                    "notes": "Advice narratives reflect prescriptive elements in storytelling."
+                },
+                {
+                    "code": "Seeking Information",
+                    "definition": "Participants request information or seek clarification on specific topics.",
+                    "inclusion_criteria": [
+                        "Questions or requests for information",
+                        "Seeking feedback or clarification"
+                    ],
+                    "exclusion_criteria": [
+                        "Statements without inquiry",
+                        "Narratives not focused on information-seeking"
+                    ],
+                    "typical_examples": [
+                        "explain what he use to do at capitol records"
+                    ],
+                    "atypical_examples": [
+                        "debate the Quran"
+                    ],
+                    "participants": [
+                        "6131ba00bd67d2702e9a3c8d",
+                        "5e8a76b3939b3072dc76fb5c"
+                    ],
+                    "relevance_to_RQ": "Relates to RQ3 by identifying narrative segments that focus on obtaining external validation or information.",
+                    "notes": "Seeking information is often part of deeper narrative exploration or validation."
+                },
+                {
+                    "code": "Descriptive Storytelling",
+                    "definition": "Participants provide descriptive accounts of scenes, stories, or events.",
+                    "inclusion_criteria": [
+                        "Detailed depictions of events",
+                        "Descriptive language in narratives"
+                    ],
+                    "exclusion_criteria": [
+                        "Opinions without description",
+                        "Simple explanations"
+                    ],
+                    "typical_examples": [
+                        "describe a scene from a movie"
+                    ],
+                    "atypical_examples": [
+                        "relay a story about a school exam and his favorite band."
+                    ],
+                    "participants": [
+                        "632f16551c905f94e05945bd",
+                        "5dcf4136cf8e7e086ea019e4"
+                    ],
+                    "relevance_to_RQ": "Supports RQ1 by illustrating how descriptive perception is expressed through detailed storytelling.",
+                    "notes": "Descriptive storytelling enhances the analytical understanding of narrative perceptions."
+                }
+            ]
+        }
+    ],
+    "Agreed_disagreed_codebook": {
+        "agreements": [
+            {
+                "code": "Expressing Experiences/Describe_Experience/Storytelling_Personal_Experience/Share_Story",
+                "roles": [
+                    "African|Doctorate degree (PhD/other)|Woman",
+                    "Black/African American|Doctorate degree (PhD/other)|Non-binary",
+                    "Latino/Hispanic|Doctorate degree (PhD/other)|Man"
+                ],
+                "reason": "All roles have codes capturing personal storytelling or narrative recounting experiences. Despite different naming, the emphasis on personal events and narratives aligns across these codes."
+            },
+            {
+                "code": "Express Opinion/Opinion_Sharing/Sharing Opinions",
+                "roles": [
+                    "African|Doctorate degree (PhD/other)|Woman",
+                    "Black/African American|Doctorate degree (PhD/other)|Non-binary",
+                    "Latino/Hispanic|Doctorate degree (PhD/other)|Man"
+                ],
+                "reason": "These codes all revolve around participants expressing personal beliefs or opinions. The roles agree on the focus being on the expression of thoughts and beliefs, regardless of the exact wording used in the code labels."
+            },
+            {
+                "code": "Advice Seeking/Provide_Advice/Giving Advice",
+                "roles": [
+                    "African|Doctorate degree (PhD/other)|Woman",
+                    "Black/African American|Doctorate degree (PhD/other)|Non-binary",
+                    "Latino/Hispanic|Doctorate degree (PhD/other)|Man"
+                ],
+                "reason": "The consistent presence of advice-related codes across roles reflects a shared understanding of the significance of seeking or providing guidance in narratives. The roles capture this intent clearly, indicating alignment in understanding the purpose of advice-related discourse."
+            }
+        ],
+        "disagreements": [
+            {
+                "code": "Seeking Information/Request_Assistance",
+                "roles": [
+                    "Black/African American|Doctorate degree (PhD/other)|Non-binary",
+                    "Latino/Hispanic|Doctorate degree (PhD/other)|Man"
+                ],
+                "reason": "These roles have related but potentially distinct interpretations of seeking information versus requesting assistance. The inclusion criteria suggest overlap, yet the emphasis differs slightly \u2013 one leans towards information seeking in a broader sense, while the other might be more focused on requests for help."
+            },
+            {
+                "code": "Humor_and_Entertainment",
+                "roles": [
+                    "African|Doctorate degree (PhD/other)|Woman"
+                ],
+                "reason": "This code is only present in one role, indicating a divergence. While other roles focus on storytelling and narrative, this exclusive focus on humor suggests different prioritization or perception of entertainment elements in narrative discourse."
+            },
+            {
+                "code": "Make_Argument/Providing Explanations",
+                "roles": [
+                    "Black/African American|Doctorate degree (PhD/other)|Non-binary",
+                    "Latino/Hispanic|Doctorate degree (PhD/other)|Man"
+                ],
+                "reason": "Both codes involve elements of reasoning and justification, but differ notably in application. 'Make Argument' is about constructing logical reasoning or persuasion, while 'Providing Explanations' concerns detailing concepts, suggesting different narrative intentions or emphases between the roles."
+            }
+        ]
+    },
+    "Discussion": {
+        "round1": "[{'Role1': {'Role': 'African|Doctorate degree (PhD/other)|Woman', 'Disagreement_Evidence': [{'code': 'Seeking Information/Request_Assistance', 'Preliminary_Claim': 'retain', 'Definition': 'The core disagreement focuses on the nuanced boundary between seeking information and requesting assistance, with one role emphasizing broad information seeking and the other assistance-specific discourse.', 'Evidence_Literature': {'Author': 'Hill, R. M.', 'Year': '1998', 'Title': 'Information-seeking as a contributor to sense-making: Young adults\u2019 information-seeking behavior', 'DOI_or_Link': '10.1046/s0167-6423(97)10006-0', 'Summary': 'This reference supports retaining the code by highlighting the diverse nature of information-seeking behaviors, underscoring the need for a broad code that captures multiple facets of inquiry.'}, 'Evidence_Content': {'Observation': 'The inclusion criteria highlight the overlap and potential divergence in intention, supporting a broad capture of interactions ranging from general information querying to pointed help requests.', 'Relevance': 'Retaining the code ensures that subtle distinctions in intention are preserved and explored, enriching the analysis of narrative discourse.'}, 'Evidence_Logic': {'Reasoning': 'Retaining this code will promote interpretive clarity by allowing annotators to discern subtle differences and overlaps between types of inquiries.', 'Impact': 'Improves coder consistency by providing clear boundaries while maintaining cognitive awareness of nuanced differences, reducing annotation complexity.'}}, {'code': 'Humor_and_Entertainment', 'Preliminary_Claim': 'retain', 'Definition': 'The core disagreement involves the prioritization and perception of humor within narrative discourse. This code appears uniquely in one role, suggesting a divergence in recognizing entertainment as a narrative element.', 'Evidence_Literature': {'Author': 'Martin, R. A.', 'Year': '2006', 'Title': 'The psychology of humor: An integrative approach', 'DOI_or_Link': '10.1002/9781118760527', 'Summary': 'This reference supports the inclusion of humor in narrative study, emphasizing its role in human interaction and communication, which is pertinent for understanding rich narrative fabrics.'}, 'Evidence_Content': {'Observation': 'The role-specific focus on humor indicates that while it may not be universally prioritized, it remains a significant narrative element for some perspectives.', 'Relevance': 'Retaining the code allows for a comprehensive understanding of storytelling that includes entertainment as a vital, nuanced part of narrative exploration.'}, 'Evidence_Logic': {'Reasoning': 'Retaining enriches narrative analysis by capturing entertainment facets, which are crucial for understanding audience engagement and narrative style diversity.', 'Impact': 'Enhances clarity and consistency in narrative categorization, acknowledging the diverse purposes and styles of storytelling.'}}, {'code': 'Make_Argument/Providing Explanations', 'Preliminary_Claim': 'retain', 'Definition': 'There is a disagreement over the focus on logical reasoning versus detailing concepts, suggesting different narrative intentions rooted in argument construction and elucidation.', 'Evidence_Literature': {'Author': 'Toulmin, S. E.', 'Year': '2003', 'Title': 'The Uses of Argument', 'DOI_or_Link': '10.1017/CBO9780511840005', 'Summary': 'This work highlights the importance of argumentation in communication, supporting the retention of both aspects for a full analysis of discourse aimed at persuasion and understanding.'}, 'Evidence_Content': {'Observation': 'The existing inclusion criteria capture both persuasion and elucidation, suggesting a need for differentiated but inclusive coding.', 'Relevance': 'This supports a nuanced understanding of storytelling that caters to diverse narrative intents, capturing both argumentative and explanatory elements.'}, 'Evidence_Logic': {'Reasoning': 'Retaining both aspects of the code increases comprehension of narrative intents, aiding interpreters in navigating complex discourse structures.', 'Impact': 'Reduces interpretive ambiguity, increasing coder consistency by clearly delineating types of narrative interaction.'}}]}}, {'Role2': {'Role': 'Black/African American|Doctorate degree (PhD/other)|Non-binary', 'Disagreement_Evidence': [{'code': 'Seeking Information/Request_Assistance', 'Preliminary_Claim': 'retain', 'Definition': 'The disagreement reflects on the nuances between actively seeking information versus specifically requesting assistance, highlighting a potential divergence in narrative intent and focus.', 'Evidence_Literature': {'Author': 'Sanchez, C. A., & Wiley, J.', 'Year': '2009', 'Title': 'To label is to know: The labeling of ambiguous figures and its influence on memory', 'DOI_or_Link': '10.1002/acp.1473', 'Summary': 'This study on cognitive processing of labels suggests that how information is categorized or labeled can distinctly influence memory and interpretation, supporting the argument for separate codes.'}, 'Evidence_Content': {'Observation': \"A factual distinction exists in the code definitions: 'seeking information' often involves broad inquiries or exploration, while 'requesting assistance' is goal-oriented for help or solutions.\", 'Relevance': 'Highlighting this distinction aligns with the broader research question by addressing different narrative functions.'}, 'Evidence_Logic': {'Reasoning': 'Retaining the distinction ensures clarity in intentions, minimizes ambiguous interpretations, and enhances coder agreement.', 'Impact': 'Higher interpretive clarity and consistency, reducing cognitive load when annotating narratives.'}}, {'code': 'Humor_and_Entertainment', 'Preliminary_Claim': 'do_not_retain', 'Definition': 'The contention stems from prioritizing entertainment narratives, diverging from the central focus on storytelling and narrative analysis.', 'Evidence_Literature': {'Author': 'Martin, R. A.', 'Year': '2007', 'Title': 'The Psychology of Humor: An Integrative Approach', 'DOI_or_Link': '10.1016/B978-012372564-6/50016-8', 'Summary': \"This work discusses humor's distinct psychological role, suggesting it may not align with the primary narrative goals focused on personal storytelling or opinion sharing.\"}, 'Evidence_Content': {'Observation': \"The code 'Humor_and_Entertainment' aligns less with personal narrative context and more with diversion or social interaction.\", 'Relevance': 'Distinguishing humor from storytelling ensures that narrative-focused analyses remain central.'}, 'Evidence_Logic': {'Reasoning': 'Omitting this code narrows focus to core narrative elements, potentially improving coder consistency while aligning with project goals.', 'Impact': 'Increased focus on core narrative elements, potentially reducing cognitive load and aligning with narrative examination.'}}, {'code': 'Make_Argument/Providing Explanations', 'Preliminary_Claim': 'retain', 'Definition': 'The disagreement lies in the differentiation between constructing arguments versus merely providing explanations, highlighting different discourse functions.', 'Evidence_Literature': {'Author': 'Toulmin, S. E.', 'Year': '2003', 'Title': 'The Uses of Argument', 'DOI_or_Link': '10.1017/CBO9780511840005', 'Summary': \"Toulmin's model evolves reasoning as an essential part of making arguments, distinguishing it from simple explanations and supporting separate coding.\"}, 'Evidence_Content': {'Observation': 'Codes differentiate between constructing logical reasoning (Make Argument) and clarifying concepts (Providing Explanations).', 'Relevance': 'These distinctions align with narrative analysis by clarifying user intentions in discourse.'}, 'Evidence_Logic': {'Reasoning': 'Maintaining distinct codes offers clearer interpretive paths for coders, potentially improving annotation precision and agreement.', 'Impact': 'Retaining both maintains clarity, enhances coherence, and supports accurate narrative coding.'}}]}}, {'Role3': {'Role': 'Latino/Hispanic|Doctorate degree (PhD/other)|Man', 'Disagreement_Evidence': [{'code': 'Seeking Information/Request_Assistance', 'Preliminary_Claim': 'retain', 'Definition': 'Disagreement on whether there is a clear boundary between seeking information broadly and specifically requesting assistance.', 'Evidence_Literature': {'Author': 'Wilson, T.D.', 'Year': '1999', 'Title': 'Models in information behaviour research', 'DOI_or_Link': 'https://doi.org/10.1108/00220419910255306', 'Summary': 'Distinguishes between seeking information and seeking help, supporting the interpretation that these are related but distinct activities.'}, 'Evidence_Content': {'Observation': \"The code definition for 'Seeking Information' focuses on gathering knowledge, whereas 'Request Assistance' involves soliciting specific help.\", 'Relevance': 'Highlighting the distinction supports retaining the separate focus of each activity as they imply different interpersonal dynamics.'}, 'Evidence_Logic': {'Reasoning': 'Separating these codes sharpens interpretive clarity as they involve distinct social interactions.', 'Impact': 'Maintains coder consistency by delineating clear tasks, reducing cognitive load by specifying contexts: knowledge acquisition versus help solicitation.'}}, {'code': 'Humor_and_Entertainment', 'Preliminary_Claim': 'do_not_retain', 'Definition': 'Divergence on whether humor warrants standalone analysis when other roles prioritize storytelling.', 'Evidence_Literature': {'Author': 'Morreall, J.', 'Year': '2009', 'Title': 'Comic Relief: A Comprehensive Philosophy of Humor', 'DOI_or_Link': 'https://doi.org/10.1002/9781444310771', 'Summary': 'Examines how humor inherently intersects with other social discourse, suggesting it functions more effectively within broader narrative contexts.'}, 'Evidence_Content': {'Observation': \"The code's presence in a single role highlights a lack of cohesion with storytelling emphasis.\", 'Relevance': 'Shows that humor is effectively encompassed within broader narrative functions, aligning with the main storytelling prioritization.'}, 'Evidence_Logic': {'Reasoning': 'Not retaining it focuses analyses on essential narratives, as humor can be integrated into storytelling without being a separate category.', 'Impact': 'Enhances annotation efficiency, lessens cognitive load by removing redundant categories and concentrating on storytelling.'}}, {'code': 'Make_Argument/Providing Explanations', 'Preliminary_Claim': 'retain', 'Definition': 'Disagreement on differentiation between constructing arguments and giving explanations.', 'Evidence_Literature': {'Author': 'Toulmin, S.E.', 'Year': '1958', 'Title': 'The Uses of Argument', 'DOI_or_Link': 'https://doi.org/10.1017/CBO9780511840005', 'Summary': 'Provides a framework that highlights distinctions between argumentative reasoning and explanatory discourse.'}, 'Evidence_Content': {'Observation': 'The distinction lies in argumentation aimed at persuasion vs. explanation focused on clarity of understanding.', 'Relevance': 'Acknowledging these distinctions helps retain clear demarcation of intent within narratives, emphasizing different cognitive processes.'}, 'Evidence_Logic': {'Reasoning': 'Maintaining both codes ensures clarity in annotation where differing purposes are crucial, aiding in distinguishing intent and content approach.', 'Impact': 'Supports both consistency and in-depth interpretation, allowing for nuanced annotation without conflating different narrative strategies.'}}]}}]",
+        "round2": "[{'Role1': {'Role': 'African|Doctorate degree (PhD/other)|Woman', 'DecisionPattern': 'Prioritize expressiveness and inclusivity over redundancy by allowing room for narrative variance and complexity.', 'Reasoning': [{'code': 'Seeking Information/Request_Assistance', 'Disagreement_Point': 'Nuanced differences in intentions between seeking information and requesting assistance.', 'Self_Check': {'First_ExplicitStance': 'support', 'Then_DefinitionConsistency': 'The literature supports that information-seeking varies in depth and scope. My positionality leans towards the inclusiveness of roles in understanding complex social narratives.', 'Finally_LimitationsDecision': 'Continue to Support'}, 'Cross_Discussion': {'PerRoleAnalysis': [{'OtherRole': 'Black/African American|Doctorate degree (PhD/other)|Non-binary', 'Example': \"Their argument focuses on the broad nature of seeking information, which aligns with the literature's acknowledgment of diverse information pursuits.\", 'Counterexample': 'Their interpretation lacks emphasis on nuanced requests which are crucial for understanding the intent behind social exchange.', 'Summary': 'We align on acknowledging broad definitions; however, my reasoning incorporates the nuance within information requests, reflecting a deeper narrative analysis.'}, {'OtherRole': 'Latino/Hispanic|Doctorate degree (PhD/other)|Man', 'Example': 'Their stance recognizes the specificity in request assistance discourse, providing clarity on direct help-seeking.', 'Counterexample': 'This specificity may lead to overlooking broader narrative contexts that include implicit or multifaceted inquiries.', 'Summary': 'We diverge in the perceived value of specificity versus inclusivity in narrative analysis, differing in prioritizing either clearly defined intents or a broader narrative spectrum.'}], 'Consensus': 'Aligns most with Black/African American|Doctorate degree (PhD/other)|Non-binary due to shared acknowledgment of broad information seeking.', 'Divergence': 'Diverges from Latino/Hispanic|Doctorate degree (PhD/other)|Man due to their prioritization of specificity over inclusivity in narrative scope.', 'HybridPerspective': 'Incorporate specificity in identifying explicit intent while maintaining a broad framework to capture nuanced narrative inquiries.'}}, {'code': 'Humor_and_Entertainment', 'Disagreement_Point': 'The perception and prioritization of humor as a primary narrative focus.', 'Self_Check': {'First_ExplicitStance': 'support', 'Then_DefinitionConsistency': \"The literature supports the role of humor in narrative engagement and social interaction. My role's exposure to diverse social narratives underscores this code's necessity.\", 'Finally_LimitationsDecision': 'Continue to Support'}, 'Cross_Discussion': {'PerRoleAnalysis': [{'OtherRole': 'Black/African American|Doctorate degree (PhD/other)|Non-binary', 'Example': \"Their evidence supports humor's role in narrative diversity as a means of engagement.\", 'Counterexample': \"Their approach may undervalue humor's standalone significance if integrated merely as a tool rather than an endpoint.\", 'Summary': \"We align on humor's role in engagement but may differ in recognizing its primary versus secondary narrative importance.\"}, {'OtherRole': 'Latino/Hispanic|Doctorate degree (PhD/other)|Man', 'Example': \"Their view doesn't prioritize humor, instead focusing on character-driven narratives.\", 'Counterexample': 'Dismissing humor overlooks a rich source of narrative dynamics and interpretative engagement.', 'Summary': 'We diverge in our narrative value systems, with my stance seeing humor as a standalone narrative focus while theirs might subjugate it under other narrative drivers.'}], 'Consensus': \"More aligned with Black/African American|Doctorate degree (PhD/other)|Non-binary for recognizing humor's engagement role.\", 'Divergence': 'Diverges from Latino/Hispanic|Doctorate degree (PhD/other)|Man due to differing narrative focus priorities.', 'HybridPerspective': 'Retain humor both as a narrative tool and significant standalone narrative element.'}}, {'code': 'Make_Argument/Providing Explanations', 'Disagreement_Point': 'Differentiating argumentative structures from conceptual elucidation in narratives.', 'Self_Check': {'First_ExplicitStance': 'support', 'Then_DefinitionConsistency': \"Argumentation and explanation are distinct in purpose and execution. My role's engineering background appreciates structured reasoning and articulate concept explanation.\", 'Finally_LimitationsDecision': 'Continue to Support'}, 'Cross_Discussion': {'PerRoleAnalysis': [{'OtherRole': 'Black/African American|Doctorate degree (PhD/other)|Non-binary', 'Example': 'Their reasoning acknowledges the importance of constructing logical arguments in narrative discourse.', 'Counterexample': 'Could underemphasize the diverse narrative contexts where explanation is central, independent of persuasion.', 'Summary': 'Alignment on acknowledging the sophisticated differences but more focus needed on the narrative situational use.'}, {'OtherRole': 'Latino/Hispanic|Doctorate degree (PhD/other)|Man', 'Example': 'Proper differentiation between making arguments and providing explanations aligns with their view on narrative intentions.', 'Counterexample': 'Might overemphasize argumentation, devaluing narrative contexts tailored for concept clarification.', 'Summary': 'While we both see a need for distinction, our divergence lies in the narrative purpose pursuit\u2014argument versus explanation.'}], 'Consensus': 'More aligned with Black/African American|Doctorate degree (PhD/other)|Non-binary, as they embrace structured discourse elements.', 'Divergence': 'Less aligned with Latino/Hispanic|Doctorate degree (PhD/other)|Man due to overemphasis on argumentation.', 'HybridPerspective': 'Recognize situational application, allowing for both structured argumentation and comprehensive explanations.'}}]}}, {'Role2': {'Role': 'Black/African American|Doctorate degree (PhD/other)|Non-binary', 'DecisionPattern': 'Balance between content-based grounding and clarity in narrative functions', 'Reasoning': [{'code': 'Seeking Information/Request_Assistance', 'Disagreement_Point': 'The distinction between broader information seeking and targeted requests for assistance.', 'Self_Check': {'First_ExplicitStance': 'support', 'Then_DefinitionConsistency': 'Literature underscores the cognitive impact of specific vs broad labels, content varies with audience intention, and logic supports clarity and precision in narrative interpretation.', 'Finally_LimitationsDecision': 'Continue to Support'}, 'Cross_Discussion': {'PerRoleAnalysis': [{'OtherRole': 'Latino/Hispanic|Doctorate degree (PhD/other)|Man', 'Example': 'Role acknowledges potential overlap with distinction hinging on narrative intent.', 'Counterexample': 'Overstates distinction without addressing core narrative focus adequately.', 'Summary': 'Aligns in emphasizing distinction but diverges on content priority.'}], 'Consensus': 'Latino/Hispanic|Doctorate degree (PhD/other)|Man, due to shared emphasis on distinguishing types of inquiry.', 'Divergence': '', 'HybridPerspective': 'Prioritize identifying narrator intent clearly, using distinct codes based on intention.'}}, {'code': 'Humor_and_Entertainment', 'Disagreement_Point': 'Aligns less with storytelling focus, posing prioritization conflict.', 'Self_Check': {'First_ExplicitStance': 'support', 'Then_DefinitionConsistency': \"Entails diversion from core narrative analysis, and literature suggests humor's differing psychological role.\", 'Finally_LimitationsDecision': 'Continue to Support'}, 'Cross_Discussion': {'PerRoleAnalysis': [{'OtherRole': 'African|Doctorate degree (PhD/other)|Woman', 'Example': \"Identifies humor's unique narrative position.\", 'Counterexample': 'May misalign project focus on storytelling as primary analysis domain.', 'Summary': \"Agree on humor's uniqueness, differing on its centrality to storytelling.\"}], 'Consensus': '', 'Divergence': 'African|Doctorate degree (PhD/other)|Woman, due to competing focus on humor vs narrative focus.', 'HybridPerspective': 'Allow focusing on narrative function over entertainment, enhancing coder agreement.'}}, {'code': 'Make_Argument/Providing Explanations', 'Disagreement_Point': 'Difference between constructing arguments and providing explanations, affecting narrative function analysis.', 'Self_Check': {'First_ExplicitStance': 'support', 'Then_DefinitionConsistency': \"Engages Toulmin's model and distinguishes practical applications and intentions in storytelling.\", 'Finally_LimitationsDecision': 'Continue to Support'}, 'Cross_Discussion': {'PerRoleAnalysis': [{'OtherRole': 'Latino/Hispanic|Doctorate degree (PhD/other)|Man', 'Example': 'Effective separation of logic and clarification tasks.', 'Counterexample': 'Fails to consider overlap in narratives combining both elements.', 'Summary': 'Aligns in need for distinct identifiers but diverges on overlap management.'}], 'Consensus': 'Latino/Hispanic|Doctorate degree (PhD/other)|Man, sharing rationale for separate coding to clarify narrator intent.', 'Divergence': '', 'HybridPerspective': 'Focus on precision through distinct logical distinctions, precluding ambiguity.'}}]}}, {'Role3': {'Role': 'Latino/Hispanic|Doctorate degree (PhD/other)|Man', 'DecisionPattern': 'Accuracy over Efficiency, given the emphasis on empirical evidence and methodical interpretation', 'Reasoning': [{'code': 'Seeking Information/Request_Assistance', 'Disagreement_Point': 'Distinction between seeking information broadly and requesting specific assistance.', 'Self_Check': {'First_ExplicitStance': 'support', 'Then_DefinitionConsistency': 'The literature and content evidence highlight the distinct nature of each activity\u2014seeking information is about acquiring knowledge, whereas requesting assistance is about soliciting help. This differentiation is supported by logical reasoning emphasizing different social interactions.', 'Finally_LimitationsDecision': 'Continue to Support'}, 'Cross_Discussion': {'PerRoleAnalysis': [{'OtherRole': 'Black/African American|Doctorate degree (PhD/other)|Non-binary', 'Example': 'Their emphasis on information seeking as a separate narrative focus aligns with how narratives involve varied cognitive engagements.', 'Counterexample': 'Their logic could downplay the nuances of social interactions inherent in direct requests for help.', 'Summary': 'Our positions align in terms of emphasizing narrative variety, though I see greater value in distinguishing requests for assistance.'}], 'Consensus': 'Black/African American|Doctorate degree (PhD/other)|Non-binary \u2014 overlapping interest in narrative variety', 'Divergence': 'N/A', 'HybridPerspective': 'Maintaining distinct codes as a priority to enhance narrative clarity and interpretative consistency, using literature-based precision.'}}, {'code': 'Humor_and_Entertainment', 'Disagreement_Point': 'Independent analysis of humor when other roles emphasize storytelling.', 'Self_Check': {'First_ExplicitStance': 'refute', 'Then_DefinitionConsistency': 'The single-role presence of this code suggests it should integrate into broader storytelling elements. Content evidence supports humor functioning better within narrative contexts.', 'Finally_LimitationsDecision': 'Refute My Claim'}, 'Cross_Discussion': {'PerRoleAnalysis': [{'OtherRole': 'African|Doctorate degree (PhD/other)|Woman', 'Example': 'Their unique focus on humor addresses an often overlooked narrative element.', 'Counterexample': 'Singling out humor without broader context could reduce narrative cohesion.', 'Summary': \"Our perspectives diverge; they emphasize humor's standalone role, while I integrate it within narratives to maintain storytelling focus.\"}], 'Consensus': 'N/A', 'Divergence': 'African|Doctorate degree (PhD/other)|Woman \u2014 different prioritization of narrative elements', 'HybridPerspective': 'Integrating humor within broader narrative structures enhances overall narrative richness and interpretative depth.'}}, {'code': 'Make_Argument/Providing Explanations', 'Disagreement_Point': 'Differentiating constructing arguments from giving explanations.', 'Self_Check': {'First_ExplicitStance': 'support', 'Then_DefinitionConsistency': 'Argumentation aims at persuasion, while explanations clarify understanding, supported by literature and logic emphasizing distinct cognitive processes.', 'Finally_LimitationsDecision': 'Continue to Support'}, 'Cross_Discussion': {'PerRoleAnalysis': [{'OtherRole': 'Black/African American|Doctorate degree (PhD/other)|Non-binary', 'Example': 'Their reasoning highlights the distinct intentions inherent in arguments and explanations.', 'Counterexample': 'Potentially overemphasizing differences, risking interpretative fragmentation.', 'Summary': 'Our reasoning aligns more in terms of recognizing necessary cognitive distinctions between argumentation and explanation.'}], 'Consensus': 'Black/African American|Doctorate degree (PhD/other)|Non-binary \u2014 shared recognition of cognitive differences', 'Divergence': 'N/A', 'HybridPerspective': 'Maintain separateness for precision in narrative interpretation, with logic-based reasons ensuring clarity and intent differentiation.'}}]}}]",
+        "round3": "[{'Role1': {'Role': 'African|Doctorate degree (PhD/other)|Woman', 'Final_Results': [{'code': 'Seeking Information/Request_Assistance', 'Initial_Claim_Round1': 'retain', 'Final_Decision': 'Continue to Support', 'Final_Claim': 'Yes, the code should be retained.', 'Final_Explanation': \"Accumulated reasoning emphasizes the importance of capturing both broad and specific inquiries within narrative analysis, which aligns with my positionality's emphasis on inclusivity in understanding social discourse.\", 'Self_Reflection': {'Strengths': 'The strongest aspect is the recognition of the need to capture nuanced interactions within information-seeking behaviors.', 'Weaknesses': 'Potential over-complexification if nuanced boundaries are not clearly defined for coders.', 'Future_Consideration': 'Further define criteria for distinguishing broad information-seeking from specific request-for-assistance scenarios.'}}, {'code': 'Humor_and_Entertainment', 'Initial_Claim_Round1': 'retain', 'Final_Decision': 'Continue to Support', 'Final_Claim': 'Yes, the code should be retained.', 'Final_Explanation': 'The role of humor as an essential narrative element is pivotal in understanding diverse storytelling forms, resonating with my exposure to varied narrative styles on social media.', 'Self_Reflection': {'Strengths': 'Recognizes humor as a standalone narrative dimension, adding depth to narrative understanding.', 'Weaknesses': \"Possible neglect of humor's interplay with other narrative elements if isolated.\", 'Future_Consideration': 'Develop guidelines to assess when humor is central versus supportive within narratives.'}}, {'code': 'Make_Argument/Providing Explanations', 'Initial_Claim_Round1': 'retain', 'Final_Decision': 'Continue to Support', 'Final_Claim': 'Yes, the code should be retained.', 'Final_Explanation': \"The distinction between argument construction and explanation is crucial for a robust understanding of narrative intentions, aligning with my engineering background's precision in structured reasoning.\", 'Self_Reflection': {'Strengths': 'Emphasizes the clear differentiation between various narrative purposes, enhancing interpretability.', 'Weaknesses': 'Potential for complexity in applying these distinctions without explicit coder guidelines.', 'Future_Consideration': 'Refine codifier instructions to ensure consistent annotation between argumentation and explanations.'}}]}}, {'Role2': {'Role': 'Black/African American|Doctorate degree (PhD/other)|Non-binary', 'Final_Results': [{'code': 'Seeking Information/Request_Assistance', 'Initial_Claim_Round1': 'retain', 'Final_Decision': 'Continue to Support', 'Final_Claim': 'Yes, the code should be retained.', 'Final_Explanation': 'The original distinction remains valid and crucial due to differing narrative intents, supporting clearer coder interpretation.', 'Self_Reflection': {'Strengths': 'Clear distinction in narrative intent makes this separation resilient, enhancing annotation precision.', 'Weaknesses': 'Overlap in realistic application could still cause coder confusion, needing explicit guidelines.', 'Future_Consideration': 'Integrate precise coder instructions and examples to reduce overlap beyond theoretical distinction.'}}, {'code': 'Humor_and_Entertainment', 'Initial_Claim_Round1': 'do_not_retain', 'Final_Decision': 'Continue to Support', 'Final_Claim': 'No, the code should not be retained.', 'Final_Explanation': 'Retaining focus on narrative intent over entertainment aligns better with overall project goals, increasing consistency.', 'Self_Reflection': {'Strengths': 'Aligns clearly with project focus, reducing extraneous cognitive load.', 'Weaknesses': 'May omit valuable cultural elements expressed through humor, risking loss of contextual richness.', 'Future_Consideration': 'Further research into integrating cultural narrative elements without diverting from core narrative focus.'}}, {'code': 'Make_Argument/Providing Explanations', 'Initial_Claim_Round1': 'retain', 'Final_Decision': 'Continue to Support', 'Final_Claim': 'Yes, the code should be retained.', 'Final_Explanation': 'Distinct narrative functions between argumentation and explanation remain valid, underpinning interpretive accuracy.', 'Self_Reflection': {'Strengths': 'Strong theoretical backing ensures clarity in annotating logical narrative elements.', 'Weaknesses': 'Possible cognitive overlap during coding challenging to manage without clear boundaries.', 'Future_Consideration': 'Enhance coder training with detailed examples illustrating boundaries between argumentation and explanation.'}}]}}, {'Role3': {'Role': 'Latino/Hispanic|Doctorate degree (PhD/other)|Man', 'Final_Results': [{'code': 'Seeking Information/Request_Assistance', 'Initial_Claim_Round1': 'retain', 'Final_Decision': 'Continue to Support', 'Final_Claim': 'Yes, the code should be retained.', 'Final_Explanation': 'Retained due to clear empirical distinction between information seeking and assistance requesting, aligning with structured narrative clarity.', 'Self_Reflection': {'Strengths': 'The strongest support came from literature emphasizing distinct cognitive processes.', 'Weaknesses': 'Potential overemphasis on separation may overlook practical overlaps in discourse.', 'Future_Consideration': 'Explore granularity between information seeking and assistance for more robust sub-categorization.'}}, {'code': 'Humor_and_Entertainment', 'Initial_Claim_Round1': 'do_not_retain', 'Final_Decision': 'Refute My Initial Claim', 'Final_Claim': 'Yes, the code should be retained.', 'Final_Explanation': 'Role differentiation suggests humor must be appreciated as an independent narrative element, reinforcing diverse storytelling.', 'Self_Reflection': {'Strengths': \"Acknowledging humor's unique narrative role enhances narrative variety.\", 'Weaknesses': \"Limited initial focus on humor's integration could dilute its standalone value.\", 'Future_Consideration': \"Further explore humor's narrative impacts to justify unique categorization.\"}}, {'code': 'Make_Argument/Providing Explanations', 'Initial_Claim_Round1': 'retain', 'Final_Decision': 'Continue to Support', 'Final_Claim': 'Yes, the code should be retained.', 'Final_Explanation': 'Distinct intents in arguing versus explaining justify retaining both for precise and nuanced annotation.', 'Self_Reflection': {'Strengths': 'Strong empirical basis with clear cognitive demarcation supports retention.', 'Weaknesses': 'Complex distinctions may increase annotator burden, risking interpretative inconsistency.', 'Future_Consideration': 'Develop detailed criteria to aid annotators in distinguishing between both practices effectively.'}}]}}]"
+    },
+    "Final_codebook": {
+        "codebook": [
+            {
+                "code": "Storytelling_Personal_Experience",
+                "definition": "Participants narrate personal experiences or stories, often to convey a message or share an insight.",
+                "inclusion_criteria": [
+                    "Text explicitly narrating a personal experience or event."
+                ],
+                "exclusion_criteria": [
+                    "Text expressing opinions or arguments without personal narration."
+                ],
+                "typical_examples": [
+                    "Tell a story about a health scare."
+                ],
+                "atypical_examples": [
+                    "Talk about politics",
+                    "Determine which kind of computer processor will be best for gaming"
+                ],
+                "participants": [
+                    "652d5fbe9b9bfde1040a8c4d",
+                    "5dcea7314d51e4107516c80d"
+                ],
+                "relevance_to_RQ": "Addresses RQ1 by showcasing how personal stories are perceived and narrated by crowd workers.",
+                "notes": "Aligned from Expressing Experiences, Describe_Experience, and Share_Story. All emphasize personal storytelling."
+            },
+            {
+                "code": "Opinion_Sharing",
+                "definition": "Participants express their thoughts or beliefs on various topics, often in response to others.",
+                "inclusion_criteria": [
+                    "Text explicitly sharing an opinion or thought."
+                ],
+                "exclusion_criteria": [
+                    "Text that narrates personal stories without explicit opinion."
+                ],
+                "typical_examples": [
+                    "Discuss feelings about the newest episode of a TV show."
+                ],
+                "atypical_examples": [
+                    "Tell a story about a traumatic experience",
+                    "Explain why they believe in gnostic atheism"
+                ],
+                "participants": [
+                    "60b9689dc626572895cb801b",
+                    "56efdf27bb24eb000b8244da"
+                ],
+                "relevance_to_RQ": "Contributes to RQ2 by illustrating the varied opinions crowd workers hold on different issues.",
+                "notes": "Aligned from Express Opinion and Sharing Opinions. All focus on expression of personal beliefs."
+            },
+            {
+                "code": "Advice_Seeking",
+                "definition": "Participants request or offer advice, often related to personal decisions or technical help.",
+                "inclusion_criteria": [
+                    "Text explicitly requesting or giving advice."
+                ],
+                "exclusion_criteria": [
+                    "Text sharing stories or opinions without advice-seeking."
+                ],
+                "typical_examples": [
+                    "Get advice on his plans for higher education."
+                ],
+                "atypical_examples": [
+                    "Express frustration",
+                    "Describe events in an old Liverpool match"
+                ],
+                "participants": [
+                    "60fd694d2bf4aaa5745a6053",
+                    "6276d97e209059496d37bf74"
+                ],
+                "relevance_to_RQ": "Links to RQ3 by showing intersections between advice, opinions, and narrative perceptions.",
+                "notes": "Aligned from Provide_Advice and Giving Advice. Reflects seeking or providing advice in narratives."
+            },
+            {
+                "code": "Humor_and_Entertainment",
+                "definition": "Participants use humor or descriptive content to entertain or amuse.",
+                "inclusion_criteria": [
+                    "Text aimed at entertaining or conveying humor."
+                ],
+                "exclusion_criteria": [
+                    "Serious narrative without elements of humor."
+                ],
+                "typical_examples": [
+                    "Make people laugh"
+                ],
+                "atypical_examples": [
+                    "Tell a sad story",
+                    "Discuss a serious health issue"
+                ],
+                "participants": [
+                    "5a4444fc56ec1100014a29e1",
+                    "5b9b422307c6960001614c35"
+                ],
+                "relevance_to_RQ": "Engages with RQ1 by highlighting how humor shapes storytelling and audience perception.",
+                "notes": "Retained due to its emphasis on humor as a distinct narrative form."
+            },
+            {
+                "code": "Make_Argument",
+                "definition": "Indicates the construction of a logical reasoning or persuasion attempt.",
+                "inclusion_criteria": [
+                    "The text involves reasoning to support a claim or counter a point."
+                ],
+                "exclusion_criteria": [
+                    "Simple opinion statements without supportive reasoning."
+                ],
+                "typical_examples": [
+                    "Express his skepticism and provide a counter narrative."
+                ],
+                "atypical_examples": [
+                    "argue against the necessity of adding gear."
+                ],
+                "participants": [
+                    "60955a048531613c66404fb2",
+                    "657246b2c978dbcde1a7f74a"
+                ],
+                "relevance_to_RQ": "Displays the interplay between narrative construction and argumentative discourse.",
+                "notes": "Retained to capture structured reasoning, distinct from providing simple explanations."
+            },
+            {
+                "code": "Seeking Information",
+                "definition": "Participants request information or seek clarification on specific topics.",
+                "inclusion_criteria": [
+                    "Questions or requests for information",
+                    "Seeking feedback or clarification"
+                ],
+                "exclusion_criteria": [
+                    "Statements without inquiry",
+                    "Narratives not focused on information-seeking"
+                ],
+                "typical_examples": [
+                    "explain what he used to do at Capital Records"
+                ],
+                "atypical_examples": [
+                    "debate the Quran"
+                ],
+                "participants": [
+                    "6131ba00bd67d2702e9a3c8d",
+                    "5e8a76b3939b3072dc76fb5c"
+                ],
+                "relevance_to_RQ": "Relates to RQ3 by identifying narrative segments that focus on obtaining external validation or information.",
+                "notes": "Retained for its clear focus on information requests. Distinct from Request_Assistance which focuses on help solicitation."
+            },
+            {
+                "code": "Descriptive Storytelling",
+                "definition": "Participants provide descriptive accounts of scenes, stories, or events.",
+                "inclusion_criteria": [
+                    "Detailed depictions of events",
+                    "Descriptive language in narratives"
+                ],
+                "exclusion_criteria": [
+                    "Opinions without description",
+                    "Simple explanations"
+                ],
+                "typical_examples": [
+                    "describe a scene from a movie"
+                ],
+                "atypical_examples": [
+                    "relay a story about a school exam and his favorite band."
+                ],
+                "participants": [
+                    "632f16551c905f94e05945bd",
+                    "5dcf4136cf8e7e086ea019e4"
+                ],
+                "relevance_to_RQ": "Supports RQ1 by illustrating how descriptive perception is expressed through detailed storytelling.",
+                "notes": "Retained to capture the nuances of enriched narrative descriptions."
+            }
+        ]
+    },
+    "current_num_token": {
+        "input_token": 295183,
+        "output_token": 12530
+    }
+}

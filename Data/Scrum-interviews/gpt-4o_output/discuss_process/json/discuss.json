@@ -1,0 +1,614 @@
+{
+    "Role_Team": [
+        {
+            "role": "Product Owners",
+            "Intended_Study_Level": "Masters",
+            "Subject": "Geography",
+            "Research_Interest": "Economics",
+            "Dimensions_Source": "Epistemological Assumptions",
+            "positionality": "As a Product Owner with a Master's focus in Geography, I explore the intersection of software quality and economic impacts, leveraging my interest in Economics. My background in Scrum and Geography informs my understanding of how practitioners define software quality, a question I investigate with epistemological curiosity. I realize that my academic and professional identity may bias my interpretation towards pragmatic and systems-thinking perspectives. I aim to integrate diverse disciplinary insights, recognizing these predispositions, to provide a well-rounded analysis of software quality definitions, ensuring my research is both grounded in practice and theoretically robust.",
+            "init_codebook": [
+                {
+                    "code": "Software_Process_Level",
+                    "definition": "Quality is defined at both the process and software levels.",
+                    "inclusion_criteria": [
+                        "Mention of process level and software level defining quality."
+                    ],
+                    "exclusion_criteria": [
+                        "Focus solely on software level or process level without mention of both."
+                    ],
+                    "typical_examples": [
+                        "Quality takes place in the process level and the software level."
+                    ],
+                    "atypical_examples": [
+                        "Quality is assessed during development stages encompassing various practices."
+                    ],
+                    "participants": [
+                        "Participant 1"
+                    ],
+                    "relevance_to_RQ": "Shows that quality is perceived at multiple levels in Scrum by practitioners.",
+                    "notes": "Quality at different layers."
+                },
+                {
+                    "code": "Quality_Practices",
+                    "definition": "Practices are implemented to assure quality during the software development process.",
+                    "inclusion_criteria": [
+                        "Mention of practices like unit tests or code standards to assure quality."
+                    ],
+                    "exclusion_criteria": [
+                        "Mention practices with no direct connection to quality assurance."
+                    ],
+                    "typical_examples": [
+                        "We implement and exercise practices that assure quality."
+                    ],
+                    "atypical_examples": [
+                        "Practices that help coordinate projects, not specifically quality."
+                    ],
+                    "participants": [
+                        "Participant 1"
+                    ],
+                    "relevance_to_RQ": "Identifies what practices are used by Scrum practitioners to define or ensure quality.",
+                    "notes": "Focus on process elements ensuring quality."
+                },
+                {
+                    "code": "Conformity_to_Business_Needs",
+                    "definition": "Software quality is defined by its conformity to business needs and being defect-free.",
+                    "inclusion_criteria": [
+                        "Mention of software meeting business needs and being defect-free."
+                    ],
+                    "exclusion_criteria": [
+                        "Mention only of being defect-free without business needs conformity."
+                    ],
+                    "typical_examples": [
+                        "The end product must conform to business needs and be free of defects."
+                    ],
+                    "atypical_examples": [
+                        "Mention of software adaptability without direct business needs conformity."
+                    ],
+                    "participants": [
+                        "Participant 1"
+                    ],
+                    "relevance_to_RQ": "Defines quality through alignment with business needs, a critical view from Scrum practitioners.",
+                    "notes": "Business alignment in quality definition."
+                },
+                {
+                    "code": "Subjective_Nature_of_Quality",
+                    "definition": "Quality is acknowledged as a subjective concept.",
+                    "inclusion_criteria": [
+                        "Acknowledge the subjective nature or perception of quality."
+                    ],
+                    "exclusion_criteria": [
+                        "Strict definitions of quality that deny its subjectivity."
+                    ],
+                    "typical_examples": [
+                        "Quality is a subjective concept."
+                    ],
+                    "atypical_examples": [
+                        "Alluding to subjective nature without explicitly naming it."
+                    ],
+                    "participants": [
+                        "Participant 1"
+                    ],
+                    "relevance_to_RQ": "Highlights how Scrum practitioners perceive the ambiguous nature of defining quality.",
+                    "notes": "Subjectivity in defining quality."
+                },
+                {
+                    "code": "Internal_Software_Quality",
+                    "definition": "Focus on internal software quality attributes such as maintainability and understandability.",
+                    "inclusion_criteria": [
+                        "Mention of internal software attributes like code maintainability."
+                    ],
+                    "exclusion_criteria": [
+                        "Mention of external software quality attributes only."
+                    ],
+                    "typical_examples": [
+                        "We focus on internal software quality like maintainability."
+                    ],
+                    "atypical_examples": [
+                        "References to software entailing good design lacking internal quality focus."
+                    ],
+                    "participants": [
+                        "Participant 1"
+                    ],
+                    "relevance_to_RQ": "Adds the dimension of internal attributes in the quality discussion among Scrum practitioners.",
+                    "notes": "Role of internal qualities."
+                },
+                {
+                    "code": "Continuous_Improvement",
+                    "definition": "Quality is perceived as part of a continuous improvement process.",
+                    "inclusion_criteria": [
+                        "References to improving quality through continuous reflection or retrospectives."
+                    ],
+                    "exclusion_criteria": [
+                        "Mention of quality without ongoing improvement context."
+                    ],
+                    "typical_examples": [
+                        "We use retrospectives to continuously reflect on the way we work to become better at delivering quality."
+                    ],
+                    "atypical_examples": [
+                        "Implicit need for improvement without direct association to quality."
+                    ],
+                    "participants": [
+                        "Participant 1"
+                    ],
+                    "relevance_to_RQ": "Demonstrates how continuous improvement processes in Scrum define and influence quality.",
+                    "notes": "Improvement and quality interconnectedness."
+                }
+            ]
+        },
+        {
+            "role": "Software developers",
+            "Intended_Study_Level": "Bachelors",
+            "Subject": "Statistics",
+            "Research_Interest": "Economics",
+            "Dimensions_Source": "Cultural/Personal Biases",
+            "positionality": "As a bachelor's-level software developer with a background in statistics, my research interest in economics shapes my exploration of how Scrum practitioners define software quality. My focus is on how economic principles can quantify quality in iterative software development. I acknowledge my cultural and personal biases, recognizing they may color my analysis of quality metrics and practitioner viewpoints. My positionality influences this research by blending technical, statistical rigor with an economic perspective, informing my interpretation of agile methodologies. This interdisciplinary approach aims to provide a nuanced understanding of software quality, balancing quantitative data with practitioner experiences.",
+            "init_codebook": [
+                {
+                    "code": "Quality Attributes",
+                    "definition": "Captures the different attributes and dimensions through which software quality is defined.",
+                    "inclusion_criteria": [
+                        "Discusses quality attributes like defect-free, conforms to business needs, internal vs external quality."
+                    ],
+                    "exclusion_criteria": [
+                        "Does not discuss specific attributes or locations of quality in detail."
+                    ],
+                    "typical_examples": [
+                        "Quality means a product meets customer requirements and is free of defects."
+                    ],
+                    "atypical_examples": [
+                        "Quality is subjective and has many aspects depending on who you ask."
+                    ],
+                    "participants": [
+                        "Participant 19"
+                    ],
+                    "relevance_to_RQ": "This delineates the various ways Scrum practitioners conceptualize software quality.",
+                    "notes": "Reflects how quality attributes influence understanding in a Scrum framework."
+                },
+                {
+                    "code": "Internal vs External Quality",
+                    "definition": "Differentiates between the internal and external aspects of software quality.",
+                    "inclusion_criteria": [
+                        "Mentions differentiation between internal (code, structure) and external (user-facing) quality."
+                    ],
+                    "exclusion_criteria": [
+                        "Does not expressly differentiate or mention internal/external categorization."
+                    ],
+                    "typical_examples": [
+                        "Internal quality has to do with the way that the system has been built and designed."
+                    ],
+                    "atypical_examples": [
+                        "Software quality means both outcome and process."
+                    ],
+                    "participants": [
+                        "Participant 12"
+                    ],
+                    "relevance_to_RQ": "Helps to understand how practitioners emphasize different areas of quality in defining it.",
+                    "notes": "Illustrates the broad perspective practitioners have towards quality in Scrum."
+                },
+                {
+                    "code": "Quality and Business Needs",
+                    "definition": "Relates quality to how well a product meets business needs and user requirements.",
+                    "inclusion_criteria": [
+                        "Emphasizes meeting business needs and relevant requirements as central to quality."
+                    ],
+                    "exclusion_criteria": [
+                        "Does not relate quality to business or user requirements."
+                    ],
+                    "typical_examples": [
+                        "Software quality means that the product meets business needs and has no defects."
+                    ],
+                    "atypical_examples": [
+                        "Quality defined more through technical metrics than business needs."
+                    ],
+                    "participants": [
+                        "Participant 14"
+                    ],
+                    "relevance_to_RQ": "Clarifies the alignment of quality with business goals among Scrum practitioners.",
+                    "notes": "Quality assurance as an alignment tool with business objectives."
+                },
+                {
+                    "code": "Process and Continuous Improvement",
+                    "definition": "Defines quality as related to the continuous improvement and effectiveness of processes.",
+                    "inclusion_criteria": [
+                        "Emphasizes process improvement as integral to achieving quality."
+                    ],
+                    "exclusion_criteria": [
+                        "Focuses solely on product or code quality rather than process."
+                    ],
+                    "typical_examples": [
+                        "The agile process itself is subject to continuous improvements."
+                    ],
+                    "atypical_examples": [
+                        "Achieving quality primarily through end-product specifications."
+                    ],
+                    "participants": [
+                        "Participant 17"
+                    ],
+                    "relevance_to_RQ": "Shows how iterative and adaptive processes are central to Scrum practitioner definitions of quality.",
+                    "notes": "The focus is on the ongoing refinement rather than static evaluations."
+                },
+                {
+                    "code": "Subjectivity in Defining Quality",
+                    "definition": "Acknowledges the subjective nature of defining software quality.",
+                    "inclusion_criteria": [
+                        "Comments on the variability or subjectivity of quality definitions."
+                    ],
+                    "exclusion_criteria": [
+                        "Does not mention subjectivity or differing perspectives on quality."
+                    ],
+                    "typical_examples": [
+                        "Quality can be defined in many ways, depending on who you ask."
+                    ],
+                    "atypical_examples": [
+                        "We have a strict definition of quality in technical terms."
+                    ],
+                    "participants": [
+                        "Participant 27"
+                    ],
+                    "relevance_to_RQ": "Identifies the varied and personal interpretations of quality among practitioners.",
+                    "notes": "Subjectivity impacts processes and the assessment of quality frameworks."
+                },
+                {
+                    "code": "Importance of Clean Code",
+                    "definition": "Emphasizes clean, maintainable code as an essential part of software quality.",
+                    "inclusion_criteria": [
+                        "Discusses the necessity of clean, understandable, or maintainable code."
+                    ],
+                    "exclusion_criteria": [
+                        "Focuses only on external or user-facing aspects of quality."
+                    ],
+                    "typical_examples": [
+                        "We aim for clean code that conforms to well-established guidelines."
+                    ],
+                    "atypical_examples": [
+                        "Primary focus on user interfaces or feature completeness."
+                    ],
+                    "participants": [
+                        "Participant 5"
+                    ],
+                    "relevance_to_RQ": "Reveals the focus on technical excellence within Scrum when defining quality.",
+                    "notes": "Clean code reflects a disciplined approach within agile frameworks."
+                },
+                {
+                    "code": "Impact of Agile/Scrum Methods",
+                    "definition": "Considers the impact of Agile and Scrum methodologies on perceptions and practices of quality.",
+                    "inclusion_criteria": [
+                        "Explains how Scrum practices contribute to achieving software quality."
+                    ],
+                    "exclusion_criteria": [
+                        "Does not relate quality to specific methodologies or processes."
+                    ],
+                    "typical_examples": [
+                        "Scrum helps us to work well together and build better quality software."
+                    ],
+                    "atypical_examples": [
+                        "Quality is primarily a result of standalone engineering practices."
+                    ],
+                    "participants": [
+                        "Participant 11"
+                    ],
+                    "relevance_to_RQ": "Illuminates how practitioners find agile frameworks influence their quality practices.",
+                    "notes": "Illustrates the method-process-quality link in agile environments."
+                }
+            ]
+        },
+        {
+            "role": "Software developers",
+            "Intended_Study_Level": "Masters",
+            "Subject": "Anthropology",
+            "Research_Interest": "Economics",
+            "Dimensions_Source": "Ethical/Societal Assumptions",
+            "positionality": "As a software developer pursuing a Master's degree in Anthropology with an interest in Economics, I am intrigued by how Scrum practitioners define software quality. My goal is to explore this from an anthropological perspective, understanding the cultural and economic dynamics at play in software environments. I must remain mindful of my ethical and societal assumptions, particularly concerning agile methodologies' impact on work culture and economic outputs. These layers of my positionality inform my approach, allowing me to critically engage with the research question while acknowledging how my background and biases might shape my interpretations and conclusions.",
+            "init_codebook": [
+                {
+                    "code": "Quality_in_Process_and_Product",
+                    "definition": "Quality is defined as existing at both the process level and the product level.",
+                    "inclusion_criteria": [
+                        "Mentions quality in terms of process and the final product."
+                    ],
+                    "exclusion_criteria": [
+                        "Only discusses quality in terms of software attributes like code cleanliness or user needs without mentioning the process."
+                    ],
+                    "typical_examples": [
+                        "Quality takes place in the process level and the software level."
+                    ],
+                    "atypical_examples": [
+                        "Quality is subjective but involves our entire development approach."
+                    ],
+                    "participants": [
+                        "Participant 1"
+                    ],
+                    "relevance_to_RQ": "This code reveals how Scrum practitioners view quality as being integrated into both the development stages and the final output.",
+                    "notes": "Captures dual focus on procedural and product-oriented quality."
+                },
+                {
+                    "code": "Continuous_Improvement_Emphasis",
+                    "definition": "Emphasis on the process of continuous improvements as integral to achieving quality.",
+                    "inclusion_criteria": [
+                        "Mentions continuous improvement, retrospectives, or iterative enhancements to process."
+                    ],
+                    "exclusion_criteria": [
+                        "Focusing solely on initial process setup without iterative enhancement."
+                    ],
+                    "typical_examples": [
+                        "The agile process itself is subject to continuous improvements."
+                    ],
+                    "atypical_examples": [
+                        "We always experiment to come up with better ways."
+                    ],
+                    "participants": [
+                        "Participant 1",
+                        "Participant 13"
+                    ],
+                    "relevance_to_RQ": "Highlights practitioners' belief that ongoing refinement of practices is central to achieving high quality.",
+                    "notes": "Reflects Agile principles of continuous adaptation and refinement."
+                },
+                {
+                    "code": "Code_Quality_Attributes",
+                    "definition": "Specific attributes of code quality such as cleanliness, maintainability, and adaptability to change.",
+                    "inclusion_criteria": [
+                        "Discussion of code quality directly including mentions of clean code, and design adaptability."
+                    ],
+                    "exclusion_criteria": [
+                        "Discusses quality without reference to code, design, or adaptability."
+                    ],
+                    "typical_examples": [
+                        "We also aim for sustainability of the design."
+                    ],
+                    "atypical_examples": [
+                        "Clean code is subjective, but we know at least it should be simple."
+                    ],
+                    "participants": [
+                        "Participant 12",
+                        "Participant 18"
+                    ],
+                    "relevance_to_RQ": "Provides insights into how practitioners define software quality in terms of code itself.",
+                    "notes": "Distinct focus on technical coding standards and adaptability for future changes."
+                },
+                {
+                    "code": "Customer_Conformity_and_Defect-Free",
+                    "definition": "Software must meet customer needs and be free of defects to be considered high quality.",
+                    "inclusion_criteria": [
+                        "Mentions conformity to requirements and defect-free product."
+                    ],
+                    "exclusion_criteria": [
+                        "Discusses internal quality or process quality without customer needs."
+                    ],
+                    "typical_examples": [
+                        "Software quality is first and most the product confirms to the requirements and free of defects."
+                    ],
+                    "atypical_examples": [
+                        "The software should add value to the business, addressing needs."
+                    ],
+                    "participants": [
+                        "Participant 12",
+                        "Participant 19"
+                    ],
+                    "relevance_to_RQ": "Defines the expected outcomes of software quality regarding user needs and error-free operation.",
+                    "notes": "Customer satisfaction through meeting requirements and quality assurance."
+                },
+                {
+                    "code": "Comprehensive_Process",
+                    "definition": "Quality assurance as a comprehensive process from documentation to testing in the development lifecycle.",
+                    "inclusion_criteria": [
+                        "Details comprehensive development and testing procedures."
+                    ],
+                    "exclusion_criteria": [
+                        "Focuses on only one aspect of process like initial development or final product testing."
+                    ],
+                    "typical_examples": [
+                        "From requirements elicitation and documentation to testing with checklists and guidelines."
+                    ],
+                    "atypical_examples": [
+                        "The process enables better software quality."
+                    ],
+                    "participants": [
+                        "Participant 12",
+                        "Participant 5"
+                    ],
+                    "relevance_to_RQ": "Illustrates the structured procedural practice aimed at achieving software quality.",
+                    "notes": "Emphasizes the breadth of procedures aimed at maintaining standards."
+                },
+                {
+                    "code": "Process_Quality_Importance",
+                    "definition": "Emphasis on the importance of having a strong software development process.",
+                    "inclusion_criteria": [
+                        "Refers to process as key to delivering software."
+                    ],
+                    "exclusion_criteria": [
+                        "Discusses software quality without process-focused discourse."
+                    ],
+                    "typical_examples": [
+                        "Quality doesn\u2019t happen without a robust and quality process."
+                    ],
+                    "atypical_examples": [
+                        "You cannot get the process right from the first go."
+                    ],
+                    "participants": [
+                        "Participant 7",
+                        "Participant 9"
+                    ],
+                    "relevance_to_RQ": "Shows prioritization of procedures essential for achieving software quality.",
+                    "notes": "Reflects how essential solid procedures are perceived in maintaining quality."
+                }
+            ]
+        }
+    ],
+    "Agreed_disagreed_codebook": {
+        "agreements": [
+            {
+                "code": "Conformity_to_Business_Needs",
+                "roles": [
+                    "Product Owners",
+                    "Software Developers"
+                ],
+                "reason": "Both roles emphasize meeting business needs and being defect-free as central to defining software quality. They relate quality to the alignment with business or customer objectives."
+            },
+            {
+                "code": "Continuous Improvement",
+                "roles": [
+                    "Product Owners",
+                    "Software Developers"
+                ],
+                "reason": "All roles highlight the importance of continuous improvement in processes as integral to achieving software quality, reflecting an agile mindset focusing on iterative enhancement."
+            },
+            {
+                "code": "Subjective Nature of Quality",
+                "roles": [
+                    "Product Owners",
+                    "Software Developers"
+                ],
+                "reason": "Both roles acknowledge the subjective or varied nature of defining quality, highlighting the personal and differing interpretations among practitioners."
+            },
+            {
+                "code": "Internal Software Quality",
+                "roles": [
+                    "Product Owners",
+                    "Software Developers"
+                ],
+                "reason": "Both roles recognize the importance of internal quality attributes, such as maintainability and clean code, indicating a consensus on technical excellence being a component of software quality."
+            }
+        ],
+        "disagreements": [
+            {
+                "code": "Software_Process_Level",
+                "roles": [
+                    "Product Owners",
+                    "Software Developers"
+                ],
+                "reason": "Product Owners and one group of Software Developers highlight quality as existing at both process and software levels, while another group of Software Developers focuses more on the process versus product quality without explicit mention of both simultaneously."
+            },
+            {
+                "code": "Quality Practices",
+                "roles": [
+                    "Product Owners"
+                ],
+                "reason": "The Product Owners emphasize specific practices implemented within the process to ensure quality, whereas this focus on detailed practices is less evident in the Software Developers' codebooks."
+            },
+            {
+                "code": "Importance of Clean Code",
+                "roles": [
+                    "Software Developers"
+                ],
+                "reason": "While Software Developers emphasize clean code as vital for software quality, this specific focus on clean code is not present in the Product Owners' codebook, indicating a potential divergence in attribute prioritization."
+            },
+            {
+                "code": "Impact of Agile/Scrum Methods",
+                "roles": [
+                    "Software Developers"
+                ],
+                "reason": "Software Developers discuss how Agile/Scrum methodologies influence quality perceptions and practices, a specific emphasis not reflected in the Product Owners' codebook, showing a divergence in the contextualization of processes."
+            }
+        ]
+    },
+    "Discussion": {
+        "round1": "[{'Role1(Product Owners)': {'Role': 'Product Owners', 'Disagreement_Evidence': [{'code': 'Software_Process_Level', 'Preliminary_Claim': 'retain', 'Definition': 'Disagreement on whether quality should be assessed at both the process and software levels simultaneously, or more distinctly as one over the other.', 'Evidence_Literature': {'Author': 'Juran, Joseph M.', 'Year': '1999', 'Title': \"Juran's Quality Handbook\", 'DOI_or_Link': 'https://www.mhprofessional.com/jurans-quality-handbook-9780070340039-usa', 'Summary': 'Juran emphasizes the importance of quality at both the process and product levels, supporting the idea that both should be concurrently addressed.'}, 'Evidence_Content': {'Observation': 'The code definition suggesting simultaneous consideration of process and software quality is crucial for holistic quality management.', 'Relevance': 'When quality is regarded at both levels, it aligns with Agile practices that focus on overall process improvement and final product satisfaction.'}, 'Evidence_Logic': {'Reasoning': 'Retaining this perspective allows for a comprehensive view of quality that ensures both product performance and process efficiency.', 'Impact': 'Improve interpretive clarity by showing the interconnected nature of process and product, enhancing coder consistency and reducing cognitive load by combing evaluations.'}}, {'code': 'Quality Practices', 'Preliminary_Claim': 'retain', 'Definition': 'Disagreement over the emphasis on specific practices within the process to ensure quality.', 'Evidence_Literature': {'Author': 'Schwaber, Ken', 'Year': '2004', 'Title': 'Agile Project Management with Scrum', 'DOI_or_Link': 'https://www.scrum.org/resources/agile-project-management-scrum', 'Summary': 'Schwaber discusses specific practices within Scrum that ensure quality outcomes, supporting an emphasis on detailed process practices.'}, 'Evidence_Content': {'Observation': 'Product Owners focus on explicit practices like user stories and sprint reviews to ensure alignment with business goals.', 'Relevance': 'Emphasizing specific practices highlights actionable steps that contribute directly to meeting business objectives.'}, 'Evidence_Logic': {'Reasoning': 'Emphasizing specific practices guides practitioners on actionable and measurable steps to achieve and assess quality.', 'Impact': 'Enhances annotation efficiency by providing clear criteria, reducing cognitive load and increasing coder alignment.'}}, {'code': 'Importance of Clean Code', 'Preliminary_Claim': 'do_not_retain', 'Definition': 'Disagreement on the prioritization of clean code specifically as a component of software quality.', 'Evidence_Literature': {'Author': 'Martin, Robert C.', 'Year': '2008', 'Title': 'Clean Code: A Handbook of Agile Software Craftsmanship', 'DOI_or_Link': 'https://www.pearson.com/us/higher-education/product/Martin-Clean-Code-A-Handbook-of-Agile-Software-Craftsmanship/9780132350884.html', 'Summary': \"Martin's work emphasizes the technical benefits of clean code but does not align clean code uniquely with business-level quality requirements.\"}, 'Evidence_Content': {'Observation': 'Product Owners prioritize alignment with business needs over the technical focus of clean code.', 'Relevance': 'While clean code is technically beneficial, it does not directly align with business objectives, which are the primary concern for Product Owners.'}, 'Evidence_Logic': {'Reasoning': 'Not retaining this focuses the quality definition on market needs rather than internal technical aspects like code aesthetics.', 'Impact': 'Improves interpretive clarity by aligning quality assessment criteria specifically with business goals, aiding coder consistency.'}}, {'code': 'Impact of Agile/Scrum Methods', 'Preliminary_Claim': 'retain', 'Definition': \"Disagreement about the emphasis on Agile/Scrum methods' influence on software quality perceptions and practices.\", 'Evidence_Literature': {'Author': 'Sutherland, Jeff', 'Year': '2014', 'Title': 'Scrum: The Art of Doing Twice the Work in Half the Time', 'DOI_or_Link': 'https://www.penguinrandomhouse.com/books/311375/scrum-by-jeff-sutherland-with-jj-sutherland/', 'Summary': 'Sutherland illustrates how Scrum methodologies transform approaches to quality, emphasizing rapid iterations and feedback loops as quality enhancers.'}, 'Evidence_Content': {'Observation': 'Agile/Scrum methods inherently focus on iterative feedback, which is crucial for continuous quality improvement as seen in multiple practices.', 'Relevance': 'Recognizing the influence of these methods formalizes the adaptability and responsiveness essential to modern software quality definitions.'}, 'Evidence_Logic': {'Reasoning': 'Retaining this emphasis supports the reality of Agile/Scrum as frameworks that underpin and often redefine quality approaches.', 'Impact': 'Supports coder consistency by providing clear contextual pathways for understanding variations in quality based on Agile principles.'}}]}}, {'Role2(Software developers)': {'Role': 'Software Developers', 'Disagreement_Evidence': [{'code': 'Software_Process_Level', 'Preliminary_Claim': 'retain', 'Definition': 'The disagreement centers on whether software quality should be described at both process and product levels or focus on one aspect more prominently.', 'Evidence_Literature': {'Author': 'Pressman, R. S.', 'Year': '2005', 'Title': \"Software Engineering: A Practitioner's Approach\", 'DOI_or_Link': 'https://www.mheducation.com/', 'Summary': 'Pressman discusses how quality is achieved through both good process management and refined product characteristics. This supports retaining the code by highlighting both dimensions must be considered.'}, 'Evidence_Content': {'Observation': 'The code itself showcases differing views on whether to emphasize process or product quality, aligning with the research focus on quality definition.', 'Relevance': 'Retaining the code captures the nuanced interpretations among developers regarding quality focus.'}, 'Evidence_Logic': {'Reasoning': 'Acknowledging both process and product quality enhances interpretive clarity and fosters comprehensive coder discussions.', 'Impact': 'Facilitates a balanced understanding of quality, reducing cognitive load by providing a clear boundary for context.'}}, {'code': 'Quality Practices', 'Preliminary_Claim': 'retain', 'Definition': 'The disagreement involves whether explicit quality practices are emphasized as central to quality definition.', 'Evidence_Literature': {'Author': 'Cohn, M.', 'Year': '2010', 'Title': 'Succeeding with Agile: Software Development Using Scrum', 'DOI_or_Link': 'https://www.informit.com/store/succeeding-with-agile-software-development-using-scrum-9780321579362', 'Summary': 'Cohn highlights the importance of practices for continuous improvement and quality assurance in Scrum, aligning with the need to retain emphasis on quality practices in coding.'}, 'Evidence_Content': {'Observation': 'The code identifies the extent and nature of practice emphasis that contributes to achieving quality.', 'Relevance': 'Retaining ensures coverage of practice-oriented aspects of quality which aligns with developers\u2019 iterative improvement focus.'}, 'Evidence_Logic': {'Reasoning': 'Explicit focus on practices can delineate specific actions contributing to quality, simplifying annotation efficiency.', 'Impact': 'Supports clear distinctions and consistent coder interpretation, easing cognitive processes.'}}, {'code': 'Importance of Clean Code', 'Preliminary_Claim': 'retain', 'Definition': 'The disagreement concerns the unique importance attributed to clean code as a quality criterion by developers.', 'Evidence_Literature': {'Author': 'Martin, R. C.', 'Year': '2009', 'Title': 'Clean Code: A Handbook of Agile Software Craftsmanship', 'DOI_or_Link': 'https://www.pearson.com/', 'Summary': 'Martin provides a rigorous argument for clean code\u2019s necessity for maintainability and adaptability, supporting its unique recognition in developer communities.'}, 'Evidence_Content': {'Observation': 'Developers prioritize clean code as foundational to software quality, capturing a key quality attribute in development practice.', 'Relevance': \"Retaining reflects developers' technical focus and aligns closely with practical and economic software maintenance concerns.\"}, 'Evidence_Logic': {'Reasoning': 'Highlighting the importance of clean code ensures consistent coding standards and reduces interpretive ambiguity.', 'Impact': 'Increased coder consistency and production of maintainable, high-quality products, reducing cognitive load.'}}, {'code': 'Impact of Agile/Scrum Methods', 'Preliminary_Claim': 'retain', 'Definition': 'The disagreement arises from differing emphases on how Agile/Scrum methodologies specifically shape quality perceptions.', 'Evidence_Literature': {'Author': 'Schwaber, K., & Sutherland, J.', 'Year': '2017', 'Title': 'The Scrum Guide', 'DOI_or_Link': 'https://www.scrumguides.org/', 'Summary': \"The Scrum Guide explicitly outlines how agile practices influence quality via iterative delivery and feedback, supporting developers' emphasis.\"}, 'Evidence_Content': {'Observation': 'Developers note Agile/Scrum methods\u2019 influence on iterative improvement and quality assessment processes.', 'Relevance': \"Retaining the code emphasizes the contextual impact of methodologies on quality practices, capturing developers' process integration.\"}, 'Evidence_Logic': {'Reasoning': \"Reflecting Agile/Scrum's impact on quality ensures comprehensive coverage of modern development practices.\", 'Impact': 'Enhances coder consistency by aligning coding focus with agile principles, reducing potential misinterpretations.'}}]}}, {'Role3(Software developers)': {'Role': 'Software Developers', 'Disagreement_Evidence': [{'code': 'Software_Process_Level', 'Preliminary_Claim': 'retain', 'Definition': 'Dispute on whether quality is defined at both process and software levels or primarily at the process level.', 'Evidence_Literature': {'Author': 'Serrador, P., & Pinto, J. K.', 'Year': '2015', 'Title': 'Does Agile work? \u2014 A quantitative analysis of agile project success', 'DOI_or_Link': 'https://doi.org/10.1016/j.ijproman.2015.01.006', 'Summary': 'This study highlights the critical importance of both process efficiency and product quality in achieving project success, supporting the claim of retaining this code.'}, 'Evidence_Content': {'Observation': 'The disagreement hinges on different emphases placed on process versus software quality.', 'Relevance': 'This is relevant as it directly impacts how quality is understood in terms of its operationalization during software development.'}, 'Evidence_Logic': {'Reasoning': 'Retaining the code acknowledges the multidimensional nature of quality, facilitating a comprehensive view.', 'Impact': 'Improves interpretive clarity and allows for coder consistency in evaluating quality-related annotations.'}}, {'code': 'Quality Practices', 'Preliminary_Claim': 'do not retain', 'Definition': 'Dispute regarding the emphasis on specific quality practices within the development process.', 'Evidence_Literature': {'Author': 'Beck, K.', 'Year': '2000', 'Title': 'Extreme Programming Explained: Embrace Change', 'DOI_or_Link': 'https://www.informit.com/store/extreme-programming-explained-embrace-change-9780321278654', 'Summary': 'This foundational text explains various quality practices in software development, supporting the opposing view that explicit practices are vital.'}, 'Evidence_Content': {'Observation': 'The emphasis on specific practices can vary and may not align directly with overarching quality definitions.', 'Relevance': 'The disagreement centers on practice specificity, which might not be universally applicable or agreed upon.'}, 'Evidence_Logic': {'Reasoning': 'Not retaining this code reduces unnecessary complexity and focuses on overarching quality outcomes.', 'Impact': 'Reduces cognitive load for annotators by simplifying the focus to quality results rather than procedures.'}}, {'code': 'Importance of Clean Code', 'Preliminary_Claim': 'retain', 'Definition': 'Dispute on whether clean code is centrally emphasized as vital for software quality.', 'Evidence_Literature': {'Author': 'Martin, R. C.', 'Year': '2008', 'Title': 'Clean Code: A Handbook of Agile Software Craftsmanship', 'DOI_or_Link': 'https://www.pearson.com/store/p/clean-code-a-handbook-of-agile-software-craftsmanship/P100000211673', 'Summary': \"Robert Martin's work underscores the foundational role of clean code in achieving high software quality, supporting retention.\"}, 'Evidence_Content': {'Observation': 'Software Developers\u2019 prioritization of clean code as integral mirrors broader industry best practices.', 'Relevance': 'Retaining this ensures alignment with actual developer concerns and practices.'}, 'Evidence_Logic': {'Reasoning': \"Retaining ensures ongoing recognition of clean code's impact on long-term quality and maintainability.\", 'Impact': 'Aids coder consistency and reflects contemporary best practices for software quality.'}}, {'code': 'Impact of Agile/Scrum Methods', 'Preliminary_Claim': 'retain', 'Definition': \"Dispute regarding the discussion of Agile/Scrum methodologies' influence on software quality perceptions.\", 'Evidence_Literature': {'Author': 'Highsmith, J.', 'Year': '2001', 'Title': 'Agile Software Development Ecosystems', 'DOI_or_Link': 'https://www.informit.com/store/agile-software-development-ecosystems-9780201760439', 'Summary': 'This emphasizes how Agile frameworks significantly affect quality perceptions, justifying retention of the focus on process influence.'}, 'Evidence_Content': {'Observation': 'Software Developers\u2019 specific discussions reflect how methodologies shape quality practices and expectations.', 'Relevance': 'It captures the dynamic and evolving understanding of quality influenced by these methodologies.'}, 'Evidence_Logic': {'Reasoning': 'Retaining highlights critical contextual influences on quality, ensuring holistic understanding and annotation accuracy.', 'Impact': 'Helps maintain coder consistency by recognizing key methodological dimensions in quality discussions.'}}]}}]",
+        "round2": "[{'Role1(Product Owners)': {'Role': 'Product Owners', 'DecisionPattern': 'Accuracy over efficiency, prioritize expressiveness over redundancy', 'Reasoning': [{'code': 'Software_Process_Level', 'Disagreement_Point': 'Whether quality should be assessed at both the process and software levels simultaneously, or more distinctly as one over the other.', 'Self_Check': {'First_ExplicitStance': 'support', 'Then_DefinitionConsistency': 'The stance to support simultaneous assessment of quality at both process and software levels is justified through literature that emphasizes comprehensive quality management. Evidence indicates the interconnected nature of process efficiency and software performance, aligning with Agile practices focusing on overall improvements.', 'Finally_LimitationsDecision': 'Continue to Support'}, 'Cross_Discussion': {'PerRoleAnalysis': [{'OtherRole': 'Software Developers', 'Example': 'The emphasis on process quality was a defensible point as processes can directly impact software outcomes.', 'Counterexample': 'However, focusing solely on process can detract from assessing the final product quality directly, missing crucial software-level insights.', 'Summary': 'While there is alignment on the importance of both process and software levels, my role emphasizes equal assessment of both aspects due to their intertwined nature.'}], 'Consensus': 'Software Developers\u2014due to shared acknowledgment of the dual importance of process and product.', 'Divergence': 'No strong divergence as both roles recognize the necessity of addressing both levels, although priorities may differ.', 'HybridPerspective': 'A synthesis where acknowledging both levels is seen as essential, but prioritizing them contextually based on situational demands can be beneficial.'}}, {'code': 'Quality Practices', 'Disagreement_Point': 'Focus on the emphasis on specific practices within the process to ensure quality.', 'Self_Check': {'First_ExplicitStance': 'support', 'Then_DefinitionConsistency': 'Emphasizing specific practices aligns with literature on Agile methodologies, which advocate for structured practices aiding quality assurance. The practical focus enables clear pathways to implementing improvements.', 'Finally_LimitationsDecision': 'Continue to Support'}, 'Cross_Discussion': {'PerRoleAnalysis': [{'OtherRole': 'Software Developers', 'Example': \"Acknowledgement of Agile methodologies aligns with Product Owners' focus on practices.\", 'Counterexample': 'Developers might not prioritize explicit practices over broader adaptability, leading to less detail-oriented quality definitions.', 'Summary': 'Our definition provides pragmatic clarity, whereas developers may prefer a more flexible, abstract process.'}], 'Consensus': 'None explicitly\u2014emphasis on specific practices does not fully align with developers\u2019 broader view.', 'Divergence': 'Software Developers\u2014focus more on overall adaptability rather than specific practices, diverging on emphasis.', 'HybridPerspective': 'An incorporation of structured practices balanced with adaptable frameworks to maximize practicality and alignment with objectives.'}}, {'code': 'Importance of Clean Code', 'Disagreement_Point': 'Prioritization of clean code specifically as a component of software quality.', 'Self_Check': {'First_ExplicitStance': 'refute', 'Then_DefinitionConsistency': 'Prioritizing business needs and objectives over clean code aligns with literature implying alignment with external quality. Clean codes\u2019 benefits are indirectly aligned with business goals through maintainability, but not as a primary focus.', 'Finally_LimitationsDecision': 'Refute My Claim'}, 'Cross_Discussion': {'PerRoleAnalysis': [{'OtherRole': 'Software Developers', 'Example': 'Developers emphasize the importance of clean code for maintainability and technical excellence.', 'Counterexample': 'This perspective may overlook alignment with overarching business goals, which are central in Product Owner evaluations.', 'Summary': 'While clean code contributes to quality, Product Owners focus on business-oriented aspects as primary.'}], 'Consensus': 'None closely\u2014Product Owners\u2019 focus on business needs may not align directly with clean code technicalities.', 'Divergence': 'Software Developers\u2014focus strongly on technical aspects over aligning directly with business needs.', 'HybridPerspective': 'Acknowledgment of clean code as a contributory factor but framing its importance within the sphere of overall business alignment and needs.'}}, {'code': 'Impact of Agile/Scrum Methods', 'Disagreement_Point': \"Emphasis on Agile/Scrum methods' influence on software quality perceptions and practices.\", 'Self_Check': {'First_ExplicitStance': 'support', 'Then_DefinitionConsistency': 'The focus on Agile/Scrum as quality enhancers is supported by both literature and practice, intertwining quality improvements with iterative feedback and adaptability.', 'Finally_LimitationsDecision': 'Continue to Support'}, 'Cross_Discussion': {'PerRoleAnalysis': [{'OtherRole': 'Software Developers', 'Example': 'Their emphasis on iterative methodologies aligns with our view of its impact on continuous quality improvements.', 'Counterexample': 'Less focus on how these practices integrate directly with business objectives compared to process adaptiveness and technical craft.', 'Summary': 'Developers align with Agile/Scrum methods\u2019 impact but might weigh the internal flexibility over external objective alignment.'}], 'Consensus': \"Software Developers\u2014aligned on recognizing Agile/Scrum's role, with variation in emphasis on technical versus business-primary outcomes.\", 'Divergence': 'None significant\u2014shared methodological recognition is strong.', 'HybridPerspective': 'Continued focus on Agile/Scrum methods for both product and process excellence within the adaptive context of ongoing business and market needs.'}}]}}, {'Role2(Software developers)': {'Role': 'Software Developers', 'DecisionPattern': 'Balance between expressiveness and efficiency', 'Reasoning': [{'code': 'Software_Process_Level', 'Disagreement_Point': 'The focus on software quality at the process and product level', 'Self_Check': {'First_ExplicitStance': 'support', 'Then_DefinitionConsistency': 'The literature by Pressman emphasizes the value of understanding software quality from both a process and product perspective to ensure comprehensive quality assessment. The content-based evidence aligns with development practices that require consideration of both process management and end-product characteristics. Logic-based reasoning supports this dual focus as it fosters a holistic approach to quality.', 'Finally_LimitationsDecision': 'Continue to Support'}, 'Cross_Discussion': {'PerRoleAnalysis': [{'OtherRole': 'Product Owners', 'Example': \"Product Owners recognize the importance of both process and product quality, similar to Pressman's articulation.\", 'Counterexample': 'Product Owners may underplay the iterative and technical aspects that developers experience, focusing more on the process.', 'Summary': 'Aligns on the idea of dual focus but diverges in the prioritization and depth of technical versus business-oriented tasks.'}], 'Consensus': 'Product Owners align due to their recognition of both process and product quality aspects.', 'Divergence': 'Divergence arises in the prioritization of technical complexity versus business outcomes.', 'HybridPerspective': 'A synthesis that compares technical excellence with business efficiency would offer a balanced view within this dual focus framework.'}}, {'code': 'Quality Practices', 'Disagreement_Point': 'Emphasis on explicit quality practices within development', 'Self_Check': {'First_ExplicitStance': 'support', 'Then_DefinitionConsistency': 'Cohn\u2019s work underscores the importance of explicit quality practices in iterative development, aligning with content-based evidence where developers prefer explicit guidelines. Logic-based reasoning suggests that clear practices ensure consistency and quality, integral to iterative improvement.', 'Finally_LimitationsDecision': 'Continue to Support'}, 'Cross_Discussion': {'PerRoleAnalysis': [{'OtherRole': 'Product Owners', 'Example': 'Product Owners emphasize quality practices as well, as evidenced in Cohn\u2019s work.', 'Counterexample': 'The emphasis on granular practices might lead to diminished agile flexibility, which Product Owners might value more.', 'Summary': 'The emphasis on structured practices aligns, but potential trade-offs with flexibility diverge.'}], 'Consensus': 'Both roles support explicit practices but conflict over their rigidity versus adaptive flexibility.', 'Divergence': 'The divergence lies in the extent to which practices restrict adaptability.', 'HybridPerspective': 'Integrating structured practices with adaptable objectives can reconcile both roles\u2019 priorities.'}}, {'code': 'Importance of Clean Code', 'Disagreement_Point': 'Unique emphasis on clean code for quality by developers', 'Self_Check': {'First_ExplicitStance': 'support', 'Then_DefinitionConsistency': 'Martin\u2019s literature strongly supports the stance by detailing the necessity of clean code for long-term quality maintenance. Content-based evidence suggests developers prioritize this to ensure adaptability and maintainability. Logic-based reasoning acknowledges this as fundamental given technical focus required for maintenance.', 'Finally_LimitationsDecision': 'Continue to Support'}, 'Cross_Discussion': {'PerRoleAnalysis': [{'OtherRole': 'Product Owners', 'Example': 'Product Owners may not prioritize technical attributes such as clean code with the same emphasis and might focus more on end-user functionality.', 'Counterexample': 'While clean code is critical for maintenance, its immediate business value can be less explicit to Product Owners.', 'Summary': 'The criticality of clean code may translate differently in value perception between technical and business-focused roles.'}], 'Consensus': 'Developers prioritize clean code due to long-term value and maintainability.', 'Divergence': 'Product Owners might not see immediate business impacts, valuing functionality more.', 'HybridPerspective': 'Combine the technical imperative with business impact communication to align both concerns.'}}, {'code': 'Impact of Agile/Scrum Methods', 'Disagreement_Point': \"Developers emphasize Agile/Scrum's impact on quality\", 'Self_Check': {'First_ExplicitStance': 'support', 'Then_DefinitionConsistency': 'As per Schwaber and Sutherland, the Agile/Scrum framework heavily influences quality perception. Content evidence from developers supports the stance due to Agile\u2019s iterative and corrective nature, aligning with logic-based deductions highlighting its role in rapid adaptation.', 'Finally_LimitationsDecision': 'Continue to Support'}, 'Cross_Discussion': {'PerRoleAnalysis': [{'OtherRole': 'Product Owners', 'Example': 'Product Owners recognize Agile/Scrum methodologies but may focus more on end results rather than processes.', 'Counterexample': 'The specific emphasis on process translation to quality may not align with output-oriented views from Product Owners.', 'Summary': 'While Agile is acknowledged, it is perceived through differing lenses focused either on iterative processes or end goals.'}], 'Consensus': 'The iterative nature of Agile aligns with developers and practitioners recognizing process impacts.', 'Divergence': 'Focus differences between Agile process adaptability and immediate deliverable impacts cause divergence.', 'HybridPerspective': 'Recognizing both iterative process benefits and deliverable impacts can integrate focuses.'}}]}}, {'Role3(Software developers)': {'Role': 'Software Developers', 'DecisionPattern': 'Prioritize expressiveness and accuracy over redundancy', 'Reasoning': [{'code': 'Software_Process_Level', 'Disagreement_Point': 'Existence of quality at both process and software levels, or primarily one.', 'Self_Check': {'First_ExplicitStance': 'support', 'Then_DefinitionConsistency': 'Literature supports dual emphasis; process and product quality are intertwined. Content emphasizes varied developer focus but aligns with dual-level quality perspective.', 'Finally_LimitationsDecision': 'Continue to Support'}, 'Cross_Discussion': {'PerRoleAnalysis': [{'OtherRole': 'Product Owners', 'Example': 'Stresses dual-level quality, aligning with evidenced intertwined nature of agile quality.', 'Counterexample': 'May overemphasize process-centric view, neglecting product specifics.', 'Summary': 'Product Owners share dual emphasis, suggesting stronger alignment with my reasoning.'}], 'Consensus': 'Aligned with Product Owners due to shared dual-level quality perspective.', 'Divergence': '', 'HybridPerspective': ''}}, {'code': 'Quality Practices', 'Disagreement_Point': 'The emphasis on specific quality practices.', 'Self_Check': {'First_ExplicitStance': 'refute', 'Then_DefinitionConsistency': 'While literature shows practice importance, evidence highlights practice specificity\u2019s varied applicability, making refutation logical.', 'Finally_LimitationsDecision': 'Refute My Claim'}, 'Cross_Discussion': {'PerRoleAnalysis': [{'OtherRole': 'Product Owners', 'Example': 'Provides specific practice examples, highlighting operational reality.', 'Counterexample': 'May overly focus on practice at the expense of broader quality outcomes.', 'Summary': 'Product Owners focus more on practice examples, diverting from Software Developers\u2019 broader quality outcome view.'}], 'Consensus': '', 'Divergence': 'Divergent from Product Owners due to distinct focus on practice details versus broader outcomes.', 'HybridPerspective': 'Emphasize content-based practical examples with attention to outcomes.'}}, {'code': 'Importance of Clean Code', 'Disagreement_Point': 'The emphasis on clean code as essential for software quality.', 'Self_Check': {'First_ExplicitStance': 'support', 'Then_DefinitionConsistency': 'Evidence strongly aligns with industry literature and practices emphasizing clean code.', 'Finally_LimitationsDecision': 'Continue to Support'}, 'Cross_Discussion': {'PerRoleAnalysis': [{'OtherRole': 'Product Owners', 'Example': 'Acknowledges technical excellence, correlating with internal quality consensus.', 'Counterexample': 'Focuses less on clean code specifics, potentially undervaluing its foundational role.', 'Summary': 'While they recognize internal quality, divergence exists in clean code emphasis, highlighting differing role priorities.'}], 'Consensus': '', 'Divergence': 'Divergent from Product Owners due to differences in prioritizing clean code.', 'HybridPerspective': \"Maintain awareness of clean code's foundational role but incorporate broader technical excellence.\"}}, {'code': 'Impact of Agile/Scrum Methods', 'Disagreement_Point': \"Discussion of Agile/Scrum methodologies' influence on quality perceptions.\", 'Self_Check': {'First_ExplicitStance': 'support', 'Then_DefinitionConsistency': 'Literature and content confirm that methodologies shape quality, influencing practice and perceptions.', 'Finally_LimitationsDecision': 'Continue to Support'}, 'Cross_Discussion': {'PerRoleAnalysis': [{'OtherRole': 'Product Owners', 'Example': 'Acknowledges method influence, noted in quality perspectives.', 'Counterexample': 'Lacks emphasis on how methodologies dynamically alter quality understanding.', 'Summary': 'Agile influence recognized, yet specific impact differences suggest partial alignment.'}], 'Consensus': 'Consensus with Product Owners on methodology impact yet with varying emphasis.', 'Divergence': '', 'HybridPerspective': 'Balanced dynamic method influence acknowledgment across roles.'}}]}}]",
+        "round3": "[{'Role1(Product Owners)': {'Role': 'Product Owners', 'Final_Results': [{'code': 'Software_Process_Level', 'Initial_Claim_Round1': 'retain', 'Final_Decision': 'Continue to Support', 'Final_Claim': 'Yes, the code should be retained.', 'Final_Explanation': 'Retaining simultaneous consideration of process and software levels enhances holistic quality management, aligning with Agile practices.', 'Self_Reflection': {'Strengths': 'Supported by strong literature emphasizing integrated quality assessment across process and software.', 'Weaknesses': 'Potential complexity in balancing both focuses simultaneously could complicate implementation.', 'Future_Consideration': \"Clarify criteria for when each level's focus should take precedence based on contextual needs.\"}}, {'code': 'Quality Practices', 'Initial_Claim_Round1': 'retain', 'Final_Decision': 'Continue to Support', 'Final_Claim': 'Yes, the code should be retained.', 'Final_Explanation': 'Emphasizing specific practices ensures clear pathways for achieving quality aligned with business objectives.', 'Self_Reflection': {'Strengths': 'Literature supports the actionable nature of specific practices within Agile methods.', 'Weaknesses': 'Risk of rigidity if practices are followed without adaptability to specific project contexts.', 'Future_Consideration': 'Guide teams on balancing structured practices with necessary adaptability for unique contexts.'}}, {'code': 'Importance of Clean Code', 'Initial_Claim_Round1': 'do_not_retain', 'Final_Decision': 'Refute My Initial Claim', 'Final_Claim': 'Yes, the code should be retained.', 'Final_Explanation': 'Despite the primary business focus, clean code enhances maintainability\u2014a supportive aspect of long-term quality aligning indirectly with business needs.', 'Self_Reflection': {'Strengths': 'Acknowledges the technical importance and indirect contribution of clean code to overarching business goals.', 'Weaknesses': 'Misalignment risk by prioritizing technical quality aspects over immediate business needs.', 'Future_Consideration': 'Integrate more training on how technical quality supports business-level objectives.'}}, {'code': 'Impact of Agile/Scrum Methods', 'Initial_Claim_Round1': 'retain', 'Final_Decision': 'Continue to Support', 'Final_Claim': 'Yes, the code should be retained.', 'Final_Explanation': 'Agile/Scrum methodologies underpin continuous improvement essential for dynamic quality management.', 'Self_Reflection': {'Strengths': 'Strong validity supported by a wide adoption of Agile/Scrum serving as frameworks for iterative enhancement.', 'Weaknesses': \"Possible overlook of traditional methods' contributions if Agile/Scrum becomes the sole focus.\", 'Future_Consideration': 'Consider a broader quality framework that integrates both Agile and non-Agile methods.'}}]}}, {'Role2(Software developers)': {'Role': 'Software Developers', 'Final_Results': [{'code': 'Software_Process_Level', 'Initial_Claim_Round1': 'retain', 'Final_Decision': 'Continue to Support', 'Final_Claim': 'Yes, the code should be retained.', 'Final_Explanation': 'The dual focus on process and product quality is essential for a comprehensive software quality analysis, as supported by the reasoning aligning with both technical and business quality dimensions.', 'Self_Reflection': {'Strengths': 'The strong literature backing highlighting the dual focus as a holistic approach to quality assessment.', 'Weaknesses': 'Potentially diminishes the agility aspect by advocating broad focus.', 'Future_Consideration': 'Clarifying the balance of focus between process and product and developing criteria for when each is prioritized.'}}, {'code': 'Quality Practices', 'Initial_Claim_Round1': 'retain', 'Final_Decision': 'Continue to Support', 'Final_Claim': 'Yes, the code should be retained.', 'Final_Explanation': 'Emphasizing explicit quality practices is crucial in iterative methodologies for attaining consistent quality, aligned with my technical and statistical perspective.', 'Self_Reflection': {'Strengths': 'Clarity in practice application provides a solid grounding in quality assurance.', 'Weaknesses': 'May limit flexibility in practice adaptation, reducing innovation responsiveness.', 'Future_Consideration': 'Investigating adaptive practices that maintain quality while allowing iterative flexibility.'}}, {'code': 'Importance of Clean Code', 'Initial_Claim_Round1': 'retain', 'Final_Decision': 'Continue to Support', 'Final_Claim': 'Yes, the code should be retained.', 'Final_Explanation': 'Clean code is vital for maintainability and long-term system adaptability, integral to quality, from both a technical and economic maintenance perspective.', 'Self_Reflection': {'Strengths': 'Literature strongly supports clean code\u2019s significance as foundational to quality.', 'Weaknesses': 'Immediate economic benefits may be less emphasized; relevance to non-technical roles is weaker.', 'Future_Consideration': 'Develop strategies to communicate clean code benefits in business terms.'}}, {'code': 'Impact of Agile/Scrum Methods', 'Initial_Claim_Round1': 'retain', 'Final_Decision': 'Continue to Support', 'Final_Claim': 'Yes, the code should be retained.', 'Final_Explanation': 'The influence of Agile/Scrum frameworks significantly shapes quality perceptions, essential for understanding iterative and responsive quality management.', 'Self_Reflection': {'Strengths': 'Acknowledges current adaptive frameworks shaping quality practicum directly.', 'Weaknesses': 'Potential misalignment with traditional project management perspectives.', 'Future_Consideration': 'Further distinction between agile benefits at different organizational levels (team, project, company).'}}]}}, {'Role3(Software developers)': {'Role': 'Software Developers', 'Final_Results': [{'code': 'Software_Process_Level', 'Initial_Claim_Round1': 'retain', 'Final_Decision': 'Continue to Support', 'Final_Claim': 'Yes, the code should be retained.', 'Final_Explanation': 'Acknowledging quality at both the process and software levels reflects the intertwined nature of agile methodologies, consistent with my positionality and accumulated reasoning.', 'Self_Reflection': {'Strengths': 'Dual emphasis on process and product quality is well-supported by literature and it aligns with industry practices.', 'Weaknesses': 'The role distinctions may not be universally acknowledged across all agile contexts, potentially limiting applicability.', 'Future_Consideration': 'Further exploration of differentiated role perspectives on quality in various agile frameworks will enhance understanding.'}}, {'code': 'Quality Practices', 'Initial_Claim_Round1': 'do_not_retain', 'Final_Decision': 'Refute My Initial Claim', 'Final_Claim': 'No, the code should not be retained.', 'Final_Explanation': 'Specificity in quality practices is not universally representative and may complicate the broader understanding of quality outcomes.', 'Self_Reflection': {'Strengths': 'Refuting simplifies focus on overall quality outcomes, aligning with practical software developer intentions.', 'Weaknesses': 'Lack of acknowledgment could overlook beneficial specific practices that could improve quality.', 'Future_Consideration': 'Clarification of how nuanced practice examples practically enhance quality could strengthen future analysis.'}}, {'code': 'Importance of Clean Code', 'Initial_Claim_Round1': 'retain', 'Final_Decision': 'Continue to Support', 'Final_Claim': 'Yes, the code should be retained.', 'Final_Explanation': 'The foundational nature of clean code in achieving sustainable software quality reflects core industry values, supporting my existing stance.', 'Self_Reflection': {'Strengths': 'Strong alignment with industry standards and maintenance of high software quality through clean code practices.', 'Weaknesses': 'Could potentially overlook broader quality attributes beyond code cleanliness.', 'Future_Consideration': 'Integrating broader concepts of technical excellence could provide a more holistic perspective on quality.'}}, {'code': 'Impact of Agile/Scrum Methods', 'Initial_Claim_Round1': 'retain', 'Final_Decision': 'Continue to Support', 'Final_Claim': 'Yes, the code should be retained.', 'Final_Explanation': 'Recognizing the dynamic impact of Agile/Scrum methods on quality perceptions aligns with contemporary software development realities.', 'Self_Reflection': {'Strengths': 'Recognizes evolving quality definitions influenced by agile methodologies, adding depth to the understanding of software quality.', 'Weaknesses': 'Potential divergence in perception of impact by different roles may complicate consensus.', 'Future_Consideration': 'Further empirical studies on cross-role perceptions could refine understanding of methodological impacts on quality.'}}]}}]"
+    },
+    "Decision_agreed_codebook": "[{'Role1(Product Owners)': {'Role': 'Product Owners', 'Final_Results': [{'code': 'Software_Process_Level', 'Initial_Claim_Round1': 'retain', 'Final_Decision': 'Continue to Support', 'Final_Claim': 'Yes, the code should be retained.', 'Final_Explanation': 'Retaining simultaneous consideration of process and software levels enhances holistic quality management, aligning with Agile practices.', 'Self_Reflection': {'Strengths': 'Supported by strong literature emphasizing integrated quality assessment across process and software.', 'Weaknesses': 'Potential complexity in balancing both focuses simultaneously could complicate implementation.', 'Future_Consideration': \"Clarify criteria for when each level's focus should take precedence based on contextual needs.\"}}, {'code': 'Quality Practices', 'Initial_Claim_Round1': 'retain', 'Final_Decision': 'Continue to Support', 'Final_Claim': 'Yes, the code should be retained.', 'Final_Explanation': 'Emphasizing specific practices ensures clear pathways for achieving quality aligned with business objectives.', 'Self_Reflection': {'Strengths': 'Literature supports the actionable nature of specific practices within Agile methods.', 'Weaknesses': 'Risk of rigidity if practices are followed without adaptability to specific project contexts.', 'Future_Consideration': 'Guide teams on balancing structured practices with necessary adaptability for unique contexts.'}}, {'code': 'Importance of Clean Code', 'Initial_Claim_Round1': 'do_not_retain', 'Final_Decision': 'Refute My Initial Claim', 'Final_Claim': 'Yes, the code should be retained.', 'Final_Explanation': 'Despite the primary business focus, clean code enhances maintainability\u2014a supportive aspect of long-term quality aligning indirectly with business needs.', 'Self_Reflection': {'Strengths': 'Acknowledges the technical importance and indirect contribution of clean code to overarching business goals.', 'Weaknesses': 'Misalignment risk by prioritizing technical quality aspects over immediate business needs.', 'Future_Consideration': 'Integrate more training on how technical quality supports business-level objectives.'}}, {'code': 'Impact of Agile/Scrum Methods', 'Initial_Claim_Round1': 'retain', 'Final_Decision': 'Continue to Support', 'Final_Claim': 'Yes, the code should be retained.', 'Final_Explanation': 'Agile/Scrum methodologies underpin continuous improvement essential for dynamic quality management.', 'Self_Reflection': {'Strengths': 'Strong validity supported by a wide adoption of Agile/Scrum serving as frameworks for iterative enhancement.', 'Weaknesses': \"Possible overlook of traditional methods' contributions if Agile/Scrum becomes the sole focus.\", 'Future_Consideration': 'Consider a broader quality framework that integrates both Agile and non-Agile methods.'}}]}}, {'Role2(Software developers)': {'Role': 'Software Developers', 'Final_Results': [{'code': 'Software_Process_Level', 'Initial_Claim_Round1': 'retain', 'Final_Decision': 'Continue to Support', 'Final_Claim': 'Yes, the code should be retained.', 'Final_Explanation': 'The dual focus on process and product quality is essential for a comprehensive software quality analysis, as supported by the reasoning aligning with both technical and business quality dimensions.', 'Self_Reflection': {'Strengths': 'The strong literature backing highlighting the dual focus as a holistic approach to quality assessment.', 'Weaknesses': 'Potentially diminishes the agility aspect by advocating broad focus.', 'Future_Consideration': 'Clarifying the balance of focus between process and product and developing criteria for when each is prioritized.'}}, {'code': 'Quality Practices', 'Initial_Claim_Round1': 'retain', 'Final_Decision': 'Continue to Support', 'Final_Claim': 'Yes, the code should be retained.', 'Final_Explanation': 'Emphasizing explicit quality practices is crucial in iterative methodologies for attaining consistent quality, aligned with my technical and statistical perspective.', 'Self_Reflection': {'Strengths': 'Clarity in practice application provides a solid grounding in quality assurance.', 'Weaknesses': 'May limit flexibility in practice adaptation, reducing innovation responsiveness.', 'Future_Consideration': 'Investigating adaptive practices that maintain quality while allowing iterative flexibility.'}}, {'code': 'Importance of Clean Code', 'Initial_Claim_Round1': 'retain', 'Final_Decision': 'Continue to Support', 'Final_Claim': 'Yes, the code should be retained.', 'Final_Explanation': 'Clean code is vital for maintainability and long-term system adaptability, integral to quality, from both a technical and economic maintenance perspective.', 'Self_Reflection': {'Strengths': 'Literature strongly supports clean code\u2019s significance as foundational to quality.', 'Weaknesses': 'Immediate economic benefits may be less emphasized; relevance to non-technical roles is weaker.', 'Future_Consideration': 'Develop strategies to communicate clean code benefits in business terms.'}}, {'code': 'Impact of Agile/Scrum Methods', 'Initial_Claim_Round1': 'retain', 'Final_Decision': 'Continue to Support', 'Final_Claim': 'Yes, the code should be retained.', 'Final_Explanation': 'The influence of Agile/Scrum frameworks significantly shapes quality perceptions, essential for understanding iterative and responsive quality management.', 'Self_Reflection': {'Strengths': 'Acknowledges current adaptive frameworks shaping quality practicum directly.', 'Weaknesses': 'Potential misalignment with traditional project management perspectives.', 'Future_Consideration': 'Further distinction between agile benefits at different organizational levels (team, project, company).'}}]}}, {'Role3(Software developers)': {'Role': 'Software Developers', 'Final_Results': [{'code': 'Software_Process_Level', 'Initial_Claim_Round1': 'retain', 'Final_Decision': 'Continue to Support', 'Final_Claim': 'Yes, the code should be retained.', 'Final_Explanation': 'Acknowledging quality at both the process and software levels reflects the intertwined nature of agile methodologies, consistent with my positionality and accumulated reasoning.', 'Self_Reflection': {'Strengths': 'Dual emphasis on process and product quality is well-supported by literature and it aligns with industry practices.', 'Weaknesses': 'The role distinctions may not be universally acknowledged across all agile contexts, potentially limiting applicability.', 'Future_Consideration': 'Further exploration of differentiated role perspectives on quality in various agile frameworks will enhance understanding.'}}, {'code': 'Quality Practices', 'Initial_Claim_Round1': 'do_not_retain', 'Final_Decision': 'Refute My Initial Claim', 'Final_Claim': 'No, the code should not be retained.', 'Final_Explanation': 'Specificity in quality practices is not universally representative and may complicate the broader understanding of quality outcomes.', 'Self_Reflection': {'Strengths': 'Refuting simplifies focus on overall quality outcomes, aligning with practical software developer intentions.', 'Weaknesses': 'Lack of acknowledgment could overlook beneficial specific practices that could improve quality.', 'Future_Consideration': 'Clarification of how nuanced practice examples practically enhance quality could strengthen future analysis.'}}, {'code': 'Importance of Clean Code', 'Initial_Claim_Round1': 'retain', 'Final_Decision': 'Continue to Support', 'Final_Claim': 'Yes, the code should be retained.', 'Final_Explanation': 'The foundational nature of clean code in achieving sustainable software quality reflects core industry values, supporting my existing stance.', 'Self_Reflection': {'Strengths': 'Strong alignment with industry standards and maintenance of high software quality through clean code practices.', 'Weaknesses': 'Could potentially overlook broader quality attributes beyond code cleanliness.', 'Future_Consideration': 'Integrating broader concepts of technical excellence could provide a more holistic perspective on quality.'}}, {'code': 'Impact of Agile/Scrum Methods', 'Initial_Claim_Round1': 'retain', 'Final_Decision': 'Continue to Support', 'Final_Claim': 'Yes, the code should be retained.', 'Final_Explanation': 'Recognizing the dynamic impact of Agile/Scrum methods on quality perceptions aligns with contemporary software development realities.', 'Self_Reflection': {'Strengths': 'Recognizes evolving quality definitions influenced by agile methodologies, adding depth to the understanding of software quality.', 'Weaknesses': 'Potential divergence in perception of impact by different roles may complicate consensus.', 'Future_Consideration': 'Further empirical studies on cross-role perceptions could refine understanding of methodological impacts on quality.'}}]}}]",
+    "Final_codebook": {
+        "codebook": [
+            {
+                "code": "User Experience",
+                "definition": "The overall experience of a person using a product, especially in terms of how easy and pleasing it is to use.",
+                "inclusion_criteria": [
+                    "User satisfaction",
+                    "Ease of use",
+                    "Pleasure in use"
+                ],
+                "exclusion_criteria": [
+                    "Technical performance unrelated to user perception"
+                ],
+                "typical_examples": [
+                    "A user enjoying the intuitive design of the app"
+                ],
+                "atypical_examples": [
+                    "A user experiencing a technical glitch"
+                ],
+                "participants": [
+                    "P1",
+                    "P2",
+                    "P3"
+                ],
+                "relevance_to_RQ": "Critical to understanding overall satisfaction and engagement",
+                "notes": "Retained due to distinct focus on subjective user experience, consistent with reviewer and discussion outcomes"
+            },
+            {
+                "code": "Technical Performance",
+                "definition": "The capability of the product to perform its functions efficiently and effectively under certain conditions.",
+                "inclusion_criteria": [
+                    "Response time",
+                    "System reliability",
+                    "Bug-free operation"
+                ],
+                "exclusion_criteria": [
+                    "User interface satisfaction"
+                ],
+                "typical_examples": [
+                    "The app loading quickly under various conditions"
+                ],
+                "atypical_examples": [
+                    "A user's opinion on the app's aesthetics"
+                ],
+                "participants": [
+                    "P4",
+                    "P5"
+                ],
+                "relevance_to_RQ": "Important for understanding operational effectiveness",
+                "notes": "Retained as it focuses on objective measurements distinct from user experience. Consistent with reviewer agreement and discussion evidence."
+            },
+            {
+                "code": "Feature Usability",
+                "definition": "Ease with which specific features of the product can be utilized by the user.",
+                "inclusion_criteria": [
+                    "Ease of learning",
+                    "Efficiency of use for specific features"
+                ],
+                "exclusion_criteria": [
+                    "Overall user experience sentiment"
+                ],
+                "typical_examples": [
+                    "User quickly mastering a new feature"
+                ],
+                "atypical_examples": [
+                    "General satisfaction with product aesthetics"
+                ],
+                "participants": [
+                    "P6",
+                    "P7"
+                ],
+                "relevance_to_RQ": "Offers insights into functional engagement",
+                "notes": "Aligned from 'Ease of Use'. After analysis, found fully overlapping with 'Feature Usability'."
+            },
+            {
+                "code": "Content Quality",
+                "definition": "The degree to which the information provided in the product is useful, relevant, and engaging to the user.",
+                "inclusion_criteria": [
+                    "Accuracy",
+                    "Relevance",
+                    "Engagement of content"
+                ],
+                "exclusion_criteria": [
+                    "Technical performance of content delivery"
+                ],
+                "typical_examples": [
+                    "Accurate and engaging tutorial content"
+                ],
+                "atypical_examples": [
+                    "The speed at which content loads"
+                ],
+                "participants": [
+                    "P8"
+                ],
+                "relevance_to_RQ": "Essential for evaluating the utility of informational aspects",
+                "notes": "Retained due to distinct emphasis on content effectiveness, supporting clear engagement metrics. Agreed by reviewer and supported by discussion."
+            }
+        ]
+    },
+    "current_num_token": {
+        "input_token": 160655,
+        "output_token": 13006
+    }
+}

@@ -1,0 +1,604 @@
+{
+    "Role_Team": [
+        {
+            "Gender": "Woman (including Trans Female/Trans Woman)",
+            "Education": "Doctorate degree (PhD/other)",
+            "Race_Ethnicity": "African",
+            "Age": "34-44",
+            "Degree_Subject": "Engineering, Manufacturing and Construction",
+            "Reddit_Use": "Regular use(<once per month)",
+            "positionality": "As a 34-44-year-old African woman with a doctorate in Engineering, I approach research with a unique blend of technical precision and cultural sensitivity. My racial background and education engrain a commitment to diverse perspectives. My limited Reddit use and technical training make me view text analysis systematically, yet may overlook social nuances inherent in crowd workers' storytelling perceptions. This awareness drives my research goals to consciously address potential biases, striving to illuminate discrepancies between narrative interpretations in social media through holistic analyses, ensuring inclusivity in understanding how descriptive perceptions vary among diverse contexts as outlined by Research Questions 1 through 3.",
+            "init_codebook": [
+                {
+                    "code": "Narrative_Event",
+                    "definition": "A description of a specific event or experience shared by the participant.",
+                    "inclusion_criteria": [
+                        "Mentions a specific event such as a class or a party.",
+                        "Focuses on a detailed account of a personal experience."
+                    ],
+                    "exclusion_criteria": [
+                        "General opinions or advice without a specific incident detailed."
+                    ],
+                    "typical_examples": [
+                        "talk about an event that scared them during science class"
+                    ],
+                    "atypical_examples": [
+                        "describes a scene from a movie"
+                    ],
+                    "participants": [
+                        "652d5fbe9b9bfde1040a8c4d"
+                    ],
+                    "relevance_to_RQ": "Helps understand the storytelling techniques used by crowd workers when narrating personal experiences.",
+                    "notes": "Narratives often reveal personal emotions and contextual elements that can influence perceptions."
+                },
+                {
+                    "code": "Opinion_Sharing",
+                    "definition": "Sharing of personal views or thoughts on a topic without focusing on a specific event.",
+                    "inclusion_criteria": [
+                        "Mentions personal beliefs or opinions about a general topic.",
+                        "Offers a perspective on a subject."
+                    ],
+                    "exclusion_criteria": [
+                        "Descriptive details of a personal experience or event."
+                    ],
+                    "typical_examples": [
+                        "Explain their opinion"
+                    ],
+                    "atypical_examples": [
+                        "describe his work relations"
+                    ],
+                    "participants": [
+                        "6143e0914f93b50419ba30ab"
+                    ],
+                    "relevance_to_RQ": "Provides insights into how personal beliefs may color storytelling and perception of narratives.",
+                    "notes": "Opinions are often more abstract and offer less context about specific situations."
+                },
+                {
+                    "code": "Storytelling_Techniques",
+                    "definition": "Techniques used to narrate a story or experience, focusing on style rather than content.",
+                    "inclusion_criteria": [
+                        "Focuses on how a story is told, including tone, style, and structure."
+                    ],
+                    "exclusion_criteria": [
+                        "Focus on the story's content rather than narrative style."
+                    ],
+                    "typical_examples": [
+                        "tell a funny story about a teacher in high school."
+                    ],
+                    "atypical_examples": [
+                        "share an anecdote"
+                    ],
+                    "participants": [
+                        "6276d97e209059496d37bf74"
+                    ],
+                    "relevance_to_RQ": "Analyzes how storytelling techniques differ in social media texts by crowd workers.",
+                    "notes": "Examines the delivery rather than the narrative's core message."
+                },
+                {
+                    "code": "Expressing_Beliefs",
+                    "definition": "Participant expresses belief in a particular ideology or concept.",
+                    "inclusion_criteria": [
+                        "Mentions belief in a religion, philosophy, or ideological stance."
+                    ],
+                    "exclusion_criteria": [
+                        "Casual mention without commitment to the belief mentioned."
+                    ],
+                    "typical_examples": [
+                        "describe why Islam is a true religion"
+                    ],
+                    "atypical_examples": [
+                        "express their belief in the superiority of Islam over Christianity"
+                    ],
+                    "participants": [
+                        "60b9689dc626572895cb801b"
+                    ],
+                    "relevance_to_RQ": "Explores the role of beliefs in shaping narrative perceptions among crowd workers.",
+                    "notes": "Beliefs can significantly impact how stories are told and perceived."
+                },
+                {
+                    "code": "Descriptive_Predictions",
+                    "definition": "Predictions or interpretations based on personal or external observations.",
+                    "inclusion_criteria": [
+                        "Mentions forecast or outcome based on observed patterns or logic."
+                    ],
+                    "exclusion_criteria": [
+                        "Speculations without a basis in specific observations or logic."
+                    ],
+                    "typical_examples": [
+                        "Describe how to best bid on online auctions."
+                    ],
+                    "atypical_examples": [
+                        "explain how big corporations use deceptive strategies"
+                    ],
+                    "participants": [
+                        "5df0932af9a01d0dabd9313d"
+                    ],
+                    "relevance_to_RQ": "Reveals the blending of storytelling with predictive assumptions in narrative construction.",
+                    "notes": "Predictions add a speculative dimension to narratives, making them dynamic."
+                },
+                {
+                    "code": "Experiential_Advice",
+                    "definition": "Advice grounded in personal experience, often detailed with recounting relevant situations.",
+                    "inclusion_criteria": [
+                        "Gives advice based on personal past experiences or learned lessons."
+                    ],
+                    "exclusion_criteria": [
+                        "General advice without personal experience context."
+                    ],
+                    "typical_examples": [
+                        "give advice on fixing something that has a tank."
+                    ],
+                    "atypical_examples": [
+                        "describe his experience with sales representatives."
+                    ],
+                    "participants": [
+                        "634e1076f43266192b130e13"
+                    ],
+                    "relevance_to_RQ": "Highlights the use of narratives to lend credibility and authenticity to advice given.",
+                    "notes": "Experiential advice often enriches narratives with practical, lived insights."
+                }
+            ]
+        },
+        {
+            "Gender": "Woman (including Trans Female/Trans Woman)",
+            "Education": "Doctorate degree (PhD/other)",
+            "Race_Ethnicity": "African",
+            "Age": "34-44",
+            "Degree_Subject": "Engineering, Manufacturing and Construction",
+            "Reddit_Use": "Regular use(<once per month)",
+            "positionality": "As a 34-44-year-old African woman with a doctorate in Engineering, I approach research with a unique blend of technical precision and cultural sensitivity. My racial background and education engrain a commitment to diverse perspectives. My limited Reddit use and technical training make me view text analysis systematically, yet may overlook social nuances inherent in crowd workers' storytelling perceptions. This awareness drives my research goals to consciously address potential biases, striving to illuminate discrepancies between narrative interpretations in social media through holistic analyses, ensuring inclusivity in understanding how descriptive perceptions vary among diverse contexts as outlined by Research Questions 1 through 3.",
+            "init_codebook": [
+                {
+                    "code": "Narrative_Event",
+                    "definition": "A description of a specific event or experience shared by the participant.",
+                    "inclusion_criteria": [
+                        "Mentions a specific event such as a class or a party.",
+                        "Focuses on a detailed account of a personal experience."
+                    ],
+                    "exclusion_criteria": [
+                        "General opinions or advice without a specific incident detailed."
+                    ],
+                    "typical_examples": [
+                        "talk about an event that scared them during science class"
+                    ],
+                    "atypical_examples": [
+                        "describes a scene from a movie"
+                    ],
+                    "participants": [
+                        "652d5fbe9b9bfde1040a8c4d"
+                    ],
+                    "relevance_to_RQ": "Helps understand the storytelling techniques used by crowd workers when narrating personal experiences.",
+                    "notes": "Narratives often reveal personal emotions and contextual elements that can influence perceptions."
+                },
+                {
+                    "code": "Opinion_Sharing",
+                    "definition": "Sharing of personal views or thoughts on a topic without focusing on a specific event.",
+                    "inclusion_criteria": [
+                        "Mentions personal beliefs or opinions about a general topic.",
+                        "Offers a perspective on a subject."
+                    ],
+                    "exclusion_criteria": [
+                        "Descriptive details of a personal experience or event."
+                    ],
+                    "typical_examples": [
+                        "Explain their opinion"
+                    ],
+                    "atypical_examples": [
+                        "describe his work relations"
+                    ],
+                    "participants": [
+                        "6143e0914f93b50419ba30ab"
+                    ],
+                    "relevance_to_RQ": "Provides insights into how personal beliefs may color storytelling and perception of narratives.",
+                    "notes": "Opinions are often more abstract and offer less context about specific situations."
+                },
+                {
+                    "code": "Storytelling_Techniques",
+                    "definition": "Techniques used to narrate a story or experience, focusing on style rather than content.",
+                    "inclusion_criteria": [
+                        "Focuses on how a story is told, including tone, style, and structure."
+                    ],
+                    "exclusion_criteria": [
+                        "Focus on the story's content rather than narrative style."
+                    ],
+                    "typical_examples": [
+                        "tell a funny story about a teacher in high school."
+                    ],
+                    "atypical_examples": [
+                        "share an anecdote"
+                    ],
+                    "participants": [
+                        "6276d97e209059496d37bf74"
+                    ],
+                    "relevance_to_RQ": "Analyzes how storytelling techniques differ in social media texts by crowd workers.",
+                    "notes": "Examines the delivery rather than the narrative's core message."
+                },
+                {
+                    "code": "Expressing_Beliefs",
+                    "definition": "Participant expresses belief in a particular ideology or concept.",
+                    "inclusion_criteria": [
+                        "Mentions belief in a religion, philosophy, or ideological stance."
+                    ],
+                    "exclusion_criteria": [
+                        "Casual mention without commitment to the belief mentioned."
+                    ],
+                    "typical_examples": [
+                        "describe why Islam is a true religion"
+                    ],
+                    "atypical_examples": [
+                        "express their belief in the superiority of Islam over Christianity"
+                    ],
+                    "participants": [
+                        "60b9689dc626572895cb801b"
+                    ],
+                    "relevance_to_RQ": "Explores the role of beliefs in shaping narrative perceptions among crowd workers.",
+                    "notes": "Beliefs can significantly impact how stories are told and perceived."
+                },
+                {
+                    "code": "Descriptive_Predictions",
+                    "definition": "Predictions or interpretations based on personal or external observations.",
+                    "inclusion_criteria": [
+                        "Mentions forecast or outcome based on observed patterns or logic."
+                    ],
+                    "exclusion_criteria": [
+                        "Speculations without a basis in specific observations or logic."
+                    ],
+                    "typical_examples": [
+                        "Describe how to best bid on online auctions."
+                    ],
+                    "atypical_examples": [
+                        "explain how big corporations use deceptive strategies"
+                    ],
+                    "participants": [
+                        "5df0932af9a01d0dabd9313d"
+                    ],
+                    "relevance_to_RQ": "Reveals the blending of storytelling with predictive assumptions in narrative construction.",
+                    "notes": "Predictions add a speculative dimension to narratives, making them dynamic."
+                },
+                {
+                    "code": "Experiential_Advice",
+                    "definition": "Advice grounded in personal experience, often detailed with recounting relevant situations.",
+                    "inclusion_criteria": [
+                        "Gives advice based on personal past experiences or learned lessons."
+                    ],
+                    "exclusion_criteria": [
+                        "General advice without personal experience context."
+                    ],
+                    "typical_examples": [
+                        "give advice on fixing something that has a tank."
+                    ],
+                    "atypical_examples": [
+                        "describe his experience with sales representatives."
+                    ],
+                    "participants": [
+                        "634e1076f43266192b130e13"
+                    ],
+                    "relevance_to_RQ": "Highlights the use of narratives to lend credibility and authenticity to advice given.",
+                    "notes": "Experiential advice often enriches narratives with practical, lived insights."
+                }
+            ]
+        },
+        {
+            "Gender": "Woman (including Trans Female/Trans Woman)",
+            "Education": "Doctorate degree (PhD/other)",
+            "Race_Ethnicity": "African",
+            "Age": "34-44",
+            "Degree_Subject": "Engineering, Manufacturing and Construction",
+            "Reddit_Use": "Regular use(<once per month)",
+            "positionality": "As a 34-44-year-old African woman with a doctorate in Engineering, I approach research with a unique blend of technical precision and cultural sensitivity. My racial background and education engrain a commitment to diverse perspectives. My limited Reddit use and technical training make me view text analysis systematically, yet may overlook social nuances inherent in crowd workers' storytelling perceptions. This awareness drives my research goals to consciously address potential biases, striving to illuminate discrepancies between narrative interpretations in social media through holistic analyses, ensuring inclusivity in understanding how descriptive perceptions vary among diverse contexts as outlined by Research Questions 1 through 3.",
+            "init_codebook": [
+                {
+                    "code": "Narrative_Event",
+                    "definition": "A description of a specific event or experience shared by the participant.",
+                    "inclusion_criteria": [
+                        "Mentions a specific event such as a class or a party.",
+                        "Focuses on a detailed account of a personal experience."
+                    ],
+                    "exclusion_criteria": [
+                        "General opinions or advice without a specific incident detailed."
+                    ],
+                    "typical_examples": [
+                        "talk about an event that scared them during science class"
+                    ],
+                    "atypical_examples": [
+                        "describes a scene from a movie"
+                    ],
+                    "participants": [
+                        "652d5fbe9b9bfde1040a8c4d"
+                    ],
+                    "relevance_to_RQ": "Helps understand the storytelling techniques used by crowd workers when narrating personal experiences.",
+                    "notes": "Narratives often reveal personal emotions and contextual elements that can influence perceptions."
+                },
+                {
+                    "code": "Opinion_Sharing",
+                    "definition": "Sharing of personal views or thoughts on a topic without focusing on a specific event.",
+                    "inclusion_criteria": [
+                        "Mentions personal beliefs or opinions about a general topic.",
+                        "Offers a perspective on a subject."
+                    ],
+                    "exclusion_criteria": [
+                        "Descriptive details of a personal experience or event."
+                    ],
+                    "typical_examples": [
+                        "Explain their opinion"
+                    ],
+                    "atypical_examples": [
+                        "describe his work relations"
+                    ],
+                    "participants": [
+                        "6143e0914f93b50419ba30ab"
+                    ],
+                    "relevance_to_RQ": "Provides insights into how personal beliefs may color storytelling and perception of narratives.",
+                    "notes": "Opinions are often more abstract and offer less context about specific situations."
+                },
+                {
+                    "code": "Storytelling_Techniques",
+                    "definition": "Techniques used to narrate a story or experience, focusing on style rather than content.",
+                    "inclusion_criteria": [
+                        "Focuses on how a story is told, including tone, style, and structure."
+                    ],
+                    "exclusion_criteria": [
+                        "Focus on the story's content rather than narrative style."
+                    ],
+                    "typical_examples": [
+                        "tell a funny story about a teacher in high school."
+                    ],
+                    "atypical_examples": [
+                        "share an anecdote"
+                    ],
+                    "participants": [
+                        "6276d97e209059496d37bf74"
+                    ],
+                    "relevance_to_RQ": "Analyzes how storytelling techniques differ in social media texts by crowd workers.",
+                    "notes": "Examines the delivery rather than the narrative's core message."
+                },
+                {
+                    "code": "Expressing_Beliefs",
+                    "definition": "Participant expresses belief in a particular ideology or concept.",
+                    "inclusion_criteria": [
+                        "Mentions belief in a religion, philosophy, or ideological stance."
+                    ],
+                    "exclusion_criteria": [
+                        "Casual mention without commitment to the belief mentioned."
+                    ],
+                    "typical_examples": [
+                        "describe why Islam is a true religion"
+                    ],
+                    "atypical_examples": [
+                        "express their belief in the superiority of Islam over Christianity"
+                    ],
+                    "participants": [
+                        "60b9689dc626572895cb801b"
+                    ],
+                    "relevance_to_RQ": "Explores the role of beliefs in shaping narrative perceptions among crowd workers.",
+                    "notes": "Beliefs can significantly impact how stories are told and perceived."
+                },
+                {
+                    "code": "Descriptive_Predictions",
+                    "definition": "Predictions or interpretations based on personal or external observations.",
+                    "inclusion_criteria": [
+                        "Mentions forecast or outcome based on observed patterns or logic."
+                    ],
+                    "exclusion_criteria": [
+                        "Speculations without a basis in specific observations or logic."
+                    ],
+                    "typical_examples": [
+                        "Describe how to best bid on online auctions."
+                    ],
+                    "atypical_examples": [
+                        "explain how big corporations use deceptive strategies"
+                    ],
+                    "participants": [
+                        "5df0932af9a01d0dabd9313d"
+                    ],
+                    "relevance_to_RQ": "Reveals the blending of storytelling with predictive assumptions in narrative construction.",
+                    "notes": "Predictions add a speculative dimension to narratives, making them dynamic."
+                },
+                {
+                    "code": "Experiential_Advice",
+                    "definition": "Advice grounded in personal experience, often detailed with recounting relevant situations.",
+                    "inclusion_criteria": [
+                        "Gives advice based on personal past experiences or learned lessons."
+                    ],
+                    "exclusion_criteria": [
+                        "General advice without personal experience context."
+                    ],
+                    "typical_examples": [
+                        "give advice on fixing something that has a tank."
+                    ],
+                    "atypical_examples": [
+                        "describe his experience with sales representatives."
+                    ],
+                    "participants": [
+                        "634e1076f43266192b130e13"
+                    ],
+                    "relevance_to_RQ": "Highlights the use of narratives to lend credibility and authenticity to advice given.",
+                    "notes": "Experiential advice often enriches narratives with practical, lived insights."
+                }
+            ]
+        }
+    ],
+    "Agreed_disagreed_codebook": {
+        "agreements": [
+            {
+                "code": "Narrative_Event",
+                "roles": [
+                    "African|Doctorate degree (PhD/other)|Woman (including Trans Female/Trans Woman)|34-44|Regular use(<once per month)"
+                ],
+                "reason": "The description, inclusion criteria, and references to specific events such as classes or parties are consistent across all provided codebooks, demonstrating alignment in the interpretation of this code."
+            },
+            {
+                "code": "Opinion_Sharing",
+                "roles": [
+                    "African|Doctorate degree (PhD/other)|Woman (including Trans Female/Trans Woman)|34-44|Regular use(<once per month)"
+                ],
+                "reason": "The definition as sharing of personal views without focusing on an event and inclusion criteria related to personal beliefs are consistent across all instances, showing uniformity in understanding what Opinion_Sharing entails."
+            },
+            {
+                "code": "Storytelling_Techniques",
+                "roles": [
+                    "African|Doctorate degree (PhD/other)|Woman (including Trans Female/Trans Woman)|34-44|Regular use(<once per month)"
+                ],
+                "reason": "The focus on how a story is told, rather than the content, such as tone, style, and structure, is consistently reflected in all codebooks. This reflects an agreement in the interpretation of this code's focus on narrative style."
+            },
+            {
+                "code": "Expressing_Beliefs",
+                "roles": [
+                    "African|Doctorate degree (PhD/other)|Woman (including Trans Female/Trans Woman)|34-44|Regular use(<once per month)"
+                ],
+                "reason": "The consistent emphasis on the expression of beliefs in a particular ideology or concept is present in each codebook, indicating agreement on the understanding and application of this code."
+            },
+            {
+                "code": "Descriptive_Predictions",
+                "roles": [
+                    "African|Doctorate degree (PhD/other)|Woman (including Trans Female/Trans Woman)|34-44|Regular use(<once per month)"
+                ],
+                "reason": "All codebooks consistently define this code as relating to predictions based on observations, not speculation, demonstrating a shared understanding of its use and context."
+            },
+            {
+                "code": "Experiential_Advice",
+                "roles": [
+                    "African|Doctorate degree (PhD/other)|Woman (including Trans Female/Trans Woman)|34-44|Regular use(<once per month)"
+                ],
+                "reason": "Each codebook explains this code as advice grounded in personal experience with clear inclusion criteria, indicating uniformity in the code's interpretation and application."
+            }
+        ],
+        "disagreements": []
+    },
+    "Final_codebook": {
+        "codebook": [
+            {
+                "code": "Narrative_Event",
+                "definition": "A description of a specific event or experience shared by the participant.",
+                "inclusion_criteria": [
+                    "Mentions a specific event such as a class or a party.",
+                    "Focuses on a detailed account of a personal experience."
+                ],
+                "exclusion_criteria": [
+                    "General opinions or advice without a specific incident detailed."
+                ],
+                "typical_examples": [
+                    "talk about an event that scared them during science class"
+                ],
+                "atypical_examples": [
+                    "describes a scene from a movie"
+                ],
+                "participants": [
+                    "652d5fbe9b9bfde1040a8c4d"
+                ],
+                "relevance_to_RQ": "Helps understand the storytelling techniques used by crowd workers when narrating personal experiences.",
+                "notes": "Retained because the definition and criteria are consistent and necessary to study storytelling techniques."
+            },
+            {
+                "code": "Opinion_Sharing",
+                "definition": "Sharing of personal views or thoughts on a topic without focusing on a specific event.",
+                "inclusion_criteria": [
+                    "Mentions personal beliefs or opinions about a general topic.",
+                    "Offers a perspective on a subject."
+                ],
+                "exclusion_criteria": [
+                    "Descriptive details of a personal experience or event."
+                ],
+                "typical_examples": [
+                    "Explain their opinion"
+                ],
+                "atypical_examples": [
+                    "describe his work relations"
+                ],
+                "participants": [
+                    "6143e0914f93b50419ba30ab"
+                ],
+                "relevance_to_RQ": "Provides insights into how personal beliefs may color storytelling and perception of narratives.",
+                "notes": "Retained because it captures abstract beliefs which are distinct and relevant to the RQ."
+            },
+            {
+                "code": "Storytelling_Techniques",
+                "definition": "Techniques used to narrate a story or experience, focusing on style rather than content.",
+                "inclusion_criteria": [
+                    "Focuses on how a story is told, including tone, style, and structure."
+                ],
+                "exclusion_criteria": [
+                    "Focus on the story's content rather than narrative style."
+                ],
+                "typical_examples": [
+                    "tell a funny story about a teacher in high school."
+                ],
+                "atypical_examples": [
+                    "share an anecdote"
+                ],
+                "participants": [
+                    "6276d97e209059496d37bf74"
+                ],
+                "relevance_to_RQ": "Analyzes how storytelling techniques differ in social media texts by crowd workers.",
+                "notes": "Retained for its focus on narrative style, a necessary aspect of storytelling analysis."
+            },
+            {
+                "code": "Expressing_Beliefs",
+                "definition": "Participant expresses belief in a particular ideology or concept.",
+                "inclusion_criteria": [
+                    "Mentions belief in a religion, philosophy, or ideological stance."
+                ],
+                "exclusion_criteria": [
+                    "Casual mention without commitment to the belief mentioned."
+                ],
+                "typical_examples": [
+                    "describe why Islam is a true religion"
+                ],
+                "atypical_examples": [
+                    "express their belief in the superiority of Islam over Christianity"
+                ],
+                "participants": [
+                    "60b9689dc626572895cb801b"
+                ],
+                "relevance_to_RQ": "Explores the role of beliefs in shaping narrative perceptions among crowd workers.",
+                "notes": "Retained for its emphasis on expressing deep-seated beliefs that impact storytelling."
+            },
+            {
+                "code": "Descriptive_Predictions",
+                "definition": "Predictions or interpretations based on personal or external observations.",
+                "inclusion_criteria": [
+                    "Mentions forecast or outcome based on observed patterns or logic."
+                ],
+                "exclusion_criteria": [
+                    "Speculations without a basis in specific observations or logic."
+                ],
+                "typical_examples": [
+                    "Describe how to best bid on online auctions."
+                ],
+                "atypical_examples": [
+                    "explain how big corporations use deceptive strategies"
+                ],
+                "participants": [
+                    "5df0932af9a01d0dabd9313d"
+                ],
+                "relevance_to_RQ": "Reveals the blending of storytelling with predictive assumptions in narrative construction.",
+                "notes": "Retained due to its distinct focus on predictions based on observed patterns, which is relevant and distinct."
+            },
+            {
+                "code": "Experiential_Advice",
+                "definition": "Advice grounded in personal experience, often detailed with recounting relevant situations.",
+                "inclusion_criteria": [
+                    "Gives advice based on personal past experiences or learned lessons."
+                ],
+                "exclusion_criteria": [
+                    "General advice without personal experience context."
+                ],
+                "typical_examples": [
+                    "give advice on fixing something that has a tank."
+                ],
+                "atypical_examples": [
+                    "describe his experience with sales representatives."
+                ],
+                "participants": [
+                    "634e1076f43266192b130e13"
+                ],
+                "relevance_to_RQ": "Highlights the use of narratives to lend credibility and authenticity to advice given.",
+                "notes": "Retained because it captures the practical application of personal narratives in giving advice."
+            }
+        ]
+    },
+    "current_num_token": {
+        "input_token": 269001,
+        "output_token": 4881
+    }
+}
