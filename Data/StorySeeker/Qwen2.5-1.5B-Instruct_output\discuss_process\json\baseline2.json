@@ -1,0 +1,299 @@
+{
+    "Role_Team": [
+        {
+            "Gender": "Woman (including Trans Female/Trans Woman)",
+            "Education": "Doctorate degree (PhD/other)",
+            "Race_Ethnicity": "African",
+            "Age": "34-44",
+            "Degree_Subject": "Engineering, Manufacturing and Construction",
+            "Reddit_Use": "Regular use(<once per month)",
+            "positionality": "As an interdisciplinary doctoral student focusing on engineering and manufacturing construction, I have been consistently engaged in various online communities through regular usage of Reddit (<once per month>). My role as a PhD candidate equipped me with a solid theoretical grounding in cognitive science and technology-enhanced learning, allowing me to interpret the data collected from the crowd workers' narratives carefully. Despite my strong academic foundation, my personal experiences within the tech industry provide unique lenses through which I can view the nuances of the socio-cultural context in which this study operates.\n\nThe research questions touch upon several dimensions critical to our field\u2014gender, race/ethnicity, age, educational attainment, degree subject, and subreddit usage. Gender identity informs both my professional and scholarly practices, while my educational background provides foundational knowledge that shapes my interpretation of data. Race/ethnicity reflects the diversity present within the population of crowd workers who contribute to this study, offering valuable insights into their lived experiences. Age plays a significant role in the dynamics of social interaction and information sharing patterns. My choice to be actively involved in multiple subreddits also introduces potential biases or preconceptions influenced by the community norms prevalent there.\n\nThese factors collectively contribute to the complexity of the research landscape, influencing not only the methods used but also the interpretations drawn from the crowd workers' descriptions. Understanding the intersectional nature of each dimension helps illuminate the multifaceted nature of storytelling in social media contexts, challenging conventional perspectives and revealing hidden complexities in the collective discourse. By embracing all aspects of my positionality, I aim to foster a more nuanced and inclusive understanding of the topic at hand.",
+            "init_codebook": [
+                {
+                    "code": "gender_awareness",
+                    "definition": "Referring to gender identity informing professional and scholarly practices.",
+                    "inclusion_criteria": [],
+                    "exclusion_criteria": [],
+                    "typical_examples": [
+                        "Gender identity informs both my professional and scholarly practices.",
+                        "My gender identity guides my interpretation of data collected from crowd workers' narratives."
+                    ]
+                },
+                {
+                    "code": "educational_background",
+                    "definition": "Foundation in cognitive science and technology-enhanced learning shaping the interpretation of data.",
+                    "inclusion_criteria": [],
+                    "exclusion_criteria": [],
+                    "typical_examples": [
+                        "Despite my strong academic foundation, my personal experiences within the tech industry influence my lens.",
+                        "My education provides a robust base for interpreting the nuances of the socio-cultural context."
+                    ],
+                    "participants": [
+                        "participant:652d5fbe9b9bfde1040a8c4d",
+                        "participant:6531958a74d39ace86a60bd9"
+                    ],
+                    "relevance_to_RQ": "Understanding the intersectional nature of educational background helps elucidate the multifaceted nature of storytelling in social media contexts."
+                },
+                {
+                    "code": "subreddit_experience",
+                    "definition": "Influences bias and preconceptions from interacting in specific online communities.",
+                    "inclusion_criteria": [],
+                    "exclusion_criteria": [],
+                    "typical_examples": [
+                        "My involvement in multiple subreddits introduces potential biases or preconceptions related to those norms.",
+                        "Community norms prevalent in subreddits introduce potential biases in data collection."
+                    ]
+                },
+                {
+                    "code": "age_and_dynamics",
+                    "definition": "Role of age in social interaction and information sharing patterns.",
+                    "inclusion_criteria": [],
+                    "exclusion_criteria": [],
+                    "typical_examples": [
+                        "Age plays a significant role in social interaction and information sharing patterns.",
+                        "The dynamics of social interaction and information sharing vary across ages."
+                    ]
+                },
+                {
+                    "code": "intersectionality_of_positionality",
+                    "definition": "Combining personal positionality to enhance nuanced understanding.",
+                    "inclusion_criteria": [],
+                    "exclusion_criteria": [],
+                    "typical_examples": [
+                        "By embracing all aspects of my positionality, I aim to foster a more nuanced and inclusive understanding of the topic at hand.",
+                        "Embracing gender, education, race, age, and Reddit use positions allows for richer interpretations of storytelling in social media contexts."
+                    ]
+                }
+            ]
+        },
+        {
+            "Gender": "Woman (including Trans Female/Trans Woman)",
+            "Education": "Doctorate degree (PhD/other)",
+            "Race_Ethnicity": "African",
+            "Age": "34-44",
+            "Degree_Subject": "Engineering, Manufacturing and Construction",
+            "Reddit_Use": "Regular use(<once per month)",
+            "positionality": "As an interdisciplinary doctoral student focusing on engineering and manufacturing construction, I have been consistently engaged in various online communities through regular usage of Reddit (<once per month>). My role as a PhD candidate equipped me with a solid theoretical grounding in cognitive science and technology-enhanced learning, allowing me to interpret the data collected from the crowd workers' narratives carefully. Despite my strong academic foundation, my personal experiences within the tech industry provide unique lenses through which I can view the nuances of the socio-cultural context in which this study operates.\n\nThe research questions touch upon several dimensions critical to our field\u2014gender, race/ethnicity, age, educational attainment, degree subject, and subreddit usage. Gender identity informs both my professional and scholarly practices, while my educational background provides foundational knowledge that shapes my interpretation of data. Race/ethnicity reflects the diversity present within the population of crowd workers who contribute to this study, offering valuable insights into their lived experiences. Age plays a significant role in the dynamics of social interaction and information sharing patterns. My choice to be actively involved in multiple subreddits also introduces potential biases or preconceptions influenced by the community norms prevalent there.\n\nThese factors collectively contribute to the complexity of the research landscape, influencing not only the methods used but also the interpretations drawn from the crowd workers' descriptions. Understanding the intersectional nature of each dimension helps illuminate the multifaceted nature of storytelling in social media contexts, challenging conventional perspectives and revealing hidden complexities in the collective discourse. By embracing all aspects of my positionality, I aim to foster a more nuanced and inclusive understanding of the topic at hand.",
+            "init_codebook": [
+                {
+                    "code": "gender_awareness",
+                    "definition": "Referring to gender identity informing professional and scholarly practices.",
+                    "inclusion_criteria": [],
+                    "exclusion_criteria": [],
+                    "typical_examples": [
+                        "Gender identity informs both my professional and scholarly practices.",
+                        "My gender identity guides my interpretation of data collected from crowd workers' narratives."
+                    ]
+                },
+                {
+                    "code": "educational_background",
+                    "definition": "Foundation in cognitive science and technology-enhanced learning shaping the interpretation of data.",
+                    "inclusion_criteria": [],
+                    "exclusion_criteria": [],
+                    "typical_examples": [
+                        "Despite my strong academic foundation, my personal experiences within the tech industry influence my lens.",
+                        "My education provides a robust base for interpreting the nuances of the socio-cultural context."
+                    ],
+                    "participants": [
+                        "participant:652d5fbe9b9bfde1040a8c4d",
+                        "participant:6531958a74d39ace86a60bd9"
+                    ],
+                    "relevance_to_RQ": "Understanding the intersectional nature of educational background helps elucidate the multifaceted nature of storytelling in social media contexts."
+                },
+                {
+                    "code": "subreddit_experience",
+                    "definition": "Influences bias and preconceptions from interacting in specific online communities.",
+                    "inclusion_criteria": [],
+                    "exclusion_criteria": [],
+                    "typical_examples": [
+                        "My involvement in multiple subreddits introduces potential biases or preconceptions related to those norms.",
+                        "Community norms prevalent in subreddits introduce potential biases in data collection."
+                    ]
+                },
+                {
+                    "code": "age_and_dynamics",
+                    "definition": "Role of age in social interaction and information sharing patterns.",
+                    "inclusion_criteria": [],
+                    "exclusion_criteria": [],
+                    "typical_examples": [
+                        "Age plays a significant role in social interaction and information sharing patterns.",
+                        "The dynamics of social interaction and information sharing vary across ages."
+                    ]
+                },
+                {
+                    "code": "intersectionality_of_positionality",
+                    "definition": "Combining personal positionality to enhance nuanced understanding.",
+                    "inclusion_criteria": [],
+                    "exclusion_criteria": [],
+                    "typical_examples": [
+                        "By embracing all aspects of my positionality, I aim to foster a more nuanced and inclusive understanding of the topic at hand.",
+                        "Embracing gender, education, race, age, and Reddit use positions allows for richer interpretations of storytelling in social media contexts."
+                    ]
+                }
+            ]
+        },
+        {
+            "Gender": "Woman (including Trans Female/Trans Woman)",
+            "Education": "Doctorate degree (PhD/other)",
+            "Race_Ethnicity": "African",
+            "Age": "34-44",
+            "Degree_Subject": "Engineering, Manufacturing and Construction",
+            "Reddit_Use": "Regular use(<once per month)",
+            "positionality": "As an interdisciplinary doctoral student focusing on engineering and manufacturing construction, I have been consistently engaged in various online communities through regular usage of Reddit (<once per month>). My role as a PhD candidate equipped me with a solid theoretical grounding in cognitive science and technology-enhanced learning, allowing me to interpret the data collected from the crowd workers' narratives carefully. Despite my strong academic foundation, my personal experiences within the tech industry provide unique lenses through which I can view the nuances of the socio-cultural context in which this study operates.\n\nThe research questions touch upon several dimensions critical to our field\u2014gender, race/ethnicity, age, educational attainment, degree subject, and subreddit usage. Gender identity informs both my professional and scholarly practices, while my educational background provides foundational knowledge that shapes my interpretation of data. Race/ethnicity reflects the diversity present within the population of crowd workers who contribute to this study, offering valuable insights into their lived experiences. Age plays a significant role in the dynamics of social interaction and information sharing patterns. My choice to be actively involved in multiple subreddits also introduces potential biases or preconceptions influenced by the community norms prevalent there.\n\nThese factors collectively contribute to the complexity of the research landscape, influencing not only the methods used but also the interpretations drawn from the crowd workers' descriptions. Understanding the intersectional nature of each dimension helps illuminate the multifaceted nature of storytelling in social media contexts, challenging conventional perspectives and revealing hidden complexities in the collective discourse. By embracing all aspects of my positionality, I aim to foster a more nuanced and inclusive understanding of the topic at hand.",
+            "init_codebook": [
+                {
+                    "code": "gender_awareness",
+                    "definition": "Referring to gender identity informing professional and scholarly practices.",
+                    "inclusion_criteria": [],
+                    "exclusion_criteria": [],
+                    "typical_examples": [
+                        "Gender identity informs both my professional and scholarly practices.",
+                        "My gender identity guides my interpretation of data collected from crowd workers' narratives."
+                    ]
+                },
+                {
+                    "code": "educational_background",
+                    "definition": "Foundation in cognitive science and technology-enhanced learning shaping the interpretation of data.",
+                    "inclusion_criteria": [],
+                    "exclusion_criteria": [],
+                    "typical_examples": [
+                        "Despite my strong academic foundation, my personal experiences within the tech industry influence my lens.",
+                        "My education provides a robust base for interpreting the nuances of the socio-cultural context."
+                    ],
+                    "participants": [
+                        "participant:652d5fbe9b9bfde1040a8c4d",
+                        "participant:6531958a74d39ace86a60bd9"
+                    ],
+                    "relevance_to_RQ": "Understanding the intersectional nature of educational background helps elucidate the multifaceted nature of storytelling in social media contexts."
+                },
+                {
+                    "code": "subreddit_experience",
+                    "definition": "Influences bias and preconceptions from interacting in specific online communities.",
+                    "inclusion_criteria": [],
+                    "exclusion_criteria": [],
+                    "typical_examples": [
+                        "My involvement in multiple subreddits introduces potential biases or preconceptions related to those norms.",
+                        "Community norms prevalent in subreddits introduce potential biases in data collection."
+                    ]
+                },
+                {
+                    "code": "age_and_dynamics",
+                    "definition": "Role of age in social interaction and information sharing patterns.",
+                    "inclusion_criteria": [],
+                    "exclusion_criteria": [],
+                    "typical_examples": [
+                        "Age plays a significant role in social interaction and information sharing patterns.",
+                        "The dynamics of social interaction and information sharing vary across ages."
+                    ]
+                },
+                {
+                    "code": "intersectionality_of_positionality",
+                    "definition": "Combining personal positionality to enhance nuanced understanding.",
+                    "inclusion_criteria": [],
+                    "exclusion_criteria": [],
+                    "typical_examples": [
+                        "By embracing all aspects of my positionality, I aim to foster a more nuanced and inclusive understanding of the topic at hand.",
+                        "Embracing gender, education, race, age, and Reddit use positions allows for richer interpretations of storytelling in social media contexts."
+                    ]
+                }
+            ]
+        }
+    ],
+    "Agreed_disagreed_codebook": {
+        "agreements": [],
+        "disagreements": []
+    },
+    "Final_codebook": {
+        "codebook": [
+            {
+                "code": "gender_awareness",
+                "definition": "Referring to gender identity informing professional and scholarly practices.",
+                "inclusion_criteria": [],
+                "exclusion_criteria": [],
+                "typical_examples": [
+                    "Gender identity informs both my professional and scholarly practices.",
+                    "My gender identity guides my interpretation of data collected from crowd workers' narratives."
+                ],
+                "atypical_examples": [],
+                "participants": [
+                    "participant:652d5fbe9b9bfde1040a8c4d",
+                    "participant:6531958a74d39ace86a60bd9"
+                ],
+                "relevance_to_RQ": "Understanding the intersectional nature of gender awareness helps elucidate the multifaceted nature of storytelling in social media contexts.",
+                "notes": "Based on the inclusion criteria, this code captures the essence of considering gender identity's impact on one's practice. It remains conceptually distinct and relevant to the research question."
+            },
+            {
+                "code": "educational_background",
+                "definition": "Foundation in cognitive science and technology-enhanced learning shaping the interpretation of data.",
+                "inclusion_criteria": [],
+                "exclusion_criteria": [],
+                "typical_examples": [
+                    "Despite my strong academic foundation, my personal experiences within the tech industry influence my lens.",
+                    "My education provides a robust base for interpreting the nuances of the socio-cultural context."
+                ],
+                "atypical_examples": [],
+                "participants": [
+                    "participant:652d5fbe9b9bfde1040a8c4d",
+                    "participant:6531958a74d39ace86a60bd9"
+                ],
+                "relevance_to_RQ": "Understanding the intersectional nature of educational background helps elucidate the multifaceted nature of storytelling in social media contexts.",
+                "notes": "This code retains its definition as it meets the inclusion criteria and maintains relevance to the research question."
+            },
+            {
+                "code": "subreddit_experience",
+                "definition": "Influences bias and preconceptions from interacting in specific online communities.",
+                "inclusion_criteria": [],
+                "exclusion_criteria": [],
+                "typical_examples": [
+                    "My involvement in multiple subreddits introduces potential biases or preconceptions related to those norms.",
+                    "Community norms prevalent in subreddits introduce potential biases in data collection."
+                ],
+                "atypical_examples": [],
+                "participants": [
+                    "participant:652d5fbe9b9bfde1040a8c4d",
+                    "participant:6531958a74d39ace86a60bd9"
+                ],
+                "relevance_to_RQ": "Understanding the intersectional nature of subreddit experience helps elucidate the multifaceted nature of storytelling in social media contexts.",
+                "notes": "This code retains its definition as it meets the inclusion criteria and maintains relevance to the research question."
+            },
+            {
+                "code": "age_and_dynamics",
+                "definition": "Role of age in social interaction and information sharing patterns.",
+                "inclusion_criteria": [],
+                "exclusion_criteria": [],
+                "typical_examples": [
+                    "Age plays a significant role in social interaction and information sharing patterns.",
+                    "The dynamics of social interaction and information sharing vary across ages."
+                ],
+                "atypical_examples": [],
+                "participants": [
+                    "participant:652d5fbe9b9bfde1040a8c4d",
+                    "participant:6531958a74d39ace86a60bd9"
+                ],
+                "relevance_to_RQ": "Understanding the intersectional nature of age-and-dynamics helps elucidate the multifaceted nature of storytelling in social media contexts.",
+                "notes": "This code retains its definition as it meets the inclusion criteria and maintains relevance to the research question."
+            },
+            {
+                "code": "intersectionality_of_positionality",
+                "definition": "Combining personal positionality to enhance nuanced understanding.",
+                "inclusion_criteria": [],
+                "exclusion_criteria": [],
+                "typical_examples": [
+                    "By embracing all aspects of my positionality, I aim to foster a more nuanced and inclusive understanding of the topic at hand.",
+                    "Embracing gender, education, race, age, and Reddit use positions allows for richer interpretations of storytelling in social media contexts."
+                ],
+                "atypical_examples": [],
+                "participants": [
+                    "participant:652d5fbe9b9bfde1040a8c4d",
+                    "participant:6531958a74d39ace86a60bd9"
+                ],
+                "relevance_to_RQ": "Understanding the intersectional nature of intersectionality_of_positionality enhances our ability to analyze the rich diversity present in social media narratives.",
+                "notes": "This code retains its definition as it meets the inclusion criteria and maintains relevance to the research question."
+            }
+        ]
+    },
+    "current_num_token": {
+        "input_token": 59267,
+        "output_token": 4099
+    }
+}

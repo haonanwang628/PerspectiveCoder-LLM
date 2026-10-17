@@ -1,15 +1,17 @@
 import tiktoken
 import json
-from openpyxl import load_workbook, Workbook
-from openpyxl.styles import Alignment
 import os
 import io
+import random
+import torch
+from functools import lru_cache
 from pathlib import Path
 from zipfile import ZipFile, ZIP_DEFLATED
-import random
+from openpyxl import load_workbook, Workbook
+from openpyxl.styles import Alignment
 from config.discuss_menu import *
 from config.model_menu import *
-
+from transformers import AutoTokenizer, AutoModelForCausalLM
 random.seed(42)
 
 
@@ -29,7 +31,12 @@ def roles_identity_generate(roles_num, role=None):
 
 
 # string tokens
-def num_tokens_from_string(string: str, model_name: str) -> int:
+def num_tokens_from_string(string: str, model_name: str, tokenizer=None) -> int:
+    # Local Hugging Face models
+    if tokenizer is not None:
+        return len(tokenizer.encode(string, add_special_tokens=False))
+    
+    # API models
     encoding_name = MODEL_TOKENIZER_MAP.get(model_name, "cl100k_base")
     encoding = tiktoken.get_encoding(encoding_name)
     return len(encoding.encode(string))
@@ -96,7 +103,6 @@ def save_discuss_excel(file_path: str, target_text: str, disagreed_list: [str], 
 
     # load debate process
     for disagree, rounds in zip(disagreed_list, debate_list):
-        # 如果 rounds 不足 4，则补空；如果多于 4，截断
         while len(rounds) < 4:
             rounds.append("")
         if len(rounds) > 4:
@@ -133,3 +139,26 @@ def zip_folder_to_bytes(folder_path: str) -> bytes:
     buf.seek(0)
     return buf.read()
 
+# A single local model is loaded only once and shared among multiple agents.
+@lru_cache(maxsize=2)
+def load_local_model(model_path):
+    print(f"[Loading local model] {model_path}")
+
+    tokenizer = AutoTokenizer.from_pretrained(
+        model_path,
+        local_files_only=True
+    )
+
+    dtype = torch.float16 if torch.cuda.is_available() else torch.float32
+
+    model = AutoModelForCausalLM.from_pretrained(
+        model_path,
+        torch_dtype=dtype,
+        device_map="auto",
+        local_files_only=True
+    )
+
+    model.eval()
+    print("[Model loaded successfully]")
+
+    return tokenizer, model

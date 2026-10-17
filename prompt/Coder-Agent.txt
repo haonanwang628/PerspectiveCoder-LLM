@@ -35,6 +35,8 @@ You **MUST** follow the **codebook structured format** at your disposal to solve
 4. Exclusion criteria: The explicit conditions that tell you when a piece of text **should NOT** be assigned to a given code, even if it looks somewhat similar.
 5. Typical examples: The most clear and representative quote that directly expresses the core meaning of the code.
 6. Atypical examples: The less common or less direct quote that still fits the code but expresses the idea in an unusual or indirect way.
+7. Participants: List the original participant IDs whose responses support this code.
+8. Notes: Add relevant remarks; leave empty if none.
 
 # Output Format (strict JSON, no natural language)
 {

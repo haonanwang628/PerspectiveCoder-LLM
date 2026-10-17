@@ -39,36 +39,36 @@ def experiment_discuss_flow(roles, roles_identity, texts, model_name, discuss_co
                 "codebook": role_identity["init_codebook"]})
 
     agreed_disagreed_codebook = discuss_flow.codebook_reviewer(Reviewer, init_codebook)
-    if not agreed_disagreed_codebook["disagreements"] or not isinstance(agreed_disagreed_codebook["disagreements"][0], dict):
-        final_codebook = discuss_flow.codebook_judge(Judge, init_codebook, agreed_disagreed_codebook,
-                                                     "", rq)
-        result = {
-            "Role_Team": roles_identity,
-            "Agreed_disagreed_codebook": agreed_disagreed_codebook,
-            "Final_codebook": final_codebook,
-            "current_num_token": {"input_token": discuss_flow.input_token,
-                                  "output_token": discuss_flow.output_token}
-        }
-        save_json(f"{args.output_dir}\\discuss_process\\json\\{output_file}.json", result)
-        return 0
-    decision_agreed_codebook, discuss_process = discuss_flow.codebook_discussion(roles, roles_identity,
-                                                                                 roles_positionality,
-                                                                                 agreed_disagreed_codebook)
 
-    final_codebook = discuss_flow.codebook_judge(Judge, init_codebook, agreed_disagreed_codebook,
-                                                 decision_agreed_codebook, rq)
+    disagreements = agreed_disagreed_codebook["disagreements"]
+    exist_disagreements = bool(disagreements) and isinstance(disagreements[0], dict)
 
     result = {
         "Role_Team": roles_identity,
         "Agreed_disagreed_codebook": agreed_disagreed_codebook,
-        "Discussion": discuss_process,
-        "Final_codebook": final_codebook,
-        "current_num_token": {"input_token": discuss_flow.input_token,
-                              "output_token": discuss_flow.output_token}
     }
-    save_json(f"{args.output_dir}\\discuss_process\\json\\{output_file}.json", result)
 
+    decision_agreed_codebook = ""
+    if exist_disagreements:
+        decision_agreed_codebook, discuss_process = discuss_flow.codebook_discussion(roles, roles_identity, roles_positionality, agreed_disagreed_codebook)
+        result["Discussion"] = discuss_process
 
+        result["Final_codebook"] = discuss_flow.codebook_judge(Judge, init_codebook, agreed_disagreed_codebook, decision_agreed_codebook, rq)
+        result["current_num_token"] = {
+            "input_token": discuss_flow.input_token,
+            "output_token": discuss_flow.output_token,
+        }
+
+    chat_history = {"memory_lst": {agent.name: agent.memory_lst for agent in roles + [Reviewer, Judge]}}
+
+    output_prefix = f"{args.output_dir}/discuss_process/json/{output_file}"
+    save_json(f"{output_prefix}.json", result)
+    save_json(f"{output_prefix}_chat_history.json", chat_history)
+
+    if not exist_disagreements:
+        return 0
+
+    
 def experiment_single_flow(role, texts, model_name, discuss_config, rq=None):
     role_name = role[0]
     models_name = {role_name: model_name}
@@ -89,26 +89,26 @@ def experiment_single_flow(role, texts, model_name, discuss_config, rq=None):
         "Codebook": role_codebook["codebook"],
     }
 
-    save_json(f"{args.output_dir}\\baseline1\\json\\baseline1.json", result)
+    save_json(f"{args.output_dir}/baseline1/json/baseline1.json", result)
 
 
 def parse_args():
     parser = argparse.ArgumentParser("", formatter_class=argparse.ArgumentDefaultsHelpFormatter)
 
     parser.add_argument("-i", "--input-file", type=str,
-                        default=r"F:\Work\Debate\PrivousPerspectiveCoder-LM\Data\StorySeeker\processed\goal.json",
+                        default="Data/StorySeeker/processed/goal_1.json",
                         help="raw_text Input file path")
     parser.add_argument("-o", "--output-dir", type=str,
-                        default=r"F:\Work\Debate\PrivousPerspectiveCoder-LM\Data\StorySeeker\gpt-4o_output",
+                        default="Data/StorySeeker/Qwen2.5-1.5B-Instruct_output",
                         help="Codebook and discuss output file dir")
     parser.add_argument("-c", "--config-dir", type=str,
-                        default=r"F:\Work\Debate\PrivousPerspectiveCoder-LM\config\config.json",
+                        default="config/config.json",
                         help="config file dir")
-    parser.add_argument("-m", "--model-name", type=str, default="gpt-4o", help="Model name")
+    parser.add_argument("-m", "--model-name", type=str, default="models/Qwen2.5-1.5B-Instruct", help="Model name")
     # parser.add_argument("-t", "--temperature", type=float, default=0, hewlp="Sampling temperature")
 
     parser.add_argument("-rq", "--research-question", type=str, default="", help="Data iteration starting step")
-    parser.add_argument("-exp", "--experiment-name", type=float, default=2,
+    parser.add_argument("-exp", "--experiment-name", type=int, default=0,
                         help="0: discuss, 1: baseline1, 2: baseline2")
 
     return parser.parse_args()
