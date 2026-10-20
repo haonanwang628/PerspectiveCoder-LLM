@@ -1,0 +1,30 @@
+{
+    "name": "goal",
+    "threshold": 0.7,
+    "ground_truth_count": 20,
+    "predicted_code_count": 5,
+    "code_match": {
+        "feels_like_story": ["Tell A Story"],
+        "opinion": ["Provide Opinion"]
+    },
+    "scores": {
+        "recall": 0.1,
+        "match_rate": 0.4,
+        "code_diversity": 1.0
+    }
+}
+{
+    "name": "rationale",
+    "threshold": 0.7,
+    "ground_truth_count": 10,
+    "predicted_code_count": 5,
+    "code_match": {
+        "narrative_story": ["Sequence of Events / Story Features / Detailed Narrative", "Descriptive Narrative / Descriptive Text", "Non-Narrative / Opinion/Reaction / Instructional/Informative"],
+        "question_request": ["Request for Help"]
+    },
+    "scores": {
+        "recall": 0.2,
+        "match_rate": 0.8,
+        "code_diversity": 0.6
+    }
+}

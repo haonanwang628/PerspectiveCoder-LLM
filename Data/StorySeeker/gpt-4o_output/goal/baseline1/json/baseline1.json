@@ -1,0 +1,181 @@
+{
+    "Role": "Role1",
+    "Codebook": [
+        {
+            "code": "scary_event",
+            "definition": "Describes an event that causes fear or anxiety.",
+            "inclusion_criteria": [
+                "If the text describes an event experienced as frightening or intimidating."
+            ],
+            "exclusion_criteria": [
+                "If the text discusses unrelated emotions or neutral experiences."
+            ],
+            "typical_examples": [
+                "talk about an event that scared them during science class"
+            ],
+            "atypical_examples": [
+                "Tell a story of a time they were freaked out"
+            ],
+            "participants": [
+                "652d5fbe9b9bfde1040a8c4d",
+                "5e437d7404eaba215eafbd2a"
+            ],
+            "relevance_to_RQ": "RQ1: This code helps understand how participants perceive and narrate fear in storytelling.",
+            "notes": ""
+        },
+        {
+            "code": "academic_event",
+            "definition": "Explains events that occurred within a school setting.",
+            "inclusion_criteria": [
+                "If the text explains what happened in a class or educational environment."
+            ],
+            "exclusion_criteria": [
+                "If the text is about non-educational environments."
+            ],
+            "typical_examples": [
+                "Explain what happened in His AP Chem class."
+            ],
+            "atypical_examples": [
+                "To explain physical fitness in the military and in war zones."
+            ],
+            "participants": [
+                "63c3343c5a670ddd37e82f2b",
+                "6365ab4612aba0a9bf749af1"
+            ],
+            "relevance_to_RQ": "RQ1: This code reveals participants' focus on educational experiences in storytelling.",
+            "notes": ""
+        },
+        {
+            "code": "funny_story",
+            "definition": "Narrates a humorous or amusing event.",
+            "inclusion_criteria": [
+                "If the text contains elements of humor or comedic storytelling."
+            ],
+            "exclusion_criteria": [
+                "If the text is serious or does not aim to amuse."
+            ],
+            "typical_examples": [
+                "tell a funny story about a teacher in high school."
+            ],
+            "atypical_examples": [
+                "write a semi-funny story"
+            ],
+            "participants": [
+                "6276d97e209059496d37bf74",
+                "63be3c7ab7bccecc7dc80cd4"
+            ],
+            "relevance_to_RQ": "RQ2: Helps identify differences in the perception of humor across narratives.",
+            "notes": ""
+        },
+        {
+            "code": "religious_argument",
+            "definition": "Presents an argument or belief related to religion.",
+            "inclusion_criteria": [
+                "If the text directly argues for or against religious beliefs."
+            ],
+            "exclusion_criteria": [
+                "If the text mentions religion but does not form an argument."
+            ],
+            "typical_examples": [
+                "refute a claim that the Quran prohibits homosexuality"
+            ],
+            "atypical_examples": [
+                "debate the Quran"
+            ],
+            "participants": [
+                "5cd709efe8397d0001045dd2",
+                "6025aeaea2c27e19e096f29d"
+            ],
+            "relevance_to_RQ": "RQ3: Highlights how narrative perceptions may vary with prescriptive religious labels.",
+            "notes": ""
+        },
+        {
+            "code": "personal_experience",
+            "definition": "Narrates a personal anecdote or experience.",
+            "inclusion_criteria": [
+                "If the text shares a personal event or story from the participant's life."
+            ],
+            "exclusion_criteria": [
+                "If the text is solely fictional with no autobiographical hints."
+            ],
+            "typical_examples": [
+                "sharing personal experience"
+            ],
+            "atypical_examples": [
+                "Share his story regarding his failed drive update."
+            ],
+            "participants": [
+                "654455ad0b76675379c66db4",
+                "5b2474e65b5c0900018a72ea"
+            ],
+            "relevance_to_RQ": "",
+            "notes": ""
+        },
+        {
+            "code": "opinion_expression",
+            "definition": "Expresses an opinion or belief about a topic.",
+            "inclusion_criteria": [
+                "If the text explicitly states the participant's viewpoint."
+            ],
+            "exclusion_criteria": [
+                "If the text is purely descriptive without opinion."
+            ],
+            "typical_examples": [
+                "express their opinion about New World and Grand Line."
+            ],
+            "atypical_examples": [
+                "Express their opinion."
+            ],
+            "participants": [
+                "5b9489e56138fe0001f4104d",
+                "5f4a7a00dc1bde60ab8f7ac5"
+            ],
+            "relevance_to_RQ": "RQ2: Provides insight into how personal beliefs shape narrative perception.",
+            "notes": ""
+        },
+        {
+            "code": "request_help",
+            "definition": "Asks for advice or assistance from others.",
+            "inclusion_criteria": [
+                "If the text seeks guidance or support on a specific issue."
+            ],
+            "exclusion_criteria": [
+                "If no request for aid is present."
+            ],
+            "typical_examples": [
+                "ask for help in studying for a test"
+            ],
+            "atypical_examples": [
+                "seek advice about her future."
+            ],
+            "participants": [
+                "652d5fbe9b9bfde1040a8c4d",
+                "65b0764ee48ec2cb4791841f"
+            ],
+            "relevance_to_RQ": "",
+            "notes": ""
+        },
+        {
+            "code": "technical_explanation",
+            "definition": "Offers a detailed explanation of a technical or complex topic.",
+            "inclusion_criteria": [
+                "If the text elucidates a complicated idea or process."
+            ],
+            "exclusion_criteria": [
+                "If the text is non-explanatory or purely narrative."
+            ],
+            "typical_examples": [
+                "teach math"
+            ],
+            "atypical_examples": [
+                "explain the relationship between sugar, salt, and fat and human life."
+            ],
+            "participants": [
+                "60f4a2d142c69dc1121b6dbf",
+                "6007a7996fbeef04ce080f90"
+            ],
+            "relevance_to_RQ": "RQ3: Demonstrates variance in narrative complexity and educational depth.",
+            "notes": ""
+        }
+    ]
+}

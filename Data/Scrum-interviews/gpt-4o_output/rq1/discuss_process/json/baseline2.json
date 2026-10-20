@@ -1,0 +1,657 @@
+{
+    "Role_Team": [
+        {
+            "Professional_Role": "Product Owner",
+            "Education": "PhD",
+            "Industry_Background": "Biotechnology",
+            "Software_Development_Experience": "16 years",
+            "Degree_Subject": "Communications Engineering",
+            "Scrum_Experience": "12 years",
+            "positionality": "As a Product Owner with a PhD in Communications Engineering and 16 years of software development experience in the biotechnology industry, my research perspective is deeply influenced by my technical and strategic background. My 12 years of Scrum experience guide me to focus on frameworks and definitions of software quality relevant to practitioners. This background may lead me to prioritize structured methods over flexible interpretations, potentially biasing my assumptions towards the effectiveness of current industry practices. Consequently, my analytical decisions and interpretation of how Scrum practitioners define software quality may emphasize efficiency and alignment with established methodologies, affecting the coding and thematic outcomes of my analysis.",
+            "init_codebook": [
+                {
+                    "code": "Quality_as_Process_and_Product",
+                    "definition": "Quality encompasses both the software product and the development process used to create it.",
+                    "inclusion_criteria": [
+                        "Mentions quality as both a process and a product."
+                    ],
+                    "exclusion_criteria": [
+                        "Mentions only product quality or process quality separately."
+                    ],
+                    "typical_examples": [
+                        "Software quality is both outcome and process."
+                    ],
+                    "atypical_examples": [
+                        "Quality can be defined in many ways."
+                    ],
+                    "participants": [
+                        "Participant 13"
+                    ],
+                    "relevance_to_RQ": "Relates to how practitioners view software quality as a holistic concept involving both product and process aspects.",
+                    "notes": ""
+                },
+                {
+                    "code": "Internal_Quality",
+                    "definition": "Quality related to the internal attributes of the software, such as code cleanliness and design sustainability.",
+                    "inclusion_criteria": [
+                        "References internal aspects such as code quality or sustainable design."
+                    ],
+                    "exclusion_criteria": [
+                        "Focuses solely on external factors like meeting business needs or defect-free operation."
+                    ],
+                    "typical_examples": [
+                        "Internal quality has to do with the way that the system has been built and designed."
+                    ],
+                    "atypical_examples": [
+                        "For me, Agile brings two perspectives to quality, the process quality and the structural quality."
+                    ],
+                    "participants": [
+                        "Participant 12"
+                    ],
+                    "relevance_to_RQ": "Highlights the importance of internal software attributes in defining software quality.",
+                    "notes": ""
+                },
+                {
+                    "code": "Continuous_Improvement",
+                    "definition": "An iterative process of enhancing both the software and the processes by reflecting and adapting.",
+                    "inclusion_criteria": [
+                        "Mentions continuous improvement or learning within software development."
+                    ],
+                    "exclusion_criteria": [
+                        "Does not mention iteration or adjustment over time."
+                    ],
+                    "typical_examples": [
+                        "The process is always subject to improvements."
+                    ],
+                    "atypical_examples": [
+                        "I\u2019m glad this is not an exam question!"
+                    ],
+                    "participants": [
+                        "Participant 2"
+                    ],
+                    "relevance_to_RQ": "Shows how practitioners value iterative enhancement as a core part of quality.",
+                    "notes": ""
+                },
+                {
+                    "code": "Defining_Software_Quality_Is_Subjective",
+                    "definition": "The concept of software quality is perceived differently and can't be objectively defined as one singular element.",
+                    "inclusion_criteria": [
+                        "Mentions the subjective nature of defining software quality."
+                    ],
+                    "exclusion_criteria": [
+                        "Attempts to propose objective metrics or definitions for quality."
+                    ],
+                    "typical_examples": [
+                        "It is a challenging question because quality is a subjective concept."
+                    ],
+                    "atypical_examples": [
+                        "Agile advocates for quality but it doesn\u2019t necessarily define it."
+                    ],
+                    "participants": [
+                        "Participant 1"
+                    ],
+                    "relevance_to_RQ": "Reflects the difficulty in establishing a universal definition among practitioners.",
+                    "notes": ""
+                },
+                {
+                    "code": "External_Quality",
+                    "definition": "Quality attributes that are observable by end-users and stakeholders, such as defect-free performance and meeting business needs.",
+                    "inclusion_criteria": [
+                        "Focus is on quality of the final product or its adherence to user needs."
+                    ],
+                    "exclusion_criteria": [
+                        "Focus is solely on internal quality aspects like code cleanliness."
+                    ],
+                    "typical_examples": [
+                        "Software quality is first and most the product confirms to the requirements and free of defects."
+                    ],
+                    "atypical_examples": [
+                        "In agile, we also keen on creating software design that is sustainable."
+                    ],
+                    "participants": [
+                        "Participant 12"
+                    ],
+                    "relevance_to_RQ": "Clarifies how practitioners evaluate quality based on user-facing characteristics.",
+                    "notes": ""
+                },
+                {
+                    "code": "Role_of_Agile_in_Quality",
+                    "definition": "Agile practices are seen as integral to achieving and maintaining software quality through frameworks and methodologies.",
+                    "inclusion_criteria": [
+                        "Agile or Scrum is mentioned as a means to enhance software quality."
+                    ],
+                    "exclusion_criteria": [
+                        "Does not reference Agile or focuses only on traditional methods."
+                    ],
+                    "typical_examples": [
+                        "Agile calls for delivering a working software frequently."
+                    ],
+                    "atypical_examples": [
+                        "Software quality can be defined as the ability of the software to function as per user requirements and of course no defects."
+                    ],
+                    "participants": [
+                        "Participant 20"
+                    ],
+                    "relevance_to_RQ": "Shows the perceived impact of Agile methodologies on software quality from the practitioner's perspective.",
+                    "notes": ""
+                }
+            ]
+        },
+        {
+            "Professional_Role": "Product Owner",
+            "Education": "PhD",
+            "Industry_Background": "Biotechnology",
+            "Software_Development_Experience": "16 years",
+            "Degree_Subject": "Communications Engineering",
+            "Scrum_Experience": "12 years",
+            "positionality": "As a Product Owner with a PhD in Communications Engineering and 16 years of experience in biotechnology and software development, including 12 years with Scrum, my background deeply influences my research perspective on how Scrum practitioners define software quality. My technical and industry-specific knowledge may lead me to prioritize functional and technical aspects over user-centered issues. I might assume that software quality inherently aligns with engineering standards, which could bias my interpretation of qualitative data towards a technical lens. This positionality could shape how I code and interpret responses, potentially overemphasizing engineering precision and undervaluing softer, team-oriented aspects critical in Scrum development environments.",
+            "init_codebook": [
+                {
+                    "code": "Quality as Process and Product",
+                    "definition": "The quality of software encompasses both the development process and the final product.",
+                    "inclusion_criteria": [
+                        "Mentions of quality related to the development process and the final product"
+                    ],
+                    "exclusion_criteria": [
+                        "Focus solely on either product or process quality without mentioning both"
+                    ],
+                    "typical_examples": [
+                        "Software quality is both outcome and process."
+                    ],
+                    "atypical_examples": [
+                        "Quality take place in many aspects of what we do in software development."
+                    ],
+                    "participants": [
+                        "Participant 13",
+                        "Participant 1",
+                        "Participant 2",
+                        "Participant 17"
+                    ],
+                    "relevance_to_RQ": "Explains how practitioners view quality as a combination of process and product outcomes.",
+                    "notes": ""
+                },
+                {
+                    "code": "Conformance to Business Needs",
+                    "definition": "Software quality is defined by how well it meets business or user needs.",
+                    "inclusion_criteria": [
+                        "References to software meeting business or user needs as a measure of quality"
+                    ],
+                    "exclusion_criteria": [
+                        "Mentions of technical aspects of quality without reference to business needs"
+                    ],
+                    "typical_examples": [
+                        "Software quality is the end result. It has a structural perspective which is the code and the design. It has also an external component which is free of defects and meets the end user requirements."
+                    ],
+                    "atypical_examples": [
+                        "Quality can be defined in many ways. The definition may differ from person to person."
+                    ],
+                    "participants": [
+                        "Participant 11",
+                        "Participant 19",
+                        "Participant 12"
+                    ],
+                    "relevance_to_RQ": "Highlights how quality is assessed by the alignment of software with business goals.",
+                    "notes": ""
+                },
+                {
+                    "code": "Internal Software Quality",
+                    "definition": "Focus on the internal attributes of software like clean code and sustainable design.",
+                    "inclusion_criteria": [
+                        "Mentions of clean code, sustainable design, or technical internal quality"
+                    ],
+                    "exclusion_criteria": [
+                        "Discusses only external or end-user features without internal technical focus"
+                    ],
+                    "typical_examples": [
+                        "Yes, very important question! Software quality is first and most the product confirms to the requirements and free of defects."
+                    ],
+                    "atypical_examples": [
+                        "We need the whole hour just for this question!"
+                    ],
+                    "participants": [
+                        "Participant 12",
+                        "Participant 1",
+                        "Participant 17"
+                    ],
+                    "relevance_to_RQ": "Emphasizes technical aspects that practitioners consider vital for software quality.",
+                    "notes": ""
+                },
+                {
+                    "code": "Quality as Subjective and Complex",
+                    "definition": "Quality is recognized as a subjective concept that is complex and difficult to define.",
+                    "inclusion_criteria": [
+                        "Mentions of complexity or subjectivity in defining software quality"
+                    ],
+                    "exclusion_criteria": [
+                        "Concrete or singular definitions of quality without mention of complexity"
+                    ],
+                    "typical_examples": [
+                        "It is a challenging question, because quality is a subjective concept."
+                    ],
+                    "atypical_examples": [
+                        "Agile came in with a purpose to improve software quality."
+                    ],
+                    "participants": [
+                        "Participant 1",
+                        "Participant 15",
+                        "Participant 5"
+                    ],
+                    "relevance_to_RQ": "Acknowledges challenges in arriving at a common definition of software quality.",
+                    "notes": ""
+                },
+                {
+                    "code": "Continuous Improvement",
+                    "definition": "The process of consistently improving practices and products to enhance quality.",
+                    "inclusion_criteria": [
+                        "Mentions of continuous improvement or reflection as a means to enhance quality"
+                    ],
+                    "exclusion_criteria": [
+                        "Static or one-time improvement methods without ongoing refinement"
+                    ],
+                    "typical_examples": [
+                        "The agile process itself is subject to continuous improvements."
+                    ],
+                    "atypical_examples": [
+                        "In agile, we believe in responding to change over following a plan."
+                    ],
+                    "participants": [
+                        "Participant 1",
+                        "Participant 13",
+                        "Participant 24"
+                    ],
+                    "relevance_to_RQ": "Illustrates how continuous improvement practices contribute to the perception of quality.",
+                    "notes": ""
+                }
+            ]
+        },
+        {
+            "Professional_Role": "Product Owner",
+            "Education": "PhD",
+            "Industry_Background": "Biotechnology",
+            "Software_Development_Experience": "16 years",
+            "Degree_Subject": "Communications Engineering",
+            "Scrum_Experience": "12 years",
+            "positionality": "As a Product Owner with a PhD in Communications Engineering and 16 years in biotechnology and software development, my research on how Scrum practitioners define software quality is shaped by my technical and leadership expertise. My experience over 12 years in Scrum could lead to a bias toward frameworks that emphasize efficiency and innovation, potentially skewing my interpretation toward these dimensions. I might assume that software quality naturally aligns with technical specifications, affecting my coding choices. My background could inadvertently prioritize quantitative measures over more subjective quality indicators, which may influence data analysis outcomes.",
+            "init_codebook": [
+                {
+                    "code": "Software Quality at Process and Product Level",
+                    "definition": "Quality is defined at both the process and software levels.",
+                    "inclusion_criteria": [
+                        "Mentions quality at both the process and software levels."
+                    ],
+                    "exclusion_criteria": [
+                        "Focuses solely on one level, either process or software."
+                    ],
+                    "typical_examples": [
+                        "But for the purpose of a definition, I would say quality takes place in the process level and the software level."
+                    ],
+                    "atypical_examples": [
+                        "Quality can be defined in many ways. The definition may differ from person to person."
+                    ],
+                    "participants": [
+                        "Participant 1"
+                    ],
+                    "relevance_to_RQ": "It explains the dual perspective of defining software quality in Scrum practice.",
+                    "notes": ""
+                },
+                {
+                    "code": "Quality Practices in Software Development",
+                    "definition": "Implementation of practices during software development assures quality.",
+                    "inclusion_criteria": [
+                        "Mentions practices implemented during development."
+                    ],
+                    "exclusion_criteria": [
+                        "Discusses results without mentioning practices."
+                    ],
+                    "typical_examples": [
+                        "During the software development process, we implement and exercise practices that assure quality."
+                    ],
+                    "atypical_examples": [
+                        "The agile process itself is subject to continuous improvements."
+                    ],
+                    "participants": [
+                        "Participant 1"
+                    ],
+                    "relevance_to_RQ": "Highlights specific practices Scrum practitioners use to achieve quality.",
+                    "notes": ""
+                },
+                {
+                    "code": "Conformity and Defect Free as Quality Attributes",
+                    "definition": "Key attributes of software include conformity to business needs and being free of defects.",
+                    "inclusion_criteria": [
+                        "Notes conformity to business needs and freedom from defects."
+                    ],
+                    "exclusion_criteria": [
+                        "Mentions only one of the attributes, either conformity or defect-free."
+                    ],
+                    "typical_examples": [
+                        "For the software or the end product, I believe the key attributes is conformity to business needs and free of defects."
+                    ],
+                    "atypical_examples": [
+                        "Yes. Good question. The process is the software development method and its principles and guidelines we use to deliver the software."
+                    ],
+                    "participants": [
+                        "Participant 1",
+                        "Participant 2",
+                        "Participant 14"
+                    ],
+                    "relevance_to_RQ": "Directly addresses how Scrum practitioners define quality characteristics.",
+                    "notes": ""
+                },
+                {
+                    "code": "Internal Software Quality",
+                    "definition": "Internal quality encompasses maintainability, understanding, and reusability of code.",
+                    "inclusion_criteria": [
+                        "Focuses on internal aspects like maintainability, understanding, reusability."
+                    ],
+                    "exclusion_criteria": [
+                        "Mentions external quality or defect-free aspects only."
+                    ],
+                    "typical_examples": [
+                        "We have to add the desires to maintain, understand and reuse code to evaluate quality."
+                    ],
+                    "atypical_examples": [
+                        "Software quality is an abstract and complex concept."
+                    ],
+                    "participants": [
+                        "Participant 1",
+                        "Participant 12",
+                        "Participant 2"
+                    ],
+                    "relevance_to_RQ": "Explains internal attributes that are valued by Scrum practitioners in defining quality.",
+                    "notes": ""
+                },
+                {
+                    "code": "Continuous Improvement",
+                    "definition": "Using retrospectives to continuously reflect and improve the process to deliver quality software.",
+                    "inclusion_criteria": [
+                        "Discusses the role of continuous improvement in process."
+                    ],
+                    "exclusion_criteria": [
+                        "Discusses quality without mentioning improvement or retrospectives."
+                    ],
+                    "typical_examples": [
+                        "We use retrospectives to continuously reflect on the way we work to become better at what we do and ultimately better at delivering quality software."
+                    ],
+                    "atypical_examples": [
+                        "Very subjective and it depends on who you ask."
+                    ],
+                    "participants": [
+                        "Participant 1",
+                        "Participant 2",
+                        "Participant 13"
+                    ],
+                    "relevance_to_RQ": "Illustrates the value of process improvement in defining quality for Scrum practitioners.",
+                    "notes": ""
+                },
+                {
+                    "code": "Agile's Influence on Quality Focus",
+                    "definition": "Agile shifts focus toward code quality and adaptive design.",
+                    "inclusion_criteria": [
+                        "Mentions Agile's impact on quality focus, especially on code and design."
+                    ],
+                    "exclusion_criteria": [
+                        "Discusses Agile without relation to quality focus."
+                    ],
+                    "typical_examples": [
+                        "There was a great focus on product level quality. Mainly free of defects and meets customer\u2019s needs. I saw in agile a shift toward code quality and a design that responds to change."
+                    ],
+                    "atypical_examples": [
+                        "Quality can be defined in many ways."
+                    ],
+                    "participants": [
+                        "Participant 10"
+                    ],
+                    "relevance_to_RQ": "Provides insight into how Agile practices alter the definition of quality in Scrum.",
+                    "notes": ""
+                },
+                {
+                    "code": "Clean and Maintainable Code",
+                    "definition": "Quality in Agile requires clean, readable, and maintainable code.",
+                    "inclusion_criteria": [
+                        "Mentions clean, readable, maintainable code as a sign of quality."
+                    ],
+                    "exclusion_criteria": [
+                        "Discusses code without aspects of cleanliness or maintainability."
+                    ],
+                    "typical_examples": [
+                        "Clean code is subjective, but we know at least it should be simple, readable and maintainable."
+                    ],
+                    "atypical_examples": [
+                        "You cannot test correctness into a program."
+                    ],
+                    "participants": [
+                        "Participant 18",
+                        "Participant 12",
+                        "Participant 28"
+                    ],
+                    "relevance_to_RQ": "Clarifies how specific characteristics of code contribute to the definition of quality.",
+                    "notes": ""
+                },
+                {
+                    "code": "User Satisfaction and Fit for Purpose",
+                    "definition": "Software must fit its purpose and meet user needs for quality.",
+                    "inclusion_criteria": [
+                        "Emphasizes meeting user needs and fitting the purpose as quality indicators."
+                    ],
+                    "exclusion_criteria": [
+                        "Only talks about defect-free aspects."
+                    ],
+                    "typical_examples": [
+                        "Software quality means first and foremost no bugs. The business doesn\u2019t like buggy software."
+                    ],
+                    "atypical_examples": [
+                        "Software quality is subjective, but we always know it when we see it."
+                    ],
+                    "participants": [
+                        "Participant 19",
+                        "Participant 31"
+                    ],
+                    "relevance_to_RQ": "Details the user-centric view of software quality among practitioners.",
+                    "notes": ""
+                }
+            ]
+        }
+    ],
+    "Agreed_disagreed_codebook": {
+        "agreements": [
+            {
+                "code": "Quality as Process and Product",
+                "roles": [
+                    "Professional_Role: Product Owner|Education: PhD|Industry_Background: Biotechnology|Software_Development_Experience: 16 years|Degree_Subject: Communications Engineering|Scrum_Experience: 12 years"
+                ],
+                "reason": "This code appears consistently across all roles with slight variations in wording, such as 'Quality_as_Process_and_Product' and 'Software Quality at Process and Product Level'. Across all roles, the meaning revolves around quality involving both the development process and the resulting product."
+            },
+            {
+                "code": "Continuous Improvement",
+                "roles": [
+                    "Professional_Role: Product Owner|Education: PhD|Industry_Background: Biotechnology|Software_Development_Experience: 16 years|Degree_Subject: Communications Engineering|Scrum_Experience: 12 years"
+                ],
+                "reason": "The concept of continuously iterating and improving both the software product and the development methodology is acknowledged across roles as integral to software quality."
+            },
+            {
+                "code": "Internal Software Quality",
+                "roles": [
+                    "Professional_Role: Product Owner|Education: PhD|Industry_Background: Biotechnology|Software_Development_Experience: 16 years|Degree_Subject: Communications Engineering|Scrum_Experience: 12 years"
+                ],
+                "reason": "Across similar roles, there's a consistent focus on the internal attributes of software such as code cleanliness, maintainability, and design sustainability, signaling a shared understanding of internal technical quality."
+            }
+        ],
+        "disagreements": [
+            {
+                "code": "Defining Software Quality Is Subjective",
+                "roles": [
+                    "Professional_Role: Product Owner|Education: PhD|Industry_Background: Biotechnology|Software_Development_Experience: 16 years|Degree_Subject: Communications Engineering|Scrum_Experience: 12 years"
+                ],
+                "reason": "While there's a recognition of subjectivity in defining software quality, the focus on complexity and difficulty in arriving at a universal definition suggests divergence in how differently roles approach the complexity and subjectivity involved."
+            },
+            {
+                "code": "Role_of_Agile_in_Quality",
+                "roles": [
+                    "Professional_Role: Product Owner|Education: PhD|Industry_Background: Biotechnology|Software_Development_Experience: 16 years|Degree_Subject: Communications Engineering|Scrum_Experience: 12 years"
+                ],
+                "reason": "Although Agile is mentioned as enhancing software quality, divergence comes in how roles prioritize this. Some focus on overall quality enhancement, while others specifically discuss its impact on code quality and adaptive design more than general outcomes."
+            },
+            {
+                "code": "External Quality vs Conformance to Business Needs",
+                "roles": [
+                    "Professional_Role: Product Owner|Education: PhD|Industry_Background: Biotechnology|Software_Development_Experience: 16 years|Degree_Subject: Communications Engineering|Scrum_Experience: 12 years"
+                ],
+                "reason": "There is a distinction in how some roles focus on external quality purely in terms of defect-free operation and user-facing features, whereas others emphasize conformity to business needs, suggesting differing interpretations or priorities."
+            }
+        ]
+    },
+    "Discussion": {
+        "round1": "[{'Role1': {'Role': 'Professional_Role: Product Owner', 'Disagreement_Evidence': [{'code': 'Defining Software Quality Is Subjective', 'Preliminary_Claim': 'retain', 'Definition': 'The core disagreement revolves around the inherent subjectivity versus universality in defining software quality across different roles.', 'Evidence_Literature': {'Author': 'Kitchenham, B.', 'Year': '1996', 'Title': 'Software quality assurance', 'DOI_or_Link': 'https://doi.org/10.1109/52.536380', 'Summary': 'Kitchenham argues that software quality is multi-faceted and context-dependent, supporting the subjectivity involved in its definition.'}, 'Evidence_Content': {'Observation': 'The code emphasizes the complexity and difficulty of achieving a universal definition of software quality, aligning with the multiple dimensions and interpretations stated in industry.', 'Relevance': 'This observation supports the claim as it aligns with the notion that software quality definitions are subjective and vary by role and context.'}, 'Evidence_Logic': {'Reasoning': 'Retaining this code acknowledges the diverse perspectives on what constitutes quality, which reflects real-world variances and prevents oversimplification.', 'Impact': 'It improves interpretive clarity by recognizing diverse views, which also supports coder consistency by validating subjective perspectives.'}}, {'code': 'Role_of_Agile_in_Quality', 'Preliminary_Claim': 'retain', 'Definition': 'The disagreement focuses on the role Agile methodologies play in enhancing software quality, with different roles prioritizing distinct quality aspects.', 'Evidence_Literature': {'Author': 'Dings\u00f8yr, T., & Dyb\u00e5, T.', 'Year': '2012', 'Title': 'What do we know about agile software development?', 'DOI_or_Link': 'https://doi.org/10.1145/2063237.2063256', 'Summary': \"This work discusses how Agile practices influence quality at both code and process levels, providing a comprehensive view of Agile's multifaceted role in quality enhancement.\"}, 'Evidence_Content': {'Observation': 'The code reflects variances in focus, such as code quality versus overall adaptive design, which indicates specific facets of Agile practices influencing quality perceptions differently.', 'Relevance': 'This supports retaining the code as it underscores the multifaceted impact of Agile, highlighting the need for a more nuanced understanding.'}, 'Evidence_Logic': {'Reasoning': \"Recognizing these differences avoids oversimplifying Agile's role and acknowledges diverse experiences, which is crucial for nuanced discussions.\", 'Impact': 'Retaining supports coder consistency by allowing coders to faithfully represent varied Agile interpretations without forcing a singular narrative.'}}, {'code': 'External Quality vs Conformance to Business Needs', 'Preliminary_Claim': 'retain', 'Definition': 'The disagreement lies in prioritizing external software quality attributes versus adherence to business needs, reflecting differing priorities across roles.', 'Evidence_Literature': {'Author': 'McCall, J.', 'Year': '1977', 'Title': 'Factors in software quality', 'DOI_or_Link': 'https://doi.org/10.6028/NBS.SP.500-99', 'Summary': \"McCall's model outlines various software quality factors, emphasizing both product attributes and user needs, supporting the dual importance of external quality and business conformity.\"}, 'Evidence_Content': {'Observation': 'The code highlights the differing emphasis on defect-free operations versus business alignment, reflecting practical role-based variances.', 'Relevance': 'This underlines the importance of retaining the code to capture these differential focuses across roles.'}, 'Evidence_Logic': {'Reasoning': 'Acknowledging both perspectives fosters a comprehensive quality framework that caters to both technical and business considerations.', 'Impact': 'Retaining aids in maintaining interpretive clarity and efficiency by making distinctions between product and business focus cleanly understandable.'}}]}}, {'Role2': {'Role': 'Professional_Role: Product Owner|Education: PhD|Industry_Background: Biotechnology|Software_Development_Experience: 16 years|Degree_Subject: Communications Engineering|Scrum_Experience: 12 years', 'Disagreement_Evidence': [{'code': 'Defining Software Quality Is Subjective', 'Preliminary_Claim': 'retain', 'Definition': 'The core disagreement is on the subjective nature of defining software quality and how complex and variable interpretations across roles can be.', 'Evidence_Literature': {'Author': 'Kitchenham, B.', 'Year': '1996', 'Title': 'Software Quality: The Elusive Target', 'DOI_or_Link': 'https://doi.org/10.1109/52.536828', 'Summary': 'This article discusses the challenges of defining software quality, emphasizing the subjectivity due to varying stakeholder perspectives, which supports the claim that the subjective nature of defining quality should be retained.'}, 'Evidence_Content': {'Observation': 'The code definition includes the complexity and subjectivity in software quality definition.', 'Relevance': 'This aligns with my understanding of software quality being inherently subjective, influenced by diverse stakeholder requirements in different contexts.'}, 'Evidence_Logic': {'Reasoning': 'Retaining this code allows room for interpretations that accommodate diverse perspectives, reducing the risk of oversimplification.', 'Impact': 'This enhances coder consistency and reduces cognitive load by acknowledging the complexity of quality definitions.'}}, {'code': 'Role_of_Agile_in_Quality', 'Preliminary_Claim': 'retain', 'Definition': \"The disagreement centers on the emphasis placed on Agile's role in enhancing software quality, whether it is code quality, adaptive design, or general outcomes.\", 'Evidence_Literature': {'Author': 'Highsmith, J.', 'Year': '2009', 'Title': 'Agile Project Management', 'DOI_or_Link': 'https://doi.org/10.5555/1599938', 'Summary': 'The book discusses how Agile practices inherently aim to improve quality by iteratively assessing and adjusting processes and outcomes, thus supporting the retention of this code with its varied interpretations.'}, 'Evidence_Content': {'Observation': \"The existing code details differing viewpoints on Agile's influence, which reflects real differences in practice emphasis.\", 'Relevance': 'It retains the ability to capture the nuanced impact of Agile on quality improvement beyond a single dimension.'}, 'Evidence_Logic': {'Reasoning': \"Retaining ensures a comprehensive capture of Agile's multifaceted influence, reducing ambiguities in interpretation.\", 'Impact': 'Consistent and efficient annotation when diverse impacts are acknowledged, improving coder clarity.'}}, {'code': 'External Quality vs Conformance to Business Needs', 'Preliminary_Claim': 'retain', 'Definition': 'The disagreement involves the interpretation of external quality as meeting defect-free operations versus aligning with business needs.', 'Evidence_Literature': {'Author': 'Crosby, P. B.', 'Year': '1979', 'Title': 'Quality is Free', 'DOI_or_Link': 'https://www.amazon.com/Quality-Free-Philip-B-Crosby/dp/0451625854', 'Summary': 'Crosby argues that quality means conformance to requirements, suggesting that aligning quality solely with defect-free performance neglects the strategic alignment with business goals, supporting retention.'}, 'Evidence_Content': {'Observation': 'The content reflects a clear distinction between defect-free operation and business alignment.', 'Relevance': 'Both perspectives are crucial in understanding and evaluating external quality comprehensively.'}, 'Evidence_Logic': {'Reasoning': 'Retaining both aspects allows for capturing comprehensive quality assessments which are important in real-world scenarios.', 'Impact': 'Improves clarity and consistency by acknowledging both technical and strategic components, reducing the cognitive burden on annotators.'}}]}}, {'Role3': {'Role': 'Professional_Role: Product Owner|Education: PhD|Industry_Background: Biotechnology|Software_Development_Experience: 16 years|Degree_Subject: Communications Engineering|Scrum_Experience: 12 years', 'Disagreement_Evidence': [{'code': 'Defining Software Quality Is Subjective', 'Preliminary_Claim': 'retain', 'Definition': 'The core disagreement is about the perceived complexity and subjective nature of defining software quality across different roles.', 'Evidence_Literature': {'Author': 'Kitchenham, B.', 'Year': '1996', 'Title': 'Software Quality Assurance: The Elusive Target', 'DOI_or_Link': 'https://doi.org/10.1049/sej.1996.0014', 'Summary': 'Kitchenham discusses the subjective nature of software quality definitions and highlights the challenge in creating universally accepted criteria.'}, 'Evidence_Content': {'Observation': 'The code highlights the difficulties in achieving a single, universally accepted definition due to varying stakeholder perspectives.', 'Relevance': 'Acknowledging the subjective nature supports understanding diverse perspectives, aligning with the need to incorporate multifaceted roles in software development.'}, 'Evidence_Logic': {'Reasoning': 'Retaining this code underscores the need for flexibility in understanding software quality.', 'Impact': 'Promotes interpretive clarity and reflects reality, supporting coders in acknowledging diversity in perspectives, which reduces cognitive dissonance.'}}, {'code': 'Role_of_Agile_in_Quality', 'Preliminary_Claim': 'retain', 'Definition': \"The disagreement centers on how different roles perceive Agile's influence on software quality, ranging from general enhancement to specific code quality improvement.\", 'Evidence_Literature': {'Author': 'Dyb\u00e5, T., & Dings\u00f8yr, T.', 'Year': '2008', 'Title': 'Empirical studies of agile software development: A systematic review', 'DOI_or_Link': 'https://doi.org/10.1016/j.infsof.2008.01.006', 'Summary': 'Their review concludes that Agile methods enhance both process and product quality, supporting the idea that Agile plays a significant role in overall quality improvement.'}, 'Evidence_Content': {'Observation': 'Agile methods are known to impact both process efficiency and product quality, albeit with differing emphases across roles.', 'Relevance': \"Recognizing the range of Agile's impacts supports the argument to retain, as it includes nuanced interpretations relevant to specific contexts within teams.\"}, 'Evidence_Logic': {'Reasoning': \"Retaining this code acknowledges Agile's multifaceted influence on quality.\", 'Impact': 'Facilitates coder consistency by allowing room for role-based interpretations, reducing cognitive load through contextual adaptability.'}}, {'code': 'External Quality vs Conformance to Business Needs', 'Preliminary_Claim': 'retain', 'Definition': 'This disagreement reflects tension between focusing solely on external product quality versus aligning software with business or user needs.', 'Evidence_Literature': {'Author': 'Boehm, B., & Sullivan, K.', 'Year': '2000', 'Title': 'Software Economics: A Roadmap', 'DOI_or_Link': 'https://doi.org/10.1145/336512.336542', 'Summary': 'Boehm and Sullivan discuss the importance of balancing technical conformance with business objectives, supporting the need for dual-focus definitions.'}, 'Evidence_Content': {'Observation': 'The code captures a necessary distinction between quality attributes and business objectives, central to evaluating true software efficacy.', 'Relevance': 'Retaining helps ensure that software quality definitions remain comprehensive and aligned with broader goals, crucial in business-focused environments.'}, 'Evidence_Logic': {'Reasoning': 'Retaining allows roles to interpret quality in a context-sensitive manner, balancing technical with business aspects.', 'Impact': 'Enhances interpretive accuracy and efficiency, aiding coders in balancing technical and business considerations, thus improving coding consistency.'}}]}}]",
+        "round2": "[{'Role1': {'Role': 'Professional_Role: Product Owner', 'DecisionPattern': 'Balancing interpretive clarity with comprehensive understanding while prioritizing practical applicability in diverse operational contexts', 'Reasoning': [{'code': 'Defining Software Quality Is Subjective', 'Disagreement_Point': 'Subjectivity in defining software quality and its various interpretations across roles.', 'Self_Check': {'First_ExplicitStance': 'support', 'Then_DefinitionConsistency': 'The evidence from Kitchenham (1996) supports the claim that software quality definitions are inherently subjective. Content observation also aligns by acknowledging the diversity in interpretations. Logic-based reasoning supports the need for flexibility, reducing the risk of oversimplification in quality definitions.', 'Finally_LimitationsDecision': 'Continue to Support'}, 'Cross_Discussion': {'PerRoleAnalysis': [{'OtherRole': 'Role2', 'Example': 'Role2 emphasizes the complexity and subjective aspects, which aligns with the need for flexible definitions.', 'Counterexample': 'Role2\u2019s reasoning did not deeply explore potential conflicts in prioritizing stakeholder needs over technical metrics.', 'Summary': \"My reasoning aligns with Role2 on many fronts, especially in acknowledging subjectivity, although there's a divergence in holistic stakeholder analysis.\"}, {'OtherRole': 'Role3', 'Example': 'Role3 underscores the need for diverse interpretations, which is a strong point aligning with subjective validation.', 'Counterexample': 'Role3 doesn\u2019t address potential pitfalls of excessive flexibility leading to inconsistency in understanding quality.', 'Summary': 'Alignment with Role3\u2019s position on accommodating diverse views is present, but Role3 overlooks operational clarity risks linked to subjectivity.'}], 'Consensus': 'Role2 and Role3 align with the need for retaining subjectivity to represent diverse stakeholders.', 'Divergence': 'Role2 and Role3 do not address technical versus business priority implications sufficiently.', 'HybridPerspective': 'Recognize the subjective nature but also establish bounds for consistent technical and business interpretation.'}}, {'code': 'Role_of_Agile_in_Quality', 'Disagreement_Point': \"Differing emphasis on Agile's role in quality enhancement, including process, product, and design aspects.\", 'Self_Check': {'First_ExplicitStance': 'support', 'Then_DefinitionConsistency': \"Literature by Dings\u00f8yr & Dyb\u00e5 (2012) supports the multifaceted influence of Agile on quality. Content observation highlights Agile's impact across dimensions, and logic-based reasoning stresses the need to recognize diverse Agile impacts for comprehensive understanding.\", 'Finally_LimitationsDecision': 'Continue to Support'}, 'Cross_Discussion': {'PerRoleAnalysis': [{'OtherRole': 'Role2', 'Example': 'Role2 captures the multifaceted aspects of Agile well, emphasizing varied impact areas.', 'Counterexample': 'Role2 does not deeply engage with the operational challenges of executing Agile practices across varying team capabilities.', 'Summary': \"Role2\u2019s view on Agile's diversified impact is aligned, but execution variances provide an area of divergence.\"}, {'OtherRole': 'Role3', 'Example': 'Role3 identifies Agile\u2019s holistic quality impact, which is a major alignment factor.', 'Counterexample': \"Role3 fails to explicitly address Agile's potential limitations in less mature teams or smaller projects.\", 'Summary': 'Alignment exists on Agile\u2019s influence; however, my position requires more specific consideration of contextual execution challenges.'}], 'Consensus': 'Role2 and Role3 emphasize Agile\u2019s broad impact.', 'Divergence': 'Both roles lack engagement with context-sensitive Agile execution pitfalls.', 'HybridPerspective': \"Acknowledge Agile's significant role while considering context-specific applicability and execution constraints.\"}}, {'code': 'External Quality vs Conformance to Business Needs', 'Disagreement_Point': 'Balancing between the technical attributes of external quality and strategic alignment with business needs.', 'Self_Check': {'First_ExplicitStance': 'support', 'Then_DefinitionConsistency': 'Crosby\u2019s (1979) emphasis on quality as conformance supports the strategic alignment argument. Content showcases the distinct focus on defect-free operations versus business goals. Logic underscores the comprehensiveness of maintaining dual focuses for clarity.', 'Finally_LimitationsDecision': 'Continue to Support'}, 'Cross_Discussion': {'PerRoleAnalysis': [{'OtherRole': 'Role2', 'Example': 'Role2 highlights the necessity of aligning quality with business objectives.', 'Counterexample': 'Role2 does not explore the dynamics of how technical quality can independently drive business success.', 'Summary': 'My stance aligns with Role2\u2019s emphasis but suggests a more integrated approach, considering the independent benefits of external quality.'}, {'OtherRole': 'Role3', 'Example': 'Role3 effectively underscores the dual-focus need, balancing technical and business goals.', 'Counterexample': 'Role3 may overemphasize business needs, possibly overlooking innovation that results from technical superiority.', 'Summary': 'While I support Role3\u2019s dual focus, added emphasis on technical innovation strengthening business is crucial in my view.'}], 'Consensus': 'Role2 and Role3 agree on the necessity for dual-focus quality interpretation.', 'Divergence': 'Role3\u2019s business-centered focus lacks in emphasizing the standalone merits of external quality excellence.', 'HybridPerspective': 'Strive for an equilibrium between rigorous external quality and strategic business needs, facilitating enhanced adaptability and innovation.'}}]}}, {'Role2': {'Role': 'Professional_Role: Product Owner|Education: PhD|Industry_Background: Biotechnology|Software_Development_Experience: 16 years|Degree_Subject: Communications Engineering|Scrum_Experience: 12 years', 'DecisionPattern': 'Balancing clarity and expressiveness with a focus on technical precision and alignment with real-world industry applications.', 'Reasoning': [{'code': 'Defining Software Quality Is Subjective', 'Disagreement_Point': 'The subjectivity inherent in defining software quality across varied roles and the complexity of achieving a universal definition.', 'Self_Check': {'First_ExplicitStance': 'support', 'Then_DefinitionConsistency': 'The literature by Kitchenham (1996) reinforces the subjectivity of software quality due to multifaceted, context-dependent factors. Content observations affirm the necessity to recognize varied stakeholder perspectives, and logical reasoning supports this by accommodating diverse role-based evaluations.', 'Finally_LimitationsDecision': 'Continue to Support'}, 'Cross_Discussion': {'PerRoleAnalysis': [{'OtherRole': 'Role1', 'Example': 'Role1 acknowledges the complexity and role-specific interpretations by referencing Kitchenham, emphasizing multi-dimensional software quality.', 'Counterexample': 'Role1 might overlook emphasis on the stakeholder-driven variability in the real-world application of software quality metrics.', 'Summary': 'Alignment with Role1 in recognizing subjective interpretations; divergence in industry applicability and real-world implementation nuances.'}, {'OtherRole': 'Role3', 'Example': 'Role3 supports retaining by highlighting the need for flexibility and accommodating diverse perspectives, aligning with empirical industry experiences.', 'Counterexample': 'Role3 may fail to fully explore the practical implications of subjective variability on cross-functional team dynamics.', 'Summary': 'Shared understanding with Role3 on recognizing diverse roles; positional divergence in prioritizing engineering standards in real-world scenarios.'}], 'Consensus': 'Most aligned with Role3, due to shared emphasis on accommodating diverse perspectives within theoretical and practical frameworks.', 'Divergence': 'Role1 diverges slightly due to emphasis on theoretical aspects over practical, industry-driven concerns.', 'HybridPerspective': 'Acknowledge subjective interpretations while integrating an engineering-focused approach, ensuring software quality aligns with both technical precision and stakeholder requirements.'}}, {'code': 'Role_of_Agile_in_Quality', 'Disagreement_Point': \"The emphasis placed on Agile's role in enhancing software quality, focusing specifically on code quality versus general quality improvement.\", 'Self_Check': {'First_ExplicitStance': 'support', 'Then_DefinitionConsistency': \"Highsmith (2009) supports Agile\u2019s role in iterative quality improvement. Content-based observation underscores Agile\u2019s varied impacts across roles, and logic suggests retaining enhances nuanced appreciation of Agile's multifaceted benefits.\", 'Finally_LimitationsDecision': 'Continue to Support'}, 'Cross_Discussion': {'PerRoleAnalysis': [{'OtherRole': 'Role1', 'Example': 'Role1 uses Dings\u00f8yr & Dyb\u00e5 to illustrate Agile\u2019s comprehensive quality influence, suggesting varied impacts across projects.', 'Counterexample': 'Role1 might focus less on Agile\u2019s direct technical improvements over its adaptive process benefits.', 'Summary': 'Role1 complements my position by emphasizing broad Agile benefits while diverging slightly in technical specificity.'}, {'OtherRole': 'Role3', 'Example': 'Role3 highlights Agile\u2019s ability to enhance both process and product quality, aligning with empirical studies.', 'Counterexample': \"Role3 may understate variance in Agile's impact on specific technical aspects vital in a technical-centric industry.\", 'Summary': 'Role3 aligns in appreciating Agile\u2019s broad impact but diverges by underrepresenting Agile\u2019s role in technical detail improvement.'}], 'Consensus': 'Aligned most closely with Role3, due to shared acknowledgment of Agile\u2019s comprehensive role while ensuring technical alignment.', 'Divergence': 'Role1 diverges slightly by possibly over-emphasizing process over technical metrics in Agile\u2019s contribution to quality.', 'HybridPerspective': 'Support Agile\u2019s overarching quality role while ensuring technical precision is balanced with process improvements in Agile methodology.'}}, {'code': 'External Quality vs Conformance to Business Needs', 'Disagreement_Point': 'The differing emphasis on external software quality attributes versus conformity to business needs and strategic goals.', 'Self_Check': {'First_ExplicitStance': 'support', 'Then_DefinitionConsistency': 'Crosby (1979) links quality with conformance, supportively bridging product attributes with business goals. Observation of content-driven distinctions also encourages dual focus, fostering logic-driven distinctions crucial for industry relevance.', 'Finally_LimitationsDecision': 'Continue to Support'}, 'Cross_Discussion': {'PerRoleAnalysis': [{'OtherRole': 'Role1', 'Example': 'Role1 references McCall\u2019s model linking quality to both product and user needs, underscoring the dual merits of tech and business alignment.', 'Counterexample': 'Role1 might focus predominantly on strategic requirement adherence over rigorous technical quality indicators.', 'Summary': 'Role1 and I align on balancing quality aspects but diverge on the depth of technical analyses in real-world applications.'}, {'OtherRole': 'Role3', 'Example': \"Role3 highlights Boehm & Sullivan's emphasis on balancing technical and strategic goals as a core premise.\", 'Counterexample': 'Potential underemphasis on defect-free technical metrics.', 'Summary': 'Role3 presents a balanced integration of technical and strategic imperatives, resonating with my dual-focus approach but slightly diverging on prioritization.'}], 'Consensus': \"Strong alignment with Role3's balanced dual-focus perspective, integrating both technical and business dimensions critically.\", 'Divergence': 'Role1 diverges slightly, focusing more on business strategies than technical precision.', 'HybridPerspective': 'Uphold a balanced strategy integrating robust technical standards with strategic business alignment to achieve comprehensive quality outcomes.'}}]}}, {'Role3': {'Role': 'Professional_Role: Product Owner|Education: PhD|Industry_Background: Biotechnology|Software_Development_Experience: 16 years|Degree_Subject: Communications Engineering|Scrum_Experience: 12 years', 'DecisionPattern': 'In resolving priority conflicts, balance accuracy with practicality, giving precedence to content-based evidence for capturing nuanced, real-world practices, while logically ensuring coherence.', 'Reasoning': [{'code': 'Defining Software Quality Is Subjective', 'Disagreement_Point': 'The subjectivity and variability inherent in defining software quality due to diverse stakeholder perspectives.', 'Self_Check': {'First_ExplicitStance': 'support', 'Then_DefinitionConsistency': 'Retaining acknowledges multifaceted and context-dependent perspectives, supported by literature (Kitchenham) and factual observations about role diversity in perceptions.', 'Finally_LimitationsDecision': 'Continue to Support'}, 'Cross_Discussion': {'PerRoleAnalysis': [{'OtherRole': 'Role1', 'Example': 'Aligns with recognizing complexity in definitions, citing Kitchenham.', 'Counterexample': 'Focuses less on industry context diversity; more generalized.', 'Summary': 'Aligned in recognizing subjectivity but diverge slightly on emphasis scope.'}, {'OtherRole': 'Role2', 'Example': 'Use of literature and logic consistent with supporting subjectivity.', 'Counterexample': 'May overemphasize subjectivity without considering pragmatic outcomes.', 'Summary': 'Strong alignment in literature support and reasoning approach.'}], 'Consensus': 'Role2 aligns closely due to similar emphasis on practicality and stakeholder variance.', 'Divergence': 'Role1 diverges slightly with a broader view that might overlook specific role implications.', 'HybridPerspective': 'Prioritize role-specific interpretations, using literature to anchor subjective reality and logic for coherent application.'}}, {'code': 'Role_of_Agile_in_Quality', 'Disagreement_Point': \"The different emphases placed on Agile's impact on various aspects of software quality.\", 'Self_Check': {'First_ExplicitStance': 'support', 'Then_DefinitionConsistency': 'Retaining this code captures the varied and nuanced impacts of Agile on process and product quality, supported by literature (Dyb\u00e5 & Dings\u00f8yr) and role-specific Agile applications.', 'Finally_LimitationsDecision': 'Continue to Support'}, 'Cross_Discussion': {'PerRoleAnalysis': [{'OtherRole': 'Role1', 'Example': 'Cites comprehensive Agile impacts, balancing code and process considerations.', 'Counterexample': \"Limited attention to process-specific variances and Agile's iterative adaptability.\", 'Summary': \"Mostly aligned, emphasizing Agile's multifaceted role in quality enhancement.\"}, {'OtherRole': 'Role2', 'Example': \"Emphasizes Agile's role in iterative processes, which supports broad quality improvements.\", 'Counterexample': 'Potential over-reliance on theoretical Agile benefits without addressing empirical variability.', 'Summary': 'Converges on the generally positive view of Agile but diverges on potential limitations.'}], 'Consensus': 'Role2 aligns via its balance of positive Agile impacts and iterative improvements.', 'Divergence': 'Role1 presents slight divergence in discussing general versus specific Agile impacts.', 'HybridPerspective': \"Integrate process adaptability with empirical evidence of Agile's benefits, balancing practice with existing theory.\"}}, {'code': 'External Quality vs Conformance to Business Needs', 'Disagreement_Point': 'The differing prioritization of technical external quality versus strategic business alignment.', 'Self_Check': {'First_ExplicitStance': 'support', 'Then_DefinitionConsistency': 'Acknowledges the dual focus necessary in quality evaluations, with literature support (Boehm & Sullivan) and evidence clarifying business-technical quality dynamics.', 'Finally_LimitationsDecision': 'Continue to Support'}, 'Cross_Discussion': {'PerRoleAnalysis': [{'OtherRole': 'Role1', 'Example': 'Describes dual importance (McCall) of product and business quality aspects.', 'Counterexample': 'Generalization might overlook nuanced business-specific scenarios.', 'Summary': 'Aligned in balancing business and technical aspects, yet differentiating context-specific applications.'}, {'OtherRole': 'Role2', 'Example': 'Emphasizes both product attributes and strategic business alignment.', 'Counterexample': 'May over-prioritize strategic alignment at the expense of defect-free operation focus.', 'Summary': 'Aligned on comprehensive quality assessment, though variance in emphasis.'}], 'Consensus': 'Role1 aligns with the balanced dual focus on technical and business needs.', 'Divergence': 'Role2 diverges slightly given potential overemphasis on strategy over defect-free focus.', 'HybridPerspective': 'Integrate comprehensive assessments that maintain technical integrity while aligning strategically with business goals.'}}]}}]",
+        "round3": "[{'Role1': {'Role': 'Professional_Role: Product Owner', 'Final_Results': [{'code': 'Defining Software Quality Is Subjective', 'Initial_Claim_Round1': 'retain', 'Final_Decision': 'Continue to Support', 'Final_Claim': 'Yes, the code should be retained.', 'Final_Explanation': 'Based on the accumulated reasoning, recognizing subjectivity accommodates diverse role-specific perspectives central to practical software quality evaluations.', 'Self_Reflection': {'Strengths': 'The strongest rationale was the consistent literature support emphasizing the contextual and stakeholder-driven nature of software quality.', 'Weaknesses': 'Potential overreliance on theoretical subjectivity without enough focus on practical resolution mechanisms.', 'Future_Consideration': 'Developing more concrete frameworks or tools that help manage subjective definitions in collaborative environments would benefit future analyses.'}}, {'code': 'Role_of_Agile_in_Quality', 'Initial_Claim_Round1': 'retain', 'Final_Decision': 'Continue to Support', 'Final_Claim': 'Yes, the code should be retained.', 'Final_Explanation': \"Retaining this code is essential as it reflects Agile's broad and varied influence on process and product quality, crucial for understanding its comprehensive impact, as supported by literature and cross-discussion.\", 'Self_Reflection': {'Strengths': 'The ability to capture nuanced impacts of Agile across different dimensions was well justified.', 'Weaknesses': \"Insufficient acknowledgment of Agile's limitations in execution across varying team capabilities.\", 'Future_Consideration': \"More empirical case studies reflecting Agile's application and its variability in impact across different contexts could provide deeper insights.\"}}, {'code': 'External Quality vs Conformance to Business Needs', 'Initial_Claim_Round1': 'retain', 'Final_Decision': 'Continue to Support', 'Final_Claim': 'Yes, the code should be retained.', 'Final_Explanation': 'The dual focus on external quality attributes and business needs is crucial for comprehensive quality assessments, emphasizing strategic alignment without compromising technical precision.', 'Self_Reflection': {'Strengths': 'The dual focus on technical and strategic priorities was convincingly established through literature and cross-role discussions.', 'Weaknesses': 'There was a lack of specific examples showing how the dual focus operates effectively in practice.', 'Future_Consideration': 'Future research could benefit from exploring the interaction of technical and strategic goals in various industry sectors to refine understanding further.'}}]}}, {'Role2': {'Role': 'Professional_Role: Product Owner|Education: PhD|Industry_Background: Biotechnology|Software_Development_Experience: 16 years|Degree_Subject: Communications Engineering|Scrum_Experience: 12 years', 'Final_Results': [{'code': 'Defining Software Quality Is Subjective', 'Initial_Claim_Round1': 'retain', 'Final_Decision': 'Continue to Support', 'Final_Claim': 'Yes, the code should be retained.', 'Final_Explanation': 'Retaining acknowledges the necessary flexibility in software quality definitions due to role-specific perspectives, crucial in diverse development environments.', 'Self_Reflection': {'Strengths': \"The strongest evidence was Kitchenham's exploration of subjective quality definitions, cementing the need to accommodate multifaceted perspectives.\", 'Weaknesses': 'The potential risk of operational inconsistency due to subjective interpretations remains a concern.', 'Future_Consideration': 'Further defining boundaries or criteria for subjectivity could improve consistency while retaining flexibility.'}}, {'code': 'Role_of_Agile_in_Quality', 'Initial_Claim_Round1': 'retain', 'Final_Decision': 'Continue to Support', 'Final_Claim': 'Yes, the code should be retained.', 'Final_Explanation': \"Acknowledging Agile's comprehensive influence aids in capturing its varied impacts on process and product quality crucial for precise industry application.\", 'Self_Reflection': {'Strengths': \"The literature by Dyb\u00e5 & Dings\u00f8yr effectively highlighted Agile's nuanced role, aligning well with practical observations.\", 'Weaknesses': \"A potential oversight of Agile's limitations in lesser-experienced teams might skew comprehensive understanding.\", 'Future_Consideration': \"An empirical review focusing on differing team maturity levels could better delineate Agile's real-world contextual impacts.\"}}, {'code': 'External Quality vs Conformance to Business Needs', 'Initial_Claim_Round1': 'retain', 'Final_Decision': 'Continue to Support', 'Final_Claim': 'Yes, the code should be retained.', 'Final_Explanation': 'The dual focus approach effectively balances technical excellence and strategic alignment, necessary for holistic quality assessment in software projects.', 'Self_Reflection': {'Strengths': \"Crosby\u2019s concept of 'quality as conformance' consistently supported the dual focus approach, bridging technical and business considerations.\", 'Weaknesses': 'Possible underemphasis of defect-free operations independent of strategic goals could weaken technical focus.', 'Future_Consideration': 'Exploring frameworks that integrate technical and business metrics uniformly could strengthen holistic quality evaluations.'}}]}}, {'Role3': {'Role': 'Professional_Role: Product Owner|Education: PhD|Industry_Background: Biotechnology|Software_Development_Experience: 16 years|Degree_Subject: Communications Engineering|Scrum_Experience: 12 years', 'Final_Results': [{'code': 'Defining Software Quality Is Subjective', 'Initial_Claim_Round1': 'retain', 'Final_Decision': 'Continue to Support', 'Final_Claim': 'Yes, the code should be retained.', 'Final_Explanation': 'Retaining this code acknowledges the subjective nature of software quality, grounded in varied stakeholder perspectives and supported by comprehensive literature and logic-based reasoning.', 'Self_Reflection': {'Strengths': 'Strong alignment with literature emphasizing the inherent subjectivity and complexity involved in defining software quality.', 'Weaknesses': 'Potential lack of clarity on how subjective interpretations align or conflict across different roles and quantitative metrics.', 'Future_Consideration': 'Exploring empirical cases or developing clearer frameworks for subjective quality assessment would strengthen this stance.'}}, {'code': 'Role_of_Agile_in_Quality', 'Initial_Claim_Round1': 'retain', 'Final_Decision': 'Continue to Support', 'Final_Claim': 'Yes, the code should be retained.', 'Final_Explanation': 'The multifaceted impact of Agile on quality across process and product dimensions justifies retaining this code, as evidenced by strong literature support and empirical observations in software practices.', 'Self_Reflection': {'Strengths': \"Comprehensive literature support and acknowledgment of Agile's broad impacts enhance the justification for this code.\", 'Weaknesses': 'Insufficient exploration of context-specific challenges in implementing Agile practices effectively.', 'Future_Consideration': 'Further investigation into Agile practices within different teams and project environments could enhance contextual understanding.'}}, {'code': 'External Quality vs Conformance to Business Needs', 'Initial_Claim_Round1': 'retain', 'Final_Decision': 'Continue to Support', 'Final_Claim': 'Yes, the code should be retained.', 'Final_Explanation': 'Balancing external technical quality with business needs is essential, supported by evidence that highlights the necessity of integrating both aspects for comprehensive software assessment.', 'Self_Reflection': {'Strengths': 'A balanced emphasis on both technical and strategic dimensions aligns with industry contexts and robustly justifies retaining the code.', 'Weaknesses': 'Possible oversights in detailing the specific mechanisms by which external quality directly influences business outcomes.', 'Future_Consideration': 'Clarifying the specific metrics and outcomes that bridge technical quality with business needs would benefit future interpretations.'}}]}}]"
+    },
+    "Final_codebook": {
+        "codebook": [
+            {
+                "code": "Quality_as_Process_and_Product",
+                "definition": "Quality encompasses both the software product and the development process used to create it.",
+                "inclusion_criteria": [
+                    "Mentions quality as both a process and a product."
+                ],
+                "exclusion_criteria": [
+                    "Mentions only product quality or process quality separately."
+                ],
+                "typical_examples": [
+                    "Software quality is both outcome and process."
+                ],
+                "atypical_examples": [
+                    "Quality can be defined in many ways."
+                ],
+                "participants": [
+                    "Participant 13",
+                    "Participant 1",
+                    "Participant 2",
+                    "Participant 17"
+                ],
+                "relevance_to_RQ": "Relates to how practitioners view software quality as a holistic concept involving both product and process aspects.",
+                "notes": "Aligned from codes 'Software Quality at Process and Product Level' and 'Quality as Process and Product'. This was supported by Reviewer-Agent agreements, showing strong conceptual overlap."
+            },
+            {
+                "code": "Continuous_Improvement",
+                "definition": "An iterative process of enhancing both the software and the processes by reflecting and adapting.",
+                "inclusion_criteria": [
+                    "Mentions continuous improvement or learning within software development."
+                ],
+                "exclusion_criteria": [
+                    "Does not mention iteration or adjustment over time."
+                ],
+                "typical_examples": [
+                    "The process is always subject to improvements."
+                ],
+                "atypical_examples": [
+                    "I\u2019m glad this is not an exam question!"
+                ],
+                "participants": [
+                    "Participant 2",
+                    "Participant 1",
+                    "Participant 13",
+                    "Participant 24"
+                ],
+                "relevance_to_RQ": "Shows how practitioners value iterative enhancement as a core part of quality.",
+                "notes": "Retained based on Reviewer-Agent agreements and consistent definition across sources."
+            },
+            {
+                "code": "Internal_Software_Quality",
+                "definition": "Quality related to the internal attributes of the software, such as code cleanliness and design sustainability.",
+                "inclusion_criteria": [
+                    "Mentions internal aspects like maintainability, understanding, reusability."
+                ],
+                "exclusion_criteria": [
+                    "Discusses only external or end-user features without internal technical focus."
+                ],
+                "typical_examples": [
+                    "Internal quality has to do with the way that the system has been built and designed."
+                ],
+                "atypical_examples": [
+                    "We need the whole hour just for this question!"
+                ],
+                "participants": [
+                    "Participant 12",
+                    "Participant 1",
+                    "Participant 17",
+                    "Participant 2"
+                ],
+                "relevance_to_RQ": "Highlights the importance of internal software attributes in defining software quality.",
+                "notes": "Aligned from 'Internal_Quality' and 'Clean and Maintainable Code'. Justified by Reviewer-Agent consensus on internal quality attributes."
+            },
+            {
+                "code": "Defining_Software_Quality_Is_Subjective",
+                "definition": "The concept of software quality is perceived differently and can't be objectively defined as one singular element.",
+                "inclusion_criteria": [
+                    "Mentions the subjective nature of defining software quality."
+                ],
+                "exclusion_criteria": [
+                    "Attempts to propose objective metrics or definitions for quality."
+                ],
+                "typical_examples": [
+                    "It is a challenging question because quality is a subjective concept."
+                ],
+                "atypical_examples": [
+                    "Agile advocates for quality but it doesn\u2019t necessarily define it."
+                ],
+                "participants": [
+                    "Participant 1",
+                    "Participant 15",
+                    "Participant 5"
+                ],
+                "relevance_to_RQ": "Reflects the difficulty in establishing a universal definition among practitioners.",
+                "notes": "Retained based on Discussion-Agent's support of subjectivity in quality definition. Supported by literature."
+            },
+            {
+                "code": "External_Quality_vs_Conformance_to_Business_Needs",
+                "definition": "Quality attributes that are observable by end-users and stakeholders, such as defect-free performance and meeting business needs.",
+                "inclusion_criteria": [
+                    "Focus is on quality of the final product or its adherence to user needs."
+                ],
+                "exclusion_criteria": [
+                    "Focus is solely on internal quality aspects like code cleanliness."
+                ],
+                "typical_examples": [
+                    "Software quality is first and most the product confirms to the requirements and free of defects."
+                ],
+                "atypical_examples": [
+                    "In agile, we also keen on creating software design that is sustainable."
+                ],
+                "participants": [
+                    "Participant 11",
+                    "Participant 19",
+                    "Participant 12",
+                    "Participant 14"
+                ],
+                "relevance_to_RQ": "Clarifies how practitioners evaluate quality based on user-facing characteristics.",
+                "notes": "Aligned from 'External Quality' and 'Conformance to Business Needs'. Retained after considering the Discussion-Agent's focus on technical and strategic alignment."
+            },
+            {
+                "code": "Role_of_Agile_in_Quality",
+                "definition": "Agile practices are seen as integral to achieving and maintaining software quality through frameworks and methodologies.",
+                "inclusion_criteria": [
+                    "Agile or Scrum is mentioned as a means to enhance software quality."
+                ],
+                "exclusion_criteria": [
+                    "Does not reference Agile or focuses only on traditional methods."
+                ],
+                "typical_examples": [
+                    "Agile calls for delivering a working software frequently."
+                ],
+                "atypical_examples": [
+                    "Software quality can be defined as the ability of the software to function as per user requirements and of course no defects."
+                ],
+                "participants": [
+                    "Participant 20"
+                ],
+                "relevance_to_RQ": "Shows the perceived impact of Agile methodologies on software quality from the practitioner's perspective.",
+                "notes": "Retained based on Discussion-Agent justifications that emphasize Agile's nuanced and broad impact on quality."
+            }
+        ]
+    },
+    "current_num_token": {
+        "input_token": 86820,
+        "output_token": 13409
+    }
+}

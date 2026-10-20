@@ -1,0 +1,8 @@
+{
+    "name": "goal",
+    "code": ["scary_event", "academic_event", "funny_story", "religious_argument", "personal_experience", "opinion_expression", "request_help", "technical_explanation"]
+}
+{
+    "name": "rationale",
+    "code": ["Opinion expression", "Non-narrative reflection", "Storytelling", "Advice seeking", "Descriptive narrative"]
+}

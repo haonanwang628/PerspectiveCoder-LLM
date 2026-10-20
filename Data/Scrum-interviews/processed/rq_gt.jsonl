@@ -1,0 +1,8 @@
+{
+    "name": "Scrum_RQ1", 
+    "ground_truth": ["Conformity to business needs", "Add business value", "Meets the business needs", "Conformity to business requirements", "Free of defects", "Usability", "Software performance", "Software security", "Sustainable design", "Reusability of code", "Avoiding technical debt", "Code quality", "Clean code", "Maintainability", "Code readability", "Simplicity", "Memory management"]
+}
+{
+    "name": "Scrum_RQ2", 
+    "ground_truth": ["Collaboration", "Early engagement of QAs", "Psychological safety", "Transparency", "Accountability", "Knowledge sharing", "Peer to peer learning", "Understanding the requirements", "knowledge of business requirements", "Feedback", "Speaking up", "Investing on quality", "Caring about quality", "Effort on quality", "Taking ownership for quality", "Commitment to quality", "Support the collective effort to achieve quality", "Motivation for quality", "Technical integrity", "Ownership of quality", "Quality review", "Feedback", "Iterative development", "Modularity of tasks", "Focus on quality", "Control over quality", "Frequent testing", "Continuous feedback", "Inspection and adaptation", "Fewer bugs", "Improved quality", "Better code", "Software quality", "Meets the business needs", "Better quality", "Better product", "Scalability", "Bugs resolution", "Increase quality", "Code quality"]
+}

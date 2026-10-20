@@ -1,0 +1,692 @@
+{
+    "Role_Team": [
+        {
+            "Professional_Role": "Product Owner",
+            "Education": "PhD",
+            "Industry_Background": "Biotechnology",
+            "Software_Development_Experience": "16 years",
+            "Degree_Subject": "Communications Engineering",
+            "Scrum_Experience": "12 years",
+            "positionality": "As a Product Owner with a PhD in Communications Engineering and 16 years of experience in biotechnology, I bring a unique blend of technical, academic, and industry expertise to my research. My extensive\u201412 years\u2014of Scrum experience informs my exploration into how Scrum values and principles affect software quality. I recognize potential biases, such as overvaluing systematic processes or technical solutions, given my background. These perspectives could skew my interpretation towards favoring structured methodologies. I must remain vigilant to incorporate diverse viewpoints, ensuring my analysis of qualitative data is comprehensive and inclusive, ultimately enriching the understanding of Scrum's role in enhancing software quality.",
+            "init_codebook": [
+                {
+                    "code": "QA involvement in planning",
+                    "definition": "QA involvement early in the process fosters comprehensive understanding of requirements and enhances quality.",
+                    "inclusion_criteria": [
+                        "Mentions of QA being involved from the beginning",
+                        "Discussion of how early QA engagement benefits the process"
+                    ],
+                    "exclusion_criteria": [
+                        "Discussions solely focused on development or coding without QA involvement"
+                    ],
+                    "typical_examples": [
+                        "\"QA is involved from planning to delivery.\""
+                    ],
+                    "atypical_examples": [
+                        "\"Developers self-test and review each other\u2019s code.\""
+                    ],
+                    "participants": [
+                        "Participant 1",
+                        "Participant 4",
+                        "Participant 5",
+                        "Participant 9"
+                    ],
+                    "relevance_to_RQ": "Emphasizes the importance of QA involvement from planning to enhance software quality in Scrum.",
+                    "notes": "QA involvement ensures comprehensive testing aligned with requirements."
+                },
+                {
+                    "code": "Transparent communication",
+                    "definition": "Scrum fosters transparent communication, enabling team members to offer constructive feedback and enhance quality.",
+                    "inclusion_criteria": [
+                        "References to open, transparent communication",
+                        "Mentions of how transparency improves feedback"
+                    ],
+                    "exclusion_criteria": [
+                        "Communication that is private or one-way"
+                    ],
+                    "typical_examples": [
+                        "\"The transparency of the Scrum process makes team members accountable.\""
+                    ],
+                    "atypical_examples": [
+                        "\"Sometimes you have to compromise.\""
+                    ],
+                    "participants": [
+                        "Participant 3",
+                        "Participant 9",
+                        "Participant 28"
+                    ],
+                    "relevance_to_RQ": "Transparency in Scrum processes contributes to better quality by improving team accountability and communication.",
+                    "notes": "Transparency is key to accountability in Scrum."
+                },
+                {
+                    "code": "Collaboration enhances quality",
+                    "definition": "Collaboration among team members improves understanding and the final quality of the product.",
+                    "inclusion_criteria": [
+                        "Mentions of collaboration improving quality",
+                        "Examples of team members working together"
+                    ],
+                    "exclusion_criteria": [
+                        "Instances of isolated work without collaboration"
+                    ],
+                    "typical_examples": [
+                        "\"Collaboration helps better quality by facilitating intensive exchange of information and feedback.\""
+                    ],
+                    "atypical_examples": [
+                        "\"For me, the QA is a constant thing.\""
+                    ],
+                    "participants": [
+                        "Participant 2",
+                        "Participant 6",
+                        "Participant 37"
+                    ],
+                    "relevance_to_RQ": "Collaboration among Scrum team members is integral to achieving high software quality.",
+                    "notes": "Collaboration helps in knowledge exchange and quicker bug resolution."
+                },
+                {
+                    "code": "Continuous feedback loop",
+                    "definition": "Continuous feedback from users and team members helps refine the product to better meet quality expectations.",
+                    "inclusion_criteria": [
+                        "Mentions of continuous or iterative feedback improving the product",
+                        "Instances where feedback leads to product adjustments"
+                    ],
+                    "exclusion_criteria": [
+                        "Feedback that is not acted upon during the process"
+                    ],
+                    "typical_examples": [
+                        "\"Feedback helps us to improve the quality and reduce bugs.\""
+                    ],
+                    "atypical_examples": [
+                        "\"In Waterfall, quality should be injected early.\""
+                    ],
+                    "participants": [
+                        "Participant 11",
+                        "Participant 14",
+                        "Participant 20"
+                    ],
+                    "relevance_to_RQ": "Scrum's continuous feedback mechanism aids in enhancing software quality by aligning with user needs.",
+                    "notes": "Feedback process is crucial for meeting evolving user requirements."
+                },
+                {
+                    "code": "Scrum structures improve accountability",
+                    "definition": "Scrum processes and structures help in assigning clear responsibilities, improving quality through team and individual accountability.",
+                    "inclusion_criteria": [
+                        "References to Scrum structures enhancing accountability",
+                        "Examples of accountability improving work quality"
+                    ],
+                    "exclusion_criteria": [
+                        "Instances where accountability is not linked to structured processes"
+                    ],
+                    "typical_examples": [
+                        "\"Everyone on the team has visibility on deliverables and can scrutinize its quality.\""
+                    ],
+                    "atypical_examples": [
+                        "\"Developers become more invested.\""
+                    ],
+                    "participants": [
+                        "Participant 3",
+                        "Participant 8",
+                        "Participant 29"
+                    ],
+                    "relevance_to_RQ": "Scrum's structured accountability mechanisms enhance software quality by ensuring team members are answerable.",
+                    "notes": "Accountability boosts motivation among team members."
+                },
+                {
+                    "code": "Developers' self-improvement and learning",
+                    "definition": "Scrum enables developers to continuously learn and improve their skills, leading to higher quality software.",
+                    "inclusion_criteria": [
+                        "Discussions on self-improvement or learning among developers",
+                        "Examples of developers enhancing their skills"
+                    ],
+                    "exclusion_criteria": [
+                        "Learning not related to Scrum practices"
+                    ],
+                    "typical_examples": [
+                        "\"They share their knowledge more efficiently. They review each other's code and learn from each other.\""
+                    ],
+                    "atypical_examples": [
+                        "\"Sitting alone in a bubble developing code.\""
+                    ],
+                    "participants": [
+                        "Participant 10",
+                        "Participant 22",
+                        "Participant 30"
+                    ],
+                    "relevance_to_RQ": "Scrum promotes continuous learning among developers which leads to better coding practices and quality software.",
+                    "notes": "Peer reviews and learning sessions are beneficial for skill enhancement."
+                },
+                {
+                    "code": "Psychological safety and motivation",
+                    "definition": "Psychological safety within Scrum teams encourages innovation and motivation, enhancing work quality.",
+                    "inclusion_criteria": [
+                        "References to psychological safety in the team",
+                        "Impact of safety on motivation and innovation"
+                    ],
+                    "exclusion_criteria": [
+                        "Instances without reference to psychological safety impacting work"
+                    ],
+                    "typical_examples": [
+                        "\"They were encouraged and are really happy to work with their colleagues despite distances.\""
+                    ],
+                    "atypical_examples": [
+                        "\"I do not agree with predefined development ideas.\""
+                    ],
+                    "participants": [
+                        "Participant 12",
+                        "Participant 32",
+                        "Participant 36"
+                    ],
+                    "relevance_to_RQ": "Creating a psychologically safe environment allows Scrum teams to innovate, directly contributing to software quality.",
+                    "notes": "Safety encourages risk-taking and creativity."
+                }
+            ]
+        },
+        {
+            "Professional_Role": "Product Owner",
+            "Education": "PhD",
+            "Industry_Background": "Biotechnology",
+            "Software_Development_Experience": "16 years",
+            "Degree_Subject": "Communications Engineering",
+            "Scrum_Experience": "12 years",
+            "positionality": "As a Product Owner with a PhD in Communications Engineering, 16 years in software development, 12 years of Scrum experience, and a background in biotechnology, I approach this research with a nuanced understanding of Scrum's role in software quality. My technical and leadership background shapes my perspective, possibly leading me to emphasize engineering processes and agile methodologies. I may assume the efficacy of Scrum principles due to my experience, introducing biases toward its benefits. This background likely influences my coding outcomes, as I could prioritize technical over managerial perspectives, thus necessitating awareness of these inclinations to ensure balanced analysis of how Scrum values enhance software quality.",
+            "init_codebook": [
+                {
+                    "code": "QA Involvement from Start",
+                    "definition": "QA is engaged early in the development process to improve testing efficiency and reduce bugs.",
+                    "inclusion_criteria": [
+                        "Mentions QA involvement early in planning or development stages."
+                    ],
+                    "exclusion_criteria": [
+                        "QA involvement mentioned only during or after testing phase."
+                    ],
+                    "typical_examples": [
+                        "They become intimate with the requirements.",
+                        "QA is part of one dev team."
+                    ],
+                    "atypical_examples": [
+                        "QA comes late, leading to more bugs."
+                    ],
+                    "participants": [
+                        "Participant 4",
+                        "Participant 6",
+                        "Participant 8",
+                        "Participant 9"
+                    ],
+                    "relevance_to_RQ": "This code highlights the importance of early QA involvement in integrating Scrum values and principles to advance software quality.",
+                    "notes": ""
+                },
+                {
+                    "code": "Continuous Feedback",
+                    "definition": "Continuous feedback loops, including demos and client interaction, improve product quality.",
+                    "inclusion_criteria": [
+                        "References to regular feedback from clients or stakeholders."
+                    ],
+                    "exclusion_criteria": [
+                        "Feedback that's sporadic or only at the end of development."
+                    ],
+                    "typical_examples": [
+                        "Continuous feedback from the users.",
+                        "You always have something to deliver at the end."
+                    ],
+                    "atypical_examples": [
+                        "No feedback until the end of the project."
+                    ],
+                    "participants": [
+                        "Participant 30",
+                        "Participant 31",
+                        "Participant 19",
+                        "Participant 22"
+                    ],
+                    "relevance_to_RQ": "The code underscores feedback as a crucial Scrum component in maintaining software quality.",
+                    "notes": ""
+                },
+                {
+                    "code": "Collaboration and Communication",
+                    "definition": "Enhanced collaboration and communication among team members lead to better software quality.",
+                    "inclusion_criteria": [
+                        "Mentions of teamwork, collaboration, or communication within the team."
+                    ],
+                    "exclusion_criteria": [
+                        "Siloed work without team interaction."
+                    ],
+                    "typical_examples": [
+                        "People collaborate more; everyone understands the requirements better.",
+                        "Collaboration helps better quality."
+                    ],
+                    "atypical_examples": [
+                        "Developers work in isolation, leading to errors."
+                    ],
+                    "participants": [
+                        "Participant 29",
+                        "Participant 37",
+                        "Participant 5",
+                        "Participant 6"
+                    ],
+                    "relevance_to_RQ": "Scrum values collaboration as integral to improving software quality, aligning with the research question.",
+                    "notes": ""
+                },
+                {
+                    "code": "Accountability and Responsibility",
+                    "definition": "Team members take ownership of their work, contributing to higher quality outcomes.",
+                    "inclusion_criteria": [
+                        "References to accountability, responsibility, or ownership in work."
+                    ],
+                    "exclusion_criteria": [
+                        "Blame culture or lack of responsibility mentioned."
+                    ],
+                    "typical_examples": [
+                        "Developers are empowered, they make their own decisions on quality.",
+                        "People write code! People test software!"
+                    ],
+                    "atypical_examples": [
+                        "Team members avoid taking responsibility for defects."
+                    ],
+                    "participants": [
+                        "Participant 5",
+                        "Participant 7",
+                        "Participant 31"
+                    ],
+                    "relevance_to_RQ": "By promoting accountability, Scrum enhances focus on software quality and process improvement.",
+                    "notes": ""
+                },
+                {
+                    "code": "Frequent Testing",
+                    "definition": "Frequent and automated testing ensures early bug detection and supports high quality.",
+                    "inclusion_criteria": [
+                        "Mentions frequent testing, automated testing, or continuous integration."
+                    ],
+                    "exclusion_criteria": [
+                        "Testing only at the end of the development process."
+                    ],
+                    "typical_examples": [
+                        "Automated regression testing helps identify bugs early.",
+                        "QA participation from the very beginning reduces bugs."
+                    ],
+                    "atypical_examples": [
+                        "Testing overlooked until final stages, leading to last-minute bug discoveries."
+                    ],
+                    "participants": [
+                        "Participant 9",
+                        "Participant 4",
+                        "Participant 37",
+                        "Participant 19"
+                    ],
+                    "relevance_to_RQ": "This code is crucial to understanding how Scrum practices ensure ongoing attention to software quality.",
+                    "notes": ""
+                }
+            ]
+        },
+        {
+            "Professional_Role": "Product Owner",
+            "Education": "PhD",
+            "Industry_Background": "Biotechnology",
+            "Software_Development_Experience": "16 years",
+            "Degree_Subject": "Communications Engineering",
+            "Scrum_Experience": "12 years",
+            "positionality": "My background as a Product Owner with 16 years of software development experience and a PhD in Communications Engineering shapes my research perspective on how Scrum values enhance software quality. My biotechnology industry background and 12 years of Scrum experience provide a pragmatic lens for viewing process efficiencies. This may lead to biases favoring agile methodologies; I might assume that Scrum inherently fosters quality. These reflections guide my analytical decisions, pushing me to holistically consider all Scrum elements in data interpretation. My positionality influences how I code qualitative data, potentially prioritizing aspects that align with my technical and Scrum experiences.",
+            "init_codebook": [
+                {
+                    "code": "QA Involvement",
+                    "definition": "The involvement of QA from planning to delivery to improve software quality.",
+                    "inclusion_criteria": [
+                        "Text discussing QA involvement from the beginning of the project."
+                    ],
+                    "exclusion_criteria": [
+                        "Text mentioning QA involvement after development has started."
+                    ],
+                    "typical_examples": [
+                        "'QA person is always involved from planning to delivery.'"
+                    ],
+                    "atypical_examples": [
+                        "'QA starts by the developer doing a good job.'"
+                    ],
+                    "participants": [
+                        "Participant 1",
+                        "Participant 4"
+                    ],
+                    "relevance_to_RQ": "QA involvement from the start ensures quality is maintained throughout, addressing the research question on Scrum activities enhancing software quality.",
+                    "notes": "QA involvement is crucial for early identification of potential quality issues."
+                },
+                {
+                    "code": "Collaboration",
+                    "definition": "The practice of team members working together and sharing knowledge to enhance quality.",
+                    "inclusion_criteria": [
+                        "Text discussing teamwork and sharing knowledge to improve quality."
+                    ],
+                    "exclusion_criteria": [
+                        "Text that does not emphasize teamwork or collaboration."
+                    ],
+                    "typical_examples": [
+                        "'People collaborate more; everyone understands the requirements better.'"
+                    ],
+                    "atypical_examples": [
+                        "'We develop automation software.'"
+                    ],
+                    "participants": [
+                        "Participant 9",
+                        "Participant 5"
+                    ],
+                    "relevance_to_RQ": "Collaboration among team members enhances adherence to Scrum values and principles, directly contributing to improved software quality.",
+                    "notes": "Emphasizes the role of team dynamics in achieving quality."
+                },
+                {
+                    "code": "Iterative Testing",
+                    "definition": "Conducting tests at multiple stages through iterations to ensure software quality.",
+                    "inclusion_criteria": [
+                        "Text discussing multiple stages of testing during development."
+                    ],
+                    "exclusion_criteria": [
+                        "Text discussing one-time testing at the end of development."
+                    ],
+                    "typical_examples": [
+                        "'All features developed inside the sprint should be tested.'"
+                    ],
+                    "atypical_examples": [
+                        "'The team starts writing the acceptance tests.'"
+                    ],
+                    "participants": [
+                        "Participant 6",
+                        "Participant 4"
+                    ],
+                    "relevance_to_RQ": "Iterative testing aligns with Scrum events, supporting ongoing assessment of product quality.",
+                    "notes": "Iterative testing promotes continuous quality assurance."
+                },
+                {
+                    "code": "Feedback Loops",
+                    "definition": "Continuous feedback mechanisms that inform development and improve quality.",
+                    "inclusion_criteria": [
+                        "Text discussing feedback from users or team members improving quality."
+                    ],
+                    "exclusion_criteria": [
+                        "Feedback that is unrelated to improving the product."
+                    ],
+                    "typical_examples": [
+                        "'Continuous feedback from the users...'"
+                    ],
+                    "atypical_examples": [
+                        "'There are also audits in place.'"
+                    ],
+                    "participants": [
+                        "Participant 33",
+                        "Participant 31"
+                    ],
+                    "relevance_to_RQ": "Feedback loops are essential in Scrum for continuous improvement and quality assurance.",
+                    "notes": "Feedback loops enhance alignment with user expectations."
+                },
+                {
+                    "code": "Accountability",
+                    "definition": "The responsibility of team members for the quality of their work.",
+                    "inclusion_criteria": [
+                        "Text discussing team members taking responsibility for their work quality."
+                    ],
+                    "exclusion_criteria": [
+                        "Text discussing lack of responsibility or blame."
+                    ],
+                    "typical_examples": [
+                        "'People feel accountable, they take ownership of their work.'"
+                    ],
+                    "atypical_examples": [
+                        "'There's accountability and having software developers responsible for end to end.'"
+                    ],
+                    "participants": [
+                        "Participant 5",
+                        "Participant 32"
+                    ],
+                    "relevance_to_RQ": "Accountability reinforces Scrum principles, fostering a commitment to quality.",
+                    "notes": "Responsibility and empowerment drive quality improvements."
+                }
+            ]
+        }
+    ],
+    "Agreed_disagreed_codebook": {
+        "agreements": [
+            {
+                "code": "QA involvement early",
+                "roles": [
+                    "Professional_Role: Product Owner|Education: PhD|Industry_Background: Biotechnology|Software_Development_Experience: 16 years|Degree_Subject: Communications Engineering|Scrum_Experience: 12 years"
+                ],
+                "reason": "The roles across codebooks consistently emphasize the importance of QA being involved early in the process, highlighting its benefits for understanding requirements and enhancing quality."
+            },
+            {
+                "code": "Continuous feedback loop",
+                "roles": [
+                    "Professional_Role: Product Owner|Education: PhD|Industry_Background: Biotechnology|Software_Development_Experience: 16 years|Degree_Subject: Communications Engineering|Scrum_Experience: 12 years"
+                ],
+                "reason": "Roles align on the value of continuous feedback, recognizing its role in refining the product and meeting quality expectations, consistently with iterative feedback mechanisms and client interaction."
+            },
+            {
+                "code": "Collaboration enhances quality",
+                "roles": [
+                    "Professional_Role: Product Owner|Education: PhD|Industry_Background: Biotechnology|Software_Development_Experience: 16 years|Degree_Subject: Communications Engineering|Scrum_Experience: 12 years"
+                ],
+                "reason": "The emphasis on collaboration as a crucial factor for improving software quality is consistent across roles, with a focus on teamwork, sharing knowledge, and facilitating better understanding and communication."
+            },
+            {
+                "code": "Accountability",
+                "roles": [
+                    "Professional_Role: Product Owner|Education: PhD|Industry_Background: Biotechnology|Software_Development_Experience: 16 years|Degree_Subject: Communications Engineering|Scrum_Experience: 12 years"
+                ],
+                "reason": "There is agreement on accountability, with roles emphasizing team members taking responsibility for their work, thereby contributing to higher quality outcomes and reinforcing Scrum principles."
+            }
+        ],
+        "disagreements": [
+            {
+                "code": "Frequent Testing",
+                "roles": [
+                    "Professional_Role: Product Owner|Education: PhD|Industry_Background: Biotechnology|Software_Development_Experience: 16 years|Degree_Subject: Communications Engineering|Scrum_Experience: 12 years"
+                ],
+                "reason": "The presence of 'Frequent Testing' in some roles but absent in others, as well as varying emphasis on automated testing, leads to divergence in how the importance and implementation of testing are understood."
+            },
+            {
+                "code": "Transparent communication",
+                "roles": [
+                    "Professional_Role: Product Owner|Education: PhD|Industry_Background: Biotechnology|Software_Development_Experience: 16 years|Degree_Subject: Communications Engineering|Scrum_Experience: 12 years"
+                ],
+                "reason": "While mentioned in some roles, the broader discussion around transparent communication does not appear consistently across other roles, indicating variations in perceived importance or integration within the scope of quality enhancement."
+            },
+            {
+                "code": "Psychological safety and motivation",
+                "roles": [
+                    "Professional_Role: Product Owner|Education: PhD|Industry_Background: Biotechnology|Software_Development_Experience: 16 years|Degree_Subject: Communications Engineering|Scrum_Experience: 12 years"
+                ],
+                "reason": "Psychological safety is highlighted by some roles as a critical factor for innovation and motivation, but not uniformly recognized or detailed across other roles, highlighting diverging perspectives on its influence on quality."
+            }
+        ]
+    },
+    "Discussion": {
+        "round1": "[{'Role1': {'Role': 'Professional_Role: Product Owner|Education: PhD|Industry_Background: Biotechnology|Software_Development_Experience: 16 years|Degree_Subject: Communications Engineering|Scrum_Experience: 12 years', 'Disagreement_Evidence': [{'code': 'Frequent Testing', 'Preliminary_Claim': 'retain', 'Definition': 'The core disagreement revolves around the frequency and emphasis on automated testing in enhancing software quality.', 'Evidence_Literature': {'Author': 'Beck, K.', 'Year': '2000', 'Title': 'Extreme Programming Explained: Embrace Change', 'DOI_or_Link': 'https://doi.org/10.5555/377695', 'Summary': \"Beck's principles of Extreme Programming advocate for frequent, automated tests suggesting this is crucial for continuous improvement and software quality.\"}, 'Evidence_Content': {'Observation': \"The code's focus on 'Frequent Testing' emphasizes iterative validation of the software, aligning with iterative development approaches.\", 'Relevance': 'It reinforces the role of testing as a feedback mechanism to promptly identify and rectify defects.'}, 'Evidence_Logic': {'Reasoning': 'Retaining this code emphasizes important testing practices which help ensure that software increments are consistently meeting quality standards.', 'Impact': 'Promotes consistency and reduces ambiguity in quality expectations, supporting robust evaluation mechanisms.'}}, {'code': 'Transparent communication', 'Preliminary_Claim': 'retain', 'Definition': 'The disagreement is about the extent and integration of transparent communication in quality enhancement processes.', 'Evidence_Literature': {'Author': 'Highsmith, J.', 'Year': '2001', 'Title': 'Agile Software Development Ecosystems', 'DOI_or_Link': 'https://doi.org/10.5555/377508', 'Summary': 'Highsmith highlights that transparent communication as a fundamental agile component is critical for aligning teams and streamlining development.'}, 'Evidence_Content': {'Observation': 'Transparent communication is essential for eliminating blockers and clarifying misunderstandings, which directly influences software quality.', 'Relevance': 'Supports cross-functional visibility and aligns with the goals of transparency in Scrum for maintaining clear product insight.'}, 'Evidence_Logic': {'Reasoning': 'Retaining provides clarity on communication standards that facilitate effective collaboration and reduces potential misalignments.', 'Impact': 'It aids in promoting efficiency by ensuring communication expectations are standardized and universally understood.'}}, {'code': 'Psychological safety and motivation', 'Preliminary_Claim': 'retain', 'Definition': 'Disagreement centers on the importance of psychological safety and motivation in driving quality outcomes.', 'Evidence_Literature': {'Author': 'Edmondson, A.C.', 'Year': '1999', 'Title': 'Psychological safety and learning behavior in work teams', 'DOI_or_Link': 'https://doi.org/10.2307/2666999', 'Summary': \"Edmondson's research identifies psychological safety as a precursor to innovative behaviors and team learning, which are crucial for quality enhancement.\"}, 'Evidence_Content': {'Observation': 'Psychological safety encourages team members to engage openly and contribute ideas, potentially leading to higher innovation and quality.', 'Relevance': \"It's a foundational element for fostering an environment where team members feel secure to suggest process improvements.\"}, 'Evidence_Logic': {'Reasoning': 'Including this code underscores the sociocultural aspects of teams which can greatly impact deliverable quality.', 'Impact': 'Recognizing and addressing psychological safety ensures a comprehensive approach to quality where human factors are not overlooked.'}}]}}, {'Role2': {'Role': 'Product Owner', 'Disagreement_Evidence': [{'code': 'Frequent Testing', 'Preliminary_Claim': 'retain', 'Definition': 'The core disagreement is on the frequency and type of testing, specifically how often testing should be implemented and the emphasis on automated testing.', 'Evidence_Literature': {'Author': 'Crispin, L., & Gregory, J.', 'Year': '2009', 'Title': 'Agile Testing: A Practical Guide for Testers and Agile Teams', 'DOI_or_Link': 'https://www.pearson.com/store/p/agile-testing-a-practical-guide-for-testers-and-agile-teams/P100000529542/9780321534460', 'Summary': \"The book discusses the importance of integrating testing into iterative cycles, advocating for constant testing to catch issues early. This supports the retention of the 'Frequent Testing' code by highlighting its critical role in maintaining software quality.\"}, 'Evidence_Content': {'Observation': 'The code emphasizes the importance of regular testing as a means to maintain ongoing quality assurance and identification of issues.', 'Relevance': 'Regular testing is consistent with agile principles; retaining the code reflects its alignment with maintaining high-quality standards, crucial in biotechnology software.'}, 'Evidence_Logic': {'Reasoning': \"Retaining 'Frequent Testing' ensures rigorous quality measures and is likely to reduce cognitive load by standardizing expectations for testing frequency.\", 'Impact': 'Retaining this code enhances interpretive clarity and consistency by making testing frequency explicit, aiding team alignment on quality assurance.'}}, {'code': 'Transparent communication', 'Preliminary_Claim': 'retain', 'Definition': 'The disagreement lies in the perceived importance and implementation of transparent communication for enhancing software quality.', 'Evidence_Literature': {'Author': 'Sims, C., & Johnson, H. L.', 'Year': '2011', 'Title': 'The Elements of Scrum', 'DOI_or_Link': 'https://www.goodreads.com/book/show/9464411-the-elements-of-scrum', 'Summary': 'This work underscores the significance of transparent communication in Scrum to ensure clarity, alignment, and quick problem resolution, supporting the need to retain this code.'}, 'Evidence_Content': {'Observation': \"The inclusion criteria for 'Transparent communication' consider it crucial for maintaining alignment and facilitating agile workflows.\", 'Relevance': 'Transparent communication is fundamental to Scrum principles; retaining the code reinforces its role in ensuring quality by preventing miscommunication.'}, 'Evidence_Logic': {'Reasoning': \"Transparent communication reduces misunderstandings and boosts efficiency by aligning all stakeholders' objectives.\", 'Impact': 'Retaining this code enhances coder consistency by defining clear communication practices, reducing cognitive load regarding role expectations.'}}, {'code': 'Psychological safety and motivation', 'Preliminary_Claim': 'retain', 'Definition': 'The disagreement concerns the recognition of psychological safety as a factor affecting motivation and, by extension, software quality.', 'Evidence_Literature': {'Author': 'Edmondson, A. C.', 'Year': '1999', 'Title': 'Psychological Safety and Learning Behavior in Work Teams', 'DOI_or_Link': 'https://doi.org/10.2307/2666999', 'Summary': \"Edmondson's research establishes the link between psychological safety and team performance, emphasizing its importance for creativity and quality, supporting the retention of this code.\"}, 'Evidence_Content': {'Observation': 'Psychological safety is often underlined in agile environments to foster innovation and openness, critical for high-quality outputs.', 'Relevance': 'Scrum environments that promote psychological safety enable team members to contribute ideas freely, crucial in complex fields like biotechnology.'}, 'Evidence_Logic': {'Reasoning': 'Promoting psychological safety can lead to higher motivation and innovation, thus indirectly enhancing software quality.', 'Impact': 'Retaining this code clarifies the importance of creating a supportive environment, contributing to coder consistency and cognitive harmony.'}}]}}, {'Role3': {'Role': 'Professional_Role: Product Owner|Education: PhD|Industry_Background: Biotechnology|Software_Development_Experience: 16 years|Degree_Subject: Communications Engineering|Scrum_Experience: 12 years', 'Disagreement_Evidence': [{'code': 'Frequent Testing', 'Preliminary_Claim': 'retain', 'Definition': 'The disagreement centers on the emphasis and implementation of frequent testing, specifically automated testing, and its perceived importance in the software development process.', 'Evidence_Literature': {'Author': 'Crispin, L. and Gregory, J.', 'Year': '2009', 'Title': 'Agile Testing: A Practical Guide for Testers and Agile Teams', 'DOI_or_Link': 'https://doi.org/10.5555/1450100', 'Summary': 'Crispin and Gregory emphasize the importance of frequent and automated testing as a cornerstone of agile practices, supporting the argument that this concept aligns closely with Scrum values of continuous improvement.'}, 'Evidence_Content': {'Observation': 'The code definition includes the necessity for regular testing intervals to discover defects early and ensure feedback is quickly acted upon.', 'Relevance': 'This aligns with the agile principle of continuous integration and iterative improvement, which are central to maintaining high software quality.'}, 'Evidence_Logic': {'Reasoning': \"Retaining 'Frequent Testing' ensures interpretive clarity as it directly ties to quality assurance practices fundamental to agile methodologies.\", 'Impact': 'Helps maintain coder consistency and reduces cognitive load by establishing clear expectations for regular testing practices.'}}, {'code': 'Transparent communication', 'Preliminary_Claim': 'retain', 'Definition': 'The disagreement is around how essential transparent communication is perceived in influencing quality and its integration within the process.', 'Evidence_Literature': {'Author': 'Schwaber, K. and Sutherland, J.', 'Year': '2020', 'Title': 'The Scrum Guide', 'DOI_or_Link': 'https://scrumguides.org/scrum-guide.html', 'Summary': 'The Scrum Guide defines transparency as a critical pillar of Scrum, necessary for inspection and adaptation, reinforcing its importance for achieving high-quality results.'}, 'Evidence_Content': {'Observation': 'Transparent communication is essential for teamwork and is a foundational Scrum principle that enables effective collaboration and decision-making.', 'Relevance': 'This ensures that all team members are well-informed, helping to avoid misunderstandings and errors, which can greatly affect software quality.'}, 'Evidence_Logic': {'Reasoning': 'Retaining this code recognizes its pivotal role in facilitating effective team dynamics and efficient problem-solving.', 'Impact': 'Provides a consistent framework across teams, fostering cohesion and reducing the cognitive load of negotiating communication expectations.'}}, {'code': 'Psychological safety and motivation', 'Preliminary_Claim': 'retain', 'Definition': 'The disagreement involves the role of psychological safety in fostering motivation and innovation, and its perceived impact on software quality.', 'Evidence_Literature': {'Author': 'Edmondson, A. C.', 'Year': '1999', 'Title': 'Psychological Safety and Learning Behavior in Work Teams', 'DOI_or_Link': 'https://doi.org/10.2307/2666999', 'Summary': \"Edmondson's research underlines psychological safety as essential for learning and team innovation, supporting the claim that it substantially impacts team effectiveness and quality.\"}, 'Evidence_Content': {'Observation': 'Given that psychological safety allows team members to take risks without fear, it directly aligns with agile values promoting innovation and continuous improvement.', 'Relevance': 'Enhances agility by enabling teams to freely communicate ideas and suggestions, essential for improving processes and final products.'}, 'Evidence_Logic': {'Reasoning': 'Retaining this code underlines its critical influence on team motivation and innovation, which are key drivers of high product quality.', 'Impact': 'Recognizing this factor enhances coder consistency by acknowledging its broad impact on team dynamics and product outcomes.'}}]}}]",
+        "round2": "[{'Role1': {'Role': 'Professional_Role: Product Owner|Education: PhD|Industry_Background: Biotechnology|Software_Development_Experience: 16 years|Degree_Subject: Communications Engineering|Scrum_Experience: 12 years', 'DecisionPattern': 'My role prioritizes accuracy and expressiveness over efficiency and redundancy. Given my background in science and technology, I emphasize thorough evaluation and clear expression of complex ideas, even if it requires more resources or time.', 'Reasoning': [{'code': 'Frequent Testing', 'Disagreement_Point': 'The disagreement revolves around the emphasis on the frequency of testing, particularly automated testing, and its importance in a software development context.', 'Self_Check': {'First_ExplicitStance': 'support', 'Then_DefinitionConsistency': \"The preliminary claim to retain this code is supported by Beck's emphasis on continuous testing as pivotal for quality in agile methods and aligns with the code's definition emphasizing regular testing. Logic dictates retained frequency articulation supports clear quality expectations.\", 'Finally_LimitationsDecision': 'Continue to Support'}, 'Cross_Discussion': {'PerRoleAnalysis': [{'OtherRole': 'Product Owner', 'Example': 'Their logic-based evidence highlights lowering cognitive load by standardizing testing expectations aligns closely with my reasoning.', 'Counterexample': 'They may understate the diversity in testing methodologies required across varying project types.', 'Summary': 'Our perspectives mostly align, focusing on consistent testing practices as enhancing quality assurance.'}, {'OtherRole': 'Professional_Role: Product Owner|Education: PhD|Industry_Background: Biotechnology|Software_Development_Experience: 16 years|Degree_Subject: Communications Engineering|Scrum_Experience: 12 years', 'Example': 'They also emphasize how frequent and automated testing supports agile values of improvement, consistent with my stance.', 'Counterexample': \"Similar to my self-check, potential cognitive load balancing isn't deeply explored.\", 'Summary': \"We share a principle agreement emphasizing testing's alignment with agile methodologies but diverge on exploring efficiency nuances.\"}], 'Consensus': 'OtherProduct Owner (Role2) aligns as it recognizes key aspects of standardized testing processes.', 'Divergence': 'Minimal divergence; roles largely support the same retention argument.', 'HybridPerspective': 'Integrates consistent testing practices emphasized by literature with practical roles across agile implementation.'}}, {'code': 'Transparent communication', 'Disagreement_Point': 'The primary issue here is understanding the critical nature of transparent communication for improving software quality and its integration into workflows.', 'Self_Check': {'First_ExplicitStance': 'support', 'Then_DefinitionConsistency': \"Retaining transparent communication is well-founded in Scrum's emphasis on visibility and informed decision-making from the Scrum Guide; logically supporting coder consistency through clarity.\", 'Finally_LimitationsDecision': 'Continue to Support'}, 'Cross_Discussion': {'PerRoleAnalysis': [{'OtherRole': 'Product Owner', 'Example': \"Their content-based claim reflects transparent communication's foundational placement within Scrum principles.\", 'Counterexample': 'Potential underemphasis on specific communication challenges in complex teams or projects.', 'Summary': 'Overall alignment; their work underscores Scrum-aligned transparency, though deeper exploration of communication nuances may be ripe.'}, {'OtherRole': 'Professional_Role: Product Owner|Education: PhD|Industry_Background: Biotechnology|Software_Development_Experience: 16 years|Degree_Subject: Communications Engineering|Scrum_Experience: 12 years', 'Example': 'Their reference to the Scrum Guide solidly reflects the need for transparency within team dynamics.', 'Counterexample': 'Might overlook real-world scenarios where excessive focus on transparency impacts operational decision-making speed.', 'Summary': 'Positionally aligned, their arguments help cement the need for transparency but merit additional contextual balance.'}], 'Consensus': 'Roles show consensus, particularly leveraging transparency within Scrum practice, paralleling my reasoning.', 'Divergence': 'Notably minor; largely complementary views on the importance of transparent communication.', 'HybridPerspective': 'Combines the foundational understanding of transparent communication with pragmatic implementation concerns within complex teams.'}}, {'code': 'Psychological safety and motivation', 'Disagreement_Point': 'Here, the discussion centers on the recognition of psychological safety as an imperative for fostering motivation, innovation, and ultimately, software quality.', 'Self_Check': {'First_ExplicitStance': 'support', 'Then_DefinitionConsistency': \"Edmondson's groundbreaking research regarding psychological safety aligns firmly with agile's ethos of collaborative and innovative environments. This code's emphasis harmonizes with fostering high-quality, productive team dynamics.\", 'Finally_LimitationsDecision': 'Continue to Support'}, 'Cross_Discussion': {'PerRoleAnalysis': [{'OtherRole': 'Product Owner', 'Example': 'Cites Edmondson, aligning team safety with quality and innovation, entirely consistent with my understanding.', 'Counterexample': \"A more elaborate examination of psychological safety's misalignment risks or cultural fit variations would enhance their perspective.\", 'Summary': 'Their alignment is strong but could deepen with additional factors shaping motivation and engagement.'}, {'OtherRole': 'Professional_Role: Product Owner|Education: PhD|Industry_Background: Biotechnology|Software_Development_Experience: 16 years|Degree_Subject: Communications Engineering|Scrum_Experience: 12 years', 'Example': \"Consistently highlights motivation's role as an outcome of psychological safety useful for quality enhancement.\", 'Counterexample': 'Lacks exploration into how psychological safety can be systematically measured or incorporated into agile metrics.', 'Summary': 'Highly aligned in recognizing its impact, the account prompts for a measurable implementation approach.'}], 'Consensus': 'Unified support with Edmondson grounding influencing role alignment on psychological safety.', 'Divergence': 'Minimal, though shared potential to equip roles with actionable insights for better safety integration.', 'HybridPerspective': \"Posits mutual consensus blending psychological safety's impact with practical measurement and cultural integration methods.\"}}]}}, {'Role2': {'Role': 'Product Owner', 'DecisionPattern': 'Balancing technical needs with team and stakeholder engagement', 'Reasoning': [{'code': 'Frequent Testing', 'Disagreement_Point': 'The frequency and emphasis on automated testing for quality assurance.', 'Self_Check': {'First_ExplicitStance': 'support', 'Then_DefinitionConsistency': 'The literature consistently supports frequent testing as vital for catching issues early, aligning with agile principles. Content-based evidence highlights its role in maintaining a continuous feedback loop, crucial in fields requiring precision. Logic dictates that regular testing reduces errors, making it an integral quality assurance practice.', 'Finally_LimitationsDecision': 'Continue to Support'}, 'Cross_Discussion': {'PerRoleAnalysis': [{'OtherRole': 'Role1', 'Example': 'Role1 emphasizes the iterative validation that frequent testing provides, aligning with agile practices.', 'Counterexample': 'Their focus on automated testing might overlook contexts where automated testing is unfeasible.', 'Summary': \"Our reasoning aligns on the necessity of frequent testing but may diverge on emphasizing automation's role.\"}, {'OtherRole': 'Role3', 'Example': 'Role3 stresses the importance of feedback from frequent testing in iterative development.', 'Counterexample': 'Their emphasis on automation without considering scenarios lacking resources for automation could be limiting.', 'Summary': 'We concur on the testing frequency but differ on the assumptions regarding automation feasibility.'}], 'Consensus': \"Both other roles align on frequent testing's importance, sharing the view of its role in maintaining software quality.\", 'Divergence': 'The primary divergence lies in the weight placed on automated versus manual testing methods.', 'HybridPerspective': 'Prioritize frequent testing as a principle, with automation being context-sensitive, adapting to specific environmental and resource constraints.'}}, {'code': 'Transparent communication', 'Disagreement_Point': 'The role and integration of transparent communication within quality enhancement processes.', 'Self_Check': {'First_ExplicitStance': 'support', 'Then_DefinitionConsistency': 'Literature from both Scrum and Agile frameworks highlights transparent communication as crucial for team alignment and quality. Content-based evidence shows its role in preventing miscommunication and streamlining processes. Logically, transparency reduces misunderstandings, helping maintain project clarity.', 'Finally_LimitationsDecision': 'Continue to Support'}, 'Cross_Discussion': {'PerRoleAnalysis': [{'OtherRole': 'Role1', 'Example': 'Role1 cites transparent communication as reducing blockers and clarifying misunderstandings.', 'Counterexample': 'They may understate the difficulties in achieving transparency across varied team structures.', 'Summary': \"Agree on transparency's importance but differ on the challenges of its implementation.\"}, {'OtherRole': 'Role3', 'Example': \"Role3 references the Scrum Guide's endorsement of transparency for effective collaboration.\", 'Counterexample': 'Their view may overlook challenges in obtaining transparency in dispersed or remote teams.', 'Summary': 'Align in principle, but potential divergence lies in addressing remote communication challenges.'}], 'Consensus': 'All roles acknowledge the necessity of transparency for effective team functioning and quality enhancement.', 'Divergence': 'Divergence is mainly about the complexities and practicality of achieving full transparency.', 'HybridPerspective': 'Emphasize transparency while recognizing potential implementation challenges, with adaptation strategies for complex team structures.'}}, {'code': 'Psychological safety and motivation', 'Disagreement_Point': 'Importance of psychological safety and motivation in fostering innovation and software quality.', 'Self_Check': {'First_ExplicitStance': 'support', 'Then_DefinitionConsistency': 'Evidence shows psychological safety as key to innovation, a sentiment echoed across multiple frameworks. The content highlights its role in fostering open communication and creativity, vital for quality. Logically, teams with high psychological safety are more open, innovative, and effective.', 'Finally_LimitationsDecision': 'Continue to Support'}, 'Cross_Discussion': {'PerRoleAnalysis': [{'OtherRole': 'Role1', 'Example': 'Role1 supports psychological safety as foundational for team learning and quality.', 'Counterexample': 'There could be an overlooking of tangible, short-term quantifiable results in high-pressure environments.', 'Summary': 'We agree on its necessity but might differ on its immediate applicability in high-turnover situations.'}, {'OtherRole': 'Role3', 'Example': 'Role3 proposes it as integral for risk-free idea sharing and team motivation.', 'Counterexample': 'Might not account for environments where rapid turnover limits the establishment of trust.', 'Summary': \"Concur on psychological safety's importance, but the practicality in transient teams requires further consideration.\"}], 'Consensus': \"Agreements on psychological safety's fundamental role in nurturing team dynamics and quality.\", 'Divergence': 'Variation in the perceived immediate impact of psychological safety in high-turnover or high-pressure environments.', 'HybridPerspective': 'Encourage psychological safety, particularly in stable team settings, while developing quick trust-building strategies for less constant environments.'}}]}}, {'Role3': {'Role': 'Professional_Role: Product Owner|Education: PhD|Industry_Background: Biotechnology|Software_Development_Experience: 16 years|Degree_Subject: Communications Engineering|Scrum_Experience: 12 years', 'DecisionPattern': 'Prioritize content-based grounding due to my experience with precise product requirements, backed by logic-based reasoning for clarity and consistency.', 'Reasoning': [{'code': 'Frequent Testing', 'Disagreement_Point': 'Frequency and emphasis on automated testing in the software development process.', 'Self_Check': {'First_ExplicitStance': 'support', 'Then_DefinitionConsistency': \"My stance to retain 'Frequent Testing' is supported by literature advocating for its role in agile practices for continuous improvement, content emphasizing iterative validation, and logic emphasizing clarity and consistency.\", 'Finally_LimitationsDecision': 'Continue to Support'}, 'Cross_Discussion': {'PerRoleAnalysis': [{'OtherRole': 'Role1', 'Example': \"Role1 highlights Beck's view on the necessity of frequent testing in Extreme Programming, aligning with agile principles.\", 'Counterexample': 'Role1 might overemphasize automation without considering situations where manual testing might be more effective in complex scenarios.', 'Summary': \"While there's alignment on the importance of frequent testing, slight divergence remains on the emphasis on automated over manual methods.\"}, {'OtherRole': 'Role2', 'Example': 'Role2 echoes the necessity of frequent testing to maintain quality, aligning with agile methodologies.', 'Counterexample': 'Role2 may not emphasize cognitive load aspects, which can impact team dynamics if testing practices are inflexible.', 'Summary': 'Role2 is mostly aligned, with a shared view on the critical role of testing frequency, though with different secondary emphases.'}], 'Consensus': 'Role1 and Role2, both roles recognize the foundational nature of testing frequency in agile environments.', 'Divergence': 'Role1 diverges in focusing more heavily on automation, which may not always apply effectively.', 'HybridPerspective': 'Prioritize a balance between automated and manual testing tailored to project needs, supported by streamlined process expectations to reduce cognitive load.'}}, {'code': 'Transparent communication', 'Disagreement_Point': 'Extent and integration of transparent communication in enhancing software quality.', 'Self_Check': {'First_ExplicitStance': 'support', 'Then_DefinitionConsistency': \"Retaining 'Transparent communication' is supported by literature on its role in agile alignments, content emphasizing teamwork facilitation, and logic reinforcing efficiency and clarity.\", 'Finally_LimitationsDecision': 'Continue to Support'}, 'Cross_Discussion': {'PerRoleAnalysis': [{'OtherRole': 'Role1', 'Example': 'Role1 believes transparent communication eliminates blockers, enhancing clarity and understanding.', 'Counterexample': 'Role1 may diminish situations where over-communication can introduce noise rather than clarity.', 'Summary': \"Alignment exists in recognizing communication's critical role, though approaches to managing communication flow differ slightly.\"}, {'OtherRole': 'Role2', 'Example': 'Role2 emphasizes communication as essential for maintaining alignment and solving problems promptly.', 'Counterexample': 'Role2 might underplay communication barriers that could arise from incomplete transparency due to project sensitivity or proprietary issues.', 'Summary': 'There is strong alignment on the value of communication, but slight divergence on potential risks from excessive transparency.'}], 'Consensus': 'Role1 and Role2, both acknowledge the critical role of transparency, albeit differences in perceived risks are present.', 'Divergence': 'Role1 highlights over-communication risks, while Role2 underestimates limitations arising from sensitive information handling.', 'HybridPerspective': 'Focus on strategic communication where clarity assists problem-solving without leading to information overload or security risks.'}}, {'code': 'Psychological safety and motivation', 'Disagreement_Point': 'Importance of psychological safety as an influencer of motivation and software quality.', 'Self_Check': {'First_ExplicitStance': 'support', 'Then_DefinitionConsistency': 'Literature supports psychological safety as crucial for team performance; content notes the openness it fosters for innovation and logic favors its positive impact on quality.', 'Finally_LimitationsDecision': 'Continue to Support'}, 'Cross_Discussion': {'PerRoleAnalysis': [{'OtherRole': 'Role1', 'Example': \"Role1 appreciates psychological safety's role in fostering team innovation and learning.\", 'Counterexample': \"Role1 may not fully account for the variability in psychological safety's influence depending on team dynamics and organizational culture.\", 'Summary': \"We're aligned on its importance, though differing slightly on how broadly applicable its impacts are across different team contexts.\"}, {'OtherRole': 'Role2', 'Example': 'Role2 emphasizes its role in open contributions, essential in complex fields like biotechnology.', 'Counterexample': 'Role2 might underestimate the risk of safety measures leading to complacency if not well-guided by leadership.', 'Summary': 'Strong alignment on its necessity, with divergence in ensuring proactive engagement beyond mere safety.'}], 'Consensus': 'Role1 and Role2, both validate the significance of psychological safety, ensuring innovation and quality.', 'Divergence': 'Role1 highlights potential variability in effectiveness, and Role2 points to complacency risks if not properly managed.', 'HybridPerspective': 'Promote an environment where psychological safety enables open dialogue and proactive innovation, still guided by structured leadership.'}}]}}]",
+        "round3": "[{'Role1': {'Role': 'Professional_Role: Product Owner|Education: PhD|Industry_Background: Biotechnology|Software_Development_Experience: 16 years|Degree_Subject: Communications Engineering|Scrum_Experience: 12 years', 'Final_Results': [{'code': 'Frequent Testing', 'Initial_Claim_Round1': 'retain', 'Final_Decision': 'Continue to Support', 'Final_Claim': 'Yes, the code should be retained.', 'Final_Explanation': 'Frequent testing aligns with agile principles of continuous feedback and quality assurance, a consensus supported by all roles and grounded in relevant literature.', 'Self_Reflection': {'Strengths': 'The strongest evidence was the alignment of frequent testing with agile methodologies, supporting ongoing quality improvements.', 'Weaknesses': 'A potential limitation is the lack of emphasis on circumstances where manual testing might be preferred over automated.', 'Future_Consideration': 'Further exploring contexts and approaches for balancing automated and manual testing would strengthen applicability.'}}, {'code': 'Transparent communication', 'Initial_Claim_Round1': 'retain', 'Final_Decision': 'Continue to Support', 'Final_Claim': 'Yes, the code should be retained.', 'Final_Explanation': 'Transparent communication is fundamental to agile frameworks and quality, supported by literature and agreed upon by all roles despite slight divergences in managing communication flow.', 'Self_Reflection': {'Strengths': \"Drawing from literature like the Scrum Guide highlighted transparency's critical role in team alignment and process clarity.\", 'Weaknesses': 'Managing excessive communication could lead to noise, complicating its implementation without nuanced strategies.', 'Future_Consideration': 'Developing frameworks for balancing clarity and overload will improve the practical execution of transparent communication.'}}, {'code': 'Psychological safety and motivation', 'Initial_Claim_Round1': 'retain', 'Final_Decision': 'Continue to Support', 'Final_Claim': 'Yes, the code should be retained.', 'Final_Explanation': \"Psychological safety is essential for fostering innovation and team motivation, reflecting accumulated consensus and supported by Edmondson's research.\", 'Self_Reflection': {'Strengths': \"The acknowledgment of psychological safety's role in enhancing innovation within collaborative environments stood out vividly.\", 'Weaknesses': \"Potential challenges in quantifying psychological safety's impact across diverse teams were not fully explored.\", 'Future_Consideration': 'Investigating quantitative and qualitative measures to assess psychological safety effectually will offer deeper validation.'}}]}}, {'Role2': {'Role': 'Product Owner', 'Final_Results': [{'code': 'Frequent Testing', 'Initial_Claim_Round1': 'retain', 'Final_Decision': 'Continue to Support', 'Final_Claim': 'Yes, the code should be retained.', 'Final_Explanation': \"The consistent emphasis across roles and literature on frequent testing as essential for agile quality assurance justifies maintaining this code, especially considering my technical background's focus on iterative improvement.\", 'Self_Reflection': {'Strengths': \"Strong literature and logic support highlighting testing's role in achieving continuous improvement.\", 'Weaknesses': 'Potential underestimation of challenges when balancing automated and manual testing complexities.', 'Future_Consideration': 'Further exploration into adaptive testing strategies in varying project environments could enhance understanding.'}}, {'code': 'Transparent communication', 'Initial_Claim_Round1': 'retain', 'Final_Decision': 'Continue to Support', 'Final_Claim': 'Yes, the code should be retained.', 'Final_Explanation': 'The uniformly recognized need for transparency in facilitating collaboration and reducing misunderstandings underpins its importance in alignment with Scrum methodologies.', 'Self_Reflection': {'Strengths': 'Literature provides clear support for transparency improving team alignment and problem-solving efficiency.', 'Weaknesses': 'The operational challenges of maintaining balanced transparency were not deeply explored.', 'Future_Consideration': 'Developing frameworks to measure and implement effective transparency in complex settings would be beneficial.'}}, {'code': 'Psychological safety and motivation', 'Initial_Claim_Round1': 'retain', 'Final_Decision': 'Continue to Support', 'Final_Claim': 'Yes, the code should be retained.', 'Final_Explanation': 'Given the critical role of psychological safety in fostering innovation and maintaining high-performance teams, its retention addresses core aspects of team dynamics crucial for quality outcomes.', 'Self_Reflection': {'Strengths': 'Comprehensive evidence from literature and logical interpretation underscores its integral role in agile environments.', 'Weaknesses': \"Less emphasis was placed on measurable metrics to assess psychological safety's impact objectively.\", 'Future_Consideration': \"Integrating methods to systematically assess psychological safety's influence on project outcomes would provide empirical reinforcement.\"}}]}}, {'Role3': {'Role': 'Professional_Role: Product Owner|Education: PhD|Industry_Background: Biotechnology|Software_Development_Experience: 16 years|Degree_Subject: Communications Engineering|Scrum_Experience: 12 years', 'Final_Results': [{'code': 'Frequent Testing', 'Initial_Claim_Round1': 'retain', 'Final_Decision': 'Continue to Support', 'Final_Claim': 'Yes, the code should be retained.', 'Final_Explanation': \"The retention of 'Frequent Testing' is supported due to its foundational role in ensuring quality through continuous feedback and alignment with agile methodologies, as consistently reflected in shared reasoning.\", 'Self_Reflection': {'Strengths': 'Strong alignment with agile practices and continuous integration supports the decision robustly.', 'Weaknesses': 'Potential underestimation of scenarios where automation may not be feasible, requiring more manual oversight.', 'Future_Consideration': 'Further exploration into contexts that balance automated and manual testing while considering resource constraints could be beneficial.'}}, {'code': 'Transparent communication', 'Initial_Claim_Round1': 'retain', 'Final_Decision': 'Continue to Support', 'Final_Claim': 'Yes, the code should be retained.', 'Final_Explanation': \"Retaining 'Transparent communication' is justified by its critical role in agile frameworks for effective collaboration and preventing misunderstandings, as repeatedly echoed across roles.\", 'Self_Reflection': {'Strengths': \"Scrum's endorsement of transparency aligns with its centrality in team collaboration and quality assurance.\", 'Weaknesses': 'Challenges in implementing transparency in multifaceted teams that could lead to operational slowdowns remain underaddressed.', 'Future_Consideration': 'Developing strategies to balance transparency with efficient communication workflows in complicated team contexts may enhance this stance.'}}, {'code': 'Psychological safety and motivation', 'Initial_Claim_Round1': 'retain', 'Final_Decision': 'Continue to Support', 'Final_Claim': 'Yes, the code should be retained.', 'Final_Explanation': 'The importance of psychological safety in promoting innovation and quality necessitates its retention, grounded in consistent support from both literature and cross-role discussions.', 'Self_Reflection': {'Strengths': \"Edmondson's literature and widespread recognition of safety's impact on innovation fortify this decision.\", 'Weaknesses': 'Limited exploration of its effectiveness in transient or high-pressure environments remains a consideration.', 'Future_Consideration': 'Further inquiry into the quantifiable impacts of psychological safety on team output could strengthen adaptive strategies in varying environments.'}}]}}]"
+    },
+    "Final_codebook": {
+        "codebook": [
+            {
+                "code": "QA involvement from Start",
+                "definition": "QA involvement early in the process fosters comprehensive understanding of requirements and enhances quality.",
+                "inclusion_criteria": [
+                    "Mentions QA involvement from the beginning",
+                    "Discussion of how early QA engagement benefits the process"
+                ],
+                "exclusion_criteria": [
+                    "Discussions solely focused on development or coding without QA involvement"
+                ],
+                "typical_examples": [
+                    "\"QA is involved from planning to delivery.\"",
+                    "They become intimate with the requirements."
+                ],
+                "atypical_examples": [
+                    "\"Developers self-test and review each other\u2019s code.\"",
+                    "QA comes late, leading to more bugs."
+                ],
+                "participants": [
+                    "Participant 1",
+                    "Participant 4",
+                    "Participant 5",
+                    "Participant 9",
+                    "Participant 6",
+                    "Participant 8"
+                ],
+                "relevance_to_RQ": "This code highlights the importance of early QA involvement in integrating Scrum values and principles to advance software quality.",
+                "notes": "Aligned from QA Involvement in other codebooks to resolve redundancy."
+            },
+            {
+                "code": "Transparent communication",
+                "definition": "Scrum fosters transparent communication, enabling team members to offer constructive feedback and enhance quality.",
+                "inclusion_criteria": [
+                    "References to open, transparent communication",
+                    "Mentions of how transparency improves feedback"
+                ],
+                "exclusion_criteria": [
+                    "Communication that is private or one-way"
+                ],
+                "typical_examples": [
+                    "\"The transparency of the Scrum process makes team members accountable.\""
+                ],
+                "atypical_examples": [
+                    "\"Sometimes you have to compromise.\""
+                ],
+                "participants": [
+                    "Participant 3",
+                    "Participant 9",
+                    "Participant 28"
+                ],
+                "relevance_to_RQ": "Transparency in Scrum processes contributes to better quality by improving team accountability and communication.",
+                "notes": "Retained due to emphasis on crucial role of transparency despite disagreements."
+            },
+            {
+                "code": "Collaboration enhances quality",
+                "definition": "Collaboration among team members improves understanding and the final quality of the product.",
+                "inclusion_criteria": [
+                    "Mentions of collaboration improving quality",
+                    "Examples of team members working together"
+                ],
+                "exclusion_criteria": [
+                    "Instances of isolated work without collaboration"
+                ],
+                "typical_examples": [
+                    "\"Collaboration helps better quality by facilitating intensive exchange of information and feedback.\""
+                ],
+                "atypical_examples": [
+                    "\"For me, the QA is a constant thing.\""
+                ],
+                "participants": [
+                    "Participant 2",
+                    "Participant 6",
+                    "Participant 37",
+                    "Participant 9",
+                    "Participant 5"
+                ],
+                "relevance_to_RQ": "Collaboration among Scrum team members is integral to achieving high software quality.",
+                "notes": "Aligned from Collaboration and Communication to resolve redundancy."
+            },
+            {
+                "code": "Continuous feedback loop",
+                "definition": "Continuous feedback from users and team members helps refine the product to better meet quality expectations.",
+                "inclusion_criteria": [
+                    "Mentions of continuous or iterative feedback improving the product",
+                    "Instances where feedback leads to product adjustments"
+                ],
+                "exclusion_criteria": [
+                    "Feedback that is not acted upon during the process"
+                ],
+                "typical_examples": [
+                    "\"Feedback helps us to improve the quality and reduce bugs.\"",
+                    "\"Continuous feedback from the users.\""
+                ],
+                "atypical_examples": [
+                    "\"In Waterfall, quality should be injected early.\"",
+                    "No feedback until the end of the project."
+                ],
+                "participants": [
+                    "Participant 11",
+                    "Participant 14",
+                    "Participant 20",
+                    "Participant 30",
+                    "Participant 31"
+                ],
+                "relevance_to_RQ": "Scrum's continuous feedback mechanism aids in enhancing software quality by aligning with user needs.",
+                "notes": "Aligned from Continuous Feedback and Feedback Loops to resolve redundancy."
+            },
+            {
+                "code": "Accountability",
+                "definition": "Team members take ownership of their work, contributing to higher quality outcomes.",
+                "inclusion_criteria": [
+                    "References to accountability, responsibility, or ownership in work."
+                ],
+                "exclusion_criteria": [
+                    "Instances where accountability is not linked to structured processes"
+                ],
+                "typical_examples": [
+                    "\"Everyone on the team has visibility on deliverables and can scrutinize its quality.\"",
+                    "Developers are empowered, they make their own decisions on quality."
+                ],
+                "atypical_examples": [
+                    "\"Developers become more invested.\"",
+                    "Team members avoid taking responsibility for defects."
+                ],
+                "participants": [
+                    "Participant 3",
+                    "Participant 8",
+                    "Participant 29",
+                    "Participant 5",
+                    "Participant 7",
+                    "Participant 31"
+                ],
+                "relevance_to_RQ": "By promoting accountability, Scrum enhances focus on software quality and process improvement.",
+                "notes": ""
+            },
+            {
+                "code": "Frequent Testing",
+                "definition": "Frequent and automated testing ensures early bug detection and supports high quality.",
+                "inclusion_criteria": [
+                    "Mentions frequent testing, automated testing, or continuous integration."
+                ],
+                "exclusion_criteria": [
+                    "Testing only at the end of the development process."
+                ],
+                "typical_examples": [
+                    "Automated regression testing helps identify bugs early.",
+                    "QA participation from the very beginning reduces bugs."
+                ],
+                "atypical_examples": [
+                    "Testing overlooked until final stages, leading to last-minute bug discoveries."
+                ],
+                "participants": [
+                    "Participant 9",
+                    "Participant 4",
+                    "Participant 37",
+                    "Participant 19"
+                ],
+                "relevance_to_RQ": "This code is crucial to understanding how Scrum practices ensure ongoing attention to software quality.",
+                "notes": "Retained due to consistent evidence supporting frequent testing as essential for agile quality assurance."
+            },
+            {
+                "code": "Psychological safety and motivation",
+                "definition": "Psychological safety within Scrum teams encourages innovation and motivation, enhancing work quality.",
+                "inclusion_criteria": [
+                    "References to psychological safety in the team",
+                    "Impact of safety on motivation and innovation"
+                ],
+                "exclusion_criteria": [
+                    "Instances without reference to psychological safety impacting work"
+                ],
+                "typical_examples": [
+                    "\"They were encouraged and are really happy to work with their colleagues despite distances.\""
+                ],
+                "atypical_examples": [
+                    "\"I do not agree with predefined development ideas.\""
+                ],
+                "participants": [
+                    "Participant 12",
+                    "Participant 32",
+                    "Participant 36"
+                ],
+                "relevance_to_RQ": "Creating a psychologically safe environment allows Scrum teams to innovate, directly contributing to software quality.",
+                "notes": "Despite differences, retained due to strong evidence and literature support for its impact on team dynamics and quality."
+            }
+        ]
+    },
+    "current_num_token": {
+        "input_token": 169613,
+        "output_token": 13764
+    }
+}

@@ -136,12 +136,19 @@ class Agent:
             if_memory: True or False
             if_print: True or False
         """
-        if if_memory and self.memory_lst[-1]["role"] == "user":
-            self.memory_lst.pop()
-            self.memory_lst.append({"role": "assistant", "content": f"{memory}"})
-        elif self.memory_lst[-1]["role"] == "user":
-            self.memory_lst.pop()
-        # if if_memory:
+        # 旧代码（保留供参考）：
+        # if if_memory and self.memory_lst[-1]["role"] == "user":
+        #     self.memory_lst.pop()
         #     self.memory_lst.append({"role": "assistant", "content": f"{memory}"})
+        # elif self.memory_lst[-1]["role"] == "user":
+        #     self.memory_lst.pop()
+        # # if if_memory:
+        # #     self.memory_lst.append({"role": "assistant", "content": f"{memory}"})
+        if if_memory:
+            # 保留 user 提问及其中的其他角色上下文，再追加自己的回复。
+            self.memory_lst.append({"role": "assistant", "content": f"{memory}"})
+        elif self.memory_lst and self.memory_lst[-1]["role"] == "user":
+            # 不保留本次交互时，维持原来的临时提问清理行为。
+            self.memory_lst.pop()
         if if_print:
             print(f"----- {self.name} -----\n{memory}\n")

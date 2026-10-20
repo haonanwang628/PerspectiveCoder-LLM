@@ -1,0 +1,605 @@
+{
+    "Role_Team": [
+        {
+            "Professional_Role": "Product Owner",
+            "Education": "PhD",
+            "Industry_Background": "Biotechnology",
+            "Software_Development_Experience": "16 years",
+            "Degree_Subject": "Communications Engineering",
+            "Scrum_Experience": "12 years",
+            "positionality": "With a PhD in Communications Engineering, 16 years of software development experience, and 12 years of Scrum application in biotechnology as a Product Owner, my background heavily informs my approach to understanding how Scrum practitioners define software quality. This technical and multidisciplinary foundation may lead me to prioritize structural and procedural aspects of software quality over end-user perspectives. Although I consciously strive for objectivity, my extensive experience could unintentionally skew my interpretation toward industry-standard practices and familiar methodologies. Consequently, my positionality may guide me to emphasize empirical rigor and technical accuracy in both data interpretation and the coding process, potentially influencing final research outcomes.",
+            "init_codebook": [
+                {
+                    "code": "Process Level Quality",
+                    "definition": "Evaluating quality through the software development process.",
+                    "inclusion_criteria": [
+                        "Mentions quality at the process level or continuous improvement of processes."
+                    ],
+                    "exclusion_criteria": [
+                        "Focuses only on end-product outcomes without mentioning the process."
+                    ],
+                    "typical_examples": [
+                        "Quality takes place in the process level and the software level."
+                    ],
+                    "atypical_examples": [
+                        "Agile believes in continuous improvement of processes."
+                    ],
+                    "participants": [
+                        "Participant 1",
+                        "Participant 9"
+                    ],
+                    "relevance_to_RQ": "Highlights how process improvements contribute to software quality definitions in Scrum.",
+                    "notes": ""
+                },
+                {
+                    "code": "Product Level Quality",
+                    "definition": "Quality as defined by conformity to business needs and being defect-free.",
+                    "inclusion_criteria": [
+                        "Mentions software quality as defect-free or meeting business needs."
+                    ],
+                    "exclusion_criteria": [
+                        "Does not mention defect-free or alignment with business needs."
+                    ],
+                    "typical_examples": [
+                        "The key attributes are conformity to business needs and free of defects."
+                    ],
+                    "atypical_examples": [
+                        "No bugs and meets the business needs."
+                    ],
+                    "participants": [
+                        "Participant 1",
+                        "Participant 16"
+                    ],
+                    "relevance_to_RQ": "Defines the outcome expectations of Scrum practitioners regarding software quality.",
+                    "notes": ""
+                },
+                {
+                    "code": "Internal Software Quality",
+                    "definition": "Quality through code maintainability, readability, and sustainability.",
+                    "inclusion_criteria": [
+                        "Discusses the maintainability, readability, or sustainability of code."
+                    ],
+                    "exclusion_criteria": [
+                        "Only focuses on the end-user product without internal aspects."
+                    ],
+                    "typical_examples": [
+                        "We aim for clean code and maintainability."
+                    ],
+                    "atypical_examples": [
+                        "Code quality is difficult to define, but necessary."
+                    ],
+                    "participants": [
+                        "Participant 12",
+                        "Participant 6"
+                    ],
+                    "relevance_to_RQ": "Explains the internal metrics of quality valued by Scrum practitioners.",
+                    "notes": ""
+                },
+                {
+                    "code": "Subjectivity of Quality",
+                    "definition": "The subjective nature of defining quality in software.",
+                    "inclusion_criteria": [
+                        "Refers to the difficulty or subjectivity in measuring quality."
+                    ],
+                    "exclusion_criteria": [
+                        "Provides an objective or specific definition of quality."
+                    ],
+                    "typical_examples": [
+                        "Quality is a subjective concept."
+                    ],
+                    "atypical_examples": [
+                        "Can be difficult to define, but its absence is noticeable."
+                    ],
+                    "participants": [
+                        "Participant 1",
+                        "Participant 6"
+                    ],
+                    "relevance_to_RQ": "Shows the variability in individual interpretations of quality in Scrum practices.",
+                    "notes": ""
+                },
+                {
+                    "code": "Continuous Improvement",
+                    "definition": "Ongoing process improvements to enhance software quality.",
+                    "inclusion_criteria": [
+                        "Mentions continuous or ongoing improvement efforts."
+                    ],
+                    "exclusion_criteria": [
+                        "Focuses on one-time improvement or no mention of improvement."
+                    ],
+                    "typical_examples": [
+                        "Agile process is subject to continuous improvements."
+                    ],
+                    "atypical_examples": [
+                        "It's a journey of continuous learning and improvement."
+                    ],
+                    "participants": [
+                        "Participant 13",
+                        "Participant 7"
+                    ],
+                    "relevance_to_RQ": "Helps understand how Scrum teams link process improvement with quality outcomes.",
+                    "notes": ""
+                }
+            ]
+        },
+        {
+            "Professional_Role": "Software Developer",
+            "Education": "Bachelor's Degree",
+            "Industry_Background": "Information Technology",
+            "Software_Development_Experience": "30 years",
+            "Degree_Subject": "Information Technology",
+            "Scrum_Experience": "8 years",
+            "positionality": "As a Software Developer with a Bachelor's Degree in Information Technology and 30 years in the field, my analytical perspective is heavily influenced by my extensive experience in software development and Scrum methodologies. My industry background positions me to emphasize technical precision and iterative processes when considering how Scrum practitioners define software quality. However, this predisposes me to value structured approaches, leading to biases toward traditional frameworks over creative interpretations. My assumptions may skew towards viewing quality from a process efficiency standpoint. As a result, my positionality will likely guide my coding decisions and data interpretations towards aligning with established IT norms, potentially overlooking nuanced insights.",
+            "init_codebook": [
+                {
+                    "code": "Process Quality",
+                    "definition": "This code captures the concept of quality derived from the process of development in agile and Scrum methodologies.",
+                    "inclusion_criteria": [
+                        "Reference to continuous improvement, retrospectives, and processes in agile that enhance quality."
+                    ],
+                    "exclusion_criteria": [
+                        "Mentions of only product defects or external quality without reference to process."
+                    ],
+                    "typical_examples": [
+                        "The agile process itself is subject to continuous improvements."
+                    ],
+                    "atypical_examples": [
+                        "We believe in responding to change over following a plan."
+                    ],
+                    "participants": [
+                        "Participant 1",
+                        "Participant 2",
+                        "Participant 3"
+                    ],
+                    "relevance_to_RQ": "It highlights how process improvements in Scrum affect the definition and assurance of software quality.",
+                    "notes": ""
+                },
+                {
+                    "code": "Product Quality",
+                    "definition": "This code represents the view of quality in terms of the finished product being defect-free and meeting user or business needs.",
+                    "inclusion_criteria": [
+                        "Statements that emphasize end product conformity to requirements and defect-free status."
+                    ],
+                    "exclusion_criteria": [
+                        "Discussion solely focused on internal code quality or process without mention of end product."
+                    ],
+                    "typical_examples": [
+                        "Software quality is the end result. It has a structural perspective."
+                    ],
+                    "atypical_examples": [
+                        "Quality for me is a product meets customer requirements and free of defects."
+                    ],
+                    "participants": [
+                        "Participant 16",
+                        "Participant 19",
+                        "Participant 4"
+                    ],
+                    "relevance_to_RQ": "Demonstrates the emphasis on aligning the software product with business and user expectations as a measure of quality.",
+                    "notes": ""
+                },
+                {
+                    "code": "Internal Quality",
+                    "definition": "Internal Quality refers to aspects of software quality related to the codebase, maintainability, and design flexibility.",
+                    "inclusion_criteria": [
+                        "Mentions of clean code, sustainable design, maintainability, or flexibility in design."
+                    ],
+                    "exclusion_criteria": [
+                        "Focus solely on external product attributes or defects."
+                    ],
+                    "typical_examples": [
+                        "Aims for clean code, maintainable code, and design flexibility."
+                    ],
+                    "atypical_examples": [
+                        "Developers write code anyhow. No documentation, no code quality."
+                    ],
+                    "participants": [
+                        "Participant 12",
+                        "Participant 2",
+                        "Participant 18"
+                    ],
+                    "relevance_to_RQ": "Explores how developers view code quality as a crucial component of software quality in Scrum.",
+                    "notes": ""
+                },
+                {
+                    "code": "Challenges in Defining Quality",
+                    "definition": "This code reflects the complexity and subjectivity involved in defining software quality.",
+                    "inclusion_criteria": [
+                        "Statements expressing difficulty, subjectivity, or variability in defining quality."
+                    ],
+                    "exclusion_criteria": [
+                        "Clear-cut definitions of quality without mention of complexity or subjectivity."
+                    ],
+                    "typical_examples": [
+                        "Quality is a subjective concept."
+                    ],
+                    "atypical_examples": [
+                        "We can have this argument for days about why you should use certain coding standards."
+                    ],
+                    "participants": [
+                        "Participant 1",
+                        "Participant 16",
+                        "Participant 5"
+                    ],
+                    "relevance_to_RQ": "It underscores the inherent challenges Scrum practitioners face in articulating a unified definition of software quality.",
+                    "notes": ""
+                },
+                {
+                    "code": "Continuous Improvement",
+                    "definition": "This code captures the notion of iterative enhancement of processes or code as a pathway to quality.",
+                    "inclusion_criteria": [
+                        "Mentions of continuous learning, retrospectives, or process adjustments."
+                    ],
+                    "exclusion_criteria": [
+                        "Statements about quality without any mention of iterative improvement."
+                    ],
+                    "typical_examples": [
+                        "Agile calls for continuous improvement."
+                    ],
+                    "atypical_examples": [
+                        "The process becomes more robust when we learn from our mistakes."
+                    ],
+                    "participants": [
+                        "Participant 3",
+                        "Participant 7",
+                        "Participant 9"
+                    ],
+                    "relevance_to_RQ": "This highlights the role of continuous improvement practices within Scrum as integral to maintaining and defining software quality.",
+                    "notes": ""
+                }
+            ]
+        },
+        {
+            "Professional_Role": "Product Owner",
+            "Education": "PhD",
+            "Industry_Background": "Electronic Manufacturing",
+            "Software_Development_Experience": "30 years",
+            "Degree_Subject": "Data Science",
+            "Scrum_Experience": "7 years",
+            "positionality": "As a Product Owner with a PhD in Data Science and 30 years in electronic manufacturing, my background deeply grounds my research in both theoretical and practical aspects of software quality. With 7 years of Scrum experience, I approach the question \"How Do Scrum Practitioners Define Software Quality?\" through a lens that values structured processes and empirical evidence. My extensive industry experience may bias me toward emphasizing quantitative metrics over qualitative insights. These biases may lead me to prioritize data-driven definitions of software quality, potentially overlooking subjective experiences. Thus, my positionality could influence interpretations by skewing data analysis towards technical assessments aligned with my professional and academic training.",
+            "init_codebook": [
+                {
+                    "code": "Process Level Quality",
+                    "definition": "Quality involves both the process of development and the final software product.",
+                    "inclusion_criteria": [
+                        "Mentions quality at process or software level.",
+                        "Discusses processes assuring quality."
+                    ],
+                    "exclusion_criteria": [
+                        "Mentions only end-product quality without process context."
+                    ],
+                    "typical_examples": [
+                        "Quality takes place in the process level and the software level."
+                    ],
+                    "atypical_examples": [
+                        "Implement and exercise practices that assure quality."
+                    ],
+                    "participants": [
+                        "Participant 1"
+                    ],
+                    "relevance_to_RQ": "Helps understand how practitioners connect process with software quality.",
+                    "notes": ""
+                },
+                {
+                    "code": "Conformity to Business Needs",
+                    "definition": "Software quality is defined by how well it conforms to business needs.",
+                    "inclusion_criteria": [
+                        "Mentions conformity to business or customer needs as quality."
+                    ],
+                    "exclusion_criteria": [
+                        "Mentions technical aspects of quality like code or design without reference to business needs."
+                    ],
+                    "typical_examples": [
+                        "Conformity to business needs and free of defects."
+                    ],
+                    "atypical_examples": [
+                        "Product confirms to the requirements."
+                    ],
+                    "participants": [
+                        "Participant 1",
+                        "Participant 12"
+                    ],
+                    "relevance_to_RQ": "Explores how practitioners prioritize alignment with business needs in quality definitions.",
+                    "notes": ""
+                },
+                {
+                    "code": "Internal Software Quality",
+                    "definition": "Quality that focuses on code maintainability, understanding, and reusability.",
+                    "inclusion_criteria": [
+                        "Focus on maintainability, understanding, reuse of code."
+                    ],
+                    "exclusion_criteria": [
+                        "Focus only on external attributes like defects."
+                    ],
+                    "typical_examples": [
+                        "We also focus on the internal software quality."
+                    ],
+                    "atypical_examples": [
+                        "Need a design that is flexible and aims for reusability."
+                    ],
+                    "participants": [
+                        "Participant 1"
+                    ],
+                    "relevance_to_RQ": "Highlights how internal quality attributes are defined within Scrum practices.",
+                    "notes": ""
+                },
+                {
+                    "code": "Continuous Improvement",
+                    "definition": "Quality is linked to the process of continuous reflection and improvement.",
+                    "inclusion_criteria": [
+                        "Emphasizes continuous improvement, retrospectives, or ongoing enhancement of processes."
+                    ],
+                    "exclusion_criteria": [
+                        "Mentions singular or static process improvements."
+                    ],
+                    "typical_examples": [
+                        "The agile process itself is subject to continuous improvements."
+                    ],
+                    "atypical_examples": [
+                        "Experiment to come up with better ways."
+                    ],
+                    "participants": [
+                        "Participant 1",
+                        "Participant 13"
+                    ],
+                    "relevance_to_RQ": "Demonstrates the role of continuous improvement in defining software quality.",
+                    "notes": ""
+                },
+                {
+                    "code": "Subjectivity of Quality",
+                    "definition": "Acknowledges quality as a subjective concept.",
+                    "inclusion_criteria": [
+                        "Explicitly states quality is subjective.",
+                        "Mentions variance in definitions based on viewpoints."
+                    ],
+                    "exclusion_criteria": [
+                        "Defines quality purely on objective metrics."
+                    ],
+                    "typical_examples": [
+                        "Quality is a subjective concept."
+                    ],
+                    "atypical_examples": [
+                        "Different answer from different people."
+                    ],
+                    "participants": [
+                        "Participant 1",
+                        "Participant 15"
+                    ],
+                    "relevance_to_RQ": "Illustrates the diverse perspectives Scrum practitioners have on software quality.",
+                    "notes": ""
+                },
+                {
+                    "code": "Defect-Free Product",
+                    "definition": "Quality is defined by the absence of defects in the software.",
+                    "inclusion_criteria": [
+                        "Mentions defect-free as a component or definition of quality."
+                    ],
+                    "exclusion_criteria": [
+                        "Discusses defects in the context of process improvement only."
+                    ],
+                    "typical_examples": [
+                        "Software quality is first and most the product confirms to the requirements and free of defects."
+                    ],
+                    "atypical_examples": [
+                        "Software should add value to the business without defects."
+                    ],
+                    "participants": [
+                        "Participant 1",
+                        "Participant 14"
+                    ],
+                    "relevance_to_RQ": "Focuses on the importance of defect elimination in quality definitions by practitioners.",
+                    "notes": ""
+                }
+            ]
+        }
+    ],
+    "Agreed_disagreed_codebook": {
+        "agreements": [
+            {
+                "code": "Process Level Quality / Process Quality",
+                "roles": [
+                    "Professional_Role: Product Owner | Biotechnology",
+                    "Professional_Role: Software Developer",
+                    "Professional_Role: Product Owner | Electronic Manufacturing"
+                ],
+                "reason": "All roles refer to the importance of the development process in determining software quality. They agree that process improvements, retrospectives, and ongoing reflections enhance software quality, aligning with Agile and Scrum principles."
+            },
+            {
+                "code": "Product Level Quality / Product Quality / Conformity to Business Needs",
+                "roles": [
+                    "Professional_Role: Product Owner | Biotechnology",
+                    "Professional_Role: Software Developer",
+                    "Professional_Role: Product Owner | Electronic Manufacturing"
+                ],
+                "reason": "All roles emphasize that software must be defect-free and meet business or customer needs. Although the exact wording differs slightly, the underlying principle of aligning with business requirements and defect-free software is consistent."
+            },
+            {
+                "code": "Internal Software Quality / Internal Quality",
+                "roles": [
+                    "Professional_Role: Product Owner | Biotechnology",
+                    "Professional_Role: Software Developer",
+                    "Professional_Role: Product Owner | Electronic Manufacturing"
+                ],
+                "reason": "All roles focus on code maintainability, readability, and sustainability as key aspects of internal quality. The roles agree that internal code quality is crucial for overall software quality in Scrum practices."
+            },
+            {
+                "code": "Continuous Improvement",
+                "roles": [
+                    "Professional_Role: Product Owner | Biotechnology",
+                    "Professional_Role: Software Developer",
+                    "Professional_Role: Product Owner | Electronic Manufacturing"
+                ],
+                "reason": "All roles agree on the importance of continuous improvement in processes and practices, as it is a fundamental concept of Agile and Scrum methodologies. They highlight that continuous improvement efforts contribute directly to quality enhancement."
+            },
+            {
+                "code": "Subjectivity of Quality / Challenges in Defining Quality",
+                "roles": [
+                    "Professional_Role: Product Owner | Biotechnology",
+                    "Professional_Role: Software Developer",
+                    "Professional_Role: Product Owner | Electronic Manufacturing"
+                ],
+                "reason": "All roles acknowledge the subjective nature of defining software quality. They agree that quality is difficult to measure objectively and often involves variability based on individual interpretations."
+            }
+        ],
+        "disagreements": [
+            {
+                "code": "Defect-Free Product",
+                "roles": [
+                    "Professional_Role: Product Owner | Electronic Manufacturing"
+                ],
+                "reason": "This code explicitly focuses on defect-free software as a standalone quality metric, which is uniquely emphasized in this role. The other roles combine defect-free status with broader business needs or internal attributes, showing a divergence in emphasis."
+            }
+        ]
+    },
+    "Discussion": {
+        "round1": "[{'Role1': {'Role': 'Professional_Role: Product Owner | Biotechnology', 'Disagreement_Evidence': [{'code': 'Defect-Free Product', 'Preliminary_Claim': 'retain', 'Definition': 'The core disagreement lies in the emphasis on defect-free software as a standalone quality metric distinct from broader business needs or internal attributes.', 'Evidence_Literature': {'Author': 'Boehm, B.', 'Year': '1976', 'Title': 'Software Quality Assurance: Where does it stand?', 'DOI_or_Link': 'https://doi.org/10.1109/C-M.1976.217224', 'Summary': 'Boehm discusses the critical importance of defect-free software within the broader paradigm of software quality, emphasizing that while other attributes matter, the fundamental expectation of defect-free software forms the basis of reliability and satisfaction.'}, 'Evidence_Content': {'Observation': 'This code reflects the essential attribute of being defect-free, which is valid in ensuring the software operates as intended, reducing failures and maintenance costs.', 'Relevance': 'By retaining this code, we ensure a focus on the crucial, measurable quality attribute of defect absence, which directly impacts user trust and product reliability.'}, 'Evidence_Logic': {'Reasoning': \"Retaining 'Defect-Free Product' as a standalone measure provides clear interpretive clarity, isolates a key attribute directly verifiable through testing, and ensures consistency in evaluating software's immediate operational success.\", 'Impact': 'It supports annotation efficiency by providing a distinct focus area, reducing coder cognitive load with clear defect-oriented scrutiny.'}}]}}, {'Role2': {'Role': 'Professional_Role: Software Developer', 'Disagreement_Evidence': [{'code': 'Defect-Free Product', 'Preliminary_Claim': 'retain', 'Definition': \"The disagreement revolves around whether 'Defect-Free Product' should be considered a standalone code with specific emphasis on defect absence as a quality metric, versus being subsumed under broader quality definitions that include business alignment and internal attributes.\", 'Evidence_Literature': {'Author': 'Crosby, Philip B.', 'Year': '1979', 'Title': 'Quality is Free', 'DOI_or_Link': 'https://doi.org/10.1108/eb053851', 'Summary': 'Crosby\u2019s work emphasizes the importance of zero defects as a key aspect of quality, supporting the notion that defect-free status can indeed be a standalone metric for software quality.'}, 'Evidence_Content': {'Observation': 'Defect-Free Product is explicitly defined and recognized in the Professional Role: Product Owner | Electronic Manufacturing perspective as important to software quality.', 'Relevance': 'This observation supports the claim that defect-free can be distinctively retained to encapsulate specific interpretations unique to certain roles and industries.'}, 'Evidence_Logic': {'Reasoning': 'Retaining this code highlights a unique and straightforward quality metric that aligns with industries with zero-defect culture, aiding clarity in representing industry-specific standpoints.', 'Impact': 'By retaining, we offer clearer interpretive pathways and maintain coder consistency in cases where defect-free is emphasized differently across roles.'}}]}}, {'Role3': {'Role': 'Professional_Role: Product Owner | Electronic Manufacturing', 'Disagreement_Evidence': [{'code': 'Defect-Free Product', 'Preliminary_Claim': 'retain', 'Definition': \"The core disagreement point is the emphasis on 'defect-free' software as a standalone metric of quality, rather than integrating it with other aspects such as meeting business needs or internal attributes.\", 'Evidence_Literature': {'Author': 'Crosby, P.B.', 'Year': 1979, 'Title': 'Quality is Free: The Art of Making Quality Certain', 'DOI_or_Link': 'https://doi.org/10.1016/C2009-0-22029-8', 'Summary': \"Crosby advocates for zero defects as an integral part of quality management. This supports the claim to retain 'Defect-Free Product' as it aligns with the view that defects directly impact perceived quality.\"}, 'Evidence_Content': {'Observation': \"The code 'Defect-Free Product' is identified as uniquely emphasized by the role in Electronic Manufacturing, highlighting a focus on tangible, measureable quality.\", 'Relevance': 'This observation supports retaining the code because defect-free status is a critical indicator in manufacturing environments, aligning with a data-driven approach.'}, 'Evidence_Logic': {'Reasoning': 'Retaining the code provides clarity in contexts where defect-free software is an explicit customer requirement independent of other quality aspects.', 'Impact': 'This enhances interpretive clarity for stakeholders who prioritize measurable quality outcomes, while improving coder consistency when dealing with specific customer demands for defect-free products.'}}]}}]",
+        "round2": "[{'Role1': {'Role': 'Professional_Role: Product Owner | Biotechnology', 'DecisionPattern': 'Accuracy over Redundancy', 'Reasoning': [{'code': 'Defect-Free Product', 'Disagreement_Point': \"Emphasis on 'defect-free' status as a standalone quality metric versus integration with broader software quality attributes.\", 'Self_Check': {'First_ExplicitStance': 'support', 'Then_DefinitionConsistency': 'The literature-based evidence from Boehm highlights the critical expectation of defect-free software as a foundation of quality. The content-based observation identifies defect-free as a key measurable aspect, crucial for user trust. Finally, logic-based reasoning underlines the necessity of this distinct focus to support clear evaluation and reduce cognitive load.', 'Finally_LimitationsDecision': 'Continue to Support'}, 'Cross_Discussion': {'PerRoleAnalysis': [{'OtherRole': 'Professional_Role: Software Developer', 'Example': 'The reliance on Crosby\u2019s advocacy for zero defects provides a strong argument for standalone metric treatment.', 'Counterexample': 'Potential limitation, as focusing exclusively on defects can overlook other vital quality attributes like usability or adaptability.', 'Summary': 'I align in recognizing the distinct role of defect-free as a measure but see potential in bridging it with broader considerations.'}, {'OtherRole': 'Professional_Role: Product Owner | Electronic Manufacturing', 'Example': 'The specific industry context justifies a strong emphasis on defect-free quality within manufacturing paradigms.', 'Counterexample': 'A manufacturing focus may limit broader application, possibly narrowing the quality perspective needed in diverse software domains.', 'Summary': 'We diverge in application scope, as our biotechnology focus demands integration with process and product needs.'}], 'Consensus': 'Align with Professional_Role: Software Developer due to mutual recognition of zero-defect emphasis as a critical metric.', 'Divergence': 'Divert from Professional_Role: Product Owner | Electronic Manufacturing, as its emphasis over-applies the defect-free metric.', 'HybridPerspective': 'Balance a focus on defect-free with process and customer satisfaction measures, ensuring accuracy across applications.'}}]}}, {'Role2': {'Role': 'Professional_Role: Software Developer', 'DecisionPattern': 'Prioritizing process efficiency and technical precision while acknowledging the need for distinct metrics in specific industrial contexts.', 'Reasoning': [{'code': 'Defect-Free Product', 'Disagreement_Point': \"The core issue is whether 'Defect-Free Product' should be a standalone metric of quality, emphasizing the absence of defects, or if it should be integrated with broader business and internal quality metrics.\", 'Self_Check': {'First_ExplicitStance': 'support', 'Then_DefinitionConsistency': \"From a literature-based perspective, Crosby's emphasis on zero defects supports retaining the focus. Content-based evidence shows the clear recognition of defect-free as a critical quality measure in specific industry roles. Logically, retaining the code crystallizes a tangible quality metric, aiding precision in environments with a zero-defect culture.\", 'Finally_LimitationsDecision': 'Continue to Support'}, 'Cross_Discussion': {'PerRoleAnalysis': [{'OtherRole': 'Professional_Role: Product Owner | Biotechnology', 'Example': 'The role emphasizes defect-free software as directly impacting user trust and reliability, underscoring its criticality.', 'Counterexample': 'Potential oversight of integration with broader quality aspects not considered in a customer-centric view.', 'Summary': 'My view aligns as I value precision but suggest broader contexts could enrich understanding.'}, {'OtherRole': 'Professional_Role: Product Owner | Electronic Manufacturing', 'Example': 'Focus on tangible, measurable quality aligns with manufacturing principles.', 'Counterexample': 'Could benefit from considering interactions with other quality metrics for a holistic approach.', 'Summary': 'I align with the emphasis on defect-free in specific industries despite potential redundancy when overly isolated.'}], 'Consensus': 'Professional_Role: Product Owner | Electronic Manufacturing', 'Divergence': 'Potential divergence with Professional_Role: Product Owner | Biotechnology if not integrating broader quality aspects.', 'HybridPerspective': 'A balanced perspective could involve distinct defect-free metrics with context-dependent integrations to ensure comprehensive quality evaluation. Logic-based reasoning provides technical clarity to facilitate this synthesis.'}}]}}, {'Role3': {'Role': 'Professional_Role: Product Owner | Electronic Manufacturing', 'DecisionPattern': 'Prioritizing accuracy and technical precision derived from empirical evidence and data-driven approaches.', 'Reasoning': [{'code': 'Defect-Free Product', 'Disagreement_Point': 'The core disagreement centers around whether defect-free software should be considered a standalone metric of quality.', 'Self_Check': {'First_ExplicitStance': 'support', 'Then_DefinitionConsistency': \"Literature-based evidence from Crosby (1979) supports emphasizing zero defects as a key aspect of quality management. Content-based evidence highlights that 'Defect-Free Product' aligns with manufacturing's emphasis on measurable quality. Logic-based reasoning demonstrates that retaining the code clarifies requirements for certain industries focused on tangible outcomes.\", 'Finally_LimitationsDecision': 'Continue to Support'}, 'Cross_Discussion': {'PerRoleAnalysis': [{'OtherRole': 'Professional_Role: Product Owner | Biotechnology', 'Example': 'The Biotechnology Product Owner uses Boehm (1976) to establish defect absence as foundational for reliability.', 'Counterexample': 'While the emphasis on defect-free software is valid, the integration with broader business needs in their argument may obscure the clarity of measuring defect-free status as a standalone metric.', 'Summary': 'Their role aligns on emphasizing defect-free status but may diverge in focusing more on integrating it with broader quality metrics.'}, {'OtherRole': 'Professional_Role: Software Developer', 'Example': 'The Software Developer uses Crosby (1979), supporting the notion of zero defects being crucial from a quality management standpoint.', 'Counterexample': 'There is a lack of detail on how retaining this code affects other quality attributes within software development, potentially oversimplifying quality interpretation.', 'Summary': 'There is alignment on the importance of defect-free metrics, but the potential oversimplification of quality in their analysis diverges slightly from a manufacturing focus on measurable outcomes.'}], 'Consensus': 'Roles most aligned with my reasoning are the Professional_Role: Product Owner | Biotechnology as both emphasize empirical measurement of defect-free status as a key quality metric.', 'Divergence': 'Roles most in conflict with my reasoning are none since both roles support retention, but with different emphasis on integration with broader needs.', 'HybridPerspective': \"A synthesis prioritizes the content-based grounding for retaining 'Defect-Free Product' as a standalone in manufacturing contexts, with emphasis on logic-based reasoning to address industry-specific requirements.\"}}]}}]",
+        "round3": "[{'Role1': {'Role': 'Professional_Role: Product Owner | Biotechnology', 'Final_Results': [{'code': 'Defect-Free Product', 'Initial_Claim_Round1': 'retain', 'Final_Decision': 'Continue to Support', 'Final_Claim': 'Yes, the code should be retained.', 'Final_Explanation': \"Given the accumulated reasoning, emphasizing defect-free status as a distinct quality metric aligns with both industry standards and empirical rigor, which are core to my role's and biotechnology's quality assurances.\", 'Self_Reflection': {'Strengths': 'Literature evidence from authoritative sources such as Boehm and Crosby reinforce the importance of defect-free status as a standalone quality measure.', 'Weaknesses': 'A limitation exists in potentially overlooking the integration with holistic quality metrics, especially in multidisciplinary settings.', 'Future_Consideration': 'Further clarification on how defect-free metrics interact with other quality dimensions would enhance robustness and adaptability to broader software development contexts.'}}]}}, {'Role2': {'Role': 'Professional_Role: Software Developer', 'Final_Results': [{'code': 'Defect-Free Product', 'Initial_Claim_Round1': 'retain', 'Final_Decision': 'Continue to Support', 'Final_Claim': 'Yes, the code should be retained.', 'Final_Explanation': \"Retaining 'Defect-Free Product' is essential due to its distinct importance emphasized in certain industries, aligning with my role's focus on technical precision and objective metrics.\", 'Self_Reflection': {'Strengths': 'The strongest part of my reasoning was the literature-based support from Crosby, which provided a robust foundation for emphasizing zero defects as a standalone metric.', 'Weaknesses': 'A limitation in assessing how this specific focus might overlook broader quality attributes and the potential complexities it introduces.', 'Future_Consideration': 'Further integration with metrics assessing broader software qualities and understanding their interactions could enhance the robustness of quality assessments.'}}]}}, {'Role3': {'Role': 'Professional_Role: Product Owner | Electronic Manufacturing', 'Final_Results': [{'code': 'Defect-Free Product', 'Initial_Claim_Round1': 'retain', 'Final_Decision': 'Continue to Support', 'Final_Claim': 'Yes, the code should be retained.', 'Final_Explanation': 'The emphasis on defect-free software aligns with manufacturing priorities for measurable quality and is supported consistently by empirical evidence from multiple roles.', 'Self_Reflection': {'Strengths': 'The strongest justification lies in literature supporting zero defects as vital in quality management and its alignment with industry-specific needs.', 'Weaknesses': 'A potential limitation is not adequately addressing the integration of defect-free status with broader quality attributes in varied contexts.', 'Future_Consideration': 'Further exploration on how defect-free attributes can be effectively integrated into wider software quality frameworks would enhance understanding.'}}]}}]"
+    },
+    "Final_codebook": {
+        "codebook": [
+            {
+                "code": "Process Level Quality",
+                "definition": "Evaluating quality through the software development process.",
+                "inclusion_criteria": [
+                    "Mentions quality at the process level or continuous improvement of processes."
+                ],
+                "exclusion_criteria": [
+                    "Focuses only on end-product outcomes without mentioning the process."
+                ],
+                "typical_examples": [
+                    "Quality takes place in the process level and the software level."
+                ],
+                "atypical_examples": [
+                    "Agile believes in continuous improvement of processes."
+                ],
+                "participants": [
+                    "Participant 1",
+                    "Participant 9",
+                    "Participant 2",
+                    "Participant 3"
+                ],
+                "relevance_to_RQ": "Highlights how process improvements contribute to software quality definitions in Scrum.",
+                "notes": "Aligned from 'Process Quality' and 'Process Level Quality' from other roles due to full overlap in emphasizing the process role in quality."
+            },
+            {
+                "code": "Product Level Quality",
+                "definition": "Quality as defined by conformity to business needs and being defect-free.",
+                "inclusion_criteria": [
+                    "Mentions software quality as defect-free or meeting business needs."
+                ],
+                "exclusion_criteria": [
+                    "Does not mention defect-free or alignment with business needs."
+                ],
+                "typical_examples": [
+                    "The key attributes are conformity to business needs and free of defects."
+                ],
+                "atypical_examples": [
+                    "No bugs and meets the business needs."
+                ],
+                "participants": [
+                    "Participant 1",
+                    "Participant 16",
+                    "Participant 19",
+                    "Participant 4"
+                ],
+                "relevance_to_RQ": "Defines the outcome expectations of Scrum practitioners regarding software quality.",
+                "notes": "Aligned from 'Product Quality' and 'Conformity to Business Needs' because the focus on being defect-free and meeting business needs overlap fully."
+            },
+            {
+                "code": "Internal Software Quality",
+                "definition": "Quality through code maintainability, readability, and sustainability.",
+                "inclusion_criteria": [
+                    "Discusses the maintainability, readability, or sustainability of code."
+                ],
+                "exclusion_criteria": [
+                    "Only focuses on the end-user product without internal aspects."
+                ],
+                "typical_examples": [
+                    "We aim for clean code and maintainability."
+                ],
+                "atypical_examples": [
+                    "Code quality is difficult to define, but necessary."
+                ],
+                "participants": [
+                    "Participant 12",
+                    "Participant 6",
+                    "Participant 18"
+                ],
+                "relevance_to_RQ": "Explains the internal metrics of quality valued by Scrum practitioners.",
+                "notes": "Aligned from 'Internal Quality' because both codes equally highlight aspects of code maintainability and sustainability as internal quality features."
+            },
+            {
+                "code": "Continuous Improvement",
+                "definition": "Ongoing process improvements to enhance software quality.",
+                "inclusion_criteria": [
+                    "Mentions continuous or ongoing improvement efforts."
+                ],
+                "exclusion_criteria": [
+                    "Focuses on one-time improvement or no mention of improvement."
+                ],
+                "typical_examples": [
+                    "Agile process is subject to continuous improvements."
+                ],
+                "atypical_examples": [
+                    "It's a journey of continuous learning and improvement."
+                ],
+                "participants": [
+                    "Participant 13",
+                    "Participant 7",
+                    "Participant 3",
+                    "Participant 9"
+                ],
+                "relevance_to_RQ": "Helps understand how Scrum teams link process improvement with quality outcomes.",
+                "notes": "Retaining all variants due to high relevance and clear mutual alignment within the concept of continuous process improvement."
+            },
+            {
+                "code": "Subjectivity of Quality",
+                "definition": "The subjective nature of defining quality in software.",
+                "inclusion_criteria": [
+                    "Refers to the difficulty or subjectivity in measuring quality."
+                ],
+                "exclusion_criteria": [
+                    "Provides an objective or specific definition of quality."
+                ],
+                "typical_examples": [
+                    "Quality is a subjective concept."
+                ],
+                "atypical_examples": [
+                    "Can be difficult to define, but its absence is noticeable."
+                ],
+                "participants": [
+                    "Participant 1",
+                    "Participant 6",
+                    "Participant 15"
+                ],
+                "relevance_to_RQ": "Shows the variability in individual interpretations of quality in Scrum practices.",
+                "notes": "Aligned from 'Challenges in Defining Quality' recognizing both codes tackle the challenge and subjectivity of quality definitions."
+            },
+            {
+                "code": "Defect-Free Product",
+                "definition": "Quality is defined by the absence of defects in the software.",
+                "inclusion_criteria": [
+                    "Mentions defect-free as a component or definition of quality."
+                ],
+                "exclusion_criteria": [
+                    "Discusses defects in the context of process improvement only."
+                ],
+                "typical_examples": [
+                    "Software quality is first and most the product confirms to the requirements and free of defects."
+                ],
+                "atypical_examples": [
+                    "Software should add value to the business without defects."
+                ],
+                "participants": [
+                    "Participant 1",
+                    "Participant 14"
+                ],
+                "relevance_to_RQ": "Focuses on the importance of defect elimination in quality definitions by practitioners.",
+                "notes": "Retained as distinct per evidence from Discussion-Agent underscoring its specific emphasis on defect-free status independently of broader quality metrics."
+            }
+        ]
+    },
+    "current_num_token": {
+        "input_token": 67607,
+        "output_token": 7843
+    }
+}

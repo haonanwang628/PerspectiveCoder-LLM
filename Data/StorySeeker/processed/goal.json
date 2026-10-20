@@ -712,7 +712,7 @@
         "data_chunk": "tell an interesting story",
         "code": [
             "narrative_story",
-            "entertainment"
+            "NOT_entertainment"
         ]
     },
     {
@@ -3156,7 +3156,7 @@
         "code": [
             "explanation",
             "opinion",
-            "fictional_hypothetical",
+            "NOT_fictional_hypothetical",
             "behavior_strategy",
             "concept_definition"
         ]
@@ -3328,7 +3328,7 @@
         "data_chunk": "The author wants to gives facts and opinions about football players and their team.",
         "code": [
             "description_expression",
-            "fictional_hypothetical",
+            "NOT_fictional_hypothetical",
             "opinion",
             "character_person"
         ]
@@ -3662,7 +3662,7 @@
         "participant": "64d53aae0f3f7317f6eb617e",
         "data_chunk": "i have no idea",
         "code": [
-            "cohesive_interpretable"
+            "NOT_cohesive_interpretable"
         ]
     },
     {
@@ -3832,7 +3832,7 @@
         "participant": "65d514731a78f893b95a8516",
         "data_chunk": "I am not certain, lol",
         "code": [
-            "cohesive_interpretable"
+            "NOT_cohesive_interpretable"
         ]
     },
     {
@@ -6359,7 +6359,7 @@
         "data_chunk": "prove his point about a factual topic and disparage their opponent for not fact-checking their original claim(s).",
         "code": [
             "argument_suggestion_rant",
-            "fictional_hypothetical",
+            "NOT_fictional_hypothetical",
             "review",
             "character_person",
             "behavior_strategy"
@@ -6370,7 +6370,7 @@
         "data_chunk": "prove a point by using numbers he researched regarding women working.",
         "code": [
             "argument_suggestion_rant",
-            "fictional_hypothetical",
+            "NOT_fictional_hypothetical",
             "character_person",
             "event_experience",
             "concept_definition"
@@ -6479,7 +6479,7 @@
         "data_chunk": "provide an update on current numbers",
         "code": [
             "explanation",
-            "fictional_hypothetical"
+            "NOT_fictional_hypothetical"
         ]
     },
     {
@@ -6559,7 +6559,7 @@
             "argument_suggestion_rant",
             "behavior_strategy",
             "artifact",
-            "cohesive_interpretable"
+            "NOT_cohesive_interpretable"
         ]
     },
     {
@@ -6749,7 +6749,7 @@
         "participant": "659c2cf64dd0249b909c552e",
         "data_chunk": "ramble on",
         "code": [
-            "cohesive_interpretable"
+            "NOT_cohesive_interpretable"
         ]
     },
     {
@@ -7887,7 +7887,7 @@
         "code": [
             "description_expression",
             "concept_definition",
-            "cohesive_interpretable"
+            "NOT_cohesive_interpretable"
         ]
     },
     {
@@ -8180,7 +8180,7 @@
         "code": [
             "description_expression",
             "artifact",
-            "fictional_hypothetical"
+            "NOT_fictional_hypothetical"
         ]
     },
     {
@@ -8858,7 +8858,7 @@
             "description_expression",
             "character_person",
             "event_experience",
-            "cohesive_interpretable",
+            "NOT_cohesive_interpretable",
             "specialized_domain"
         ]
     },
@@ -9198,7 +9198,7 @@
         "data_chunk": "argue in favor of evidence based beliefs",
         "code": [
             "argument_suggestion_rant",
-            "fictional_hypothetical",
+            "NOT_fictional_hypothetical",
             "opinion"
         ]
     },
@@ -11795,7 +11795,7 @@
         "participant": "5cd709efe8397d0001045dd2",
         "data_chunk": "put their stream of consciousness thoughts out with no clear purpose",
         "code": [
-            "cohesive_interpretable"
+            "NOT_cohesive_interpretable"
         ]
     },
     {
@@ -12536,7 +12536,7 @@
         "participant": "651ad403421d2fff5bb7df09",
         "data_chunk": "ramble.",
         "code": [
-            "cohesive_interpretable"
+            "NOT_cohesive_interpretable"
         ]
     },
     {
@@ -15321,7 +15321,7 @@
         "code": [
             "explanation",
             "narrative_story",
-            "entertainment",
+            "NOT_entertainment",
             "character_person",
             "event_experience",
             "setting_background"
@@ -19697,7 +19697,7 @@
         "data_chunk": "talk nonsense.",
         "code": [
             "description_expression",
-            "cohesive_interpretable"
+            "NOT_cohesive_interpretable"
         ]
     },
     {
@@ -20582,7 +20582,7 @@
             "description_expression",
             "character_person",
             "setting_background",
-            "artifact"
+            "NOT_artifact"
         ]
     },
     {

@@ -1,0 +1,8 @@
+{
+    "name": "Scrum_RQ1",
+    "code": ["quality_as_subjective", "quality_as_conformity", "defect_free_software", "internal_quality", "process_quality"]
+}
+{
+    "name": "Scrum_RQ2",
+    "code": ["QA Involvement from Start", "Continuous Feedback", "Collaboration Enhances Quality", "Transparency and Accountability", "Iterative Development", "Testing and Automation"]
+}

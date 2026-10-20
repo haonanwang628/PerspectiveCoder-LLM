@@ -16,17 +16,18 @@ random.seed(42)
 
 
 # random generate identity
-def roles_identity_generate(roles_num, role=None):
+def roles_identity_generate(roles_num, positionality):
+    # 旧代码（保留供参考）：
+    # positionality = json.loads(positionality)
+    if isinstance(positionality, str):
+        positionality = json.loads(positionality)
     roles_identity = []
-    for i in range(roles_num):
-        roles_identity.append({
-            "Gender": random.choice(Gender) if not role else role[i],
-            "Education": random.choice(Education),
-            "Race_Ethnicity": random.choice(Race_Ethnicity),
-            "Age": random.choice(Age),
-            "Degree_Subject": random.choice(Degree_Subject),
-            "Reddit_Use": random.choice(Reddit_Use)
-        })
+    for _ in range(roles_num):
+        identity = {
+            dimension: random.choice(options) for dimension, options in positionality.items()
+        }
+        roles_identity.append(identity)
+
     return roles_identity
 
 

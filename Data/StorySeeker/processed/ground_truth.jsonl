@@ -1,0 +1,8 @@
+{
+    "name": "goal", 
+    "ground_truth":["character_person","event_experience","plot_sequence","problem_conflict","setting_background","literary_device","theme_moral","fictional_hypothetical","evocative_transporting","cohesive_interpretable","suspenseful","creative","feels_like_story","implicitly_revealing","opinion","behavior_strategy","concept_definition","artifact","emotion_sensation","time"]
+}
+{
+    "name": "rationale", 
+    "ground_truth": ["narrative_story","question_request","explanation","description_expression","argument_suggestion_rant","review","dialogue","entertainment","sense-making","specialized_domain"]
+}

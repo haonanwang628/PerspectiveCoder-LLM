@@ -1,0 +1,120 @@
+{
+    "Role": "Role1",
+    "Codebook": [
+        {
+            "code": "quality_as_subjective",
+            "definition": "Quality is understood to be a subjective and complex concept.",
+            "inclusion_criteria": [
+                "Text expressing difficulty in defining or measuring quality as it varies from person to person."
+            ],
+            "exclusion_criteria": [
+                "Text that provides objective criteria or measures for quality."
+            ],
+            "typical_examples": [
+                "Quality is a subjective concept.",
+                "It is somehow subjective."
+            ],
+            "atypical_examples": [
+                "Very subjective and it depends on who you ask."
+            ],
+            "participants": [
+                "Participant 1",
+                "Participant 5"
+            ],
+            "relevance_to_RQ": "Helps understand how practitioners perceive the subjective nature of software quality.",
+            "notes": ""
+        },
+        {
+            "code": "quality_as_conformity",
+            "definition": "Quality involves adherence to business needs and specifications.",
+            "inclusion_criteria": [
+                "Text mentioning software conforming to business needs or requirements."
+            ],
+            "exclusion_criteria": [
+                "Text discussing internal code quality or process aspects."
+            ],
+            "typical_examples": [
+                "Conformity to business needs and free of defects.",
+                "The product confirms to the requirements."
+            ],
+            "atypical_examples": [
+                "Software quality is first and foremost the product confirms to the requirements and free of defects."
+            ],
+            "participants": [
+                "Participant 1",
+                "Participant 12"
+            ],
+            "relevance_to_RQ": "Addresses how software quality is tied to meeting specified business needs.",
+            "notes": ""
+        },
+        {
+            "code": "defect_free_software",
+            "definition": "Quality is ensured by having software free of defects.",
+            "inclusion_criteria": [
+                "Text mentioning software being defect-free as a marker of quality."
+            ],
+            "exclusion_criteria": [
+                "Text focusing on internal or code quality without mentioning defects."
+            ],
+            "typical_examples": [
+                "Software quality means first and foremost no bugs.",
+                "Product quality can be simply defined as being defects free."
+            ],
+            "atypical_examples": [
+                "Very broad topic, but I\u2019ll keep it simple. Software quality means first and foremost no bugs."
+            ],
+            "participants": [
+                "Participant 19",
+                "Participant 2"
+            ],
+            "relevance_to_RQ": "Highlights defect-free software as a primary measure of quality by scrum practitioners.",
+            "notes": ""
+        },
+        {
+            "code": "internal_quality",
+            "definition": "Quality involves the internal aspects of the software such as code cleanliness and design.",
+            "inclusion_criteria": [
+                "Text discussing the quality of code or design within the software."
+            ],
+            "exclusion_criteria": [
+                "Text addressing external product qualities like defect-free status."
+            ],
+            "typical_examples": [
+                "We aim for clean code.",
+                "Internal quality has to do with the way that the system has been built."
+            ],
+            "atypical_examples": [
+                "Clean code is subjective, but we know at least it should be simple, readable and maintainable."
+            ],
+            "participants": [
+                "Participant 12",
+                "Participant 18"
+            ],
+            "relevance_to_RQ": "Explores the importance placed on internal attributes such as code quality and software design.",
+            "notes": ""
+        },
+        {
+            "code": "process_quality",
+            "definition": "Quality is achieved through an effective software development process with continuous improvements.",
+            "inclusion_criteria": [
+                "Text describing the role of development processes in achieving software quality."
+            ],
+            "exclusion_criteria": [
+                "Text that mentions product features or defects without describing process significance."
+            ],
+            "typical_examples": [
+                "The process is important. Chaos doesn\u2019t deliver software.",
+                "We don\u2019t achieve software quality without a process that implements and fosters quality practices."
+            ],
+            "atypical_examples": [
+                "Agile is keen on internal quality because we believe in responding to change."
+            ],
+            "participants": [
+                "Participant 17",
+                "Participant 12"
+            ],
+            "relevance_to_RQ": "Shows the emphasis scrum practitioners place on process improvement for quality delivery.",
+            "notes": ""
+        }
+    ]
+}

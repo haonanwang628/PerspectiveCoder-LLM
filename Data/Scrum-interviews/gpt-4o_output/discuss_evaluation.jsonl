@@ -1,0 +1,38 @@
+{
+    "name": "Scrum_RQ1",
+    "threshold": 0.7,
+    "ground_truth_count": 17,
+    "predicted_code_count": 6,
+    "code_match": {
+        "Code quality": ["Process Level Quality", "Product Level Quality", "Subjectivity of Quality"],
+        "Software performance": ["Internal Software Quality"],
+        "Maintainability": ["Continuous Improvement"],
+        "Free of defects": ["Defect-Free Product"]
+    },
+    "scores": {
+        "recall": 0.23529411764705882,
+        "match_rate": 1.0,
+        "code_diversity": 0.5
+    }
+}
+{
+    "name": "Scrum_RQ2",
+    "threshold": 0.7,
+    "ground_truth_count": 40,
+    "predicted_code_count": 8,
+    "code_match": {
+        "Early engagement of QAs": ["Early QA Involvement"],
+        "Collaboration": ["Collaborative Culture"],
+        "Continuous feedback": ["Continuous Feedback"],
+        "Accountability": ["Role Accountability"],
+        "Psychological safety": ["Psychological Safety"],
+        "Transparency": ["Transparent Communication"],
+        "Peer to peer learning": ["Collaborative Learning"],
+        "Frequent testing": ["Testing Strategies"]
+    },
+    "scores": {
+        "recall": 0.2,
+        "match_rate": 1.0,
+        "code_diversity": 0.875
+    }
+}

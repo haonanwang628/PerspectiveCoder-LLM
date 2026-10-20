@@ -36,45 +36,28 @@ class DiscussFlowModel:
 
     def role_stage(self, role, rq=None):
         # role init codebook generate
-        if rq is not None:
-            role.set_meta_prompt(
-                self.config["Agents"]["Coder"]["system_non_pos_rq"].replace("{datasets}", self.target_text)
-                .replace("{RQ}", rq))
-            role.event(self.config["Agents"]["Coder"]["user_non_pos_rq"])
-        else:
-            role.set_meta_prompt(
-                self.config["Agents"]["Coder"]["system_non_pos"].replace("{datasets}", self.target_text))
-            role.event(self.config["Agents"]["Coder"]["user_non_pos"])
-        # role_response = role.ask()
-        # role.memory(role_response, False, True)
-        # self.input_token += role.input_token
-        # self.output_token += role.output_token
-
-        # try:
-        #     codebook = json.loads(role_response)
-        # except Exception:
-        #     codebook = json.loads(eval(role_response.replace('```', "'''").replace('json', '').strip()))
-        # return self.ask_json_with_retry(role)
+        coder_config = self.config["Agents"]["Coder"]
+        role.set_meta_prompt(
+            coder_config["system"]
+            .replace("{{positionality statement}}", "None")
+            .replace("{{RQ}}", str(rq))
+            .replace("{{datasets}}", self.target_text)
+        )
+        role.event(coder_config["user"])
         return self.ask_json_with_retry(role)
 
     def roles_stage(self, roles, roles_identity, rq=None):
         # roles init codebook generate
-        init_codebook, roles_positionality, role_prompt = [], [], []
+        init_codebook, roles_positionality = [], []
         for i, role in enumerate(roles):
-            if rq is not None:
-                pos_system = self.config["Agents"]["Positionality"]["system_rq"] \
-                    .replace("[Research Question]", rq)
-                pos_user = self.config["Agents"]["Positionality"]["user_rq"]
-            else:
-                pos_system = self.config["Agents"]["Positionality"]["system"]
-                pos_user = self.config["Agents"]["Positionality"]["user"]
-            pos_system = pos_system \
-                .replace("[insert]", roles_identity[i]["Gender"], 1) \
-                .replace("[insert]", roles_identity[i]["Education"], 1) \
-                .replace("[insert]", roles_identity[i]["Race_Ethnicity"], 1) \
-                .replace("[insert]", roles_identity[i]["Age"], 1) \
-                .replace("[insert]", roles_identity[i]["Degree_Subject"], 1) \
-                .replace("[insert]", roles_identity[i]["Reddit_Use"], 1)
+            positionality_config = self.config["Agents"]["Positionality"]
+            pos_system = (
+                positionality_config["system"]
+                .replace("[Research Question]", str(rq))
+                .replace("[Positionality Dimensions]",
+                         json.dumps(roles_identity[i], ensure_ascii=False))
+            )
+            pos_user = positionality_config["user"]
             # roles system
             role.set_meta_prompt(pos_system)
 
@@ -87,24 +70,14 @@ class DiscussFlowModel:
             self.output_token += role.output_token
 
             # roles init codebook generate
-            if rq is not None:
-                role.set_meta_prompt(
-                    self.config["Agents"]["Coder"]["system_rq"].replace("{datasets}", self.target_text)
-                    .replace("{positionality statement}", roles_positionality[i]).replace("{RQ}", rq))
-                role.event(self.config["Agents"]["Coder"]["user_rq"])
-            else:
-                role.set_meta_prompt(
-                    self.config["Agents"]["Coder"]["system"].replace("{datasets}", self.target_text)
-                    .replace("{positionality statement}", roles_positionality[i]))
-                role.event(self.config["Agents"]["Coder"]["user"])
-            # role_response = role.ask()
-            # role.memory(role_response, False, True)
-            # self.input_token += role.input_token
-            # self.output_token += role.output_token
-            # try:
-                # parsed = json.loads(role_response)
-            # except Exception:
-                # parsed = json.loads(eval(role_response.replace('```', "'''").replace('json', '').strip()))
+            coder_config = self.config["Agents"]["Coder"]
+            role.set_meta_prompt(
+                coder_config["system"]
+                .replace("{{RQ}}", str(rq))
+                .replace("{{positionality statement}}", roles_positionality[i])
+                .replace("{{datasets}}", self.target_text)
+            )
+            role.event(coder_config["user"])
             parsed = self.ask_json_with_retry(role)
             init_codebook.append(parsed)
 
@@ -112,24 +85,14 @@ class DiscussFlowModel:
 
     def codebook_reviewer(self, reviewer, init_codebook):
 
-        reviewer_system = self.config["Agents"]["Reviewer"]["system"].replace("{codebook}", str(init_codebook))
+        reviewer_system = self.config["Agents"]["Reviewer"]["system"].replace(
+            "{{codebook}}", json.dumps(init_codebook, ensure_ascii=False)
+        )
         reviewer_user = self.config["Agents"]["Reviewer"]["user"]
 
         reviewer.set_meta_prompt(reviewer_system)
         reviewer.event(reviewer_user)
-        # reviewer_response = reviewer.ask()
-        # reviewer.memory(reviewer_response, False, True)
-        # self.input_token += reviewer.input_token
-        # self.output_token += reviewer.output_token
-
-        # try:
-            # agreed_disagreed_codebook = json.loads(reviewer_response)
-        # except Exception:
-            # agreed_disagreed_codebook = json.loads(
-                # eval(reviewer_response.replace('```', "'''").replace('json', '').strip()))
-
-        # return agreed_disagreed_codebook
-        return self.ask_json_with_retry(reviewer)
+        return self.ask_json_with_retry(reviewer, if_memory=True)
 
     def codebook_discussion(self, roles, roles_identity, roles_positionality, agreed_disagreed_codebook):
         roles_update = [{"name": role.name, "obj": role} for role in roles]
@@ -139,37 +102,44 @@ class DiscussFlowModel:
 
         for role, identity, positionality in zip(roles, roles_identity, roles_positionality):
             role.memory_lst.clear()
+            identity_label = "|".join(
+                f"{dimension}: {value}"
+                for dimension, value in identity.items()
+                if dimension not in ("positionality", "init_codebook")
+            )
             role.set_meta_prompt(
-                discussion_system.replace("{Role}", f"{identity['Race_Ethnicity']}|{identity['Education']}|{identity['Gender']}|{identity['Age']}|{identity['Reddit_Use']}") \
-                .replace("{Positionality Statement}", positionality)
-                .replace("{Agreement / Disagreement Codes}", str(agreed_disagreed_codebook)))
+                discussion_system.replace("{{Role}}", identity_label)
+                .replace("{{Positionality Statement}}", positionality)
+                .replace("{{Agreement / Disagreement Codes}}",
+                         json.dumps(agreed_disagreed_codebook, ensure_ascii=False))
+            )
 
         # Discussion
         discuss_responses = {}
-        for i, discuss in enumerate(discussion_user.items()):
+        previous_round_responses = []
+        for i, round_prompt in enumerate(discussion_user.values()):
             roles_responses = []
             for role_info in roles_update:
                 role = role_info["obj"]
-                if i == 0:
-                    role.event(f"{discuss}")
-                else:
-                    for m in roles_responses:
-                        if role_info['name'] != m.keys():
-                            role.memory(f"Other role:{m}")
-                    role.event(f"{discuss}")
-                # response = role.ask()
-                # role.memory(response, True, True)
-                # try:
-                    # response = json.loads(response)
-                # except Exception:
-                    # response = json.loads(
-                        # eval(response.replace('```', "'''").replace('json', '').strip()))
-                # roles_responses.append({role_info['name']: response})
-                # self.input_token += role.input_token
-                # self.output_token += role.output_token
+                other_responses = {
+                    name: response
+                    for entry in previous_round_responses
+                    for name, response in entry.items()
+                    if name != role.name
+                }
+                user_prompt = round_prompt
+                if other_responses:
+                    user_prompt = (
+                        "<Other_Roles_Previous_Round>\n"
+                        + json.dumps(other_responses, ensure_ascii=False, indent=2)
+                        + "\n</Other_Roles_Previous_Round>\n\n"
+                        + round_prompt
+                    )
+                role.event(user_prompt)
                 response = self.ask_json_with_retry(role, if_memory=True)
-                roles_responses.append({role_info["name"]: response})
-            # include roles_responses of every round
+                roles_responses.append({role.name: response})
+
+            previous_round_responses = roles_responses
             discuss_responses[f"round{i + 1}"] = f"{roles_responses}"
 
         final_agreed_codebook = discuss_responses["round3"]
@@ -178,33 +148,21 @@ class DiscussFlowModel:
 
     def codebook_judge(self, Judge, init_codebook, agreed_disagreed_codebook, final_agreed_codebook, rq=None):
 
-        if rq is not None:
-            Judge_system = self.config["Agents"]["Judge"]["system_rq"] \
-                .replace("{init_codebook}", str(init_codebook)) \
-                .replace("{reviewer_output}", str(agreed_disagreed_codebook)) \
-                .replace("{discussion_output}", str(final_agreed_codebook))
-            Judge_user = self.config["Agents"]["Judge"]["user_rq"]
-        else:
-            Judge_system = self.config["Agents"]["Judge"]["system"] \
-                .replace("{init_codebook}", str(init_codebook)) \
-                .replace("{reviewer_output}", str(agreed_disagreed_codebook)) \
-                .replace("{discussion_output}", str(final_agreed_codebook))
-            Judge_user = self.config["Agents"]["Judge"]["user"]
+        Judge_system = (
+            self.config["Agents"]["Judge"]["system"]
+            .replace("{{init_codebook}}", json.dumps(init_codebook, ensure_ascii=False))
+            .replace("{{reviewer_output}}", json.dumps(agreed_disagreed_codebook, ensure_ascii=False))
+            .replace("{{discussion_output}}", str(final_agreed_codebook))
+        )
+        # The Judge template has no RQ placeholder; provide the parser value explicitly.
+        Judge_system += f"\n\n<Research Question>\n{rq}\n</Research Question>"
+        Judge_user = self.config["Agents"]["Judge"]["user"]
 
         Judge.set_meta_prompt(Judge_system)
         Judge.event(Judge_user)
-        # codebook = Judge.ask()
-        # Judge.memory(codebook, False, True)
-        # self.input_token += Judge.input_token
-        # self.output_token += Judge.output_token
-
-        # try:
-            # parsed = json.loads(codebook)
-        # except Exception:
-            # parsed = json.loads(eval(codebook.replace('```', "'''").replace('json', '').strip()))
 
         # return parsed
-        return self.ask_json_with_retry(Judge)
+        return self.ask_json_with_retry(Judge, if_memory=True)
 
 
 class SingleModel:

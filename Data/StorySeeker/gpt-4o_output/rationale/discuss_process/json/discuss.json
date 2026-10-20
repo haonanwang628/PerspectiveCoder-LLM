@@ -1,0 +1,502 @@
+{
+    "Role_Team": [
+        {
+            "Gender": "Woman (including Trans Female/Trans Woman)",
+            "Education": "Doctorate degree (PhD/other)",
+            "Race_Ethnicity": "African",
+            "Age": "34-44",
+            "Degree_Subject": "Engineering, Manufacturing and Construction",
+            "Reddit_Use": "Regular use(<once per month)",
+            "positionality": "As a 34-44-year-old African woman with a doctorate in Engineering, I bring a unique perspective to text analysis in social media storytelling. My education sharpens my analytical skills, while my cultural background enriches my understanding of narrative diversity. Regular Reddit use helps me recognize varied storytelling forms, but my technical focus might undervalue narrative nuances. Biases could arise from my scientific training, potentially emphasizing structure over creativity. These dimensions shape my interpretation of crowd workers' storytelling perceptions, informing both my data analysis and the prescriptive labels I apply. My aim is to ensure my research acknowledges diverse narrative experiences, enhancing the validity of my findings on narrative perceptions.",
+            "init_codebook": [
+                {
+                    "code": "Sequence of Events",
+                    "definition": "Captures descriptions of events that occur in a specific order with a beginning, middle, and end.",
+                    "inclusion_criteria": [
+                        "Text outlines a clear series of connected events over time."
+                    ],
+                    "exclusion_criteria": [
+                        "Text that only describes a single event or lacks a chronological order."
+                    ],
+                    "typical_examples": [
+                        "Gives a beginning middle and end to the event."
+                    ],
+                    "atypical_examples": [
+                        "Contains drama and has a plot."
+                    ],
+                    "participants": [
+                        "652d5fbe9b9bfde1040a8c4d",
+                        "6276d97e209059496d37bf74"
+                    ],
+                    "relevance_to_RQ": "This is key to understanding crowd workers' narrative perceptions as it reveals how they identify and process narrative structure in texts.",
+                    "notes": ""
+                },
+                {
+                    "code": "Descriptive Narrative",
+                    "definition": "Captures detailed descriptions focusing on personal feelings or environmental context.",
+                    "inclusion_criteria": [
+                        "Text extensively elaborates on feelings, settings, or characters."
+                    ],
+                    "exclusion_criteria": [
+                        "Text that merely lists events without added descriptive detail."
+                    ],
+                    "typical_examples": [
+                        "Very descriptive narrative."
+                    ],
+                    "atypical_examples": [
+                        "Recounts a certain time, tells about an event, details the people."
+                    ],
+                    "participants": [
+                        "652d5fbe9b9bfde1040a8c4d",
+                        "6365ab4612aba0a9bf749af1"
+                    ],
+                    "relevance_to_RQ": "Helps uncover elements that crowd workers perceive as enriching storytelling, contributing to descriptive labeling by workers.",
+                    "notes": ""
+                },
+                {
+                    "code": "Non-Narrative",
+                    "definition": "Describes texts that do not follow a structured narrative format, focusing instead on opinions or arguments.",
+                    "inclusion_criteria": [
+                        "Text is more opinion-based or explanatory without a narrative arc."
+                    ],
+                    "exclusion_criteria": [
+                        "Text that involves characters and plot development."
+                    ],
+                    "typical_examples": [
+                        "There is no plot and no characters."
+                    ],
+                    "atypical_examples": [
+                        "It's more of an opinion."
+                    ],
+                    "participants": [
+                        "60b9689dc626572895cb801b",
+                        "60b7a867e27703d1e26b503c"
+                    ],
+                    "relevance_to_RQ": "Important to distinguish how crowd workers perceive non-narrative content, impacting their labeling and description tasks.",
+                    "notes": ""
+                },
+                {
+                    "code": "Character Involvement",
+                    "definition": "Highlights texts that include characters who play active roles in the narrative.",
+                    "inclusion_criteria": [
+                        "Text mentions or develops characters who participate in actions within the narrative."
+                    ],
+                    "exclusion_criteria": [
+                        "Text that lacks clear characters or only mentions them superficially."
+                    ],
+                    "typical_examples": [
+                        "Contains characters, is funny, is a reminiscence."
+                    ],
+                    "atypical_examples": [
+                        "There are characters, good and bad."
+                    ],
+                    "participants": [
+                        "6531958a74d39ace86a60bd9",
+                        "60f4a2d142c69dc1121b6dbf"
+                    ],
+                    "relevance_to_RQ": "Understanding how crowd workers prioritize character involvement assists in predicting narrative focus and engagement.",
+                    "notes": ""
+                }
+            ]
+        },
+        {
+            "Gender": "Non-binary (would like to give more detail)",
+            "Education": "Doctorate degree (PhD/other)",
+            "Race_Ethnicity": "Black/African American",
+            "Age": "18-24",
+            "Degree_Subject": "Social Sciences",
+            "Reddit_Use": "Regular use(<once per month)",
+            "positionality": "As a non-binary, Black/African American researcher in my early twenties with a PhD in Social Sciences, my background significantly shapes my analytical lens. Regularly engaging with Reddit, I bring contemporary digital experiences to my exploration of storytelling in social media. My affinity for social sciences drives a focus on the multiplicity of narratives, potentially eliciting a deeper empathy towards underrepresented voices. However, my identity may bias me towards identifying with intersectional and marginalized narratives, possibly influencing my narrative interpretations and perceptions. Thus, I strive for self-awareness to ensure diverse perspectives are equally considered, recognizing how my positionality might guide the analysis and coding processes in exploring narrative perceptions and descriptive labels in crowd worker studies.",
+            "init_codebook": [
+                {
+                    "code": "Detailed Narrative",
+                    "definition": "The text provides a clear, detailed narrative of events or experiences.",
+                    "inclusion_criteria": [
+                        "text describes events in chronological order",
+                        "characters and settings are clearly defined",
+                        "story has a beginning, middle, and end"
+                    ],
+                    "exclusion_criteria": [
+                        "text lacks chronological narrative",
+                        "descriptions do not convey a clear sequence of events"
+                    ],
+                    "typical_examples": [
+                        "Gives a beginning middle and end to the event talks about their feelings and emotions during and after very descriptive narrative"
+                    ],
+                    "atypical_examples": [
+                        "Tells a story about his life in a sequence but lacks emotional depth"
+                    ],
+                    "participants": [
+                        "652d5fbe9b9bfde1040a8c4d",
+                        "63c3343c5a670ddd37e82f2b"
+                    ],
+                    "relevance_to_RQ": "[RQ1] It provides insight into how crowd workers perceive the structure and elements of storytelling in social media texts.",
+                    "notes": ""
+                },
+                {
+                    "code": "Event/Incident Description",
+                    "definition": "The text describes a specific event or incident without forming a complete narrative.",
+                    "inclusion_criteria": [
+                        "a specific event is described",
+                        "text does not form a complete story"
+                    ],
+                    "exclusion_criteria": [
+                        "comprehensive narratives with a beginning, middle, and end"
+                    ],
+                    "typical_examples": [
+                        "Details what transpired in class"
+                    ],
+                    "atypical_examples": [
+                        "Mentions a short incident but with minimal detail"
+                    ],
+                    "participants": [
+                        "652d5fbe9b9bfde1040a8c4d",
+                        "63c3343c5a670ddd37e82f2b"
+                    ],
+                    "relevance_to_RQ": "[RQ1] Helps identify how single events are conveyed and interpreted as storytelling by crowd workers.",
+                    "notes": ""
+                },
+                {
+                    "code": "Character and Setting Focus",
+                    "definition": "The text focuses on describing characters or settings without advancing a narrative.",
+                    "inclusion_criteria": [
+                        "text primarily describes characters or settings",
+                        "lacks an advancement of a narrative"
+                    ],
+                    "exclusion_criteria": [
+                        "texts that advance a plot or sequence of events"
+                    ],
+                    "typical_examples": [
+                        "Contains characters Contains drama Is funny Is a reminiscence Has a plot"
+                    ],
+                    "atypical_examples": [
+                        "Describes a scene vividly but without introducing characters"
+                    ],
+                    "participants": [
+                        "6531958a74d39ace86a60bd9"
+                    ],
+                    "relevance_to_RQ": "[RQ1] Demonstrates how perspectives are framed around settings and characters.",
+                    "notes": ""
+                },
+                {
+                    "code": "Opinion/Reaction",
+                    "definition": "The text conveys the author's personal opinions or reactions rather than narrating events.",
+                    "inclusion_criteria": [
+                        "text primarily conveys opinions or reactions",
+                        "lacks a narrative sequence"
+                    ],
+                    "exclusion_criteria": [
+                        "inclusion of personal anecdotes that form a narrative"
+                    ],
+                    "typical_examples": [
+                        "The text only explains what the author thinks about the topic. They is no story being told except for what the author believes to be true."
+                    ],
+                    "atypical_examples": [
+                        "Reflections are brief but not in response to any event"
+                    ],
+                    "participants": [
+                        "5f48002958dd331635f1d767"
+                    ],
+                    "relevance_to_RQ": "[RQ3] This reveals crowd workers\u2019 interpretive differences pertaining to descriptive vs prescriptive storytelling.",
+                    "notes": ""
+                },
+                {
+                    "code": "Instructional/Informative",
+                    "definition": "The text is intended to provide instructions or information, not storytelling.",
+                    "inclusion_criteria": [
+                        "text provides instructions or factual information",
+                        "lacks storytelling elements"
+                    ],
+                    "exclusion_criteria": [
+                        "complete narratives or opinions are expressed"
+                    ],
+                    "typical_examples": [
+                        "a scene from a movie, an unrelated story"
+                    ],
+                    "atypical_examples": [
+                        "Details processes without narrative content"
+                    ],
+                    "participants": [
+                        "632f16551c905f94e05945bd"
+                    ],
+                    "relevance_to_RQ": "[RQ2] Identifies situations when texts are considered narratives versus instructional content.",
+                    "notes": ""
+                }
+            ]
+        },
+        {
+            "Gender": "Man (including Trans Male/Trans Man)",
+            "Education": "Doctorate degree (PhD/other)",
+            "Race_Ethnicity": "Latino/Hispanic",
+            "Age": "34-44",
+            "Degree_Subject": "Agriculture, Forestry, Fisheries and Veterinary",
+            "Reddit_Use": "Regular use(<once per month)",
+            "positionality": "As a Latino man aged 34-44 with a PhD in Agriculture, using Reddit sporadically, my background brings a unique blend of academic rigor and cultural insight into text analysis. This perspective enriches my understanding of storytelling in social media, possibly focusing on agricultural narratives. My experiences might make me more attuned to storytelling nuances but also prone to biases related to my cultural context or academic training. Thus, I may overemphasize descriptive perceptions aligned with narratives familiar to me. These factors could shape how I interpret crowd workers' views on storytelling, potentially influencing my analysis and interpretation in exploring narrative perceptions across diverse groups.",
+            "init_codebook": [
+                {
+                    "code": "Story Features",
+                    "definition": "The text includes elements typically found in narratives such as characters, plot, and a clear beginning, middle, and end.",
+                    "inclusion_criteria": [
+                        "Text includes characters and plot progressions with a beginning, middle, and end."
+                    ],
+                    "exclusion_criteria": [
+                        "Text is purely descriptive or lacks a narrative progression."
+                    ],
+                    "typical_examples": [
+                        "Gives a beginning middle and end to the event",
+                        "Contains characters, good and bad"
+                    ],
+                    "atypical_examples": [
+                        "He is writing about his story a personal experience.",
+                        "Narrates what went on at a celebrity appearance"
+                    ],
+                    "participants": [
+                        "652d5fbe9b9bfde1040a8c4d",
+                        "60f4a2d142c69dc1121b6dbf"
+                    ],
+                    "relevance_to_RQ": "This code helps address RQ1 and RQ2 by establishing the structure of narratives that crowd workers describe.",
+                    "notes": "Interesting how stories are typically well-structured in terms of time and characters."
+                },
+                {
+                    "code": "Descriptive Text",
+                    "definition": "The text provides descriptive elements without forming a narrative, often focusing on opinions or facts.",
+                    "inclusion_criteria": [
+                        "Text is highly descriptive with opinions or facts, but lacks narrative cohesion."
+                    ],
+                    "exclusion_criteria": [
+                        "Text includes clear narrative elements or plot structure."
+                    ],
+                    "typical_examples": [
+                        "The text only explains what the author thinks about the topic.",
+                        "The text is describing a religion. There is no plot and no characters."
+                    ],
+                    "atypical_examples": [
+                        "They are giving recommendations...",
+                        "This is a review of a movie..."
+                    ],
+                    "participants": [
+                        "60b9689dc626572895cb801b",
+                        "6143e0914f93b50419ba30ab"
+                    ],
+                    "relevance_to_RQ": "This code helps clarify RQ1 by differentiating descriptive perceptions from narrative accounts.",
+                    "notes": "These instances commonly lack actions or events, serving more as opinions or factual descriptions."
+                },
+                {
+                    "code": "Request for Help",
+                    "definition": "The text seeks answers, advice, or support, and typically includes a question to the audience.",
+                    "inclusion_criteria": [
+                        "Text explicitly asks for assistance or advice from others."
+                    ],
+                    "exclusion_criteria": [
+                        "Text is purely informative or declarative without seeking input."
+                    ],
+                    "typical_examples": [
+                        "Text ends with a request for help regarding the situation.",
+                        "ASking questions"
+                    ],
+                    "atypical_examples": [
+                        "Seems more like a request for input...",
+                        "Request for feedback."
+                    ],
+                    "participants": [
+                        "65c13556080d1ef79593d850",
+                        "5a4444fc56ec1100014a29e1"
+                    ],
+                    "relevance_to_RQ": "This code may indirectly affect RQ2 by highlighting where crowd workers need further context for narrative interpretation.",
+                    "notes": "Such requests often follow narrative elements but transition into seeking resolution outside the text."
+                }
+            ]
+        }
+    ],
+    "Agreed_disagreed_codebook": {
+        "agreements": [
+            {
+                "code": "Descriptive Narrative / Descriptive Text",
+                "roles": [
+                    "Gender: Woman (including Trans Female/Trans Woman), Education: Doctorate degree (PhD/other), Race_Ethnicity: African, Age: 34-44, Degree_Subject: Engineering, Manufacturing and Construction, Reddit_Use: Regular use(<once per month)",
+                    "Gender: Man (including Trans Male/Trans Man), Education: Doctorate degree (PhD/other), Race_Ethnicity: Latino/Hispanic, Age: 34-44, Degree_Subject: Agriculture, Forestry, Fisheries and Veterinary, Reddit_Use: Regular use(<once per month)"
+                ],
+                "reason": "Both roles describe text that provides detailed descriptions without forming a narrative, highlighting opinions or facts. They both exclude text with a narrative or plot structure."
+            },
+            {
+                "code": "Character Focus / Character Involvement / Character and Setting Focus",
+                "roles": [
+                    "Gender: Woman (including Trans Female/Trans Woman), Education: Doctorate degree (PhD/other), Race_Ethnicity: African, Age: 34-44, Degree_Subject: Engineering, Manufacturing and Construction, Reddit_Use: Regular use(<once per month)",
+                    "Gender: Non-binary (would like to give more detail), Education: Doctorate degree (PhD/other), Race_Ethnicity: Black/African American, Age: 18-24, Degree_Subject: Social Sciences, Reddit_Use: Regular use(<once per month)"
+                ],
+                "reason": "Both roles recognize a focus on characters as a central element, either through involvement or detailed description, while lacking narrative progression."
+            }
+        ],
+        "disagreements": [
+            {
+                "code": "Sequence of Events / Story Features / Detailed Narrative",
+                "roles": [
+                    "Gender: Woman (including Trans Female/Trans Woman), Education: Doctorate degree (PhD/other), Race_Ethnicity: African, Age: 34-44, Degree_Subject: Engineering, Manufacturing and Construction, Reddit_Use: Regular use(<once per month)",
+                    "Gender: Non-binary (would like to give more detail), Education: Doctorate degree (PhD/other), Race_Ethnicity: Black/African American, Age: 18-24, Degree_Subject: Social Sciences, Reddit_Use: Regular use(<once per month)",
+                    "Gender: Man (including Trans Male/Trans Man), Education: Doctorate degree (PhD/other), Race_Ethnicity: Latino/Hispanic, Age: 34-44, Degree_Subject: Agriculture, Forestry, Fisheries and Veterinary, Reddit_Use: Regular use(<once per month)"
+                ],
+                "reason": "The roles differ in how they frame the narrative structure. While all agree on the importance of sequence, their understanding of narrative completeness and detailed elements varies."
+            },
+            {
+                "code": "Non-Narrative / Opinion/Reaction / Instructional/Informative",
+                "roles": [
+                    "Gender: Woman (including Trans Female/Trans Woman), Education: Doctorate degree (PhD/other), Race_Ethnicity: African, Age: 34-44, Degree_Subject: Engineering, Manufacturing and Construction, Reddit_Use: Regular use(<once per month)",
+                    "Gender: Non-binary (would like to give more detail), Education: Doctorate degree (PhD/other), Race_Ethnicity: Black/African American, Age: 18-24, Degree_Subject: Social Sciences, Reddit_Use: Regular use(<once per month)"
+                ],
+                "reason": "Disagreement arises in the delineation of texts that lack a narrative arc, with roles presenting varied interpretations between text viewed as purely opinion-based versus factual or instructional."
+            },
+            {
+                "code": "Request for Help",
+                "roles": [
+                    "Gender: Man (including Trans Male/Trans Man), Education: Doctorate degree (PhD/other), Race_Ethnicity: Latino/Hispanic, Age: 34-44, Degree_Subject: Agriculture, Forestry, Fisheries and Veterinary, Reddit_Use: Regular use(<once per month)"
+                ],
+                "reason": "Unique to one role, highlighting a direct, intentional request for audience interaction, not identified or considered by other roles."
+            }
+        ]
+    },
+    "Discussion": {
+        "round1": "[{'Role1': {'Role': 'Gender: Woman (including Trans Female/Trans Woman), Education: Doctorate degree (PhD/other), Race_Ethnicity: African, Age: 34-44, Degree_Subject: Engineering, Manufacturing and Construction, Reddit_Use: Regular use(<once per month)', 'Disagreement_Evidence': [{'code': 'Sequence of Events / Story Features / Detailed Narrative', 'Preliminary_Claim': 'retain', 'Definition': 'The core disagreement is about the completeness and detailed elements required for recognizing narrative structure.', 'Evidence_Literature': {'Author': 'Labov, W.', 'Year': '1997', 'Title': 'Some Further Steps in Narrative Analysis', 'DOI_or_Link': '10.2307/416878', 'Summary': \"Labov's work emphasizes the importance of sequence in narratives, suggesting that narratives need a clearly defined sequence of events to maintain coherence.\"}, 'Evidence_Content': {'Observation': 'The code explicitly includes narratives with a sequenced and detailed structure, setting boundaries for what constitutes a story.', 'Relevance': 'Retaining this code helps to clearly demarcate what constitutes a story versus a factual recount, reducing interpretive ambiguity.'}, 'Evidence_Logic': {'Reasoning': 'Including detailed narrative elements allows for clear differentiation, enhancing coder consistency by providing a structured guideline.', 'Impact': 'Retaining this code ensures clarity in distinguishing narratives, reducing the cognitive load on annotators to interpret narrative completeness.'}}, {'code': 'Non-Narrative / Opinion/Reaction / Instructional/Informative', 'Preliminary_Claim': 'retain', 'Definition': 'The disagreement centers on distinguishing texts lacking a narrative arc as purely opinion-based versus factual or instructional.', 'Evidence_Literature': {'Author': 'Hodge, R., & Kress, G.', 'Year': '1988', 'Title': 'Social Semiotics', 'DOI_or_Link': '10.2307/409206', 'Summary': 'Hodge and Kress explore how texts communicate meaning without narratives, distinguishing opinion and instruction from narrative forms.'}, 'Evidence_Content': {'Observation': 'The current code definition accommodates texts that either express opinions or provide instructional content, setting them apart from narrative forms.', 'Relevance': 'Categorizing texts that lack a narrative ensures clarity in content tagging and aids in analytics that differentiate between opinion and storytelling.'}, 'Evidence_Logic': {'Reasoning': 'Retaining this code allows for precision in classifying text types that are non-narrative, aiding in efficient content organization.', 'Impact': 'This enhances interpretive clarity and facilitates more accurate data analysis, minimizing coder confusion over text classification.'}}, {'code': 'Request for Help', 'Preliminary_Claim': 'do_not_retain', 'Definition': 'The disagreement concerns whether requests for assistance should be uniquely coded as they represent a direct, intentional interaction request.', 'Evidence_Literature': {'Author': 'Goffman, E.', 'Year': '1971', 'Title': 'Relations in Public: Microstudies of the Public Order', 'DOI_or_Link': '10.2307/270029', 'Summary': \"Goffman's analysis of interaction order indicates that requests for help involve performative aspects, often integrated rather than separately categorized.\"}, 'Evidence_Content': {'Observation': 'Requests for help could often be embedded within other forms of communication, questioning the need for a separate code when such requests are contextually bound.', 'Relevance': 'Not retaining this code could simplify coding by embedding requests within broader categories like opinion or instructional content.'}, 'Evidence_Logic': {'Reasoning': 'Eliminating a separate code for requests streamlines the classification process, avoiding unnecessary splitting of contextually related content.', 'Impact': 'This reduces coder cognitive load, supports more consistent content categorization, and focuses on interpretive cohesion over granularity.'}}]}}, {'Role2': {'Role': 'Gender: Non-binary, Education: Doctorate degree (PhD/other), Race_Ethnicity: Black/African American, Age: 18-24, Degree_Subject: Social Sciences, Reddit_Use: Regular use(<once per month)', 'Disagreement_Evidence': [{'code': 'Sequence of Events / Story Features / Detailed Narrative', 'Preliminary_Claim': 'retain', 'Definition': 'Disagreement over the framing and completeness of a narrative structure.', 'Evidence_Literature': {'Author': 'Labov, W.', 'Year': '1972', 'Title': 'Language in the Inner City: Studies in the Black English Vernacular', 'DOI_or_Link': 'https://www.worldcat.org/title/232548', 'Summary': \"Labov's work highlights the structure of narratives, emphasizing the importance of sequence in storytelling. This supports retaining the code to capture detailed narrative nuances.\"}, 'Evidence_Content': {'Observation': 'The code includes elements like sequence and detailed narrative features, which are crucial for comprehensive narrative analysis.', 'Relevance': 'Recognizing the narrative completeness is vital to understanding and differentiating between mere descriptions and genuine narratives.'}, 'Evidence_Logic': {'Reasoning': 'Retaining this code helps preserve interpretive clarity and ensures that narratives are distinguished from simple listings of events.', 'Impact': 'Improves coder consistency by providing clear criteria for identifying complex narrative structures.'}}, {'code': 'Non-Narrative / Opinion/Reaction / Instructional/Informative', 'Preliminary_Claim': 'retain', 'Definition': 'Disagreement over delineating non-narrative text from opinion-based or informational content.', 'Evidence_Literature': {'Author': 'Wenger, E.', 'Year': '1998', 'Title': 'Communities of Practice: Learning, Meaning, and Identity', 'DOI_or_Link': 'https://www.worldcat.org/title/38709645', 'Summary': 'Wenger discusses the dynamics of meaning and identity in informational exchanges, highlighting the importance of distinguishing types of communication, which supports retaining the code.'}, 'Evidence_Content': {'Observation': \"The code's inclusion of non-narrative and opinion-based content helps distinctly categorize text types that do not conform to narrative arcs.\", 'Relevance': 'Clarifies the boundaries between narrative and instructional or opinion content, crucial for accurate thematic coding.'}, 'Evidence_Logic': {'Reasoning': 'Retaining the code aids in efficient categorization of content, reducing cognitive load and enhancing consistency in annotation.'}}, {'code': 'Request for Help', 'Preliminary_Claim': 'retain', 'Definition': 'Disagreement arises in recognizing the presence and necessity of codes for identifying requests for audience interaction.', 'Evidence_Literature': {'Author': 'Austin, J. L.', 'Year': '1962', 'Title': 'How to Do Things with Words', 'DOI_or_Link': 'https://www.worldcat.org/title/169955', 'Summary': \"Austin's theory on speech acts emphasizes the action-oriented nature of requests, supporting the need to retain this code for interactions necessitating audience responses.\"}, 'Evidence_Content': {'Observation': 'This code is crucial for identifying text that explicitly seeks interaction, such as help requests, which differ markedly from informative or narrative content.', 'Relevance': 'Ensures that direct appeals for interaction are captured, which is vital for engagement analysis.'}, 'Evidence_Logic': {'Reasoning': \"Including a code for 'Request for Help' ensures that the analysis captures calls-to-action, aiding clarity in understanding text intention and purpose.\", 'Impact': 'By retaining this code, analysts can decipher between passive content and active, engagement-focused messages.'}}]}}, {'Role3': {'Role': 'Gender: Man (including Trans Male/Trans Man), Education: Doctorate degree (PhD/other), Race_Ethnicity: Latino/Hispanic, Age: 34-44, Degree_Subject: Agriculture, Forestry, Fisheries and Veterinary, Reddit_Use: Regular use(<once per month)', 'Disagreement_Evidence': [{'code': 'Sequence of Events / Story Features / Detailed Narrative', 'Preliminary_Claim': 'retain', 'Definition': 'The core disagreement focuses on the completeness and detailed elements of a narrative, especially concerning how sequences contribute to narrative structure.', 'Evidence_Literature': {'Author': 'Labov, W.', 'Year': '1972', 'Title': 'The Transformation of Experience in Narrative Syntax', 'DOI_or_Link': 'https://doi.org/10.1515/ling.1972.8.1.36', 'Summary': 'Labov\u2019s work highlights essential narrative structures that emphasize sequences of events and detailed storytelling. Retaining this code helps capture complex narrative elements recognized by established linguistic studies.'}, 'Evidence_Content': {'Observation': 'The code includes text with sequences of events or detailed narratives, distinguishing it from mere descriptive or opinion-based texts.', 'Relevance': 'Maintaining this code ensures comprehensive identification of narrative completion and story depth vital for detailed storytelling analysis.'}, 'Evidence_Logic': {'Reasoning': 'Retaining enhances clarity by delineating between simple descriptions and intricate narratives, improving interpretation of texts as coherent stories.', 'Impact': 'Supports coder consistency by providing clear guidance on identifying substantial narrative features, reducing cognitive load in distinguishing between narrative types.'}}, {'code': 'Non-Narrative / Opinion/Reaction / Instructional/Informative', 'Preliminary_Claim': 'retain', 'Definition': 'Disagreement centers on differentiating between non-narrative text categorized as opinion-based versus factual or instructional.', 'Evidence_Literature': {'Author': 'Werner, W.', 'Year': '2017', 'Title': 'The Choice of Non-Narrative Forms in Communication', 'DOI_or_Link': 'https://doi.org/10.1080/17405904.2017.1369464', 'Summary': 'Werner\u2019s study underlines the significance of distinguishing narrative forms by functionality (opinion vs. instruction), supporting the need to retain a separate category for non-narrative discourse.'}, 'Evidence_Content': {'Observation': 'The code captures texts that convey information or opinions without a narrative arc, embodying an identifiable set of criteria apart from story-based texts.', 'Relevance': 'Justifying retentiveness preserves the distinct classification of non-narrative functions, aligning with a clear analytical framework for interpretation.'}, 'Evidence_Logic': {'Reasoning': 'Retaining clarifies text categorization, aiding annotation tasks to differentiate narrative from non-narrative texts, enhancing coder accuracy.', 'Impact': 'Facilitates clearer coding guidelines, reducing the cognitive load by providing explicit instruction on non-narrative text identification.'}}, {'code': 'Request for Help', 'Preliminary_Claim': 'retain', 'Definition': \"The disagreement arises from one role's exclusive identification of requests for audience interaction, not recognized by others.\", 'Evidence_Literature': {'Author': 'Brock, A.', 'Year': '2018', 'Title': 'The Dynamics of Seeking and Providing Help in Online Communities', 'DOI_or_Link': 'https://doi.org/10.1002/sres.2578', 'Summary': 'Brock\u2019s research documents distinct communication patterns in requests for help, supporting the relevance of explicitly recognizing such codes in textual analysis.'}, 'Evidence_Content': {'Observation': 'This code captures distinct communication intent by highlighting direct engagement methods requesting support, separable from other text types.', 'Relevance': \"Recognizing 'Request for Help' helps systematically highlight community interaction dynamics, valuable in audience engagement studies.\"}, 'Evidence_Logic': {'Reasoning': 'Retaining offers targeted insight into interaction patterns, critical for distinguishing calls for assistance from descriptive or narrative content.', 'Impact': 'Enhances efficiency and clarity by providing a specific category, reducing ambiguity in annotating interactive components.'}}]}}]",
+        "round2": "[{'Role1': {'Role': 'Gender: Woman (including Trans Female/Trans Woman), Education: Doctorate degree (PhD/other), Race_Ethnicity: African, Age: 34-44, Degree_Subject: Engineering, Manufacturing and Construction, Reddit_Use: Regular use(<once per month)', 'DecisionPattern': 'Prioritize clarity and efficiency over granularity to ensure consistent interpretation across diverse narratives.', 'Reasoning': [{'code': 'Sequence of Events / Story Features / Detailed Narrative', 'Disagreement_Point': 'The core disagreement is about the completeness and detailed elements required for recognizing narrative structure.', 'Self_Check': {'First_ExplicitStance': 'support', 'Then_DefinitionConsistency': 'The Round-1 evidence, especially the literature by Labov (1997), supports the necessity of having a defined structure to identify a narrative. This aligns well with a content-based observation that this code delineates narratives from mere sequences of events, thus providing clarity in tagging detailed narratives.', 'Finally_LimitationsDecision': 'Continue to Support'}, 'Cross_Discussion': {'PerRoleAnalysis': [{'OtherRole': 'Gender: Non-binary, Education: Doctorate degree (PhD/other), Race_Ethnicity: Black/African American, Age: 18-24, Degree_Subject: Social Sciences', 'Example': 'Their use of Labov (1972) strongly supports narrative structuring through sequence, aligning with my claim.', 'Counterexample': \"The interpretation of 'narrative completeness' could be restrictive, not considering non-linear narratives.\", 'Summary': 'Alignment on using sequence for narrative identification, but divergence in applying it to diverse narrative styles.'}, {'OtherRole': 'Gender: Man (including Trans Male/Trans Man), Education: Doctorate degree (PhD/other), Race_Ethnicity: Latino/Hispanic, Age: 34-44, Degree_Subject: Agriculture, Forestry, Fisheries and Veterinary', 'Example': 'Their logic-based clarity on distinguishing narratives from descriptions is strong.', 'Counterexample': 'However, may overly depend on traditional narrative structures, potentially limiting narrative variations.', 'Summary': 'Alignment on distinct narrative identification, but concern over adaptability to non-traditional narratives.'}], 'Consensus': 'Strong alignment with both roles on the importance of sequence in narratives.', 'Divergence': 'Some concerns about potential rigidity and limits on narrative style inclusion.', 'HybridPerspective': 'A synthesis focusing on identifying solid narrative sequences while allowing flexibility for non-linear or unconventional storytelling.'}}, {'code': 'Non-Narrative / Opinion/Reaction / Instructional/Informative', 'Disagreement_Point': 'The disagreement centers on distinguishing texts lacking a narrative arc as purely opinion-based versus factual or instructional.', 'Self_Check': {'First_ExplicitStance': 'support', 'Then_DefinitionConsistency': 'The literature by Hodge & Kress (1988) and the need for clear categorization between narrative and non-narrative texts supports the claim. This code helps maintain delineation between distinct content types, capturing various forms of communication effectively.', 'Finally_LimitationsDecision': 'Continue to Support'}, 'Cross_Discussion': {'PerRoleAnalysis': [{'OtherRole': 'Gender: Non-binary, Education: Doctorate degree (PhD/other), Race_Ethnicity: Black/African American, Age: 18-24, Degree_Subject: Social Sciences', 'Example': 'They emphasize Wenger (1998) to support distinguishing communication types, aligning with my perspective.', 'Counterexample': 'Might overlook texts that blend instructional with opinion-based content, leading to categorization challenges.', 'Summary': 'General agreement on separation necessity, but differing on handling blended content.'}, {'OtherRole': 'Gender: Man (including Trans Male/Trans Man), Education: Doctorate degree (PhD/other), Race_Ethnicity: Latino/Hispanic, Age: 34-44, Degree_Subject: Agriculture, Forestry, Fisheries and Veterinary', 'Example': 'Their logic grounds in functional text identification align strongly with preserving distinct categories.', 'Counterexample': 'Potential struggle with textual content overlapping categories, complicating annotations.', 'Summary': 'Aligns on need for distinct non-narrative categories, but aware of complexities from text overlaps.'}], 'Consensus': 'General alignment with both roles on the need for clear content delineation between narrative and non-narrative text.', 'Divergence': 'Potential difficulty with mixed-content categorization remains a discordant point.', 'HybridPerspective': 'Focus on distinct category maintenance while developing strategies to handle mixed-content texts efficiently.'}}, {'code': 'Request for Help', 'Disagreement_Point': 'The disagreement concerns whether requests for assistance should be uniquely coded as they represent a direct, intentional interaction request.', 'Self_Check': {'First_ExplicitStance': 'refute', 'Then_DefinitionConsistency': \"Austin's (1962) speech act theory and evidence suggest requests are inherently interactional and thus deserve dedicated attention. Content observations reinforce that direct audience engagement is distinguishable and valuable for engagement analysis.\", 'Finally_LimitationsDecision': 'Refute My Claim'}, 'Cross_Discussion': {'PerRoleAnalysis': [{'OtherRole': 'Gender: Non-binary, Education: Doctorate degree (PhD/other), Race_Ethnicity: Black/African American, Age: 18-24, Degree_Subject: Social Sciences', 'Example': 'Their literature and logic highlight requests as interaction-focused communication crucial for engagement analysis.', 'Counterexample': 'May create redundancy by splitting holistic communications unnecessarily.', 'Summary': 'Differ on splitting out requests as separate codes, yet recognize their communicative distinctiveness.'}, {'OtherRole': 'Gender: Man (including Trans Male/Trans Man), Education: Doctorate degree (PhD/other), Race_Ethnicity: Latino/Hispanic, Age: 34-44, Degree_Subject: Agriculture, Forestry, Fisheries and Veterinary', 'Example': 'Their evidence strongly supports retaining request codes for engagement-focused communication identification.', 'Counterexample': 'Highlighting requests separately could increase complexity and redundancy.', 'Summary': \"Recognizing request's unique interactional aspect aligns with engagement needs, though risks redundancy.\"}], 'Consensus': 'Both roles present strong reasoning for recognizing requests uniquely for engagement analysis.', 'Divergence': \"While understanding requests' uniqueness, continue to be wary of annotation complexity.\", 'HybridPerspective': 'Recognizing distinct communication needs while managing complexities and redundancies in coding for requests.'}}]}}, {'Role2': {'Role': 'Gender: Non-binary, Education: Doctorate degree (PhD/other), Race_Ethnicity: Black/African American, Age: 18-24, Degree_Subject: Social Sciences, Reddit_Use: Regular use(<once per month)', 'DecisionPattern': 'Prioritize narrative depth and communication intent over simplification, with emphasis on interpretive clarity and underrepresented voice recognition.', 'Reasoning': [{'code': 'Sequence of Events / Story Features / Detailed Narrative', 'Disagreement_Point': 'The core disagreement is about the completeness and detailed elements required for recognizing narrative structure.', 'Self_Check': {'First_ExplicitStance': 'support', 'Then_DefinitionConsistency': 'The literature-based evidence from Labov, complemented by content-based grounding on the significance of sequence and detail in capturing narrative, supports retaining this code. Logic-based reasoning emphasizes the role of clarity in differentiating narratives, which aligns with interpretive depth necessary for comprehensive analysis.', 'Finally_LimitationsDecision': 'Continue to Support'}, 'Cross_Discussion': {'PerRoleAnalysis': [{'OtherRole': 'Role1', 'Example': \"Role1 effectively uses Labov's work to emphasize sequence as vital for maintaining narrative coherence.\", 'Counterexample': 'Role1 views narrative completeness primarily in structural terms, potentially overlooking narrative fluidity and context sensitivity.', 'Summary': 'While Role1 aligns on the importance of detailed elements, my approach incorporates narrative fluidity and context sensitivity.'}, {'OtherRole': 'Role3', 'Example': 'Role3 highlights Labov\u2019s narrative structures requiring sequences and detail, resonating with the importance of complex narrative recognition.', 'Counterexample': 'Role3\u2019s emphasis might undervalue the experiential aspects of narratives beyond structural completeness.', 'Summary': 'Shared emphasis on narrative sequences, but Role3 may not fully account for experiential narrative depth.'}], 'Consensus': 'Role1 and Role3 share alignment on narrative structure necessity.', 'Divergence': 'Divergence with Role1 on narrative fluidity and Role3 on narrative experience depth.', 'HybridPerspective': 'Retain code with nuanced emphasis on both narrative structure and experiential depth, ensuring diverse narrative types are recognized.'}}, {'code': 'Non-Narrative / Opinion/Reaction / Instructional/Informative', 'Disagreement_Point': 'The disagreement centers on distinguishing texts lacking a narrative arc as purely opinion-based versus factual or instructional.', 'Self_Check': {'First_ExplicitStance': 'support', 'Then_DefinitionConsistency': 'Supporting retention based on Hodge and Kress, which distinguishes non-narrative forms clearly. The content-based evidence shows that current definitions adequately separate opinions from instructional content. Logic confirms that this separation aids clarity and efficiency by categorizing text accurately.', 'Finally_LimitationsDecision': 'Continue to Support'}, 'Cross_Discussion': {'PerRoleAnalysis': [{'OtherRole': 'Role1', 'Example': \"Role1's use of Hodge and Kress supports distinguishing between opinion and instructional content.\", 'Counterexample': 'Role1 might not account for hybrid content that blurs these distinctions, affecting precision.', 'Summary': 'Alignment on distinguishing content types, but my perspective includes potential hybrid categorizations.'}, {'OtherRole': 'Role3', 'Example': \"Role3's reliance on Werner underscores the need for clear functional distinction in non-narrative texts.\", 'Counterexample': 'Role3 might overly simplify non-narrative categorization by ignoring nuanced overlaps.', 'Summary': 'Role3 aligns on classification clarity, but their approach might miss nuanced overlaps.'}], 'Consensus': 'Alignment with Role1 and Role3 on the necessity of distinguishing non-narrative text forms.', 'Divergence': 'Depart from Role1 and Role3 on addressing blurred lines between opinion and instructional texts.', 'HybridPerspective': 'Retain code with nuanced categories allowing for overlap recognition in non-narrative forms.'}}, {'code': 'Request for Help', 'Disagreement_Point': 'The disagreement concerns whether requests for assistance should be uniquely coded as they represent a direct, intentional interaction request.', 'Self_Check': {'First_ExplicitStance': 'support', 'Then_DefinitionConsistency': 'Brock\u2019s work on audience engagement supports the need for explicit coding of help requests, as reflected in the logic-based need for engagement clarity and content-based necessity for interaction recognition.', 'Finally_LimitationsDecision': 'Continue to Support'}, 'Cross_Discussion': {'PerRoleAnalysis': [{'OtherRole': 'Role1', 'Example': 'Role1\u2019s reliance on Goffman suggests that requests are often embedded in broader contexts.', 'Counterexample': 'Role1 downplays explicit interaction requests, potentially neglecting direct engagement dynamics.', 'Summary': 'My reasoning diverges by emphasizing the need to explicitly identify calls for help, recognizing interactive nuances.'}, {'OtherRole': 'Role3', 'Example': 'Role3\u2019s utilization of Brock highlights distinct communication patterns associated with help requests.', 'Counterexample': 'Role3 slightly overlooks embedded context within which help is requested, focusing too intently on exclusivity of requests.', 'Summary': 'Alignment on the importance of recognizing direct interaction requests, with differing emphasis on contextual understanding.'}], 'Consensus': 'Close alignment with Role3 on the necessity to explicitly code requests for interaction.', 'Divergence': 'Significant divergence with Role1 on recognizing explicit interaction dynamics.', 'HybridPerspective': 'Highlight the importance of separating interaction requests, while acknowledging their contextual embedding.'}}]}}, {'Role3': {'Role': 'Gender: Man (including Trans Male/Trans Man), Education: Doctorate degree (PhD/other), Race_Ethnicity: Latino/Hispanic, Age: 34-44, Degree_Subject: Agriculture, Forestry, Fisheries and Veterinary, Reddit_Use: Regular use(<once per month)', 'DecisionPattern': 'Prioritizing interpretive clarity and accuracy over efficiency, due to the nuanced nature of narrative analysis, which often requires detailed understanding of text elements.', 'Reasoning': [{'code': 'Sequence of Events / Story Features / Detailed Narrative', 'Disagreement_Point': 'Completeness and detail required for narrative recognition.', 'Self_Check': {'First_ExplicitStance': 'support', 'Then_DefinitionConsistency': 'The literature on narrative structure, particularly work by Labov (1972), supports the necessity of detailed sequences for narratives. Content-based evidence suggests that the current code definition captures narrative complexity. Logically, retaining the code enhances clarity by distinguishing detailed narratives from simple descriptions.', 'Finally_LimitationsDecision': 'Continue to Support'}, 'Cross_Discussion': {'PerRoleAnalysis': [{'OtherRole': 'Gender: Woman (including Trans Female/Trans Woman), Education: Doctorate degree (PhD/other), Race_Ethnicity: African, Age: 34-44, Degree_Subject: Engineering, Manufacturing and Construction, Reddit_Use: Regular use(<once per month)', 'Example': \"The emphasis on Labov's framework from 1997 reinforces the need for sequenced narrative structures.\", 'Counterexample': 'Their focus on reducing ambiguity seems less prioritized than ensuring narrative integrity through detailed categorization.', 'Summary': 'Aligns on retaining the code due to shared emphasis on narrative completeness.'}, {'OtherRole': 'Gender: Non-binary, Education: Doctorate degree (PhD/other), Race_Ethnicity: Black/African American, Age: 18-24, Degree_Subject: Social Sciences, Reddit_Use: Regular use(<once per month)', 'Example': \"The acknowledgment of Labov's narrative sequence as vital complements our stance.\", 'Counterexample': \"The age group's focus on simplicity might overlook the depth required for nuanced categories.\", 'Summary': 'Agreement on maintaining detailed narrative codes, though diverging in prioritization of simplicity vs. depth.'}], 'Consensus': 'Role1 (Woman, PhD, African) aligns by emphasizing narrative structure integrity.', 'Divergence': 'Slight divergence with Role2 (Non-binary, PhD, Black/African American) on simplicity versus depth prioritization.', 'HybridPerspective': 'While retaining the focus on detailed narrative elements, incorporate a clarity-driven approach to minimize interpretational complexity.'}}, {'code': 'Non-Narrative / Opinion/Reaction / Instructional/Informative', 'Disagreement_Point': 'Delineating non-narrative from opinion-based or instructional content.', 'Self_Check': {'First_ExplicitStance': 'support', 'Then_DefinitionConsistency': \"Literature such as Wenger (1998) validates distinguishing between different non-narrative forms for analytical purposes. Content-based observations highlight this code's clear criteria for non-narrative identification, supporting content tagging accuracy. Logically, retaining supports efficient classification and reduces coder confusion.\", 'Finally_LimitationsDecision': 'Continue to Support'}, 'Cross_Discussion': {'PerRoleAnalysis': [{'OtherRole': 'Gender: Woman (including Trans Female/Trans Woman), Education: Doctorate degree (PhD/other), Race_Ethnicity: African, Age: 34-44, Degree_Subject: Engineering, Manufacturing and Construction, Reddit_Use: Regular use(<once per month)', 'Example': 'Hodge and Kress\u2019s work underlining the differentiation of text forms supports precise categorization.', 'Counterexample': 'The risk of overly detailed subcategories could hinder efficiency compared to straightforward labeling.', 'Summary': 'Agreement on the necessity of maintaining the code to avoid conflating narrative transparency.'}, {'OtherRole': 'Gender: Non-binary, Education: Doctorate degree (PhD/other), Race_Ethnicity: Black/African American, Age: 18-24, Degree_Subject: Social Sciences, Reddit_Use: Regular use(<once per month)', 'Example': 'Wenger\u2019s drive for differentiation aligns with our perspective on non-narrative necessity.', 'Counterexample': \"Balance between annotation depth and coders' cognitive load surfaces as a contrast in execution approach.\", 'Summary': 'Shared understanding on retaining differentiation strength though with execution approach variance.'}], 'Consensus': 'Roles in favor of retaining such differentiation for analytical purposes.', 'Divergence': 'Potential differences with Role1 regarding efficiency over subcategorization precision.', 'HybridPerspective': 'Focus on combining clarity with precise non-narrative tagging, ensuring categorization effectiveness alongside coder task simplicity.'}}, {'code': 'Request for Help', 'Disagreement_Point': 'Recognition and necessity of a specific code for identifying direct audience interaction requests.', 'Self_Check': {'First_ExplicitStance': 'support', 'Then_DefinitionConsistency': 'Austin\u2019s emphasis on request speech acts supports the distinction of this code. Content observation reinforces unique identification needs for help requests. Logically, retaining ensures analytical clarity and helps understand audience engagement patterns.', 'Finally_LimitationsDecision': 'Continue to Support'}, 'Cross_Discussion': {'PerRoleAnalysis': [{'OtherRole': 'Gender: Woman (including Trans Female/Trans Woman), Education: Doctorate degree (PhD/other), Race_Ethnicity: African, Age: 34-44, Degree_Subject: Engineering, Manufacturing and Construction, Reddit_Use: Regular use(<once per month)', 'Example': 'Highlighting Goffman\u2019s view on integrated requests questions the need for separate coding.', 'Counterexample': \"Goffman's integration approach may overlook the analytical need to understand specific calls-to-action in online communities.\", 'Summary': 'Our stance diverges, emphasizing clarity in capturing dynamics of interaction not embedded by default in broader categories.'}, {'OtherRole': 'Gender: Non-binary, Education: Doctorate degree (PhD/other), Race_Ethnicity: Black/African American, Age: 18-24, Degree_Subject: Social Sciences, Reddit_Use: Regular use(<once per month)', 'Example': 'Austin\u2019s speech act theory directly supports a specialized interaction code.', 'Counterexample': 'Role may focus less on simplicity and more on interaction analysis depth.', 'Summary': 'Alignment on the importance for specific interaction codes, diverging in simplicity against interactivity depth.'}], 'Consensus': 'Supported by Role2 emphasizing interaction analysis depth.', 'Divergence': 'Conflicts with Role1 on maintaining specificity versus simplifying interaction coding within other categories.', 'HybridPerspective': 'Emphasizes a blend of interaction clarity with user-friendly coder processes, fostering both accessibility and precision in audience engagement analysis.'}}]}}]",
+        "round3": "[{'Role1': {'Role': 'Gender: Woman (including Trans Female/Trans Woman), Education: Doctorate degree (PhD/other), Race_Ethnicity: African, Age: 34-44, Degree_Subject: Engineering, Manufacturing and Construction, Reddit_Use: Regular use(<once per month)', 'Final_Results': [{'code': 'Sequence of Events / Story Features / Detailed Narrative', 'Initial_Claim_Round1': 'retain', 'Final_Decision': 'Continue to Support', 'Final_Claim': 'Yes, the code should be retained.', 'Final_Explanation': 'The importance of sequence and detail for maintaining narrative coherence, as supported by literature, justifies retaining this code for clarity and depth recognition.', 'Self_Reflection': {'Strengths': 'The strongest support was the literature on narrative structure, particularly Labov\u2019s work, which aligned well with my technical background.', 'Weaknesses': 'A potential weakness is the possible neglect of narrative fluidity and experiential depth.', 'Future_Consideration': 'Exploring more narrative analyses that incorporate varied narrative structures could refine future approaches.'}}, {'code': 'Non-Narrative / Opinion/Reaction / Instructional/Informative', 'Initial_Claim_Round1': 'retain', 'Final_Decision': 'Continue to Support', 'Final_Claim': 'Yes, the code should be retained.', 'Final_Explanation': 'Clear delineation between narrative and non-narrative content supports thematic clarity and accurate categorization, crucial for effective analysis.', 'Self_Reflection': {'Strengths': 'Support was strongest from literature-based definitions that clearly distinguish text functions.', 'Weaknesses': 'Potential limitations exist in handling hybrid content where categories overlap.', 'Future_Consideration': 'Developing strategies to address content overlaps will enhance classification precision.'}}, {'code': 'Request for Help', 'Initial_Claim_Round1': 'do_not_retain', 'Final_Decision': 'Refute My Initial Claim', 'Final_Claim': 'Yes, the code should be retained.', 'Final_Explanation': 'The importance of differentiating requests for audience interaction is crucial for understanding engagement patterns, as supported by interaction-focused frameworks.', 'Self_Reflection': {'Strengths': 'The reevaluation with emphasis on audience engagement detail was essential in shifting my stance.', 'Weaknesses': 'Limited acknowledgment initially of the distinct interaction needs highlighted by analytical requirements.', 'Future_Consideration': 'Further inquiry into how direct requests can be subtly embedded within broader text could clarify future approach dynamics.'}}]}}, {'Role2': {'Role': 'Gender: Non-binary, Education: Doctorate degree (PhD/other), Race_Ethnicity: Black/African American, Age: 18-24, Degree_Subject: Social Sciences, Reddit_Use: Regular use(<once per month)', 'Final_Results': [{'code': 'Sequence of Events / Story Features / Detailed Narrative', 'Initial_Claim_Round1': 'retain', 'Final_Decision': 'Continue to Support', 'Final_Claim': 'Yes, the code should be retained.', 'Final_Explanation': 'The accumulated reasoning supports the necessity of this code for capturing comprehensive narrative structures, validated by literature and logic, particularly considering diverse narrative forms within my sociocultural perspective.', 'Self_Reflection': {'Strengths': \"The use of Labov's research strongly anchors the need for sequence and detail in narrative structure.\", 'Weaknesses': 'Potential rigidity in narrative form might overlook non-linear storytelling forms.', 'Future_Consideration': \"Further exploration into diverse narrative structures could expand the definition's inclusivity.\"}}, {'code': 'Non-Narrative / Opinion/Reaction / Instructional/Informative', 'Initial_Claim_Round1': 'retain', 'Final_Decision': 'Continue to Support', 'Final_Claim': 'Yes, the code should be retained.', 'Final_Explanation': \"Retaining the code ensures clear differentiation between narrative and non-narrative forms, vital for precise communication analysis, supported by differentiated focus in my role's disciplinary context.\", 'Self_Reflection': {'Strengths': 'Clear categorization using Hodge and Kress\u2019s framework robustly supports non-narrative identification.', 'Weaknesses': 'The handling of blurred content types remains a challenge.', 'Future_Consideration': 'Developing hybrid models for mixed-content categorization could improve clarity.'}}, {'code': 'Request for Help', 'Initial_Claim_Round1': 'retain', 'Final_Decision': 'Continue to Support', 'Final_Claim': 'Yes, the code should be retained.', 'Final_Explanation': \"Distinctly coding requests for help is essential for interaction-focused analysis, aligning with my interest in community engagement, underpinned by Austin's theoretical framework.\", 'Self_Reflection': {'Strengths': 'Brock\u2019s research effectively validates the necessity for distinct interaction codes.', 'Weaknesses': 'Potential redundancy in separating contextual requests from broader communication forms.', 'Future_Consideration': 'Incorporating methods to balance specificity with coder simplicity would enhance practical application.'}}]}}, {'Role3': {'Role': 'Gender: Man (including Trans Male/Trans Man), Education: Doctorate degree (PhD/other), Race_Ethnicity: Latino/Hispanic, Age: 34-44, Degree_Subject: Agriculture, Forestry, Fisheries and Veterinary, Reddit_Use: Regular use(<once per month)', 'Final_Results': [{'code': 'Sequence of Events / Story Features / Detailed Narrative', 'Initial_Claim_Round1': 'retain', 'Final_Decision': 'Continue to Support', 'Final_Claim': 'Yes, the code should be retained.', 'Final_Explanation': 'The accumulated reasoning from Labov\u2019s work and alignment with other roles substantiates the necessity for detailed sequences in narrative identification, reflecting my focus on capturing detailed agricultural narratives.', 'Self_Reflection': {'Strengths': 'The consistent emphasis on narrative structure across roles and literature supports a robust understanding of narrative completion.', 'Weaknesses': 'Potential rigidity in applying traditional structures to diverse narrative forms remains a concern.', 'Future_Consideration': 'Exploring alternative narrative frameworks that account for non-linear or underrepresented storytelling styles could strengthen this stance.'}}, {'code': 'Non-Narrative / Opinion/Reaction / Instructional/Informative', 'Initial_Claim_Round1': 'retain', 'Final_Decision': 'Continue to Support', 'Final_Claim': 'Yes, the code should be retained.', 'Final_Explanation': 'The distinct value of categorizing texts that lack a narrative arc ensures clarity and precision, a necessity reflected in my focus on agricultural reporting and storytelling nuances.', 'Self_Reflection': {'Strengths': 'The ability to delineate non-narrative content types enhances analytical clarity, which is indispensable for comprehensive content categorization.', 'Weaknesses': 'Complexities arise with texts that blend opinion and instructional content, challenging precise categorization.', 'Future_Consideration': 'Developing refined criteria for mixed-content classification would improve category accuracy.'}}, {'code': 'Request for Help', 'Initial_Claim_Round1': 'retain', 'Final_Decision': 'Continue to Support', 'Final_Claim': 'Yes, the code should be retained.', 'Final_Explanation': 'Distinct coding for interaction requests is necessary for capturing specific audience engagement patterns, aligning with my interest in community dynamics in agricultural contexts.', 'Self_Reflection': {'Strengths': 'Recognition of direct interaction requests provides valuable insight into engagement strategies, aligning with pertinent community communication patterns.', 'Weaknesses': 'Risk of redundancy when separating interaction requests from broader communicative contexts.', 'Future_Consideration': 'Incorporating flexible coding strategies could address redundancy while maintaining interaction specificity.'}}]}}]"
+    },
+    "Final_codebook": {
+        "codebook": [
+            {
+                "code": "Sequence of Events / Story Features / Detailed Narrative",
+                "definition": "Captures descriptions of events that occur in a specific order with a beginning, middle, and end.",
+                "inclusion_criteria": [
+                    "Text outlines a clear series of connected events over time.",
+                    "Text includes characters and plot progressions with a beginning, middle, and end.",
+                    "Characters and settings are clearly defined."
+                ],
+                "exclusion_criteria": [
+                    "Text that only describes a single event or lacks a chronological order.",
+                    "Text is purely descriptive or lacks a narrative progression.",
+                    "Descriptions do not convey a clear sequence of events."
+                ],
+                "typical_examples": [
+                    "Gives a beginning middle and end to the event.",
+                    "Talks about their feelings and emotions during and after very descriptive narrative."
+                ],
+                "atypical_examples": [
+                    "Contains drama and has a plot.",
+                    "He is writing about a story, a personal experience."
+                ],
+                "participants": [
+                    "652d5fbe9b9bfde1040a8c4d",
+                    "6276d97e209059496d37bf74",
+                    "63c3343c5a670ddd37e82f2b"
+                ],
+                "relevance_to_RQ": "This is key to understanding crowd workers' narrative perceptions as it reveals how they identify and process narrative structure in texts.",
+                "notes": "Aligned from multiple codes across roles due to significant overlap in capturing narrative structure with a sequence of events."
+            },
+            {
+                "code": "Descriptive Narrative / Descriptive Text",
+                "definition": "Captures detailed descriptions focusing on personal feelings or environmental context.",
+                "inclusion_criteria": [
+                    "Text extensively elaborates on feelings, settings, or characters.",
+                    "Text is highly descriptive with opinions or facts."
+                ],
+                "exclusion_criteria": [
+                    "Text that merely lists events without added descriptive detail.",
+                    "Text includes clear narrative elements or plot structure."
+                ],
+                "typical_examples": [
+                    "Very descriptive narrative.",
+                    "The text is describing a religion. There is no plot and no characters."
+                ],
+                "atypical_examples": [
+                    "Recounts a certain time, tells about an event, details the people."
+                ],
+                "participants": [
+                    "652d5fbe9b9bfde1040a8c4d",
+                    "6365ab4612aba0a9bf749af1",
+                    "60b9689dc626572895cb801b"
+                ],
+                "relevance_to_RQ": "Helps uncover elements that crowd workers perceive as enriching storytelling, contributing to descriptive labeling by workers.",
+                "notes": "Agreed by reviewers for alignment due to shared focus on detailed, non-narrative descriptions."
+            },
+            {
+                "code": "Non-Narrative / Opinion/Reaction / Instructional/Informative",
+                "definition": "Describes texts that do not follow a structured narrative format, focusing instead on opinions, arguments, or factual information.",
+                "inclusion_criteria": [
+                    "Text is more opinion-based or explanatory without a narrative arc.",
+                    "Text provides instructions or factual information."
+                ],
+                "exclusion_criteria": [
+                    "Text that involves characters and plot development.",
+                    "Text includes personal anecdotes that form a narrative."
+                ],
+                "typical_examples": [
+                    "There is no plot and no characters.",
+                    "The text only explains what the author thinks about the topic."
+                ],
+                "atypical_examples": [
+                    "It's more of an opinion.",
+                    "Reflections are brief but not in response to any event."
+                ],
+                "participants": [
+                    "60b9689dc626572895cb801b",
+                    "60b7a867e27703d1e26b503c",
+                    "5f48002958dd331635f1d767"
+                ],
+                "relevance_to_RQ": "Important to distinguish how crowd workers perceive non-narrative content, impacting their labeling and description tasks.",
+                "notes": "Discussion-agents' support for differentiation between narrative and non-narrative supported the inclusion of this aligned code."
+            },
+            {
+                "code": "Character Focus / Character Involvement / Character and Setting Focus",
+                "definition": "Highlights texts that include characters who play active roles in the narrative or focus on describing characters or settings without advancing a narrative.",
+                "inclusion_criteria": [
+                    "Text mentions or develops characters who participate in actions within the narrative.",
+                    "Text primarily describes characters or settings."
+                ],
+                "exclusion_criteria": [
+                    "Text that lacks clear characters or only mentions them superficially.",
+                    "Texts that advance a plot or sequence of events."
+                ],
+                "typical_examples": [
+                    "Contains characters, is funny, is a reminiscence.",
+                    "Contains characters, good and bad."
+                ],
+                "atypical_examples": [
+                    "There are characters, good and bad.",
+                    "Describes a scene vividly but without introducing characters."
+                ],
+                "participants": [
+                    "6531958a74d39ace86a60bd9",
+                    "60f4a2d142c69dc1121b6dbf"
+                ],
+                "relevance_to_RQ": "Understanding how crowd workers prioritize character involvement assists in predicting narrative focus and engagement.",
+                "notes": "Alignment agreed by reviewers due to shared emphasis on character focus across different perspectives."
+            },
+            {
+                "code": "Request for Help",
+                "definition": "The text seeks answers, advice, or support, and typically includes a question to the audience.",
+                "inclusion_criteria": [
+                    "Text explicitly asks for assistance or advice from others."
+                ],
+                "exclusion_criteria": [
+                    "Text is purely informative or declarative without seeking input."
+                ],
+                "typical_examples": [
+                    "Text ends with a request for help regarding the situation.",
+                    "Asking questions"
+                ],
+                "atypical_examples": [
+                    "Seems more like a request for input...",
+                    "Request for feedback."
+                ],
+                "participants": [
+                    "65c13556080d1ef79593d850",
+                    "5a4444fc56ec1100014a29e1"
+                ],
+                "relevance_to_RQ": "This code may indirectly affect RQ2 by highlighting where crowd workers need further context for narrative interpretation.",
+                "notes": "Consensus was reached for retaining the code due to its distinct focus on audience interaction and engagement."
+            }
+        ]
+    },
+    "current_num_token": {
+        "input_token": 389493,
+        "output_token": 13758
+    }
+}

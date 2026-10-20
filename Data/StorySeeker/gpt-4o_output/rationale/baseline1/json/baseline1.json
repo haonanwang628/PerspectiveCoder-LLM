@@ -1,0 +1,130 @@
+{
+    "Role": "Role1",
+    "Codebook": [
+        {
+            "code": "Opinion expression",
+            "definition": "Captures the expression of personal thoughts or beliefs without a narrative component.",
+            "inclusion_criteria": [
+                "The text explicitly states personal opinion or belief.",
+                "Does not describe specific events or characters."
+            ],
+            "exclusion_criteria": [
+                "Contains a detailed narrative or series of events.",
+                "Details specific actions or events that form a story."
+            ],
+            "typical_examples": [
+                "The text only explains what the author thinks about the topic."
+            ],
+            "atypical_examples": [
+                "This is an opinion mixed with minor past events."
+            ],
+            "participants": [
+                "5f48002958dd331635f1d767",
+                "6143e0914f93b50419ba30ab",
+                "5ea120ed66031912aea618ae"
+            ],
+            "relevance_to_RQ": "[RQ1] It shows crowd workers\u2019 descriptive perceptions through opinions.",
+            "notes": ""
+        },
+        {
+            "code": "Non-narrative reflection",
+            "definition": "Captures reflections that do not follow a traditional story arc or sequence of events.",
+            "inclusion_criteria": [
+                "The text lacks a clear beginning, middle, and end.",
+                "Discusses concepts or reflections that are not tied to a storyline."
+            ],
+            "exclusion_criteria": [
+                "Contains distinct plot elements or chronology.",
+                "Involves detailed character descriptions and actions."
+            ],
+            "typical_examples": [
+                "This is not a story but more of a complaint."
+            ],
+            "atypical_examples": [
+                "The reflection includes personal experiences but lacks coherence."
+            ],
+            "participants": [
+                "6537eeee061d17231e89c8e6",
+                "654090a7a998974e1e57e76f",
+                "63fb4b7f05faed13656528f0"
+            ],
+            "relevance_to_RQ": "[RQ3] It highlights differences in perceptions across prescriptive labels, showing where narrative elements are perceived differently.",
+            "notes": ""
+        },
+        {
+            "code": "Storytelling",
+            "definition": "Captures the recounting of a personal or fictional story with a clear narrative structure.",
+            "inclusion_criteria": [
+                "Contains a beginning, middle, and end.",
+                "Features characters and specific events or actions."
+            ],
+            "exclusion_criteria": [
+                "Only incorporates opinions or fragmented events.",
+                "Lacks a coherent plot or meaningful sequence."
+            ],
+            "typical_examples": [
+                "Gives a beginning middle and end to the event talks about their feelings."
+            ],
+            "atypical_examples": [
+                "It combines narrative elements with analysis or opinion."
+            ],
+            "participants": [
+                "652d5fbe9b9bfde1040a8c4d",
+                "63c3343c5a670ddd37e82f2b",
+                "63faeccd22c0d2a8f1b9759e"
+            ],
+            "relevance_to_RQ": "[RQ1] Provides insight into how crowd workers define storytelling in texts.",
+            "notes": ""
+        },
+        {
+            "code": "Advice seeking",
+            "definition": "Captures inquiries for guidance or recommendations on specific issues.",
+            "inclusion_criteria": [
+                "Explicitly asks for advice or recommendations.",
+                "Outlines a dilemma or query."
+            ],
+            "exclusion_criteria": [
+                "Describes an event without asking for feedback.",
+                "Contains only opinions or statements without questions."
+            ],
+            "typical_examples": [
+                "The author is asking for recommendations on different bikes they're considering purchasing."
+            ],
+            "atypical_examples": [
+                "Mixes advice-seeking with sharing of unrelated personal anecdotes."
+            ],
+            "participants": [
+                "5ed5be4f3ca7b6000b38c5df",
+                "65d514731a78f893b95a8516",
+                "6007a7996fbeef04ce080f90"
+            ],
+            "relevance_to_RQ": "[RQ2] Highlights where narrative and descriptive perceptions intersect when seeking external input.",
+            "notes": ""
+        },
+        {
+            "code": "Descriptive narrative",
+            "definition": "Involves recounting specific events with detail but lacks traditional storytelling structure.",
+            "inclusion_criteria": [
+                "Names characters or actions.",
+                "Provides vivid detail or setting without a formal plot."
+            ],
+            "exclusion_criteria": [
+                "Features a defined story arc with resolution.",
+                "Focuses only on abstract opinions or thoughts."
+            ],
+            "typical_examples": [
+                "Describes a past event in detail."
+            ],
+            "atypical_examples": [
+                "Provides details that resemble plot points but are disconnected."
+            ],
+            "participants": [
+                "5f4a7a00dc1bde60ab8f7ac5",
+                "60955a048531613c66404fb2",
+                "5dd95e3c2274978e775f2aff"
+            ],
+            "relevance_to_RQ": "[RQ2] Shows difference perceptions of what constitutes a story versus what is merely descriptive.",
+            "notes": ""
+        }
+    ]
+}

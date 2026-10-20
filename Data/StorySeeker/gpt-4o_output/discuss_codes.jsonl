@@ -1,0 +1,8 @@
+{
+    "name": "goal",
+    "code": ["Tell A Story", "Provide Opinion", "Seek Advice", "Express Frustration", "Workplace and professional experiences"]
+}
+{
+    "name": "rationale",
+    "code": ["Sequence of Events / Story Features / Detailed Narrative", "Descriptive Narrative / Descriptive Text", "Non-Narrative / Opinion/Reaction / Instructional/Informative", "Character Focus / Character Involvement / Character and Setting Focus", "Request for Help"]
+}

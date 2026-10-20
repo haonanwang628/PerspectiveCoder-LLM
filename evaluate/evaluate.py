@@ -1,5 +1,6 @@
 from functools import lru_cache
-
+import json
+from pathlib import Path
 import torch
 import torch.nn.functional as F
 from transformers import AutoModel, AutoTokenizer
@@ -61,15 +62,62 @@ def self_match(pred_list, threshold=0.7, device="cpu"):
     return cluster_count
 
 
-def compute_score(code_match, ground_truth, generate_code, self_num, use_count, total_count):
+def compute_score(code_match, ground_truth, generate_code, self_num):
     scores = {
         "recall": len(code_match) / len(ground_truth),
         "match_rate": sum(len(matches) for matches in code_match.values()) / len(generate_code),
         "code_diversity": self_num / len(generate_code),
-        "text_utilization_rate": use_count / total_count,
     }
     for name, value in scores.items():
         print(f"{name.replace('_', ' ')}: {value:.3f}")
     return scores
 
 if __name__ == "__main__":
+    import sys
+
+    sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+    from Data.jsonl_utils import read_records, write_records
+
+    data_dir = Path(__file__).resolve().parents[1] / "Data"
+    model_name = "gpt-4o"
+    threshold = 0.7
+    device = "cpu"
+    datasets = {
+        "Scrum-interviews": "rq_gt.jsonl",
+        "StorySeeker": "ground_truth.jsonl",
+    }
+
+    for dataset, gt_filename in datasets.items():
+        dataset_dir = data_dir / dataset
+        output_dir = dataset_dir / f"{model_name}_output"
+
+        gt_records = read_records(dataset_dir / "processed" / gt_filename)
+        pred_records = read_records(output_dir / "discuss_codes.jsonl")
+        predictions = {record["name"]: record["code"] for record in pred_records}
+        if len(predictions) != len(pred_records):
+            raise ValueError(f"{dataset}: discuss_codes.jsonl 包含重复的 name")
+        if set(predictions) != {record["name"] for record in gt_records}:
+            raise ValueError(f"{dataset}: GT 与 discuss_codes.jsonl 的 name 不一致")
+
+        results = []
+        for record in gt_records:
+            name = record["name"]
+            ground_truth = record["ground_truth"]
+            generate_code = predictions[name]
+            print(f"\n{dataset} / {name}")
+
+            code_match = match_codes(ground_truth, generate_code, threshold, device)
+            self_num = self_match(generate_code, threshold, device)
+            scores = compute_score(code_match, ground_truth, generate_code, self_num)
+            results.append({
+                "name": name,
+                "threshold": threshold,
+                "ground_truth_count": len(ground_truth),
+                "predicted_code_count": len(generate_code),
+                "code_match": code_match,
+                "scores": scores,
+            })
+
+        output_file = output_dir / "discuss_evaluation.jsonl"
+        write_records(output_file, results)
+        print(f"Saved: {output_file}")

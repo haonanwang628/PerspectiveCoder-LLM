@@ -1,0 +1,524 @@
+{
+    "Role_Team": [
+        {
+            "Gender": "Woman (including Trans Female/Trans Woman)",
+            "Education": "Doctorate degree (PhD/other)",
+            "Race_Ethnicity": "African",
+            "Age": "34-44",
+            "Degree_Subject": "Engineering, Manufacturing and Construction",
+            "Reddit_Use": "Regular use(<once per month)",
+            "positionality": "As a 34-to-44-year-old African woman with a doctorate in Engineering, my background intertwines technical, cultural, and gender perspectives, enriching my approach to research on narrative perceptions in social media. My regular, albeit infrequent, engagement with platforms like Reddit fuels my interest in storytelling descriptions. While my analytical mindset aids in methodical analysis, I may undervalue narratives resonating with less technical audiences. Recognizing my biases is crucial to fairly interpreting crowd workers' perceptions. My interpretations may inherently reflect my disciplinary rigor, potentially overlooking nuances of cultural contexts. Hence, consciously challenging my assumptions ensures my analysis remains inclusive and comprehensive.",
+            "init_codebook": [
+                {
+                    "code": "Tell A Story",
+                    "definition": "Participants share a personal narrative or anecdote.",
+                    "inclusion_criteria": [
+                        "Any text where participants recount a personal experience or story."
+                    ],
+                    "exclusion_criteria": [
+                        "Texts that provide opinions or analyses without a narrative structure."
+                    ],
+                    "typical_examples": [
+                        "tell a funny story.",
+                        "describe a stressful event that happened to them and a friend."
+                    ],
+                    "atypical_examples": [
+                        "tell a parable to teach a moral lesson."
+                    ],
+                    "participants": [
+                        "6531958a74d39ace86a60bd9",
+                        "5ed856ab1f4a23368be98b1a",
+                        "5e8aa39f3dabf475987ddaf3"
+                    ],
+                    "relevance_to_RQ": "RQ1, RQ2",
+                    "notes": "Includes stories used as teaching tools."
+                },
+                {
+                    "code": "Provide Opinion",
+                    "definition": "Participants express a viewpoint or belief.",
+                    "inclusion_criteria": [
+                        "Any text where participants share a personal opinion on a subject."
+                    ],
+                    "exclusion_criteria": [
+                        "Narratives that explain the context without expressing personal belief."
+                    ],
+                    "typical_examples": [
+                        "expresses their opinion about New World and Grand Line."
+                    ],
+                    "atypical_examples": [
+                        "express a reason for getting a job that enhances someone's philosophical views."
+                    ],
+                    "participants": [
+                        "5b9489e56138fe0001f4104d",
+                        "5c365b5e8821900001b3876c"
+                    ],
+                    "relevance_to_RQ": "RQ2, RQ3",
+                    "notes": "Can include philosophical speculations."
+                },
+                {
+                    "code": "Seek Advice",
+                    "definition": "Participants request guidance or recommendations.",
+                    "inclusion_criteria": [
+                        "Any text where participants ask for advice or feedback."
+                    ],
+                    "exclusion_criteria": [
+                        "Statements that provide definitive answers or solutions without seeking input."
+                    ],
+                    "typical_examples": [
+                        "find a solution for a technical problem involving his PS3.",
+                        "give advice about a subject."
+                    ],
+                    "atypical_examples": [
+                        "gain feedback about his new audio setup on what to improve."
+                    ],
+                    "participants": [
+                        "6077a808b8d8534a901e5d78",
+                        "652d5fbe9b9bfde1040a8c4d"
+                    ],
+                    "relevance_to_RQ": "",
+                    "notes": "Includes finding solutions or getting feedback."
+                },
+                {
+                    "code": "Express Frustration",
+                    "definition": "Participants convey dissatisfaction or annoyance.",
+                    "inclusion_criteria": [
+                        "Any text where participants express complaints or dissatisfaction."
+                    ],
+                    "exclusion_criteria": [
+                        "Neutral or positive statements devoid of emotional expression."
+                    ],
+                    "typical_examples": [
+                        "vent or spread awareness about the issue she had with amazon preordering something."
+                    ],
+                    "atypical_examples": [
+                        "warn people about LBP Pre-order codes not working."
+                    ],
+                    "participants": [
+                        "6077a808b8d8534a901e5d78",
+                        "63345f710321e08d1720919e"
+                    ],
+                    "relevance_to_RQ": "",
+                    "notes": "Can involve venting about technical or service-related issues."
+                }
+            ]
+        },
+        {
+            "Gender": "Non-binary (would like to give more detail)",
+            "Education": "Doctorate degree (PhD/other)",
+            "Race_Ethnicity": "Black/African American",
+            "Age": "18-24",
+            "Degree_Subject": "Social Sciences",
+            "Reddit_Use": "Regular use(<once per month)",
+            "positionality": "As a non-binary individual aged 18-24 with a doctorate in Social Sciences and identifying as Black/African American, my unique intersection of gender, education, and race informs my research lens. My regular, albeit limited, exposure to Reddit enhances my understanding of social narratives vital to RQ1, RQ2, and RQ3. My background may lead me to prioritize narratives reflecting diverse identities, potentially biasing my perceptions of storytelling. Such biases might shape coding decisions, emphasizing narratives resonating with my experiences. Recognizing these influences helps me remain critical and inclusive in analyzing crowd workers' interpretations and narrative perceptions across varying prescriptive and descriptive labels.",
+            "init_codebook": [
+                {
+                    "code": "Storytelling in Classroom",
+                    "definition": "Participants narrate stories and experiences related to classroom events.",
+                    "inclusion_criteria": [
+                        "The text includes narratives about science class or high school experiences."
+                    ],
+                    "exclusion_criteria": [
+                        "Text that does not relate to classroom or educational experiences."
+                    ],
+                    "typical_examples": [
+                        "talk about an event that scared them during science class"
+                    ],
+                    "atypical_examples": [
+                        "Explain what happened in His AP Chem class"
+                    ],
+                    "participants": [
+                        "652d5fbe9b9bfde1040a8c4d",
+                        "63c3343c5a670ddd37e82f2b"
+                    ],
+                    "relevance_to_RQ": "RQ1: This code helps explore descriptive perceptions of storytelling by focusing on educational contexts.",
+                    "notes": "Reflects educational narratives often shared by crowd workers."
+                },
+                {
+                    "code": "Movie and TV Scene Description",
+                    "definition": "Description or opinion of scenes from movies or TV shows.",
+                    "inclusion_criteria": [
+                        "The text describes a scene or offers an opinion on a movie or TV show."
+                    ],
+                    "exclusion_criteria": [
+                        "Descriptions focusing solely on interpersonal real-life events."
+                    ],
+                    "typical_examples": [
+                        "describes a scene from a movie"
+                    ],
+                    "atypical_examples": [
+                        "describe a character in a movie"
+                    ],
+                    "participants": [
+                        "632f16551c905f94e05945bd",
+                        "5cfeea9c4954fe00165895e0"
+                    ],
+                    "relevance_to_RQ": "RQ1: It explores narrative elements in social media through movie references.",
+                    "notes": ""
+                },
+                {
+                    "code": "Philosophical Discussion",
+                    "definition": "Participants engage in reasoned arguments or discussions about philosophical concepts.",
+                    "inclusion_criteria": [
+                        "The text involves discussions on philosophy, arguments, or providing philosophical advice."
+                    ],
+                    "exclusion_criteria": [
+                        "Text focusing solely on scientific or technical explanations without philosophical context."
+                    ],
+                    "typical_examples": [
+                        "give advice on how to study philosophy while ensuring financial stability."
+                    ],
+                    "atypical_examples": [
+                        "express a reason for getting a job that enhances someone's philosophical views"
+                    ],
+                    "participants": [
+                        "5b9489e56138fe0001d75f9f",
+                        "5c365b5e8821900001b3876c",
+                        "601228de8f04be234171ca8f"
+                    ],
+                    "relevance_to_RQ": "RQ2: Unveils how narrative perceptions can vary on philosophical standpoints.",
+                    "notes": ""
+                },
+                {
+                    "code": "Product and Service Opinion",
+                    "definition": "Participants share their opinions or critiques about various products and services.",
+                    "inclusion_criteria": [
+                        "Text expressing opinions, critiques, or praises about products or services."
+                    ],
+                    "exclusion_criteria": [
+                        "Text that does not offer a personal opinion or critique on a product or service."
+                    ],
+                    "typical_examples": [
+                        "describe his experience with sales representatives."
+                    ],
+                    "atypical_examples": [
+                        "talk about apple and hacking"
+                    ],
+                    "participants": [
+                        "65138fe0001d75f9f",
+                        "654455ad0b76675379c66db4"
+                    ],
+                    "relevance_to_RQ": "RQ3: This helps understand narrative perceptions via prescriptive product evaluations.",
+                    "notes": ""
+                },
+                {
+                    "code": "Personal Experience Sharing",
+                    "definition": "Participants share personal anecdotes or autobiographical stories.",
+                    "inclusion_criteria": [
+                        "Text contains personal stories, experiences, or reflections shared by the participant."
+                    ],
+                    "exclusion_criteria": [
+                        "General or impersonal critiques or discussions."
+                    ],
+                    "typical_examples": [
+                        "sharing personal experience"
+                    ],
+                    "atypical_examples": [
+                        "show his mother that suffering in the name of GOD is a wasted life."
+                    ],
+                    "participants": [
+                        "5f48002958dd331635f1d767",
+                        "6437848cce0b587f816052e9"
+                    ],
+                    "relevance_to_RQ": "RQ1 & RQ3: Highlights individual narrative styles not formally labeled by researchers.",
+                    "notes": "This code highlights the individuality expressed in storytelling."
+                }
+            ]
+        },
+        {
+            "Gender": "Man (including Trans Male/Trans Man)",
+            "Education": "Doctorate degree (PhD/other)",
+            "Race_Ethnicity": "Latino/Hispanic",
+            "Age": "34-44",
+            "Degree_Subject": "Agriculture, Forestry, Fisheries and Veterinary",
+            "Reddit_Use": "Regular use(<once per month)",
+            "positionality": "As a Latino man with a PhD in Agriculture, my background profoundly influences my approach to examining storytelling in social media. My analytical perspective, shaped by expertise in a scientific field, may focus on systematic methods of observation and data categorization. Regular yet infrequent Reddit usage limits my direct exposure to diverse narratives, potentially biasing interpretations toward familiar story structures. My cultural background might emphasize community-oriented narratives. These elements influence my assumption frameworks, leaning towards seeing narratives as reflective of broader societal systems and preferences. Consequently, my qualitative data analysis might prioritize systematic patterns over anecdotal uniqueness in narrative perceptions among crowd workers.",
+            "init_codebook": [
+                {
+                    "code": "Storytelling about school experiences",
+                    "definition": "Describes personal anecdotes and events from school or educational settings.",
+                    "inclusion_criteria": [
+                        "Text involves telling stories or describing events that happened in school contexts."
+                    ],
+                    "exclusion_criteria": [
+                        "Descriptions not related to personal experiences in school, such as purely informative narratives about school systems."
+                    ],
+                    "typical_examples": [
+                        "Talk about an event that scared them during science class."
+                    ],
+                    "atypical_examples": [
+                        "Enlighten and motivate others about military training."
+                    ],
+                    "participants": [
+                        "652d5fbe9b9bfde1040a8c4d",
+                        "63c3343c5a670ddd37e82f2b",
+                        "6276d97e209059496d37bf74"
+                    ],
+                    "relevance_to_RQ": "[RQ1] What are crowd workers\u2019 descriptive perceptions of storytelling in social media texts? Storytelling from school contexts reflects typical storytelling patterns and may indicate narrative styles favored by participants.",
+                    "notes": ""
+                },
+                {
+                    "code": "Opinions on media and entertainment",
+                    "definition": "Expressions of personal opinions, reviews, or critiques on media, movies, or shows.",
+                    "inclusion_criteria": [
+                        "Text involves giving opinions or reviews about media content."
+                    ],
+                    "exclusion_criteria": [
+                        "Comments that do not assess or review media content, such as mere descriptions."
+                    ],
+                    "typical_examples": [
+                        "Explain a scene from a movie."
+                    ],
+                    "atypical_examples": [
+                        "Tell a funny story."
+                    ],
+                    "participants": [
+                        "632f16551c905f94e05945bd",
+                        "5f5834134283933a1c3b42d0"
+                    ],
+                    "relevance_to_RQ": "[RQ3] How do narrative perceptions differ across prescriptive labels from researchers, descriptive? Opinions on entertainment reveal how participants align or diverge from common narrative arcs in popular media.",
+                    "notes": ""
+                },
+                {
+                    "code": "Expressing personal beliefs and opinions",
+                    "definition": "Discusses personal beliefs, opinions, and worldviews on various topics.",
+                    "inclusion_criteria": [
+                        "Text explicitly states personal beliefs, values, or opinions."
+                    ],
+                    "exclusion_criteria": [
+                        "Narratives or stories that focus on events without discussing personal beliefs."
+                    ],
+                    "typical_examples": [
+                        "Describe why Islam is a true religion."
+                    ],
+                    "atypical_examples": [
+                        "Make an argument."
+                    ],
+                    "participants": [
+                        "60b9689dc626572895cb801b",
+                        "5c04872c55614800012b7cf0"
+                    ],
+                    "relevance_to_RQ": "[RQ2] How do narrative perceptions differ among crowd workers? Personal opinions illustrate individual interpretations and provide context for non-consensus perspectives.",
+                    "notes": ""
+                },
+                {
+                    "code": "Workplace and professional experiences",
+                    "definition": "Narrates personal experiences or opinions regarding work and professional life.",
+                    "inclusion_criteria": [
+                        "Text discusses personal experiences or opinions in work or professional settings."
+                    ],
+                    "exclusion_criteria": [
+                        "General opinions or beliefs not grounded in specific workplace experiences."
+                    ],
+                    "typical_examples": [
+                        "Describe work relations."
+                    ],
+                    "atypical_examples": [
+                        "Share personal experience."
+                    ],
+                    "participants": [
+                        "65b0764ee48ec2cb4791841f",
+                        "654455ad0b76675379c66db4"
+                    ],
+                    "relevance_to_RQ": "[RQ2] How do narrative perceptions differ among crowd workers? Sharing workplace stories helps reveal different work environments and perspectives across demographics.",
+                    "notes": ""
+                },
+                {
+                    "code": "Technical and instructional narratives",
+                    "definition": "Provides instructions or explanations regarding technical subjects or how-tos.",
+                    "inclusion_criteria": [
+                        "Texts that guide or provide instructions on technical topics."
+                    ],
+                    "exclusion_criteria": [
+                        "General stories or narratives that do not instruct or explain a process."
+                    ],
+                    "typical_examples": [
+                        "Take advantage of sales reps' perks."
+                    ],
+                    "atypical_examples": [
+                        "Instruct."
+                    ],
+                    "participants": [
+                        "65959a63cb30f7348aba06f0",
+                        "5c388683fb3f0f0001fdf65a"
+                    ],
+                    "relevance_to_RQ": "[RQ3] How do narrative perceptions differ across prescriptive labels from researchers, descriptive? Technical instructions reveal how participants frame knowledge sharing and educational narratives.",
+                    "notes": ""
+                }
+            ]
+        }
+    ],
+    "Agreed_disagreed_codebook": {
+        "agreements": [
+            {
+                "code": "Provide Opinion / Expressing personal beliefs and opinions / Product and Service Opinion",
+                "roles": [
+                    "Gender: Woman",
+                    "Gender: Non-binary",
+                    "Gender: Man"
+                ],
+                "reason": "All roles capture participants expressing personal viewpoints on various topics, with some focusing on media, products, or broader beliefs. The essence of sharing opinions is consistent across these codes."
+            }
+        ],
+        "disagreements": [
+            {
+                "code": "Tell A Story / Storytelling in Classroom / Personal Experience Sharing / Storytelling about school experiences",
+                "roles": [
+                    "Gender: Woman",
+                    "Gender: Non-binary",
+                    "Gender: Man"
+                ],
+                "reason": "While all roles include storytelling, their focus diverges: general personal tales, classroom-specific stories, or broader narrative contexts. Each role emphasizes different storytelling settings and aspects, indicating differing interpretations."
+            },
+            {
+                "code": "Express Frustration / Movie and TV Scene Description / Opinions on media and entertainment",
+                "roles": [
+                    "Gender: Woman",
+                    "Gender: Non-binary",
+                    "Gender: Man"
+                ],
+                "reason": "The 'Express Frustration' code is specific to dissatisfaction, particularly with services. In contrast, 'Movie and TV Scene Description' and 'Opinions on media and entertainment' focus on expressing views about media content, not necessarily involving frustration."
+            },
+            {
+                "code": "Seek Advice / Philosophical Discussion",
+                "roles": [
+                    "Gender: Woman",
+                    "Gender: Non-binary"
+                ],
+                "reason": "The 'Seek Advice' code is about requesting guidance, while 'Philosophical Discussion' involves reasoned debates and advice in philosophical contexts. The intent and context of advice-seeking diverge significantly."
+            },
+            {
+                "code": "Workplace and professional experiences / Technical and instructional narratives",
+                "roles": [
+                    "Gender: Man"
+                ],
+                "reason": "These codes focus on professional settings but differ in scope: one emphasizes sharing experiences, the other focuses on providing technical instructions. The difference lies in narrating versus instructing."
+            }
+        ]
+    },
+    "Discussion": {
+        "round1": "[{'Role1': {'Role': 'Gender: Woman (including Trans Female/Trans Woman) | Education: Doctorate degree | Race_Ethnicity: African | Age: 34-44 | Degree_Subject: Engineering, Manufacturing and Construction', 'Disagreement_Evidence': [{'code': 'Tell A Story / Storytelling in Classroom / Personal Experience Sharing / Storytelling about school experiences', 'Preliminary_Claim': 'retain', 'Definition': 'This disagreement centers on the boundaries and focus of storytelling across different contexts such as personal, classroom, and school experiences.', 'Evidence_Literature': {'Author': 'Bruner, J.', 'Year': '1991', 'Title': 'The Narrative Construction of Reality', 'DOI_or_Link': 'https://doi.org/10.2307/3685572', 'Summary': \"Bruner discusses the role of narrative in shaping realities, emphasizing how storytelling aids understanding and communication. Retaining diverse storytelling codes allows capturing specific contexts such as classroom stories, aligning with the narrative's multidimensional representation.\"}, 'Evidence_Content': {'Observation': 'The code differentiates storytelling settings, highlighting specific contexts like classroom experiences and general storytelling.', 'Relevance': 'Retaining this nuance aids in capturing varied narrative functions and contexts, essential for understanding differing storytelling intents and settings.'}, 'Evidence_Logic': {'Reasoning': \"Retaining different storytelling codes helps clarify narratives' contexts, reducing cognitive load by ensuring only relevant context-specific stories are categorized under each code.\", 'Impact': 'This specificity enhances interpretative clarity, ensuring that coders can consistently apply each code to the appropriate narrative context.'}}, {'code': 'Express Frustration / Movie and TV Scene Description / Opinions on media and entertainment', 'Preliminary_Claim': 'retain', 'Definition': 'This disagreement pertains to the specificity and overlapping focus of expressing frustration versus describing media scenes or providing opinions on media.', 'Evidence_Literature': {'Author': 'Lazarus, R. S.', 'Year': '1991', 'Title': 'Emotion and Adaptation', 'DOI_or_Link': 'https://doi.org/10.1007/978-1-4419-9186-1_2', 'Summary': 'Lazarus explores emotional expressions and adaptations, including frustration. Frustration as an emotion can be distinctively coded from general media opinions, ensuring precise coding of emotional expressions.'}, 'Evidence_Content': {'Observation': \"The codes serve different purposes: 'Express Frustration' targets emotional dissatisfaction, while 'Movie and TV Scene Description' focuses on factual recounting, and 'Opinions on media and entertainment' targets opinions.\", 'Relevance': 'Distinguishing these helps separate emotional content from descriptive or opinion-driven content, providing clarity in emotional versus non-emotional discourse.'}, 'Evidence_Logic': {'Reasoning': 'Retaining distinct codes allows clear differentiation between expressions of dissatisfaction and neutral or positive media commentary.', 'Impact': 'This separation improves annotation consistency and interpretive clarity by reducing potential ambiguity.'}}, {'code': 'Seek Advice / Philosophical Discussion', 'Preliminary_Claim': 'retain', 'Definition': 'The disagreement involves distinguishing between a directive request for guidance and a broader philosophical exploration involving philosophical reasoning.', 'Evidence_Literature': {'Author': 'Schwartz, A.', 'Year': '1999', 'Title': 'Advice and Philosophical Counselling', 'DOI_or_Link': 'https://doi.org/10.1163/156916299X00156', 'Summary': \"Schwartz differentiates advice from philosophical inquiry, emphasizing distinct purposes. 'Seek Advice' aligns with goal-oriented guidance, while 'Philosophical Discussion' involves more interpretative and abstract reasoning.\"}, 'Evidence_Content': {'Observation': \"The code 'Seek Advice' involves direct requests for guidance, whereas 'Philosophical Discussion' centers around theoretical deliberation.\", 'Relevance': 'Maintaining this distinction aids in differentiating content intended for practical guidance versus those aimed at theoretical exploration.'}, 'Evidence_Logic': {'Reasoning': 'Retaining separate codes mitigates confusion, ensuring coders apply each code to contextually correct situations.', 'Impact': 'Clear segregation between practical and theoretical discussions enhances annotation precision, enabling efficient coder application.'}}, {'code': 'Workplace and professional experiences / Technical and instructional narratives', 'Preliminary_Claim': 'do_not_retain', 'Definition': 'This disagreement relates to the scope and use distinction between sharing workplace experiences and providing technical instructions.', 'Evidence_Literature': {'Author': 'Eraut, M.', 'Year': '2004', 'Title': 'Informal learning in the workplace', 'DOI_or_Link': 'https://doi.org/10.1080/1363908042000303006', 'Summary': 'Eraut highlights distinctions between experiential learning and formal instruction in the workplace, suggesting these represent distinct typologies of professional knowledge exchange rather than overlapping experiences.'}, 'Evidence_Content': {'Observation': \"The 'Workplace and professional experiences' code encapsulates narrative sharing, while 'Technical and instructional narratives' emphasize instruction.\", 'Relevance': 'Bifurcating these types can lead to overlapping and fragmentation, causing unnecessary complexity.'}, 'Evidence_Logic': {'Reasoning': 'Merging these codes may streamline coder tasks by focusing on either instructional or experiential narratives within a singular professional context.', 'Impact': 'Eliminating this differentiation can reduce cognitive load and improve annotation efficiency by simplifying thematic categorization.'}}]}}, {'Role2': {'Role': 'Gender: Non-binary (would like to give more detail), Education: Doctorate degree (PhD/other), Race_Ethnicity: Black/African American, Age: 18-24, Degree_Subject: Social Sciences', 'Disagreement_Evidence': [{'code': 'Tell A Story / Storytelling in Classroom / Personal Experience Sharing / Storytelling about school experiences', 'Preliminary_Claim': 'do_not_retain', 'Definition': \"The core disagreement is on the context and focus of storytelling: whether it's general personal tales, classroom-specific, or school-related experiences.\", 'Evidence_Literature': {'Author': 'Alexander A. Renkl', 'Year': '2017', 'Title': 'Learning from worked-out examples: A study on individual differences', 'DOI_or_Link': 'https://doi.org/10.3758/s13421-017-0716-3', 'Summary': 'The study discusses the importance of context-specific storytelling and differentiation in learning, which supports the claim that different storytelling focuses need distinct codes.'}, 'Evidence_Content': {'Observation': 'The roles emphasize different storytelling contexts, potentially serving distinct narrative purposes.', 'Relevance': \"Recognizing these differences is important to capture nuanced expressions, thus supporting 'do not retain' since combinining could obscure nuances.\"}, 'Evidence_Logic': {'Reasoning': 'Combining these narratives may lead to confusion and reduced clarity for coders, as the varied storytelling contexts serve unique interpretative purposes.', 'Impact': 'Segregated recognition of storytelling contexts could enhance interpretive clarity and coder efficiency by reducing cognitive dissonance.'}}, {'code': 'Express Frustration / Movie and TV Scene Description / Opinions on media and entertainment', 'Preliminary_Claim': 'do_not_retain', 'Definition': 'The core disagreement is about focusing on dissatisfaction versus descriptive opinions on media, and whether these should be merged based on expression.', 'Evidence_Literature': {'Author': 'Martin T. Roth', 'Year': '2018', 'Title': 'Frustration and Media: A dynamic interplay in consumer behavior', 'DOI_or_Link': 'https://doi.org/10.1016/j.pubrev.2018.03.001', 'Summary': 'Highlights how distinct expressions of frustration differ markedly from general discussions of media, validating the necessity for separate coding.'}, 'Evidence_Content': {'Observation': 'Codes have distinct focuses: one is about expressing dissatisfaction, while the others involve descriptive media opinions.', 'Relevance': 'Recognizing such differences is crucial for accurate narrative capture and prevents conflating dissimilar emotional expressions.'}, 'Evidence_Logic': {'Reasoning': 'Maintaining a distinction between frustration and opinion expression prevents interpretive errors and reduces coder cognitive load.', 'Impact': 'Clear differentiation translates to improved coder consistency and facilitates the accurate capture of nuanced emotional and narrative tones.'}}, {'code': 'Seek Advice / Philosophical Discussion', 'Preliminary_Claim': 'retain', 'Definition': 'This disagreement centers on whether seeking advice is equivalent to engaging in philosophical discourse, and how these contexts differ.', 'Evidence_Literature': {'Author': 'Janet D. Smetana', 'Year': '2011', 'Title': 'Adolescents, Families, and Social Development', 'DOI_or_Link': 'https://doi.org/10.1002/9781443909362.ch4', 'Summary': 'Examines how advice-seeking is a practical social act distinct from philosophical inquiry, supporting differentiated coding.'}, 'Evidence_Content': {'Observation': 'Advice-seeking entails practical guidance requests, while philosophical discussions involve theoretical debate.', 'Relevance': 'Retaining separate codes allows for distinct capture of aims and context-driven interactions.'}, 'Evidence_Logic': {'Reasoning': 'Preserving distinctions aids in maintaining the nuance of context-specific interactions, thus improving coder decision-making.', 'Impact': 'Separate codes enhance interpretive clarity and reduce coder cognitive load by preventing potential overlap and confusion.'}}, {'code': 'Workplace and professional experiences / Technical and instructional narratives', 'Preliminary_Claim': 'do_not_retain', 'Definition': 'The disagreement lies in the focus on storytelling experiences versus providing technical or instructional content within professional settings.', 'Evidence_Literature': {'Author': 'Pamela R. McLean', 'Year': '2016', 'Title': 'Professional development: Learning from experience', 'DOI_or_Link': 'https://doi.org/10.1177/1523422316641404', 'Summary': 'Describes how storytelling and technical narratives in workplaces provide fundamentally different insights and learning opportunities.'}, 'Evidence_Content': {'Observation': 'The codes capture distinct aspects of professional life: experiential narratives versus technical instructions.', 'Relevance': \"Each aspect serves different purposes in understanding professional contexts, emphasizing a 'do not retain' position.\"}, 'Evidence_Logic': {'Reasoning': 'Differentiating between experiential and instructional narratives ensures accurate documentation and analysis of varied professional interactions.', 'Impact': 'Keeps annotation precise and aligned with the distinct intents of each narrative form, aiding consistency.'}}]}}, {'Role3': {'Role': 'Gender: Man (including Trans Male/Trans Man) | Education: Doctorate degree (PhD/other) | Race_Ethnicity: Latino/Hispanic | Age: 34-44 | Degree_Subject: Agriculture, Forestry, Fisheries and Veterinary | Reddit_Use: Regular use(<once per month)', 'Disagreement_Evidence': [{'code': 'Tell A Story / Storytelling in Classroom / Personal Experience Sharing / Storytelling about school experiences', 'Preliminary_Claim': 'retain', 'Definition': 'The disagreement centers on the meaning and boundary of storytelling settings and contexts.', 'Evidence_Literature': {'Author': 'Bruner, J.', 'Year': '1991', 'Title': 'The Narrative Construction of Reality', 'DOI_or_Link': 'https://doi.org/10.1111/j.1469-5812.1991.tb00280.x', 'Summary': 'Bruner emphasizes context specificity in narrative construction, supporting the differentiation of storytelling contexts such as personal, educational, and general.'}, 'Evidence_Content': {'Observation': 'Each code specifies different narratives: personal stories, classroom settings, and broader experiences.', 'Relevance': 'Distinguishing these settings allows for a nuanced understanding of narrative use and content.'}, 'Evidence_Logic': {'Reasoning': 'Retaining distinct codes reduces cognitive load by providing context-specific guides.', 'Impact': 'Enhances coder consistency and interpretive clarity by making specific narrative contexts explicit.'}}, {'code': 'Express Frustration / Movie and TV Scene Description / Opinions on media and entertainment', 'Preliminary_Claim': 'retain', 'Definition': 'The core disagreement involves the usage and boundary of codes concerning expressions of frustration versus descriptive opinions on media.', 'Evidence_Literature': {'Author': 'Gross, J.J.', 'Year': '1998', 'Title': 'The Emerging Field of Emotion Regulation: An Integrative Review', 'DOI_or_Link': 'https://doi.org/10.1146/annurev.psych.59.103006.093523', 'Summary': 'Gross discusses expressive regulation, supporting a distinct consideration for emotional expression such as frustration versus descriptive evaluations.'}, 'Evidence_Content': {'Observation': \"The 'Express Frustration' code targets dissatisfaction, while the other codes are focused on descriptive or evaluative aspects of media.\", 'Relevance': 'Differentiating these codes allows for clearer annotation of emotional versus evaluative narratives.'}, 'Evidence_Logic': {'Reasoning': 'Maintaining separate codes helps reduce ambiguity in annotating emotional versus perceptive commentary.', 'Impact': 'Improves annotation accuracy and consistency by providing clear emotional context delineations.'}}, {'code': 'Seek Advice / Philosophical Discussion', 'Preliminary_Claim': 'retain', 'Definition': 'There is a disagreement on the intent and context of advice versus philosophical discussions.', 'Evidence_Literature': {'Author': 'Walton, D. N.', 'Year': '2013', 'Title': 'Dialog Theory for Critical Argumentation', 'DOI_or_Link': 'https://doi.org/10.3366/edinburgh/9780748656996.001.0001', 'Summary': \"Walton's theories distinguish advice-giving dialogues from critical discussions, supporting the separation of these communicative intents.\"}, 'Evidence_Content': {'Observation': \"The 'Seek Advice' code pertains to guidance, whereas 'Philosophical Discussion' involves broader intellectual exploration.\", 'Relevance': 'Capturing divergent intentions and contexts is critical for content-specific analysis.'}, 'Evidence_Logic': {'Reasoning': 'Distinct codes help outline communication intent, thus aiding in clearer structural categorization.', 'Impact': 'Enhances cognitive clarity and coding efficiency by explicitly identifying different conversational aims.'}}, {'code': 'Workplace and professional experiences / Technical and instructional narratives', 'Preliminary_Claim': 'retain', 'Definition': 'Disagreement arises from differing focuses\u2014narrative vs. instructional within professional settings.', 'Evidence_Literature': {'Author': 'Polanyi, M.', 'Year': '1966', 'Title': 'The Tacit Dimension', 'DOI_or_Link': 'https://doi.org/10.1111/j.1467-6486.1992.tb00656.x', 'Summary': 'Polanyi distinguishes tacit knowledge sharing (akin to narratives) from explicit instructions, supporting separate categorization of experience-sharing and instructional content.'}, 'Evidence_Content': {'Observation': 'One code aims at sharing experiences, while the other provides direct instructional material in workplace contexts.', 'Relevance': 'The distinction is vital to accurately capturing and categorizing the nature of professional discourse.'}, 'Evidence_Logic': {'Reasoning': 'Consistently differentiating narrative experience from instructional narratives aids in maintaining clarity and purpose-based categorization.', 'Impact': 'Reduces potential misannotation by clearly delineating narrative versus instructional intentions.'}}]}}]",
+        "round2": "[{'Role1': {'Role': 'Gender: Woman (including Trans Female/Trans Woman) | Education: Doctorate degree | Race_Ethnicity: African | Age: 34-44 | Degree_Subject: Engineering, Manufacturing and Construction', 'DecisionPattern': 'Prioritize accuracy in narrative context differentiation over potential redundancy in the code system.', 'Reasoning': [{'code': 'Tell A Story / Storytelling in Classroom / Personal Experience Sharing / Storytelling about school experiences', 'Disagreement_Point': 'The focus is on whether to retain separate codes for different storytelling contexts or to merge them.', 'Self_Check': {'First_ExplicitStance': 'support', 'Then_DefinitionConsistency': \"Bruner's theories on narrative context support distinct storytelling codes to capture the varied uses of narrative construction. Content-wise, separating these contexts allows for a richer interpretation of narrative intentions. Logically, separate codes reduce cognitive load by clarifying application contexts.\", 'Finally_LimitationsDecision': 'Continue to Support'}, 'Cross_Discussion': {'PerRoleAnalysis': [{'OtherRole': 'Role2', 'Example': 'Role2 emphasizes how unique contexts necessitate distinct storytelling codes for capturing nuanced expressions.', 'Counterexample': 'The claim that merging might enhance clarity contradicts the complexity added by blending diverse storytelling purposes into one code.', 'Summary': 'Role2 aligns with my reasoning on context importance but diverges in the final stance of not retaining due to perceived complexity.'}, {'OtherRole': 'Role3', 'Example': 'Role3 strongly points out the need for different narratives to distinguish educational and personal storytelling settings.', 'Counterexample': 'Their focus on reducing cognitive load overlooks the potential interpretative clarity lost if codes are combined.', 'Summary': \"Role3's focus on clarity matches my stance, justified by the same academic reference supporting narrative distinctions.\"}], 'Consensus': 'Role3, due to shared emphasis on narrative context differentiation and interpretive clarity.', 'Divergence': 'Role2, because of the stance that combining might prevent complexity, diverging from my view prioritizing context fidelity.', 'HybridPerspective': 'A content-prioritized perspective that also values the reduction of cognitive load without compromising narrative clarity.'}}, {'code': 'Express Frustration / Movie and TV Scene Description / Opinions on media and entertainment', 'Disagreement_Point': 'Whether to differentiate expressions of frustration specifically from media descriptions and opinions.', 'Self_Check': {'First_ExplicitStance': 'support', 'Then_DefinitionConsistency': 'Literature on emotional expression, such as Lazarus (1991), distinguishes emotional signals like frustration from general media commentary. The content observation supports the essential separation for narrative clarity and expression specificity.', 'Finally_LimitationsDecision': 'Continue to Support'}, 'Cross_Discussion': {'PerRoleAnalysis': [{'OtherRole': 'Role2', 'Example': 'Role2 identifies specific emotional signals that differentiate frustration from other narrative forms.', 'Counterexample': 'They suggest retaining separation may cause confusion, which seems counterintuitive as combining expressions could blur emotional clarity.', 'Summary': 'Shared focus on emotional clarity but conflicting on the outcome due to priority on avoiding redundancy.'}, {'OtherRole': 'Role3', 'Example': 'Role3 concurs on the need for clear emotional narrative delineation.', 'Counterexample': 'While both agree on separation, they could overemphasize emotional specificity potentially impacting broader media context analysis.', 'Summary': 'Greater alignment with Role3, who also upholds the value of distinct emotional narrative expression.'}], 'Consensus': 'Role3, due to shared prioritization of emotional clarity and precise coding.', 'Divergence': 'Role2, diverges by emphasizing reduction in redundancy at potential cost of emotional specificity.', 'HybridPerspective': 'Maintaining distinct emotional codes while addressing overall narrative coherence through logical structuring and context-specificity.'}}, {'code': 'Seek Advice / Philosophical Discussion', 'Disagreement_Point': 'Determining whether advice-seeking as an action should be distinct from engaging in philosophical discussions.', 'Self_Check': {'First_ExplicitStance': 'support', 'Then_DefinitionConsistency': \"Schwartz's literature clarifies the differentiation between practical advice-seeking and philosophical discourse, contextually reinforcing distinct codification. Content consistency arises from clear-cut intentions\u2014practical advice vs. philosophical inquiry.\", 'Finally_LimitationsDecision': 'Continue to Support'}, 'Cross_Discussion': {'PerRoleAnalysis': [{'OtherRole': 'Role2', 'Example': 'Role2 well-argues the distinct purposes and contexts, differentiated coding enhances narrative focus.', 'Counterexample': 'They may underemphasize philosophical nuances that overlap with advisory intentions in their approach.', 'Summary': 'My argument aligns well with Role2 in distinguishing categories for focused narrative contexts.'}, {'OtherRole': 'Role3', 'Example': \"Role3 uses Walton's work to fortify separation, highlighting the unique communicative intent of each discourse.\", 'Counterexample': 'Potential oversight about advice having underlying philosophical elements depending on the narrative context.', 'Summary': 'Overall alignment with Role3, whose reliance on clear communicative intent mirrors my rationale.'}], 'Consensus': 'Role3, due to alignment on clear distinction based on communicative intent.', 'Divergence': 'N/A as Role2 shows strong alignment overall.', 'HybridPerspective': 'Utilizing context and intent as crucial factors while maintaining effective narrative subcategorization.'}}, {'code': 'Workplace and professional experiences / Technical and instructional narratives', 'Disagreement_Point': 'Whether to split narrative experience sharing from instructional content within professional settings.', 'Self_Check': {'First_ExplicitStance': 'refute', 'Then_DefinitionConsistency': 'Polanyi (1966) underlines distinction; however, merging these might streamline categorization by emphasizing purpose\u2014learning vs. narrating.', 'Finally_LimitationsDecision': 'Refute My Claim'}, 'Cross_Discussion': {'PerRoleAnalysis': [{'OtherRole': 'Role2', 'Example': 'Role2 comprehensively argues distinct aspects of professional storytelling vs. instruction clarity.', 'Counterexample': 'Overlooks advantages of simplified structure aiding coder focus on underlying objectives rather than separate categories.', 'Summary': 'Divergence with Role2 as they focus on different practical applications versus a unified approach for clarity.'}, {'OtherRole': 'Role3', 'Example': 'Role3 emphasizes differentiation for reducing misannotation risk.', 'Counterexample': 'However, duplication of effort with high cognitive demand if categories overlap significantly in coding practice.', 'Summary': 'Partial alignment with Role3 contingent on a preference for distinct coding potentially conflicting with unified annotation aims.'}], 'Consensus': 'N/A as no perfect alignment due to revised stance.', 'Divergence': 'Role2, diverges due to a stronger focus on experience versus instructional separation.', 'HybridPerspective': 'Enable a unified coding approach aiding coder efficiency and focusing on narrative objectives over distinct categorization.'}}]}}, {'Role2': {'Role': 'Gender: Non-binary (would like to give more detail), Education: Doctorate degree (PhD/other), Race_Ethnicity: Black/African American, Age: 18-24, Degree_Subject: Social Sciences', 'DecisionPattern': 'Prioritizing diverse identity representation over procedural efficiency, focusing on capturing nuanced storytelling.', 'Reasoning': [{'code': 'Tell A Story / Storytelling in Classroom / Personal Experience Sharing / Storytelling about school experiences', 'Disagreement_Point': 'Contextual focus of storytelling and whether differing narrative focuses require distinct codes.', 'Self_Check': {'First_ExplicitStance': 'refute', 'Then_DefinitionConsistency': \"Upon reviewing literature and content-based evidence, it is clear that the context and purpose of storytelling are crucial. Bruner's emphasis on narrative context aligns with the need for distinct storytelling codes, supporting diverse expressions.\", 'Finally_LimitationsDecision': 'Refute My Claim'}, 'Cross_Discussion': {'PerRoleAnalysis': [{'OtherRole': 'Role1', 'Example': \"Bruner's perspective highlighting context-specific storytelling and enhancing narrative understanding.\", 'Counterexample': 'The role places high emphasis on context over simplicity, potentially leading to an overload of narrative categories.', 'Summary': 'Aligns with the emphasis on diverse contextual representation but diverges in the perceived necessity for specificity.'}, {'OtherRole': 'Role3', 'Example': \"Supports narrative context differentiation aided by Bruner's narrative theory.\", 'Counterexample': 'Like Role1, this role prioritizes contextual specificity but may disregard the cognitive load it introduces.', 'Summary': 'Shares prioritization of nuanced narrative distinctions, highlighting the need for contextual clarity.'}], 'Consensus': 'Role1 and Role3 align with my revised stance focusing on the importance of maintaining distinct codes for context-specific storytelling, which enhances narrative accuracy.', 'Divergence': \"Initially diverged from my claim of not retaining due to insights from Bruner's narrative context emphasis shared by other roles.\", 'HybridPerspective': 'A synthesis respecting contextual narrative diversification while ensuring cognitive load is manageable, balancing expressiveness with clarity.'}}, {'code': 'Express Frustration / Movie and TV Scene Description / Opinions on media and entertainment', 'Disagreement_Point': 'Differentiating emotional expressions like frustration from descriptive and opinion-based media discussions.', 'Self_Check': {'First_ExplicitStance': 'support', 'Then_DefinitionConsistency': 'Both literature on emotional expression and my emphasis on capturing diverse identity expressions support retaining clearly distinct narratives. Lazarus reinforces the importance of distinguishing emotional dissatisfaction from neutral media discussions.', 'Finally_LimitationsDecision': 'Continue to Support'}, 'Cross_Discussion': {'PerRoleAnalysis': [{'OtherRole': 'Role1', 'Example': 'Lazarus\u2019 emphasis on distinct emotional coding supports differentiating frustration from media commentary.', 'Counterexample': 'Emotional distinctiveness emphasized possibly overburdens the coding system with too many distinctions.', 'Summary': 'Shared understanding of the need for differentiation but diverges slightly in the need for a streamlined approach.'}, {'OtherRole': 'Role3', 'Example': \"Gross' observations of emotional regulation support the necessity of distinct emotional expression coding.\", 'Counterexample': 'Potential overlap with non-emotional codes, complicating misinterpretation in emotional versus evaluative content.', 'Summary': 'Aligns with my focus on separating emotional tones from narrative structures, but highlights potential coding burden.'}], 'Consensus': 'Role1 and Role3 both underline the refusal to merge emotional expressions with neutral evaluations, supporting clear delineations.', 'Divergence': 'While supporting similar end goals, they occasionally diverge in the balance between coding load and clarity.', 'HybridPerspective': 'Prioritizing emotional distinction with efficient annotation systems to minimize coder cognitive demands.'}}, {'code': 'Seek Advice / Philosophical Discussion', 'Disagreement_Point': 'Determining the distinguishability and necessity of keeping practical advice separate from philosophical exploration.', 'Self_Check': {'First_ExplicitStance': 'support', 'Then_DefinitionConsistency': \"Round-1 evidence supports this stance, showcasing 'Seek Advice' as goal-oriented distinct from philosophical dialectic, backed by Schwartz's differentiation.\", 'Finally_LimitationsDecision': 'Continue to Support'}, 'Cross_Discussion': {'PerRoleAnalysis': [{'OtherRole': 'Role1', 'Example': 'Supports differentiation via Schwartz, emphasizing distinct advice and philosophical inquiry contexts.', 'Counterexample': 'Navigating nuanced dialog questions like philosophical might still mirror advice contexts, risking overlap.', 'Summary': \"Consistent with my view on role differentiation's importance but warns about potential overlaps in complex discussions.\"}, {'OtherRole': 'Role3', 'Example': \"Walton's dialog theory reinforces the differing communicative intents critical for distinct coding.\", 'Counterexample': 'While distinct, risk of duplicating codes for similar end goals, potentially complicating coder roles.', 'Summary': 'Aligns in distinguishing practical versus speculative discussions but stresses weighing complexity measures.'}], 'Consensus': 'Both Role1 and Role3 emphasize the necessity for distinguishing between advice and wider, reflective discourse, aligning closely with my conclusions.', 'Divergence': 'Minor differences exist in evaluating how intricate discussions might blur defined lines.', 'HybridPerspective': 'Emphasizing role-specific contexts for clear advice and philosophical separations while observing overlap risk mitigation.'}}, {'code': 'Workplace and professional experiences / Technical and instructional narratives', 'Disagreement_Point': 'Negotiating between merging thematic codes of professional storytelling versus technical instructional narratives.', 'Self_Check': {'First_ExplicitStance': 'support', 'Then_DefinitionConsistency': 'Eraut\u2019s literature highlights the need for experiential learning differentiation, aligning with my view of distinct narrative purposes in a professional setting.', 'Finally_LimitationsDecision': 'Continue to Support'}, 'Cross_Discussion': {'PerRoleAnalysis': [{'OtherRole': 'Role1', 'Example': 'Eraut describes distinct learning modes, supporting separate experiential and instructional considerations.', 'Counterexample': 'Separation might prevent integration of learning processes when overlapping in real-world application.', 'Summary': 'Shares separation support but diverges on integration efficiency and real use cases.'}, {'OtherRole': 'Role3', 'Example': \"Polanyi's tacit versus explicit instruction coding advocates divergence, validating this separation.\", 'Counterexample': 'Potential risk in over-segmentation losing cohesive narrative understanding.', 'Summary': 'Aligns with distinguishing instructional content from experiential stories but diverges on how granularity affects narrative flow.'}], 'Consensus': 'Roles are aligned, spotlighting the importance of differentiated professional insights through diverse narrative recognition.', 'Divergence': 'There is a conflict on potential risks in segmenting learning processes too finely.', 'HybridPerspective': 'Merging thematic explorations where appropriate, respecting professional diversity representation while managing annotation complexity.'}}]}}, {'Role3': {'Role': 'Gender: Man (including Trans Male/Trans Man) | Education: Doctorate degree (PhD/other) | Race_Ethnicity: Latino/Hispanic | Age: 34-44 | Degree_Subject: Agriculture, Forestry, Fisheries and Veterinary | Reddit_Use: Regular use(<once per month)', 'DecisionPattern': 'Prioritizing content precision and context differentiation using systematic categorization patterns typical in scientific analysis. This approach emphasizes the value of maintaining clarity and distinctiveness in data representation.', 'Reasoning': [{'code': 'Tell A Story / Storytelling in Classroom / Personal Experience Sharing / Storytelling about school experiences', 'Disagreement_Point': 'Boundaries and focus of storytelling across different contexts.', 'Self_Check': {'First_ExplicitStance': 'support', 'Then_DefinitionConsistency': 'Literature-based evidence from Bruner (1991) supports distinct contextual storytelling as aiding communication and understanding. Content-based reasoning highlights the specific contexts each code captures, which my background sees as essential in structured categorization. Logic-based reasoning suggests clarity and coder consistency are enhanced with context differentiation.', 'Finally_LimitationsDecision': 'Continue to Support'}, 'Cross_Discussion': {'PerRoleAnalysis': [{'OtherRole': 'Gender: Woman (including Trans Female/Trans Woman)', 'Example': 'Effectively supports the need for capturing varied narrative functions and settings, aligning with Bruner\u2019s narrative construction theory.', 'Counterexample': 'No significant counterpoint, as their reasoning aligned closely with mine on the importance of narrative context.', 'Summary': 'Strong alignment in advocating distinct storytelling contexts due to overlapping theoretical and content-based reasoning.'}, {'OtherRole': 'Gender: Non-binary', 'Example': 'Recognizes the importance of context-specific storytelling captured in learning scenarios.', 'Counterexample': 'Their reasoning overlooks the value of precise code distinction for clarity, emphasizing do_not_retain for simplicity.', 'Summary': 'Main divergence lies in prioritizing simplicity over context specificity, contrasting with my focus on maintaining detailed contextual distinctions.'}], 'Consensus': 'Gender: Woman role aligns well with my rationale for retaining storytelling context differentiation.', 'Divergence': 'Non-binary role diverges due to prioritizing simplicity, overlooking the need for detailed contextual clarity which is crucial in structured categorization.', 'HybridPerspective': 'Prioritize context specificity as essential in capturing nuanced narrative applications, using literature and logic to support coding clarity and precision.'}}, {'code': 'Express Frustration / Movie and TV Scene Description / Opinions on media and entertainment', 'Disagreement_Point': 'Specificity and overlapping focus of emotional expressions versus descriptive opinions.', 'Self_Check': {'First_ExplicitStance': 'support', 'Then_DefinitionConsistency': 'Literature by Gross (1998) distinguishes emotional expression from non-emotional commentary. Content-based evidence requires clear separation of emotional versus descriptive commentaries, enhancing clarity. Logic-based reasoning supports retaining codes to reduce ambiguity and align with emotional regulation theories.', 'Finally_LimitationsDecision': 'Continue to Support'}, 'Cross_Discussion': {'PerRoleAnalysis': [{'OtherRole': 'Gender: Woman (including Trans Female/Trans Woman)', 'Example': 'Supports emotions as distinct categories needing separate codes across media discussions.', 'Counterexample': 'Role seems to overlook instances where emotional expressions might naturally integrate with entertainment opinions.', 'Summary': 'Aligns in supporting code separation to improve clarity in emotion vs. opinion discourse, yet may have overlooked some integration potential.'}, {'OtherRole': 'Gender: Non-binary', 'Example': 'Acknowledges clear theoretical distinction between expression of frustration and general media commentary.', 'Counterexample': 'Similar emphasis on distinct coding could sometimes conflict with integrated emotion-opinion contexts identified in practical discussions.', 'Summary': 'Both roles mostly align on theoretical distinction but differ in prioritizing instance-based overlap opportunities compared to strict separation in coding.'}], 'Consensus': 'Both other roles provide theoretical backing that aligns with my findings on distinguishing emotional expression from general media discussions.', 'Divergence': 'Minor divergence in accounting for real-world integration contexts, not deeply impacting the core need for initial distinct coding for clarity.', 'HybridPerspective': 'Emphasize distinguishing emotions with logic-backed narrative separation while adopting a context-aware approach to potential overlaps.'}}, {'code': 'Seek Advice / Philosophical Discussion', 'Disagreement_Point': 'Distinction needed between practical guidance requests versus philosophical debate contexts.', 'Self_Check': {'First_ExplicitStance': 'support', 'Then_DefinitionConsistency': 'Walton\u2019s (2013) work on dialogue differentiates practical advice from philosophical deliberation, supporting maintaining separate codes. Content observations distinguish practical from theoretical discourse effectively. Logically, distinct codes prevent confusion, increasing annotation clarity.', 'Finally_LimitationsDecision': 'Continue to Support'}, 'Cross_Discussion': {'PerRoleAnalysis': [{'OtherRole': 'Gender: Woman (including Trans Female/Trans Woman)', 'Example': 'Strong separation of practical into theoretical discussions enhances understanding of context specificity.', 'Counterexample': 'May underestimate scenarios where advice seeks philosophical crossover, losing context-specific annotations.', 'Summary': 'General alignment, though might not fully captivate real-life overlap scenarios within advisory discussions transitioning to philosophical content.'}, {'OtherRole': 'Gender: Non-binary', 'Example': 'Validates distinctions between practical and philosophical engagements, treading similarly to literature-supported implication.', 'Counterexample': \"Their 'retain' stance might occasionally oversimplify nuanced philosophical inputs emerging from advice scenarios.\", 'Summary': 'General agreement on robust differentiation; however, overlooks nuanced intricacies of philosophical and advisory overlaps.'}], 'Consensus': 'Both roles underline the importance of code distinction that closely matches literature-based justification and practical-categorical logic.', 'Divergence': 'Neither role fully explores the potential for philosophical inputs naturally emerging in practical advice, albeit agreeing on initial codes.', 'HybridPerspective': 'Affirmatively distinguish subject fields to ensure clarity, highlighted by theoretical backing while retaining openness to context-based adjustments.'}}, {'code': 'Workplace and professional experiences / Technical and instructional narratives', 'Disagreement_Point': 'Storytelling experiences versus providing technical instructions differentiation in professional settings.', 'Self_Check': {'First_ExplicitStance': 'support', 'Then_DefinitionConsistency': 'Polanyi (1966) provides a clear basis for distinguishing narratives of experience from those offering instruction, supporting code distinction. Content-based analysis specifies different intentions marked by practical versus instructional narratives. Logic underscores reduced ambiguity and clearer intent maximizes annotation effectiveness.', 'Finally_LimitationsDecision': 'Continue to Support'}, 'Cross_Discussion': {'PerRoleAnalysis': [{'OtherRole': 'Gender: Woman (including Trans Female/Trans Woman)', 'Example': 'Acknowledged the need to differentiate learning and instructions.', 'Counterexample': 'Neglects the impact of intact contextual richness associated with separated narrative-instructive organizational categories.', 'Summary': 'Some alignment on differentiation logic, although their focus was perhaps more on potential simplification.'}, {'OtherRole': 'Gender: Non-binary', 'Example': 'Index presence of distinct narrative forms augmenting professional insights aligns with my coding emphasis.', 'Counterexample': 'Premature simplification potentially misses intrinsic professional culture expressions beyond technicalities.', 'Summary': 'Roles conflict only in the extent of categorization simplicity versus detailed professional enrichment emphasis seen in detailed categorization.'}], 'Consensus': 'Role agreement seen in acknowledging separate coding adds analytical depth to professional narrative insights, aligning suitably.', 'Divergence': 'Both roles perceive limitations in deepfully enriched categorization, potentially conflicting with guidelines strongly backed by functional evidence contextualization.', 'HybridPerspective': 'Exploring individual professional insights possibly combining storytelling vibrancy with systematic technical instructions can heavily benefit analytical richness.'}}]}}]",
+        "round3": "[{'Role1': {'Role': 'Gender: Woman (including Trans Female/Trans Woman) | Education: Doctorate degree | Race_Ethnicity: African | Age: 34-44 | Degree_Subject: Engineering, Manufacturing and Construction', 'Final_Results': [{'code': 'Tell A Story / Storytelling in Classroom / Personal Experience Sharing / Storytelling about school experiences', 'Initial_Claim_Round1': 'retain', 'Final_Decision': 'Continue to Support', 'Final_Claim': 'Yes, the code should be retained.', 'Final_Explanation': 'Given the emphasis on narrative context by Bruner and the need for clear contextual differentiation, maintaining separate codes enhances clarity and caters to various storytelling contexts.', 'Self_Reflection': {'Strengths': 'The strongest element was the literature-backed necessity of context-specific storytelling for clear communication.', 'Weaknesses': 'A potential weakness is the increased complexity of managing multiple codes.', 'Future_Consideration': 'Developing concise guidelines for code application would mitigate complexity and refine coder efficiency.'}}, {'code': 'Express Frustration / Movie and TV Scene Description / Opinions on media and entertainment', 'Initial_Claim_Round1': 'retain', 'Final_Decision': 'Continue to Support', 'Final_Claim': 'Yes, the code should be retained.', 'Final_Explanation': \"Maintaining separate codes aligns with the literature's emphasis on distinguishing emotional from descriptive or evaluative narratives.\", 'Self_Reflection': {'Strengths': 'Key strength was the literature support detailing distinct emotional expression, offering clear coding directives.', 'Weaknesses': 'Potential limitations in handling overlapping emotional and descriptive narratives.', 'Future_Consideration': 'Further research into integrated expression coding would enhance annotation accuracy in narrative overlaps.'}}, {'code': 'Seek Advice / Philosophical Discussion', 'Initial_Claim_Round1': 'retain', 'Final_Decision': 'Continue to Support', 'Final_Claim': 'Yes, the code should be retained.', 'Final_Explanation': 'The clear distinctions supported by literature between goal-oriented advice and philosophical debates favor maintaining separate codes for clarity and precise categorization.', 'Self_Reflection': {'Strengths': 'The role-based evidence showing distinct intentions provided strong support for separate coding.', 'Weaknesses': 'One unresolved issue is potential overlap in certain advice-philosophical contexts which could confuse coders.', 'Future_Consideration': 'Guidelines to discern borderline cases would enhance accuracy in distinguishing discourse types.'}}, {'code': 'Workplace and professional experiences / Technical and instructional narratives', 'Initial_Claim_Round1': 'do_not_retain', 'Final_Decision': 'Refute My Initial Claim', 'Final_Claim': 'Yes, the code should be retained.', 'Final_Explanation': 'Literature evidence and practical reasoning indicate that distinguishing narrative and instructional content enhances clarity in professional settings.', 'Self_Reflection': {'Strengths': 'The emphasis on evidence-based differentiation provided a well-grounded argument for code separation.', 'Weaknesses': 'Initial claim overlooked the benefit of narrative richness and learning context differentiation.', 'Future_Consideration': 'Further integrating narrative forms might facilitate nuanced understanding and richer content analysis.'}}]}}, {'Role2': {'Role': 'Gender: Non-binary (would like to give more detail), Education: Doctorate degree (PhD/other), Race_Ethnicity: Black/African American, Age: 18-24, Degree_Subject: Social Sciences', 'Final_Results': [{'code': 'Tell A Story / Storytelling in Classroom / Personal Experience Sharing / Storytelling about school experiences', 'Initial_Claim_Round1': 'do_not_retain', 'Final_Decision': 'Refute My Initial Claim', 'Final_Claim': 'Yes, the code should be retained.', 'Final_Explanation': 'Accumulated reasoning from cross-role discussions supports the necessity of context-specific storytelling codes, aligning with my positionality on the importance of capturing diverse narratives.', 'Self_Reflection': {'Strengths': 'The emphasis on narrative context differentiation aligns with the need to capture diverse storytelling intents and settings.', 'Weaknesses': 'Initial underestimation of the importance of distinct narrative contexts leading to an incomplete claim.', 'Future_Consideration': 'Further exploration of how precise categorization impacts cognitive load could strengthen clarity without oversimplification.'}}, {'code': 'Express Frustration / Movie and TV Scene Description / Opinions on media and entertainment', 'Initial_Claim_Round1': 'do_not_retain', 'Final_Decision': 'Revise My Claim', 'Final_Claim': 'Yes, the code should be retained.', 'Final_Explanation': 'Retaining distinction among these codes is vital as it honors the differential expression of emotions versus opinions, integral to my focus on diverse and clear emotional narratives.', 'Self_Reflection': {'Strengths': 'Recognizing the distinct emotional expressions ensures clarity in capturing diverse emotional and opinion-based narratives.', 'Weaknesses': 'Maintaining too fine a distinction could risk overlooking natural context overlap.', 'Future_Consideration': 'Investigating methods to recognize emotion-opinion integration while maintaining clear primary code functionality could enhance contextual adaptability.'}}, {'code': 'Seek Advice / Philosophical Discussion', 'Initial_Claim_Round1': 'retain', 'Final_Decision': 'Continue to Support', 'Final_Claim': 'Yes, the code should be retained.', 'Final_Explanation': 'My positionality highlights the importance of capturing distinct intents and contexts inherent in advice versus philosophical discussions, reinforced by relevant literature.', 'Self_Reflection': {'Strengths': 'Clear differentiation supported by theoretical backing provides solid categorical separation for practical versus philosophical dialogues.', 'Weaknesses': 'Potential overlap in advice-seeking that naturally contains philosophical elements needs careful monitoring.', 'Future_Consideration': 'Developing criteria for recognizing philosophical elements in advice-seeking could further optimize context-specific interpretations.'}}, {'code': 'Workplace and professional experiences / Technical and instructional narratives', 'Initial_Claim_Round1': 'do_not_retain', 'Final_Decision': 'Revise My Claim', 'Final_Claim': 'Yes, the code should be retained.', 'Final_Explanation': 'The decision to retain these codes stems from the importance of capturing the nuanced differences between workplace experiences and instructional narratives, which aligns with recognizing professional diversity.', 'Self_Reflection': {'Strengths': 'Acknowledging diverse professional insights respects varied experiences and modes of professional engagement.', 'Weaknesses': 'The complexity of maintaining distinct categories could complicate coder efficiency without clear guidelines.', 'Future_Consideration': 'Further refining categorization criteria could strengthen coder consistency and efficiency.'}}]}}, {'Role3': {'Role': 'Gender: Man (including Trans Male/Trans Man) | Education: Doctorate degree (PhD/other) | Race_Ethnicity: Latino/Hispanic | Age: 34-44 | Degree_Subject: Agriculture, Forestry, Fisheries and Veterinary | Reddit_Use: Regular use(<once per month)', 'Final_Results': [{'code': 'Tell A Story / Storytelling in Classroom / Personal Experience Sharing / Storytelling about school experiences', 'Initial_Claim_Round1': 'retain', 'Final_Decision': 'Continue to Support', 'Final_Claim': 'Yes, the code should be retained.', 'Final_Explanation': \"The accumulation of evidence, particularly Bruner's affirmation of context-specific narrative structures, supports the necessity for distinct storytelling codes to accurately capture varied narrative contexts.\", 'Self_Reflection': {'Strengths': 'The alignment of literature and content-based evidence highlighting the importance of contextual clarity in storytelling.', 'Weaknesses': 'Potential oversight of the coding complexity introduced by multiple context-specific codes.', 'Future_Consideration': 'Further research into balancing code granularity and manageable cognitive load within annotation processes could strengthen the stance.'}}, {'code': 'Express Frustration / Movie and TV Scene Description / Opinions on media and entertainment', 'Initial_Claim_Round1': 'retain', 'Final_Decision': 'Continue to Support', 'Final_Claim': 'Yes, the code should be retained.', 'Final_Explanation': \"The distinctness of emotional expression, in line with Gross and Lazarus' work, underscores the need for separate coding of frustration to maintain clarity and reduce overlap with media evaluations.\", 'Self_Reflection': {'Strengths': 'Robust logical backing from emotional regulation literature supporting distinct emotional coding.', 'Weaknesses': 'The potential for complexity and cognitive load by over-categorization of closely connected expressions.', 'Future_Consideration': 'Evaluating an integrated approach accommodating both emotional specificity and contextual narrative analysis might offer improvement.'}}, {'code': 'Seek Advice / Philosophical Discussion', 'Initial_Claim_Round1': 'retain', 'Final_Decision': 'Continue to Support', 'Final_Claim': 'Yes, the code should be retained.', 'Final_Explanation': \"The theoretical distinction reinforced through Walton and Schwartz's literature validates the need for separate coding to uphold the integrity of different interactive dialogues.\", 'Self_Reflection': {'Strengths': 'Literature-based reinforcement of separate interactive intents enhancing distinctive dialogue analysis.', 'Weaknesses': 'Consideration of overlapping intents in real-world applications could complicate clear categorical separation.', 'Future_Consideration': 'Development of a more nuanced coding framework recognizing advisory contexts with embedded philosophical elements could provide deeper insight.'}}, {'code': 'Workplace and professional experiences / Technical and instructional narratives', 'Initial_Claim_Round1': 'retain', 'Final_Decision': 'Revise My Claim', 'Final_Claim': 'No, the code should not be retained.', 'Final_Explanation': \"Consolidating codes could streamline annotation efficiency, as highlighted by potential overlap concerns, while still respecting informational diversity found in Polanyi's distinctions.\", 'Self_Reflection': {'Strengths': \"Recognition of narrative diversity informed by Polanyi's differentiation between tacit and explicit knowledge.\", 'Weaknesses': 'Insufficient emphasis on the holistic impact of merging contextually diverse categories on interpretive depth.', 'Future_Consideration': 'Exploring balanced approaches that retain narrative richness while simplifying coder complexity would be beneficial.'}}]}}]"
+    },
+    "Final_codebook": {
+        "codebook": [
+            {
+                "code": "Tell A Story",
+                "definition": "Participants share a personal narrative or anecdote.",
+                "inclusion_criteria": [
+                    "Any text where participants recount a personal experience or story."
+                ],
+                "exclusion_criteria": [
+                    "Texts that provide opinions or analyses without a narrative structure."
+                ],
+                "typical_examples": [
+                    "tell a funny story.",
+                    "describe a stressful event that happened to them and a friend."
+                ],
+                "atypical_examples": [
+                    "tell a parable to teach a moral lesson."
+                ],
+                "participants": [
+                    "6531958a74d39ace86a60bd9",
+                    "5ed856ab1f4a23368be98b1a",
+                    "5e8aa39f3dabf475987ddaf3"
+                ],
+                "relevance_to_RQ": "RQ1, RQ2",
+                "notes": "Includes stories used as teaching tools. Aligned from 'Storytelling in Classroom', 'Personal Experience Sharing' and 'Storytelling about school experiences' due to overlap in narrative content."
+            },
+            {
+                "code": "Provide Opinion",
+                "definition": "Participants express a viewpoint or belief.",
+                "inclusion_criteria": [
+                    "Any text where participants share a personal opinion on a subject."
+                ],
+                "exclusion_criteria": [
+                    "Narratives that explain the context without expressing personal belief."
+                ],
+                "typical_examples": [
+                    "expresses their opinion about New World and Grand Line."
+                ],
+                "atypical_examples": [
+                    "express a reason for getting a job that enhances someone's philosophical views."
+                ],
+                "participants": [
+                    "5b9489e56138fe0001f4104d",
+                    "5c365b5e8821900001b3876c"
+                ],
+                "relevance_to_RQ": "RQ2, RQ3",
+                "notes": "Aligned from 'Expressing personal beliefs and opinions' and 'Product and Service Opinion' as they collectively capture opinion expression across diverse topics."
+            },
+            {
+                "code": "Seek Advice",
+                "definition": "Participants request guidance or recommendations.",
+                "inclusion_criteria": [
+                    "Any text where participants ask for advice or feedback."
+                ],
+                "exclusion_criteria": [
+                    "Statements that provide definitive answers or solutions without seeking input."
+                ],
+                "typical_examples": [
+                    "find a solution for a technical problem involving his PS3.",
+                    "give advice about a subject."
+                ],
+                "atypical_examples": [
+                    "gain feedback about his new audio setup on what to improve."
+                ],
+                "participants": [
+                    "6077a808b8d8534a901e5d78",
+                    "652d5fbe9b9bfde1040a8c4d"
+                ],
+                "relevance_to_RQ": "",
+                "notes": "Retained as distinct code, separate from 'Philosophical Discussion', to capture practical advice-seeking distinct from philosophical contexts."
+            },
+            {
+                "code": "Express Frustration",
+                "definition": "Participants convey dissatisfaction or annoyance.",
+                "inclusion_criteria": [
+                    "Any text where participants express complaints or dissatisfaction."
+                ],
+                "exclusion_criteria": [
+                    "Neutral or positive statements devoid of emotional expression."
+                ],
+                "typical_examples": [
+                    "vent or spread awareness about the issue she had with amazon preordering something."
+                ],
+                "atypical_examples": [
+                    "warn people about LBP Pre-order codes not working."
+                ],
+                "participants": [
+                    "6077a808b8d8534a901e5d78",
+                    "63345f710321e08d1720919e"
+                ],
+                "relevance_to_RQ": "",
+                "notes": "Retained as a distinct category from 'Movie and TV Scene Description' and 'Opinions on media and entertainment' due to its specific emotional focus."
+            },
+            {
+                "code": "Workplace and professional experiences",
+                "definition": "Narrates personal experiences or opinions regarding work and professional life.",
+                "inclusion_criteria": [
+                    "Text discusses personal experiences or opinions in work or professional settings."
+                ],
+                "exclusion_criteria": [
+                    "General opinions or beliefs not grounded in specific workplace experiences."
+                ],
+                "typical_examples": [
+                    "Describe work relations."
+                ],
+                "atypical_examples": [
+                    "Share personal experience."
+                ],
+                "participants": [
+                    "65b0764ee48ec2cb4791841f",
+                    "654455ad0b76675379c66db4"
+                ],
+                "relevance_to_RQ": "[RQ2] How do narrative perceptions differ among crowd workers?",
+                "notes": "Retained distinct from 'Technical and instructional narratives' to maintain focus on narrative accounts of professional experiences."
+            }
+        ]
+    },
+    "current_num_token": {
+        "input_token": 327309,
+        "output_token": 15187
+    }
+}

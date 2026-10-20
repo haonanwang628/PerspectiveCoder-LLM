@@ -1,0 +1,150 @@
+{
+    "Role": "Role1",
+    "Codebook": [
+        {
+            "code": "QA Involvement from Start",
+            "definition": "Quality Assurance is involved in the development process from the beginning to ensure clarity of requirements and reduce bugs.",
+            "inclusion_criteria": [
+                "Text mentions QA involvement at the start of the project or planning phase."
+            ],
+            "exclusion_criteria": [
+                "Text mentions QA involvement only at the testing phase."
+            ],
+            "typical_examples": [
+                "QA is involved because he will help refine the acceptance criteria."
+            ],
+            "atypical_examples": [
+                "The QA team performs testing only after development is complete."
+            ],
+            "participants": [
+                "1",
+                "2",
+                "4",
+                "5",
+                "6",
+                "9"
+            ],
+            "relevance_to_RQ": "This code addresses how early QA involvement can improve software quality by ensuring requirements clarity and reducing errors.",
+            "notes": ""
+        },
+        {
+            "code": "Continuous Feedback",
+            "definition": "Continuous feedback from various stakeholders is used to refine requirements and improve product quality.",
+            "inclusion_criteria": [
+                "Text mentions receiving and acting upon feedback continuously through the development process."
+            ],
+            "exclusion_criteria": [
+                "Feedback is mentioned as one-time or limited to specific phases only."
+            ],
+            "typical_examples": [
+                "Continuous feedback helps us to build a better product."
+            ],
+            "atypical_examples": [
+                "Feedback is presented only during initial planning."
+            ],
+            "participants": [
+                "10",
+                "11",
+                "12",
+                "19"
+            ],
+            "relevance_to_RQ": "The code highlights how continuous feedback helps in refining product features for better quality.",
+            "notes": ""
+        },
+        {
+            "code": "Collaboration Enhances Quality",
+            "definition": "Collaboration among team members, including knowledge sharing, results in improved code quality and reduced defects.",
+            "inclusion_criteria": [
+                "Mentions collaborative activities that directly impact code quality."
+            ],
+            "exclusion_criteria": [
+                "Collaboration is mentioned without relation to quality improvement."
+            ],
+            "typical_examples": [
+                "Developers collaborate to learn from each other and write better code."
+            ],
+            "atypical_examples": [
+                "Collaboration mentioned but with no mention of quality improvement."
+            ],
+            "participants": [
+                "6",
+                "12",
+                "13",
+                "28"
+            ],
+            "relevance_to_RQ": "This code demonstrates how Scrum-based collaboration fosters a supportive environment leading to improved software quality.",
+            "notes": ""
+        },
+        {
+            "code": "Transparency and Accountability",
+            "definition": "Scrum's transparency ensures that team members are accountable for the quality of their contributions.",
+            "inclusion_criteria": [
+                "References to transparency leading to accountability for work quality."
+            ],
+            "exclusion_criteria": [
+                "Mentions of transparency that do not relate to accountability or quality."
+            ],
+            "typical_examples": [
+                "Transparency means the quality of each person's work is visible to others."
+            ],
+            "atypical_examples": [
+                "Transparency discussed without reference to quality or accountability."
+            ],
+            "participants": [
+                "3",
+                "6",
+                "9",
+                "21"
+            ],
+            "relevance_to_RQ": "This code explains how the transparency inherent to Scrum processes results in enhanced accountability, which drives quality improvements.",
+            "notes": ""
+        },
+        {
+            "code": "Iterative Development",
+            "definition": "Iterative approaches in Scrum allow for quick adjustments and improvement of quality based on regular client feedback.",
+            "inclusion_criteria": [
+                "Mentions iterative development leading to continuous improvements."
+            ],
+            "exclusion_criteria": [
+                "Iterative processes mentioned without clear quality improvement results."
+            ],
+            "typical_examples": [
+                "Being iterative, adjustments keep quality aligned with client needs."
+            ],
+            "atypical_examples": [
+                "Iterative processes discussed but unrelated to quality improvements."
+            ],
+            "participants": [
+                "17",
+                "19",
+                "23",
+                "31"
+            ],
+            "relevance_to_RQ": "This code supports the understanding of Scrum's iterative approach as a method for enhancing software quality through regular updates and feedback.",
+            "notes": ""
+        },
+        {
+            "code": "Testing and Automation",
+            "definition": "Automation and testing practices integral to Scrum processes aim to reduce errors and improve software quality.",
+            "inclusion_criteria": [
+                "Mentions automated testing or frequent testing processes."
+            ],
+            "exclusion_criteria": [
+                "Testing mentioned but not in the context of automation or quality."
+            ],
+            "typical_examples": [
+                "Automated tests reduce errors significantly."
+            ],
+            "atypical_examples": [
+                "Testing mentioned briefly without a direct link to quality."
+            ],
+            "participants": [
+                "2",
+                "11",
+                "34"
+            ],
+            "relevance_to_RQ": "The code details the role of testing and automation in maintaining high quality in Scrum-developed software.",
+            "notes": ""
+        }
+    ]
+}
