@@ -137,14 +137,9 @@ def parse_args():
     parser.add_argument("-m", "--model-name", type=str, default="gpt-4o", help="Model name")
     # parser.add_argument("-t", "--temperature", type=float, default=0, hewlp="Sampling temperature")
 
-    # 旧代码（保留供参考）：
-    # parser.add_argument("-rq", "--research-question", type=read_txt, default="Data/Scrum-interviews/processed/rq1.txt", help="Data iteration starting step")
     parser.add_argument("-rq", "--research-question", type=read_txt,
                         default="Data/Scrum-interviews/processed/rq1.txt",
                         help="UTF-8 research question txt path, or None to omit the research question")
-    # 旧代码（保留供参考）：
-    # parser.add_argument("-exp", "--experiment-name", type=int, default=0,
-    #                     help="0: discuss, 1: baseline1, 2: baseline2")
     parser.add_argument("-exp", "--experiment-name", type=int, choices=(0, 1, 2), default=2,
                         help="0: discuss, 1: baseline1, 2: baseline2")
 

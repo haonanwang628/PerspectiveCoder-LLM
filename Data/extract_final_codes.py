@@ -3,11 +3,8 @@
 import argparse
 import json
 from pathlib import Path
+from .jsonl_utils import read_records as read_gt_records, write_records
 
-if __package__:
-    from .jsonl_utils import read_records as read_gt_records, write_records
-else:
-    from jsonl_utils import read_records as read_gt_records, write_records
 
 
 DATASETS = {
