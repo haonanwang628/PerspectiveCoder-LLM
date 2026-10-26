@@ -1,0 +1,16 @@
+{
+    "name": "goal",
+    "threshold": 0.8,
+    "ground_truth_count": 20,
+    "cluster_count": 20,
+    "code_diversity": 1.0,
+    "groups": [["character_person"], ["event_experience"], ["plot_sequence"], ["problem_conflict"], ["setting_background"], ["literary_device"], ["theme_moral"], ["fictional_hypothetical"], ["evocative_transporting"], ["cohesive_interpretable"], ["suspenseful"], ["creative"], ["feels_like_story"], ["implicitly_revealing"], ["opinion"], ["behavior_strategy"], ["concept_definition"], ["artifact"], ["emotion_sensation"], ["time"]]
+}
+{
+    "name": "rationale",
+    "threshold": 0.8,
+    "ground_truth_count": 10,
+    "cluster_count": 10,
+    "code_diversity": 1.0,
+    "groups": [["narrative_story"], ["question_request"], ["explanation"], ["description_expression"], ["argument_suggestion_rant"], ["review"], ["dialogue"], ["entertainment"], ["sense-making"], ["specialized_domain"]]
+}

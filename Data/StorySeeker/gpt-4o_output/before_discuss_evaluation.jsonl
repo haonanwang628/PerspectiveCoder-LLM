@@ -1,0 +1,29 @@
+{
+    "name": "goal",
+    "threshold": 0.8,
+    "ground_truth_count": 20,
+    "predicted_code_count": 14,
+    "code_match": {
+        "opinion": ["Provide Opinion"]
+    },
+    "scores": {
+        "recall": 0.05,
+        "match_rate": 0.07142857142857142,
+        "code_diversity": 0.9285714285714286
+    }
+}
+{
+    "name": "rationale",
+    "threshold": 0.8,
+    "ground_truth_count": 10,
+    "predicted_code_count": 12,
+    "code_match": {
+        "narrative_story": ["Descriptive Narrative", "Non-Narrative", "Detailed Narrative"],
+        "question_request": ["Request for Help"]
+    },
+    "scores": {
+        "recall": 0.2,
+        "match_rate": 0.3333333333333333,
+        "code_diversity": 0.75
+    }
+}

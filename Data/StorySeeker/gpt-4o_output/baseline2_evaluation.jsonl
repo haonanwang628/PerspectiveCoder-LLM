@@ -1,0 +1,29 @@
+{
+    "name": "goal",
+    "threshold": 0.8,
+    "ground_truth_count": 20,
+    "predicted_code_count": 5,
+    "code_match": {
+        "concept_definition": ["Discuss Concept"]
+    },
+    "scores": {
+        "recall": 0.05,
+        "match_rate": 0.2,
+        "code_diversity": 1.0
+    }
+}
+{
+    "name": "rationale",
+    "threshold": 0.8,
+    "ground_truth_count": 10,
+    "predicted_code_count": 5,
+    "code_match": {
+        "narrative_story": ["Narrative Structure"],
+        "review": ["Critique/Opinion"]
+    },
+    "scores": {
+        "recall": 0.2,
+        "match_rate": 0.4,
+        "code_diversity": 1.0
+    }
+}

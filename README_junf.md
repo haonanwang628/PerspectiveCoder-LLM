@@ -50,7 +50,7 @@ We propose PerspectiveCoder-LM, an LLM-based multi-perspective-agent system for 
 | Baseline | Description | Results|
 | --- | --- | --- |
 | Baseline1 | Single LLM + no perspective+ no discussion | [RQ1](Data/Scrum-interviews/gpt-4o_output/rq1/baseline1/excel/baseline1.xlsx), [RQ2](Data/Scrum-interviews/gpt-4o_output/rq2/baseline1/excel/baseline1.xlsx) |
-| Baseline2 | Three LLM + the same setting perspective of three roles with PerspectiveCoder-LM + no discussion | [RQ1](Data/Scrum-interviews/gpt-4o_output/rq1/discuss_process/excel/baseline2.xlsx), [RQ2](Data/Scrum-interviews/gpt-4o_output/rq2/discuss_process/excel/baseline2.xlsx) |
+| Baseline2 | Three LLM + the same setting perspective of three roles with PerspectiveCoder-LM + discussion | [RQ1](Data/Scrum-interviews/gpt-4o_output/rq1/discuss_process/excel/baseline2.xlsx), [RQ2](Data/Scrum-interviews/gpt-4o_output/rq2/discuss_process/excel/baseline2.xlsx) |
 | PerspectiveCoder-LM |the perspective of three roles+ discussion process | [RQ1](Data/Scrum-interviews/gpt-4o_output/rq1/discuss_process/excel/discuss.xlsx), [RQ2](Data/Scrum-interviews/gpt-4o_output/rq2/discuss_process/excel/discuss.xlsx) |
 
 2. [StoryPerceptions-results](Data/StorySeeker/gpt-4o_output/)
@@ -58,7 +58,7 @@ We propose PerspectiveCoder-LM, an LLM-based multi-perspective-agent system for 
 | Baseline | Description | Results|
 | --- | --- | --- |
 | Baseline1 | Single LLM + no perspective+ no discussion | [Goal](Data/StorySeeker/gpt-4o_output/goal/baseline1/excel/baseline1.xlsx), [Rationale](Data/StorySeeker/gpt-4o_output/rationale/baseline1/excel/baseline1.xlsx) |
-| Baseline2 | Three LLM + the same setting perspective of three roles with PerspectiveCoder-LM + no discussion | [Goal](Data/StorySeeker/gpt-4o_output/goal/discuss_process/excel/baseline2.xlsx), [Rationale](Data/StorySeeker/gpt-4o_output/rationale/discuss_process/excel/baseline2.xlsx) |
+| Baseline2 | Three LLM + the same setting perspective of three roles with PerspectiveCoder-LM +  discussion | [Goal](Data/StorySeeker/gpt-4o_output/goal/discuss_process/excel/baseline2.xlsx), [Rationale](Data/StorySeeker/gpt-4o_output/rationale/discuss_process/excel/baseline2.xlsx) |
 | PerspectiveCoder-LM |the perspective of three roles+ discussion process | [Goal](Data/StorySeeker/gpt-4o_output/goal/discuss_process/excel/discuss.xlsx), [Rationale](Data/StorySeeker/gpt-4o_output/rationale/discuss_process/excel/discuss.xlsx) |
 
 ## *Install*
@@ -179,11 +179,11 @@ Results are saved under `Data/<dataset>/gpt-4o_output/<task>/`.
 After completing the experiments, extract code lists and evaluate:
 
 ```bash
-python Data/extract_final_codes.py --model-name gpt-4o
+python -m Data.extract_final_codes --model-name gpt-4o
 python evaluate/evaluate.py
 ```
 
-Extraction produces `discuss_codes.jsonl`, `baseline1_codes.jsonl`, and `baseline2_codes.jsonl`. The evaluator currently uses `discuss_codes.jsonl`, matching records to GT by `name`.
+Extraction produces `discuss_codes.jsonl`, `baseline1_codes.jsonl`, and `baseline2_codes.jsonl`. The evaluator evaluates all three methods, matching records to GT by `name`.
 
 | Dataset | Ground Truth |
 | --- | --- |
@@ -198,7 +198,113 @@ Code matching uses `sentence-transformers/all-MiniLM-L6-v2` (downloaded on first
 | Match rate | Matched generated codes / total generated codes |
 | Code diversity | Greedy similarity groups / total generated codes |
 
-Results: `Data/<dataset>/gpt-4o_output/discuss_evaluation.jsonl`. For other models, change `--model-name` during extraction and `model_name` in `evaluate/evaluate.py`; `threshold` and `device` are set there too.
+Results: `Data/<dataset>/gpt-4o_output/{discuss,baseline1,baseline2}_evaluation.jsonl`. For other models, change `--model-name` during extraction and `model_name` in `evaluate/evaluate.py`; `threshold` and `device` are set there too.
+
+#### Evaluation Results (gpt-4o)
+
+Scrum1 and Scrum2 correspond to Scrum RQ1 and RQ2; Story1 and Story2 correspond to StorySeeker goal and rationale. Values are rounded to three decimal places, with a matching threshold of `0.7`. Parentheses show the numerator/denominator used to calculate each metric. Mean is the unweighted arithmetic average across the four tasks, calculated before rounding.
+
+**Baseline 1**
+
+| Metric | Scrum1 | Scrum2 | Story1 | Story2 | Mean |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| Recall | 0.176 (3/17) | 0.150 (6/40) | 0.150 (3/20) | 0.200 (2/10) | 0.169 |
+| Match rate | 1.000 (5/5) | 1.000 (6/6) | 0.625 (5/8) | 0.800 (4/5) | 0.856 |
+| Diversity | 0.400 (2/5) | 1.000 (6/6) | 0.875 (7/8) | 0.600 (3/5) | 0.719 |
+
+**Baseline 2**
+
+| Metric | Scrum1 | Scrum2 | Story1 | Story2 | Mean |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| Recall | 0.176 (3/17) | 0.175 (7/40) | 0.150 (3/20) | 0.400 (4/10) | 0.225 |
+| Match rate | 0.667 (4/6) | 1.000 (7/7) | 0.800 (4/5) | 0.800 (4/5) | 0.817 |
+| Diversity | 0.500 (3/6) | 1.000 (7/7) | 0.800 (4/5) | 0.600 (3/5) | 0.725 |
+
+**PerspectiveCoder-LM (Discuss)**
+
+| Metric | Scrum1 | Scrum2 | Story1 | Story2 | Mean |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| Recall | 0.235 (4/17) | 0.200 (8/40) | 0.100 (2/20) | 0.200 (2/10) | 0.184 |
+| Match rate | 1.000 (6/6) | 1.000 (8/8) | 0.400 (2/5) | 0.800 (4/5) | 0.800 |
+| Diversity | 0.500 (3/6) | 0.875 (7/8) | 1.000 (5/5) | 0.600 (3/5) | 0.744 |
+
+
+**Ground Truth**
+
+GT diversity uses the same embedding model, threshold, greedy grouping algorithm, and original code order as predicted-code diversity. Results are saved to `Data/<dataset>/gpt-4o_output/gt_evaluation.jsonl`.
+
+| Metric | Scrum1 | Scrum2 | Story1 | Story2 | Mean |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| GT diversity | 0.471 (8/17) | 0.400 (16/40) | 0.900 (18/20) | 0.900 (9/10) | 0.668 |
+
+Scrum RQ2 uses the original 40 GT entries, including the duplicate `Feedback` label.
+
+#### GT Code Groups
+
+Each list is one greedy similarity group at threshold `0.7`. The first code is the representative; remaining codes meet the threshold against it. Codes within a group are not necessarily similar to every other member. Original order and duplicate entries are preserved; each entry appears in exactly one group.
+
+**Scrum1 (RQ1): 8 groups / 17 codes**
+
+1. [`Conformity to business needs`, `Add business value`, `Meets the business needs`, `Conformity to business requirements`]
+2. [`Free of defects`]
+3. [`Usability`, `Maintainability`, `Code readability`]
+4. [`Software performance`, `Software security`, `Code quality`, `Memory management`]
+5. [`Sustainable design`]
+6. [`Reusability of code`, `Clean code`]
+7. [`Avoiding technical debt`]
+8. [`Simplicity`]
+
+**Scrum2 (RQ2): 16 groups / 40 codes**
+
+1. [`Collaboration`, `Knowledge sharing`, `Peer to peer learning`, `Support the collective effort to achieve quality`]
+2. [`Early engagement of QAs`]
+3. [`Psychological safety`]
+4. [`Transparency`]
+5. [`Accountability`, `Technical integrity`]
+6. [`Understanding the requirements`, `knowledge of business requirements`, `Meets the business needs`]
+7. [`Feedback`, `Quality review`, `Feedback`, `Continuous feedback`, `Improved quality`, `Better quality`]
+8. [`Speaking up`]
+9. [`Investing on quality`, `Caring about quality`, `Effort on quality`, `Taking ownership for quality`, `Commitment to quality`, `Motivation for quality`, `Ownership of quality`, `Focus on quality`, `Control over quality`, `Software quality`, `Increase quality`, `Code quality`]
+10. [`Iterative development`]
+11. [`Modularity of tasks`]
+12. [`Frequent testing`]
+13. [`Inspection and adaptation`]
+14. [`Fewer bugs`, `Bugs resolution`]
+15. [`Better code`, `Better product`]
+16. [`Scalability`]
+
+**Story1 (goal): 18 groups / 20 codes**
+
+1. [`character_person`, `literary_device`]
+2. [`event_experience`]
+3. [`plot_sequence`]
+4. [`problem_conflict`]
+5. [`setting_background`]
+6. [`theme_moral`]
+7. [`fictional_hypothetical`]
+8. [`evocative_transporting`]
+9. [`cohesive_interpretable`]
+10. [`suspenseful`]
+11. [`creative`]
+12. [`feels_like_story`, `emotion_sensation`]
+13. [`implicitly_revealing`]
+14. [`opinion`]
+15. [`behavior_strategy`]
+16. [`concept_definition`]
+17. [`artifact`]
+18. [`time`]
+
+**Story2 (rationale): 9 groups / 10 codes**
+
+1. [`narrative_story`]
+2. [`question_request`]
+3. [`explanation`, `sense-making`]
+4. [`description_expression`]
+5. [`argument_suggestion_rant`]
+6. [`review`]
+7. [`dialogue`]
+8. [`entertainment`]
+9. [`specialized_domain`]
 
 ## License
 The repository inherits its license terms from `PerspectiveCoder-LM`. Add explicit licensing information here if required.

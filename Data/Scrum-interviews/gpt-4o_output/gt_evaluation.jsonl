@@ -1,0 +1,16 @@
+{
+    "name": "Scrum_RQ1",
+    "threshold": 0.8,
+    "ground_truth_count": 17,
+    "cluster_count": 13,
+    "code_diversity": 0.7647058823529411,
+    "groups": [["Conformity to business needs", "Meets the business needs", "Conformity to business requirements"], ["Add business value"], ["Free of defects"], ["Usability"], ["Software performance"], ["Software security"], ["Sustainable design"], ["Reusability of code"], ["Avoiding technical debt"], ["Code quality", "Clean code", "Code readability"], ["Maintainability"], ["Simplicity"], ["Memory management"]]
+}
+{
+    "name": "Scrum_RQ2",
+    "threshold": 0.8,
+    "ground_truth_count": 39,
+    "cluster_count": 24,
+    "code_diversity": 0.6153846153846154,
+    "groups": [["Collaboration"], ["Early engagement of QAs"], ["Psychological safety"], ["Transparency"], ["Accountability"], ["Knowledge sharing"], ["Peer to peer learning"], ["Understanding the requirements", "knowledge of business requirements"], ["Feedback", "Continuous feedback"], ["Speaking up"], ["Investing on quality", "Caring about quality", "Effort on quality", "Taking ownership for quality", "Commitment to quality", "Motivation for quality", "Ownership of quality", "Focus on quality", "Control over quality", "Improved quality", "Increase quality"], ["Support the collective effort to achieve quality"], ["Technical integrity"], ["Quality review"], ["Iterative development"], ["Modularity of tasks"], ["Frequent testing"], ["Inspection and adaptation"], ["Fewer bugs", "Bugs resolution"], ["Better code", "Code quality"], ["Software quality"], ["Meets the business needs"], ["Better quality", "Better product"], ["Scalability"]]
+}

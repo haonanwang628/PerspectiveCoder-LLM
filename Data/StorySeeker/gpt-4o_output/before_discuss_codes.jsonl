@@ -1,0 +1,8 @@
+{
+    "name": "goal",
+    "code": ["Tell A Story", "Provide Opinion", "Seek Advice", "Express Frustration", "Storytelling in Classroom", "Movie and TV Scene Description", "Philosophical Discussion", "Product and Service Opinion", "Personal Experience Sharing", "Storytelling about school experiences", "Opinions on media and entertainment", "Expressing personal beliefs and opinions", "Workplace and professional experiences", "Technical and instructional narratives"]
+}
+{
+    "name": "rationale",
+    "code": ["Sequence of Events", "Descriptive Narrative", "Non-Narrative", "Character Involvement", "Detailed Narrative", "Event/Incident Description", "Character and Setting Focus", "Opinion/Reaction", "Instructional/Informative", "Story Features", "Descriptive Text", "Request for Help"]
+}

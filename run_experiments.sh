@@ -1,6 +1,4 @@
 #!/usr/bin/env bash
-# 在项目根目录运行：bash run_experiments.sh
-
 model_name="gpt-4o"
 
 run_experiments() {
@@ -15,7 +13,6 @@ run_experiments() {
             -m "$model_name" -rq "$rq_file" -exp "$experiment"
     done
 
-    # 将三组实验结果分别转换为 Excel
     python Data/discuss_json_to_excel.py \
         -i "$output_dir/discuss_process/json/discuss.json" \
         -o "$output_dir/discuss_process/excel/discuss.xlsx"

@@ -1,0 +1,39 @@
+{
+    "name": "Scrum_RQ1",
+    "threshold": 0.8,
+    "ground_truth_count": 17,
+    "predicted_code_count": 16,
+    "code_match": {
+        "Software performance": ["Internal Software Quality", "Internal Software Quality"],
+        "Code quality": ["Challenges in Defining Quality"],
+        "Conformity to business needs": ["Conformity to Business Needs"],
+        "Free of defects": ["Defect-Free Product"]
+    },
+    "scores": {
+        "recall": 0.23529411764705882,
+        "match_rate": 0.3125,
+        "code_diversity": 0.375
+    }
+}
+{
+    "name": "Scrum_RQ2",
+    "threshold": 0.8,
+    "ground_truth_count": 39,
+    "predicted_code_count": 16,
+    "code_match": {
+        "Early engagement of QAs": ["QA Involvement", "Role of QA", "Early QA Involvement"],
+        "Collaboration": ["Collaborative Culture", "Collaboration Enhances Quality"],
+        "Continuous feedback": ["Continuous Feedback"],
+        "Frequent testing": ["Testing Strategies"],
+        "Psychological safety": ["Psychological Safety"],
+        "Accountability": ["Role Accountability", "Accountability Drives Quality", "Team Accountability"],
+        "Iterative development": ["Iterative Feedback and Improvement", "Iterative Development for Quality"],
+        "Peer to peer learning": ["Collaborative Learning"],
+        "Transparency": ["Transparent Communication"]
+    },
+    "scores": {
+        "recall": 0.23076923076923078,
+        "match_rate": 0.9375,
+        "code_diversity": 0.625
+    }
+}

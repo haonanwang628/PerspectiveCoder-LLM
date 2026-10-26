@@ -1,0 +1,34 @@
+{
+    "name": "Scrum_RQ1",
+    "threshold": 0.8,
+    "ground_truth_count": 17,
+    "predicted_code_count": 6,
+    "code_match": {
+        "Conformity to business needs": ["External_Quality_vs_Conformance_to_Business_Needs"]
+    },
+    "scores": {
+        "recall": 0.058823529411764705,
+        "match_rate": 0.16666666666666666,
+        "code_diversity": 0.8333333333333334
+    }
+}
+{
+    "name": "Scrum_RQ2",
+    "threshold": 0.8,
+    "ground_truth_count": 39,
+    "predicted_code_count": 7,
+    "code_match": {
+        "Early engagement of QAs": ["QA involvement from Start"],
+        "Transparency": ["Transparent communication"],
+        "Collaboration": ["Collaboration enhances quality"],
+        "Continuous feedback": ["Continuous feedback loop"],
+        "Accountability": ["Accountability"],
+        "Frequent testing": ["Frequent Testing"],
+        "Psychological safety": ["Psychological safety and motivation"]
+    },
+    "scores": {
+        "recall": 0.1794871794871795,
+        "match_rate": 1.0,
+        "code_diversity": 1.0
+    }
+}

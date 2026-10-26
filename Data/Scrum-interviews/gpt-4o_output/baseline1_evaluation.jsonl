@@ -1,0 +1,32 @@
+{
+    "name": "Scrum_RQ1",
+    "threshold": 0.8,
+    "ground_truth_count": 17,
+    "predicted_code_count": 5,
+    "code_match": {
+        "Free of defects": ["defect_free_software"]
+    },
+    "scores": {
+        "recall": 0.058823529411764705,
+        "match_rate": 0.2,
+        "code_diversity": 0.6
+    }
+}
+{
+    "name": "Scrum_RQ2",
+    "threshold": 0.8,
+    "ground_truth_count": 39,
+    "predicted_code_count": 6,
+    "code_match": {
+        "Early engagement of QAs": ["QA Involvement from Start"],
+        "Continuous feedback": ["Continuous Feedback"],
+        "Collaboration": ["Collaboration Enhances Quality"],
+        "Accountability": ["Transparency and Accountability"],
+        "Iterative development": ["Iterative Development"]
+    },
+    "scores": {
+        "recall": 0.1282051282051282,
+        "match_rate": 0.8333333333333334,
+        "code_diversity": 1.0
+    }
+}
