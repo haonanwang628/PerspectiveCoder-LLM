@@ -1,0 +1,31 @@
+{
+    "name": "Scrum_RQ1",
+    "threshold": 0.8,
+    "ground_truth_count": 17,
+    "predicted_code_count": 3,
+    "code_match": {
+        "Code quality": ["Defining Software Quality Is Subjective"],
+        "Conformity to business needs": ["External Quality vs Conformance to Business Needs"]
+    },
+    "scores": {
+        "recall": 0.11764705882352941,
+        "match_rate": 0.6666666666666666,
+        "code_diversity": 1.0
+    }
+}
+{
+    "name": "Scrum_RQ2",
+    "threshold": 0.8,
+    "ground_truth_count": 39,
+    "predicted_code_count": 3,
+    "code_match": {
+        "Frequent testing": ["Frequent Testing"],
+        "Transparency": ["Transparent communication"],
+        "Psychological safety": ["Psychological safety and motivation"]
+    },
+    "scores": {
+        "recall": 0.07692307692307693,
+        "match_rate": 1.0,
+        "code_diversity": 1.0
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "name": "Scrum_RQ1",
+    "threshold": 0.8,
+    "ground_truth_count": 17,
+    "predicted_code_count": 5,
+    "code_match": {},
+    "scores": {
+        "recall": 0.0,
+        "match_rate": 0.0,
+        "code_diversity": 0.8
+    }
+}
+{
+    "name": "Scrum_RQ2",
+    "threshold": 0.8,
+    "ground_truth_count": 39,
+    "predicted_code_count": 4,
+    "code_match": {
+        "Early engagement of QAs": ["QA Involvement / Early QA Involvement / Role of QA"],
+        "Collaboration": ["Collaboration / Collaborative Culture / Collaboration Enhances Quality"],
+        "Continuous feedback": ["Continuous Feedback / Iterative Feedback and Improvement / Iterative Development for Quality"],
+        "Accountability": ["Role Accountability / Accountability Drives Quality / Team Accountability"]
+    },
+    "scores": {
+        "recall": 0.10256410256410256,
+        "match_rate": 1.0,
+        "code_diversity": 1.0
+    }
+}

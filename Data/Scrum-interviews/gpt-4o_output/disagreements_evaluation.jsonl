@@ -1,0 +1,31 @@
+{
+    "name": "Scrum_RQ1",
+    "threshold": 0.8,
+    "ground_truth_count": 17,
+    "predicted_code_count": 1,
+    "code_match": {
+        "Free of defects": ["Defect-Free Product"]
+    },
+    "scores": {
+        "recall": 0.058823529411764705,
+        "match_rate": 1.0,
+        "code_diversity": 1.0
+    }
+}
+{
+    "name": "Scrum_RQ2",
+    "threshold": 0.8,
+    "ground_truth_count": 39,
+    "predicted_code_count": 4,
+    "code_match": {
+        "Psychological safety": ["Psychological Safety / Empowered Work Environment"],
+        "Transparency": ["Transparent Communication"],
+        "Peer to peer learning": ["Collaborative Learning"],
+        "Frequent testing": ["Testing Strategies"]
+    },
+    "scores": {
+        "recall": 0.10256410256410256,
+        "match_rate": 1.0,
+        "code_diversity": 1.0
+    }
+}

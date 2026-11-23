@@ -1,0 +1,39 @@
+{
+    "name": "Scrum_RQ1",
+    "threshold": 0.8,
+    "ground_truth_count": 17,
+    "predicted_code_count": 19,
+    "code_match": {
+        "Conformity to business needs": ["Conformance to Business Needs"],
+        "Software performance": ["Internal Software Quality", "Software Quality at Process and Product Level", "Internal Software Quality"],
+        "Code quality": ["Quality Practices in Software Development"],
+        "Free of defects": ["Conformity and Defect Free as Quality Attributes"],
+        "Clean code": ["Clean and Maintainable Code"]
+    },
+    "scores": {
+        "recall": 0.29411764705882354,
+        "match_rate": 0.3684210526315789,
+        "code_diversity": 0.5263157894736842
+    }
+}
+{
+    "name": "Scrum_RQ2",
+    "threshold": 0.8,
+    "ground_truth_count": 39,
+    "predicted_code_count": 17,
+    "code_match": {
+        "Transparency": ["Transparent communication"],
+        "Collaboration": ["Collaboration enhances quality", "Collaboration and Communication", "Collaboration"],
+        "Continuous feedback": ["Continuous feedback loop", "Continuous Feedback", "Feedback Loops"],
+        "Psychological safety": ["Psychological safety and motivation"],
+        "Early engagement of QAs": ["QA Involvement from Start", "QA Involvement"],
+        "Accountability": ["Accountability and Responsibility", "Accountability"],
+        "Frequent testing": ["Frequent Testing"],
+        "Iterative development": ["Iterative Testing"]
+    },
+    "scores": {
+        "recall": 0.20512820512820512,
+        "match_rate": 0.8235294117647058,
+        "code_diversity": 0.5294117647058824
+    }
+}

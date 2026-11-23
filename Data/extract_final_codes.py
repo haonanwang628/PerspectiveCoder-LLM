@@ -24,6 +24,11 @@ EXPERIMENTS = {
     "baseline2": "discuss_process/json/baseline2.json",
 }
 
+DISCUSSION_SECTIONS = {
+    "": "discuss_process/json/discuss.json",
+    "baseline2_": "discuss_process/json/baseline2.json",
+}
+
 
 def extract_codes(path):
     data = json.loads(Path(path).read_text(encoding="utf-8-sig"))
@@ -36,6 +41,12 @@ def extract_codes(path):
     if isinstance(codebook, dict):
         codebook = codebook["codebook"]
     return [entry["code"] for entry in codebook]
+
+
+def extract_discussion_codes(path, section):
+    data = json.loads(Path(path).read_text(encoding="utf-8-sig"))
+    entries = data["Agreed_disagreed_codebook"][section]
+    return [entry["code"] for entry in entries]
 
 
 def export_dataset(dataset_dir, model_name="gpt-4o"):
@@ -53,6 +64,18 @@ def export_dataset(dataset_dir, model_name="gpt-4o"):
             source = output_dir / task_dirs[name] / result_path
             records.append({"name": name, "code": extract_codes(source)})
         exports[output_dir / f"{experiment}_codes.jsonl"] = records
+
+    for prefix, result_path in DISCUSSION_SECTIONS.items():
+        for section in ("agreements", "disagreements"):
+            records = []
+            for gt in gt_records:
+                name = gt["name"]
+                source = output_dir / task_dirs[name] / result_path
+                records.append({
+                    "name": name,
+                    "code": extract_discussion_codes(source, section),
+                })
+            exports[output_dir / f"{prefix}{section}_codes.jsonl"] = records
 
     for path, records in exports.items():
         write_records(path, records)

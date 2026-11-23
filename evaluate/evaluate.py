@@ -6,6 +6,7 @@ import torch.nn.functional as F
 from transformers import AutoModel, AutoTokenizer
 import matplotlib.pyplot as plt
 import numpy as np
+import textwrap
 
 @lru_cache(maxsize=1)
 def load_embedding_model(device="cpu"):
@@ -65,91 +66,87 @@ def group_codes(pred_list, threshold=0.9, device="cpu"):
 
     return groups
 
-def plot_similarity_heatmap(
-    gt_list,
-    pred_list,
-    output_path,
-    device="cpu",
-):
-    """
-    Plot cosine similarity heatmap between Ground Truth
-    and Generated Codes without threshold filtering.
-
-    Rows: Ground Truth Codes
-    Columns: Generated Codes
-    """
-
-    if not gt_list or not pred_list:
-        return
-
+def plot_similarity_heatmap(gt_list, pred_list, output_path, device="cpu"):
     model, tokenizer = load_embedding_model(device)
-
     gt_emb = get_embeddings(gt_list, model, tokenizer, device)
     pred_emb = get_embeddings(pred_list, model, tokenizer, device)
 
-    # Original cosine similarity: [-1, 1]
-    similarities = (gt_emb @ pred_emb.T + 1) / 2
+    # Normalized cosine similarity: [0, 1]
+    similarities = ((gt_emb @ pred_emb.T + 1) / 2).cpu().numpy()
 
-    n_gt = len(gt_list)
-    n_pred = len(pred_list)
+    threshold = 0.7
+
+    # Keep only rows and columns containing similarity > threshold
+    valid_mask = similarities > threshold
+    valid_gt_idx = np.where(valid_mask.any(axis=1))[0]
+    valid_pred_idx = np.where(valid_mask.any(axis=0))[0]
+
+    output_path = Path(output_path)
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+
+    if len(valid_gt_idx) == 0 or len(valid_pred_idx) == 0:
+        print(f"No code pairs above {threshold}: {output_path}")
+        return
+
+    # Remove irrelevant GT and generated codes
+    filtered_gt = [gt_list[i] for i in valid_gt_idx]
+    filtered_pred = [pred_list[j] for j in valid_pred_idx]
+
+    filtered_similarities = similarities[np.ix_(valid_gt_idx, valid_pred_idx)]
+
+    # Hide remaining cells <= threshold
+    masked_similarities = np.ma.masked_where(filtered_similarities <= threshold, filtered_similarities)
+
+    n_gt = len(filtered_gt)
+    n_pred = len(filtered_pred)
 
     fig_width = max(10, n_pred * 0.9)
     fig_height = max(6, n_gt * 0.45)
 
     fig, ax = plt.subplots(figsize=(fig_width, fig_height))
 
-    im = ax.imshow(
-        similarities,
-        cmap="YlOrRd",
-        vmin=-1,
-        vmax=1,
-        aspect="auto",
-    )
+    cmap = plt.get_cmap("YlOrRd").copy()
+    cmap.set_bad(color="white")
+
+    im = ax.imshow(masked_similarities, cmap=cmap, vmin=threshold, vmax=1.0, aspect="auto")
 
     ax.set_xticks(np.arange(n_pred))
     ax.set_yticks(np.arange(n_gt))
 
-    ax.set_xticklabels(
-        pred_list,
-        rotation=45,
-        ha="right",
-        fontsize=9,
-    )
+    # X-axis: wrap into 2–3 lines
+    ax.set_xticklabels([wrap_label(code, width=22) for code in filtered_pred], rotation=35, ha="right", rotation_mode="anchor", fontsize=9 )
 
-    ax.set_yticklabels(
-        gt_list,
-        fontsize=9,
-    )
+    # Y-axis: wrap long labels
+    ax.set_yticklabels([wrap_label(code, width=28) for code in filtered_gt], fontsize=9)
 
-    ax.set_xlabel("Generated Codes", fontsize=12)
-    ax.set_ylabel("Ground Truth Codes", fontsize=12)
-    ax.set_title("GT vs Generated Codes: Cosine Similarity", fontsize=13)
+    ax.set_xlabel("Generated Codebook", fontsize=12)
+    ax.set_ylabel("Ground Truth", fontsize=12)
 
-    # Display cosine similarity values
+    # Display only similarities > threshold
     for i in range(n_gt):
         for j in range(n_pred):
-            ax.text(
-                j,
-                i,
-                f"{similarities[i, j]:.2f}",
-                ha="center",
-                va="center",
-                fontsize=8,
-                color="black",
-            )
+            if filtered_similarities[i, j] > threshold:
+                ax.text(j, i, f"{filtered_similarities[i, j]:.2f}", ha="center", va="center", fontsize=8, color="black")
 
     cbar = fig.colorbar(im, ax=ax)
-    cbar.set_label("Cosine Similarity")
-
-    output_path = Path(output_path)
-    output_path.parent.mkdir(parents=True, exist_ok=True)
+    cbar.set_label("Normalized Cosine Similarity")
 
     plt.tight_layout()
     plt.savefig(output_path, dpi=300, bbox_inches="tight")
     plt.close(fig)
 
-    print(f"Saved heatmap: {output_path}")
+    print(f"Saved filtered heatmap: {output_path}")
 
+# Automatically wrap long code labels
+def wrap_label(label, width=20):
+    return "\n".join(
+        textwrap.wrap(
+            str(label).replace("_", " "),
+            width=width,
+            break_long_words=False,
+            break_on_hyphens=False
+        )
+    )
 
 def self_match(pred_list, threshold=0.9, device="cpu"):
     return len(group_codes(pred_list, threshold, device))
@@ -173,7 +170,11 @@ if __name__ == "__main__":
 
     data_dir = Path(__file__).resolve().parents[1] / "Data"
     model_name = "gpt-4o"
-    experiments = ("discuss", "baseline1", "baseline2","before_discuss")
+    experiments = (
+        "discuss", "before_discuss", "baseline1", "baseline2",
+        "before_baseline2", "agreements", "disagreements",
+        "baseline2_agreements", "baseline2_disagreements",
+    )
     threshold = 0.8
     device = "cpu"
     datasets = {
